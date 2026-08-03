@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react'
 import Image from 'next/image'
-import { Upload, X, Loader2, ImageIcon, GripVertical, FileText } from 'lucide-react'
+import { Upload, X, Loader2, ImageIcon, GripVertical, FileText, Sparkles, Wand2 } from 'lucide-react'
 
 interface Props {
   urls: string[]
@@ -20,6 +20,12 @@ export default function ImageUpload({ urls, onChange, folder = 'geral', max = 20
   const [uploading, setUploading] = useState(false)
   const [error, setError]         = useState('')
   const [dragOver, setDragOver]   = useState(false)
+
+  // --- Geração com IA (Gemini "Nano Banana") ---
+  const [iaOpen, setIaOpen]         = useState(false)
+  const [iaPrompt, setIaPrompt]     = useState('')
+  const [iaSource, setIaSource]     = useState<string | null>(null) // URL de base a transformar
+  const [generating, setGenerating] = useState(false)
 
   const upload = async (files: FileList | null) => {
     if (!files || files.length === 0) return
@@ -59,6 +65,35 @@ export default function ImageUpload({ urls, onChange, folder = 'geral', max = 20
     setUploading(false)
   }
 
+  const gerarIA = async () => {
+    const prompt = iaPrompt.trim()
+    if (!prompt) { setError('Descreve a imagem que queres gerar.'); return }
+    if (urls.length >= max && !single) { setError(`Máximo de ${max} imagens atingido.`); return }
+
+    setError('')
+    setGenerating(true)
+    try {
+      const res = await fetch('/api/admin/gerar-imagem', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt, folder, imagemUrl: iaSource || undefined }),
+      })
+      const data = await res.json()
+      if (res.ok) {
+        onChange(single ? [data.url] : [...urls, data.url])
+        setIaOpen(false)
+        setIaPrompt('')
+        setIaSource(null)
+      } else {
+        setError(data.error ?? 'A geração de imagem falhou.')
+      }
+    } catch {
+      setError('Erro de rede ao gerar a imagem.')
+    } finally {
+      setGenerating(false)
+    }
+  }
+
   const remove = async (index: number) => {
     const url  = urls[index]
     // Extract path from URL for deletion
@@ -74,6 +109,9 @@ export default function ImageUpload({ urls, onChange, folder = 'geral', max = 20
     setDragOver(false)
     upload(e.dataTransfer.files)
   }
+
+  const atingiuMax = !single && urls.length >= max
+  const fotosBase  = urls.filter((u) => !isPdf(u))
 
   return (
     <div className="space-y-3">
@@ -169,12 +207,119 @@ export default function ImageUpload({ urls, onChange, folder = 'geral', max = 20
         </div>
       )}
 
+      {/* Botão: gerar com IA */}
+      {!atingiuMax && (
+        <button
+          type="button"
+          onClick={(e) => { e.stopPropagation(); setError(''); setIaOpen(true) }}
+          className="w-full flex items-center justify-center gap-2 rounded-xl border border-[#00545F]/30 bg-gradient-to-r from-teal-50 to-white px-4 py-2.5 text-sm font-semibold text-[#00545F] hover:border-[#00545F] hover:from-teal-100 transition-colors"
+        >
+          <Sparkles className="w-4 h-4" />
+          Gerar imagem com IA
+        </button>
+      )}
+
       {error && (
         <p className="text-red-600 text-xs bg-red-50 border border-red-200 rounded-lg px-3 py-2">{error}</p>
       )}
 
       {urls.length > 1 && (
         <p className="text-xs text-[#94a3b8]">A primeira imagem é a principal. Remove para reordenar.</p>
+      )}
+
+      {/* Modal de geração com IA */}
+      {iaOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+          onClick={() => !generating && setIaOpen(false)}
+        >
+          <div
+            className="w-full max-w-lg rounded-2xl bg-white p-5 shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="mb-4 flex items-center gap-2">
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#00545F]/10">
+                <Wand2 className="h-5 w-5 text-[#00545F]" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-[#1F3F44]">Gerar imagem com IA</h3>
+                <p className="text-xs text-[#94a3b8]">Gemini · Nano Banana</p>
+              </div>
+            </div>
+
+            {/* Escolher uma foto existente para transformar (virtual staging / variações) */}
+            {fotosBase.length > 0 && (
+              <div className="mb-4">
+                <label className="mb-1.5 block text-xs font-semibold text-[#1F3F44]">
+                  Transformar uma foto existente <span className="font-normal text-[#94a3b8]">(opcional)</span>
+                </label>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setIaSource(null)}
+                    className={`rounded-lg border px-3 py-2 text-xs font-medium transition-colors ${
+                      iaSource === null ? 'border-[#00545F] bg-teal-50 text-[#00545F]' : 'border-[#e2e8f0] text-[#64748b]'
+                    }`}
+                  >
+                    Nova imagem
+                  </button>
+                  {fotosBase.slice(0, 6).map((u) => (
+                    <button
+                      key={u}
+                      type="button"
+                      onClick={() => setIaSource(u)}
+                      className={`relative h-12 w-12 overflow-hidden rounded-lg border-2 transition-colors ${
+                        iaSource === u ? 'border-[#00545F]' : 'border-transparent'
+                      }`}
+                    >
+                      <Image src={u} alt="base" fill className="object-cover" sizes="48px" />
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <label className="mb-1.5 block text-xs font-semibold text-[#1F3F44]">
+              {iaSource ? 'Como transformar a imagem?' : 'Descreve a imagem'}
+            </label>
+            <textarea
+              value={iaPrompt}
+              onChange={(e) => setIaPrompt(e.target.value)}
+              rows={4}
+              autoFocus
+              placeholder={
+                iaSource
+                  ? 'Ex: mobilar esta sala vazia com estilo moderno e luz natural'
+                  : 'Ex: sala de estar moderna e luminosa, estilo escandinavo, fotografia imobiliária'
+              }
+              className="w-full resize-none rounded-xl border border-[#e2e8f0] px-3 py-2 text-sm text-[#1F3F44] outline-none focus:border-[#00545F]"
+            />
+
+            {error && (
+              <p className="mt-2 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-600">{error}</p>
+            )}
+
+            <div className="mt-4 flex justify-end gap-2">
+              <button
+                type="button"
+                onClick={() => setIaOpen(false)}
+                disabled={generating}
+                className="rounded-xl px-4 py-2 text-sm font-medium text-[#64748b] hover:bg-[#f8fafc] disabled:opacity-50"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                onClick={gerarIA}
+                disabled={generating || !iaPrompt.trim()}
+                className="flex items-center gap-2 rounded-xl bg-[#00545F] px-4 py-2 text-sm font-semibold text-white hover:bg-[#003f47] disabled:opacity-50"
+              >
+                {generating ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
+                {generating ? 'A gerar...' : 'Gerar'}
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   )
