@@ -10,6 +10,9 @@ Cada entrada resume **o que mudou**, **porquê** e **o que ficou pendente** (sob
 ### Feito
 - **Booklets de terrenos** (páginas estáticas em `public/booklets/`, `noindex`): `vale-s-cosme.html` (1 263 m², 2 moradias) e `escudeiros.html` (lote de 700 m², Rua do Hospital). 5 páginas A4 cada, na marca do site (escuro premium na capa, cream no interior, dourado só no preço, Cera Pro + Playfair). Botão "Guardar PDF" (impressão A4) e WhatsApp.
 - Recursos em `public/booklets/assets/` (fotografias aéreas tratadas, planta de destaque, logótipos, Cera Pro).
+- Nova página "Localização" em cada booklet: vista de satélite da envolvência (Google, com atribuição), coordenadas e botão "Abrir no Google Maps"; botão "Mapa" na barra.
+- Publicado em produção: `/booklets/vale-s-cosme.html` e `/booklets/escudeiros.html`.
+- Plano do assistente WhatsApp automático (Cloud API em coexistência + webhook na Vercel) escrito à parte, para fase seguinte.
 
 ### Pendente
 - Confirmar o preço de Vale S. Cosme (125 000 €) antes de divulgar.
