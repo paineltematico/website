@@ -1088,6 +1088,10 @@ Legenda: ✅ confirmado nesta pesquisa · ◐ confirmado mas antigo ou parcial �
 | **Predimed** | Rede de capital português ("a maior", autodeclarado) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ◐ anuncia obra nova em Braga (Andorinhas, Mereces 718) | ❓ | Portal da Queixa 38,9/100 |
 | **Painel Temático (hoje)** | Promotor com produto próprio | 3 projetos (Esporões, Merelim, Lomar) | — | site tem `/avaliacao` | — | CRM próprio (leads, atividades, oportunidades, frações, atualizações de obra) | — | ✅ é o produto | — | **controla a obra** |
 
+A comparação dos **promotores** (grelha de 10 pontos) está na tabela **13.8**; a das **boutiques**
+não cabe numa grelha útil porque quase nada do que interessa (ficha, vídeo, tempo de resposta) se
+viu sem abrir os sites — ver secção 12.
+
 ---
 
 ## 16. Onde o Painel Temático pode ganhar
@@ -1110,6 +1114,9 @@ Um promotor pequeno não ganha em escala. Ganha onde a rede **não pode** chegar
 | 8 | **Parcerias controladas com as redes** | As redes precisam de stock; a ERA tem um departamento de obra nova e a ZOME está em Braga. | CRM: registo de lead por origem (direto / rede / consultor), regra escrita de quem fica com o lead, partilha de comissão definida por fração. Agente copiloto: avisa quando um lead de rede já existia como lead direto. | Média |
 | 9 | **Prova social local** | As redes mostram troféus nacionais; o comprador de Braga quer ver obras acabadas perto de si. | Site: obras entregues com fotos e testemunhos verificados, ligação às avaliações Google. | Baixa (rápido) |
 | 10 | **PT-PT, por defeito** | Os portais e as redes já falam PT-PT; um assistente em português do Brasil soa estrangeiro. | Agente: PT-PT como requisito; testar AMALIA e modelos comerciais com as mesmas perguntas reais. | Requisito |
+| 11 | **Lançamento com calendário** *(sessão 2)* | Os promotores de referência vendem 25–50% antes da obra (Greenstone 30%, Pleno 46%, Terrazza Park 26% numa feira, PURE 30 de 34 em duas semanas), mas fazem-no com eventos e mediadoras, não com um sistema próprio. | Site: página "brevemente" por projeto com **lista prioritária por tipologia** e data de abertura de vendas anunciada. CRM: lista de espera como estado do lead, contagem por tipologia, aviso no dia de abertura. Agente: explica as condições de lançamento e o prazo. Evento: visita ao terreno ou feira (Imobinvest, Porto) com condições com prazo. | **Alta** |
+| 12 | **Preço público e "versão essencial"** *(sessão 2)* | Só alguns publicam preços (NoLiPa, Pleno, Mereces); a VIZTA baixou o preço de entrada tirando a cozinha e o aquecimento do preço base (CORE). | Site: tabela de frações com preço e €/m², e lista de extras com preço (cozinha, aquecimento, acabamentos). CRM: extras escolhidos por fração. Agente: compara "essencial" vs "completa" na mesma fração. | Média |
+| 13 | **Prémio regional** *(sessão 2)* | O Prémio Nacional do Imobiliário tem categoria **Habitação Norte** (Bonjardim 2025, Greenstone 2026); nenhuma mediadora de Braga apareceu com prémio. | Candidatar uma obra entregue; usar o prémio (ou a candidatura) na página do projeto e na imprensa regional. | Baixa (rápido) |
 
 **Três coisas a NÃO fazer**
 - Não competir em "temos IA" como mensagem: a ZOME e o Casa Yes já a reclamaram em 2023. A IA é o
@@ -1136,6 +1143,36 @@ Para fechar o capítulo, falta (por ordem de importância):
 
 Para correr isto numa sessão seguinte é preciso orçamento de pesquisa web e acesso de rede aos
 domínios `eco.sapo.pt` e `idealista.pt` (bloqueados nesta sessão).
+
+**Estado depois da sessão 2 (2026-11-23, ~60 pesquisas, só motor de busca)**
+
+| # da lista acima | Estado |
+|---|---|
+| 1. Promotores | **Feito em parte** (secção 13): seis promotores e quatro casos curtos com fontes. **Falta** tudo o que só se vê no site (pontos 2, 4, 5 e 6 da grelha). |
+| 2. Redes | **Feito** (secções 6–11), com as lacunas marcadas em cada uma. |
+| 3. Boutiques e prémios | **Feito em parte** (secção 12). Nenhuma boutique de Braga com prémio encontrada. |
+| 4. Fontes primárias das secções 0–5 | **Por fazer** (continua a leitura por excerto). |
+| 5. Compass / Anywhere | **Feito**: concluída a 9/01/2026 (secção 6). Efeito em Portugal: nenhum anunciado. |
+| 6. Artigo "WhatsApp + IA" do idealista | **Por fazer**. |
+
+**Novos pendentes (por ordem de importância)**
+1. **Abrir os sites** de Avenue (Bonjardim, NoLiPa), Fercopor, VIZTA (Pleno), DST Real Estate (Mereces
+   718), Kronos e da página de empreendimentos da E&V e da Sotheby's, e preencher as colunas 2, 4, 5
+   e 6 da tabela 13.8 (mapa de frações, reserva online, diário de obra, área de cliente). É a pergunta
+   decisiva e **nenhuma fonte de imprensa a respondeu**.
+2. **Promotores de Braga** que não apareceram nas pesquisas e devem ser vistos um a um: os que o
+   idealista lista com obra nova em Braga (Carmos – Real Estate Investments, N-Houses, Imobraga) e
+   construtoras locais com promoção própria. Critério: tipologias e preços comparáveis aos do Painel.
+3. Quem são os promotores do **Fernão Magalhães 127**, do **Antas Atrium** e do **Terrazza Park**.
+4. Lista completa do **Prémio Nacional do Imobiliário** 2025 e 2026 (categorias, regulamento, prazos
+   de candidatura) e dos **Prémios SIL** 2025.
+5. Condições jurídicas de uma **reserva com sinal online** (o sinal no CPCV, devolução, o que pode e
+   não pode ser pago no site) e o regime de **garantia de obra nova** — duas perguntas para jurista,
+   não para pesquisa web.
+6. Números absolutos da Portugal Sotheby's e da E&V Portugal em 2025; número de consultores da iad em
+   2025; lojas da Decisões e Soluções em Braga; presença da Coldwell Banker no Norte.
+7. Confirmar o dado da E&V de **95% de compradores estrangeiros** nas moradias premium do Minho
+   (contrasta com tudo o resto do capítulo).
 
 
 
