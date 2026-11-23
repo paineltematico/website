@@ -226,6 +226,15 @@ preço médio da Century 21 (278 954 €) não são comparáveis entre si sem sa
   numa peça mais recente, Carlos Santos surge como CEO (excertos indexados, consultado em
   2026-11-23). **[Inferência]** Um CTO que passa a CEO diz muito sobre a aposta da casa.
 
+**Adenda (sessão 2, 2026-11-23)**
+- **[Facto]** Em c. 2021 lançou a **Zome NOW**, apresentada como a primeira plataforma para "comprar
+  uma casa 100% à distância", a partir do telemóvel ou *tablet* — Notícias ao Minuto
+  <https://www.noticiasaominuto.com/casa/1803749/zome-now-primeira-plataforma-onde-pode-comprar-uma-casa-100-a-distancia>
+  (antigo; estado atual não confirmado).
+- **[Facto]** A **Zome Matosinhos** liderou o pré-lançamento do Terrazza Park (Porto) no Imobinvest
+  2025, com condições só para a feira e 26% das frações reservadas em três dias (secção 13.7). A
+  ZOME, portanto, **já faz lançamentos de obra nova para promotores no Norte**.
+
 **O que isto significa para o Painel Temático**
 - **É o concorrente mais direto em Braga**: tem sede na cidade, marca forte no Minho, e já fez o
   discurso "IA na pesquisa" em 2023. Um site do Painel que só diga "temos IA" não se distingue.
@@ -420,30 +429,169 @@ preço médio da Century 21 (278 954 €) não são comparáveis entre si sem sa
 
 ---
 
-## 6–11. Redes que ficaram por verificar nesta sessão
+## 6–11. As outras redes (verificadas na sessão 2)
 
-> ⚠️ **Lacuna assumida.** O orçamento de pesquisas web desta sessão (partilhado por todos os
-> agentes a correr em paralelo) esgotou-se antes de chegarmos a estas redes, e a leitura direta de
-> páginas estava bloqueada pela rede. A coluna "o que sabemos" é **conhecimento prévio, NÃO
-> verificado nesta sessão** — sem números, de propósito. Não citar nada desta tabela sem abrir a
-> fonte. Os únicos pontos verificados estão marcados **[Facto]**.
+> **Sessão 2 (2026-11-23).** Na primeira sessão esta parte era uma tabela de conhecimento prévio,
+> sem números e por verificar. Foi substituída pelas secções 6 a 11, com fontes. Mantém-se a regra
+> do capítulo: os números são **comunicados das próprias redes** repetidos pela imprensa, e vários
+> só foram lidos em excerto. Para enquadrar: as cinco maiores (RE/MAX, Century 21, ERA, KW, ZOME)
+> somavam **944 agências e 24 825 consultores** em 2025 (ECO, especial já citado na secção 0, lido
+> em excerto de pesquisa). Nenhuma das seis redes abaixo chega a essa escala, exceto a Decisões e
+> Soluções em número de lojas.
 
-| Rede | O que sabemos (não verificado, sem números) | O que confirmar primeiro |
-|---|---|---|
-| **Coldwell Banker Portugal** | Marca norte-americana de franchising, historicamente do grupo Anywhere Real Estate (o mesmo da Sotheby's International Realty). Terá sido anunciada em 2025 a compra da Anywhere pela Compass — **a verificar**, porque mudaria o dono das duas marcas. | Quem detém o master franchise em Portugal; nº de agências; presença no Norte; ferramentas herdadas do grupo. |
-| **Engel & Völkers Portugal** | Marca alemã de franchising de "shops", posicionada no segmento alto. **[Facto]** Tem página pública de avaliação de imóvel em Portugal <https://www.engelvoelkers.com/en-pt/avaliacao-imovel> e publica conteúdo sobre CRM para consultores <https://www.engelvoelkers.com/pt/en/resources/crm-for-real-estate-agents> (consultado em 2026-11-23). | Lojas em Braga/Porto; resultados 2025; plataforma interna; estrutura acionista recente. |
-| **Portugal Sotheby's International Realty** | Licenciado da marca Sotheby's International Realty, foco em luxo e comprador internacional. | Volume 2025; peso de obra nova; marketing de empreendimentos (sites dedicados, vídeo). |
-| **iad Portugal** | Rede de origem francesa de consultores independentes **sem lojas físicas**, com remuneração que inclui uma componente pelo recrutamento de outros consultores. | Nº de consultores em Portugal; comissão; o que dá ao consultor em tecnologia. |
-| **Decisões e Soluções** | Rede portuguesa que junta mediação imobiliária, intermediação de crédito e seguros na mesma marca. | Nº de agências; peso do crédito; presença em Braga. |
-| **Predimed** | Rede portuguesa de mediação imobiliária. | Origem, dimensão, presença no Norte, site. |
+## 6. Coldwell Banker Portugal — luxo em Lisboa, dono novo nos EUA
 
-**O que isto significa para o Painel Temático (provisório)**
-- As marcas de luxo (E&V, Sotheby's, Coldwell Banker) interessam pelo **marketing**, não pela
-  escala: vídeo, fotografia, narrativa de estilo de vida — é aí que se vai buscar a bitola da
-  apresentação de um empreendimento.
+- **[Facto]** CEO **Frederico Abecassis**; a marca chegou a Portugal em **2017**; operação de **12
+  agências e cerca de 250 colaboradores**, "muito bem estabelecidos na Grande Lisboa e nos Açores",
+  com mais de 120 M€ em negócios (período não claro no excerto); para 2026, crescer a rede de
+  agências e manter a retenção de consultores — idealista, entrevista
+  <https://www.idealista.pt/news/node/72227> (lido em excerto de pesquisa).
+- **[Facto]** Integrou a **Seed Real Estate** como **Coldwell Banker Seed** (Lisboa, 16 empreendimentos
+  em carteira) e abriu agência em **Aljezur**, a primeira no Sul — idealista
+  <https://www.idealista.pt/news/node/73503>. A marca irmã **Coldwell Banker Luxus** tem um
+  **Departamento de Empreendimentos** ("cada vez mais essencial no nosso setor", segundo o CEO) —
+  The Portugal News, 04/07/2023
+  <https://www.theportugalnews.com/news/2023-07-04/coldwell-banker-luxus-heads-promotion-of-sustainable-development-in-lisbon/79194>.
+- **[Facto] Dono global novo**: a **Compass** concluiu a compra da **Anywhere Real Estate** (dona da
+  Coldwell Banker, da Corcoran e da Sotheby's International Realty) a **9/01/2026**, troca de ações
+  (1,436 ações Compass por ação Anywhere), valor final de ~2 mil M$ segundo a Bloomberg; sem
+  mudanças imediatas anunciadas às marcas — Compass, 10-Q 1.º trimestre de 2026
+  <https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm>;
+  Real Estate News, 09/01/2026 <https://www.realestatenews.com/2026/01/09/compass-completes-its-acquisition-of-anywhere-real-estate>.
+  Confirma-se o ponto 5 dos pendentes da sessão 1.
+- **[Não confirmado]** Agência no Porto ou no Minho: não encontrada. Quem detém o master franchise
+  em Portugal: não confirmado.
+
+**O que isto significa para o Painel Temático**: não é concorrente em Braga. Interessa como sinal:
+uma rede de luxo pequena (12 agências) cresce **comprando boutiques com carteira de
+empreendimentos** (Seed) — as carteiras de obra nova valem dinheiro para as redes.
+
+## 7. Engel & Völkers Portugal — o premium com loja no Minho
+
+- **[Facto]** No Norte tem licenças **Braga-Guimarães, Porto, cidade do Porto e Vila Nova de Gaia** —
+  E&V, "The Engel & Völkers network in Portugal"
+  <https://engelvoelkers.com/en-pt/comporta/blog/the-engel--völkers-network-in-portugal> — e uma
+  loja **Minho** (parceiro de licença: Christopher Diener) <https://www.engelvoelkers.com/pt/en/shops/minho>
+  (consultados em 2026-11-23).
+- **[Facto]** O **Market Report Portugal 2025-2026** da marca dá, para as transações da E&V Minho,
+  preço médio de **1 728 €/m² em Guimarães** (+1,8%) e **1 704 €/m² em Braga**; zonas mais procuradas
+  em Braga: **Fraião, Nogueiró, Lamaçães e Gualtar**; procura centrada em moradias contemporâneas com
+  jardim, piscina e vista — idealista, "Procura por moradias exclusivas consolida Minho como destino
+  premium" <https://www.idealista.pt/news/node/75411>; The Portugal News, 12/05/2026
+  <https://www.theportugalnews.com/news/2026-05-12/north-portugal-growing-in-luxury-real-estate/1020717>.
+  O mesmo relatório atribui **95% das transações de moradias premium** do Minho a estrangeiros,
+  sobretudo britânicos (lido em excerto de pesquisa; uma só fonte, e contrasta com os 78–92% de
+  compradores portugueses das redes — tratar com cautela).
+- **[Facto]** Tem **páginas de empreendimento** ("development projects") com obra nova em Braga
+  <https://www.engelvoelkers.com/pt/en/properties/res/sale/development/braga> e já listava o PURE da
+  Fercopor (consultado em 2026-11-23). Avaliação online e conteúdo sobre CRM: ver sessão 1
+  (<https://www.engelvoelkers.com/en-pt/avaliacao-imovel>,
+  <https://www.engelvoelkers.com/pt/en/resources/crm-for-real-estate-agents>).
+- **[Facto]** Grupo: receita de comissões de **1,3 mil M€ em 2025** (operações próprias e franquias,
+  global; lido em excerto de pesquisa) <https://www.newmoney.gr/roh/palmos-oikonomias/epixeiriseis/engel-volkers-kategrapse-tin-ischiroteri-etisia-epidosi-stin-istoria-tis-to-2025/amp/>.
+  Desde 2021, **60% do capital é de fundos da Permira**, com a digitalização como objetivo declarado
+  — Latham & Watkins <https://www.lw.com/news/Latham-Watkins-advises-Permira-on-Acquisition-of-majority-stake-in-Engel-Voelkers>;
+  Private Equity Wire <https://www.privateequitywire.co.uk/permira-funds-acquire-majority-stake-property-brokerage-platform-engel-volkers/>.
+- **[Não confirmado]** Resultados de Portugal em 2025; ferramentas de IA para consultores.
+
+**O que isto significa para o Painel Temático**: é a única rede premium com **loja no Minho e
+relatório de preços por cidade do Minho**. Se o Painel tiver uma moradia ou um lote de gama alta
+(Lamaçães, Gualtar, Nogueiró), a E&V Braga-Guimarães é o parceiro natural de co-comercialização —
+e o relatório dela é uma referência de preço a citar (com fonte) nas fichas.
+
+## 8. Portugal Sotheby's International Realty — luxo, Porto a crescer
+
+- **[Facto]** 2025 foi o "melhor ano de sempre": faturação **+18%**, ticket médio **+8%**; o Porto e
+  a Madeira em destaque (no Porto, +67% em volume segundo o ECO) — ECO, 11/02/2026
+  <https://eco.sapo.pt/2026/02/11/sothebys-cresce-18-com-madeira-e-porto-em-destaque/>; Forbes
+  Portugal <https://www.forbespt.com/portugal-sothebys-com-recorde-de-crescimento-a-boleia-da-madeira-e-porto/>
+  (lidos em excerto de pesquisa; o crescimento do volume total aparece como +75% num excerto, a
+  confirmar porque não bate com os +18% da faturação sem saber o que cada métrica mede).
+- **[Facto]** Compradores portugueses em **56%** das transações de 2025 (44% estrangeiros, com EUA,
+  Reino Unido e Brasil à frente); no 1.º semestre de 2025 metade dos clientes compradores era
+  estrangeira — DN <https://www.dn.pt/economia/metade-dos-clientes-da-imobiliária-de-luxo-sothebys-são-estrangeiros>.
+- **[Facto]** Publica estudos próprios (**Luxury Outlook 2026**, Mid-Year Outlook) — idealista
+  <https://www.idealista.pt/news/node/73457> — e tem secção de **empreendimentos** no site (ex.:
+  Greenstone, 13.2); co-comercializa o Val D'Ouro Palace no Porto (12.1).
+- **[Facto]** A marca-mãe (Sotheby's International Realty) pertence à Anywhere, agora Compass
+  (secção 6). Quem detém a licença portuguesa: **não confirmado**.
+
+**O que isto significa para o Painel Temático**: concorre num segmento acima do Painel. Copiar só
+duas coisas: o **estudo de mercado próprio** como ferramenta de imprensa (um "Observatório de obra
+nova em Braga" anual, mesmo curto, dá notícias e autoridade) e a **página de empreendimento** como
+unidade de apresentação.
+
+## 9. iad Portugal — rede sem lojas, a apostar no Minho
+
+- **[Facto]** Modelo **"100% digital, sem lojas físicas"**; **1 019 consultores** em Portugal e
+  18 200 no grupo (Forbes Portugal, data não clara) <https://www.forbespt.com/tecnologias-estao-a-desempenhar-papel-transformador-no-negocio-imobiliario/>;
+  **Minho e interior** são as novas apostas de expansão — Forbes Portugal
+  <https://www.forbespt.com/?p=169285> (data não visível); mais de 25 polos de formação e 40
+  formadores — HR Portugal <https://hrportugal.sapo.pt/?p=346129>.
+- **[Facto]** Quota de mercado de 1,26% para **1,40%** no ano fiscal 2023-24; num plano de 2023, os
+  consultores de topo recebiam **até 87,8% da comissão** (lido em excerto de pesquisa; pode ter
+  mudado).
+- **[Facto]** Outubro de 2025: compra da **PrimeBiz**, admitindo novas aquisições — idealista,
+  29/10/2025 <https://www.idealista.pt/news/imobiliario/empresas/2025/10/29/72261-iad-portugal-compra-primebiz-e-admite-novas-aquisicoes-em-portugal>;
+  **nova identidade de marca** centrada na "proximidade com os clientes" — ECO, 31/10/2025
+  <https://eco.sapo.pt/2025/10/31/iad-apresenta-nova-identidade-de-marca-que-expressa-proximidade-com-os-clientes/>.
+- **[Facto]** Reclamações públicas no Portal da Queixa em 2025–2026 (incumprimento contratual,
+  comissões, falta de resposta) <https://portaldaqueixa.com/brands/iad-portugal/complaints>
+  (consultado em 2026-11-23).
+
+**O que isto significa para o Painel Temático**: confirma a tese de que **a loja é o site** — e a
+iad vai crescer no Minho com consultores independentes, sem loja, que vão procurar stock. É mais um
+canal possível para frações (rede aberta, 13.5), com a mesma regra: lead registado no CRM antes de
+partilhar.
+
+## 10. Decisões e Soluções — imobiliário, crédito e seguros com 600 lojas
+
+- **[Facto]** 2025: faturação do grupo **112 M€** (+20%; 94 M€ em 2024), **volume de negócios de
+  3 200 M€** (que inclui crédito e seguros), **mais de 480 M€ em imóveis vendidos e escriturados**,
+  carteira de seguros na ordem dos 75 M€; **63 lojas novas** e contratos para mais 84; **mais de 600
+  lojas, 6 000 trabalhadores e 700 000 clientes** — Executive Digest <https://executivedigest.sapo.pt/?p=708885>;
+  Dinheiro Vivo <https://dinheirovivo.dn.pt/empresas/faturao-do-grupo-decises-e-solues-sobe-20-para-recorde-de-112-milhes-em-2025>;
+  Notícias ao Minuto (2024) <https://www.noticiasaominuto.com/economia/2712634/faturacao-do-grupo-decisoes-e-solucoes-cresce-45-para-94-milhoes-em-2024>.
+- **[Facto]** A DS Seguros emitiu 15 mil apólices novas e passou os 5,5 M€ em prémios em 2025 — ECO,
+  10/02/2026 <https://eco.sapo.pt/2026/02/10/ds-seguros-emite-15-mil-novas-apolices-e-supera-55-milhoes-de-euros-em-premios-em-2025/>.
+- **[Facto] IA**: o grupo deu a mais de mil profissionais das redes DS Seguros e Decisões e Soluções a
+  ferramenta **"my pitch"** da Minalea, para comparar produtos de seguros — ECO, 29/06/2026
+  <https://eco.sapo.pt/2026/06/29/ds-seguros-escolhe-ferramenta-de-ia-da-minalea/>.
+- **[Não confirmado]** Volume de crédito à habitação intermediado; lojas em Braga.
+
+**O que isto significa para o Painel Temático**: o padrão da Century 21 (secção 4) repete-se com
+mais força — **o dinheiro da casa (crédito, seguro) é metade do negócio de uma rede**. Para o
+Painel, reforça a linha 5 da secção 16: ter um parceiro de crédito registado e um simulador honesto
+na ficha de cada fração.
+
+## 11. Predimed — "a maior de capitais portugueses", ativa em Braga
+
+- **[Facto, autodeclarado]** Apresenta-se como a **maior consultora imobiliária de capitais
+  portugueses**, com 20 anos de mercado e crescimento acima de 20% — Forbes Portugal
+  <https://www.forbespt.com/?p=141919> (data não visível; sem números absolutos no excerto).
+  Entidade: Predimed Portugal – Mediação Imobiliária, Lda (registo de 2017) — Iberinform
+  <https://www.iberinform.pt/empresa/24795904/predimed-portugal-mediacao-imobiliaria-lda>; morada em Lisboa.
+- **[Facto]** **Ativa em Braga em obra nova**: anuncia frações novas em Braga (ex.: Andorinhas
+  Residence) no Imovirtual <https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/predimed-imobiliaria-ID1996063>
+  e uma penthouse do Mereces 718 da DST (13.5) (consultados em 2026-11-23).
+- **[Facto]** Portal da Queixa: índice de **38,9/100**, 14 reclamações, ~7 em 10 resolvidas
+  <https://portaldaqueixa.com/brands/predimed-imobiliaria/about> (consultado em 2026-11-23).
+- **[Não confirmado]** Número de agências, faturação 2025, ferramentas digitais.
+
+**O que isto significa para o Painel Temático**: é um dos canais que os promotores do Minho já usam
+(DST). A reputação pública fraca é um aviso para qualquer parceria: **o comprador associa a
+experiência ao promotor**, não à mediadora — o contrato tem de fixar tempos de resposta e
+informação mínima por fração.
+
+**O que isto significa para o Painel Temático (as seis redes juntas)**
+- As marcas de luxo (E&V, Sotheby's, Coldwell Banker) interessam pelo **marketing** e pelos
+  **estudos de mercado próprios**, não pela escala. Só a E&V está no Minho.
 - Decisões e Soluções e Century 21 (Finance21) mostram o mesmo padrão: **o crédito vende casas**.
-- iad mostra o modelo sem loja: para o Painel, a "loja" é o site e o próprio empreendimento
-  (andar-modelo, visita à obra).
+- iad e Predimed são **rede aberta** para frações no Minho; servem para escoar stock, não para
+  construir marca.
+- O dono global de duas destas marcas mudou em 2026 (Compass) — tal como o da RE/MAX (Real). Nas
+  redes, **mais tecnologia para o consultor** é o que vem; do lado do cliente, nada de novo
+  documentado.
 
 ---
 
