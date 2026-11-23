@@ -489,4 +489,302 @@ selecionados" (`/construcao`), "Oportunidades selecionadas" (homepage), "Fantás
    estilo.
 4. **Revisão PT-PT obrigatória** antes de publicar (acentos, "connosco", maiúsculas, unidades "m²").
 
+---
+
+## 4. Atração de público e conteúdo
+
+### 4.1 Factos que orientam a estratégia
+
+**Velocidade e canal de resposta (via cap. 05 — fontes lá citadas, não re-verificadas nesta sessão)**
+- **[Facto]** HBR, março de 2011 (Oldroyd, McElheran, Elkington, "The Short Life of Online Sales
+  Leads"): numa auditoria a 2 241 empresas dos EUA, só 37% responderam a um lead em menos de 1 hora e 23%
+  nunca responderam; responder em menos de 1 hora tornava a qualificação **~7× mais provável** do que uma
+  hora depois — <https://scholarsarchive.byu.edu/facpub/9711>.
+- **[Facto]** Mike DelPrete, 13/08/2024: em 100 pedidos de informação "cliente-mistério" sobre imóveis
+  nos EUA, **47% ficaram sem resposta** e a resposta típica levou mais de 8 horas —
+  <https://www.mikedp.com/articles/2024/8/13/secret-shopping-47-of-online-property-inquiries-are-ignored>.
+- **[Facto]** Zillow *Consumer Housing Trends Report* 2025: **47% dos compradores** contratam o
+  primeiro agente com quem falam; **50% preferem SMS/mensagens** a uma chamada (33%) —
+  <https://www.zillow.com/research/buyers-housing-trends-report-2025-35688>.
+- **[Inferência]** Para o Painel, o "conteúdo" mais rentável é a **resposta**: WhatsApp com mensagem
+  pré-preenchida por imóvel, resposta humana em minutos, e o booklet já pronto a enviar.
+
+**Reviews e procura local (via cap. 05)**
+- **[Facto]** BrightLocal *Local Consumer Review Survey* 2025: o Google é a plataforma de reviews mais
+  usada (83%) — <https://www.brightlocal.com/research/local-consumer-review-survey-2025/>.
+- **[Facto]** INE, 2.º trimestre de 2026: mediana de venda em **Braga 2 417 €/m² (+21,6%** homólogo) —
+  via Forbes Portugal <https://www.forbespt.com/?p=197896>; preço pedido no idealista em Braga ~2 379 €/m²
+  em outubro de 2026 — Braga TV <https://bragatv.pt/precos-das-casas-em-braga-sobem-102-num-ano/>.
+- **[Facto]** 2025: 58% dos contratos de crédito à habitação própria permanente foram de pessoas com
+  18–35 anos (+11 p.p.) — idealista, 14/04/2026
+  <https://www.idealista.pt/news/imobiliario/habitacao/2026/04/14/74837-falta-de-casas-ha-um-interesse-crescente-em-reconverter-imoveis>.
+  **[Inferência]** Há um público jovem a comprar com crédito — os guias sobre garantia pública, entrada e
+  CPCV são conteúdo com procura.
+
+**Concorrência no digital em Braga (via cap. 01)**
+- **[Facto]** ZOME (sede em Braga) com pesquisa por ChatGPT desde 2023 e ferramenta de avaliação Zome
+  Go!; RE/MAX com assistente de primeiro contacto e "Quanto vale a sua casa" (links na secção 1.1).
+- **[Inferência]** "Temos IA" ou "avaliação grátis" não diferenciam. O que as redes não têm é
+  **informação de produto em primeira mão** — plantas, materiais, obra, prazos. É aí que o conteúdo do
+  Painel deve morar.
+
+### 4.2 Estratégia de conteúdo para um promotor (não para uma rede) **[Boa prática]**
+
+| Pilar | O que é | Formatos | Cadência mínima |
+|---|---|---|---|
+| **1. Diário de obra** | A prova de que a obra anda e de como se constrói | Atualização no site (fotos datadas, fase, % por fase), reel, story, newsletter | Quinzenal por obra ativa |
+| **2. Guia do comprador de casa nova** | Reserva → CPCV → crédito → escritura; o que inclui; ficha técnica; IMT/IS; garantias | Artigos de blog longos, carrosséis, PDF | 1 por mês até cobrir o essencial (8–10 guias) |
+| **3. Viver em [freguesia]** | Merelim (S. Pedro e Frossos), Esporões, Lomar, Escudeiros, Nogueira — tempos, escolas, serviços, preços | Página por freguesia (SEO), vídeo de 60 s a conduzir pela zona | 1 página por zona onde há produto |
+| **4. Braga em números** | Relatório trimestral curto: INE, preços pedidos, o que está a ser construído | Página + PDF + post LinkedIn | Trimestral (sai com os dados do INE) |
+| **5. Terreno e construção** | Para quem tem terreno ou quer construir: PDM, PIP, prazos, custos indicativos | Guias + página de captação "Tem um terreno?" | Bimestral |
+| **6. Pessoas** | Equipa, subempreiteiros, compradores que já lá vivem | Retratos, testemunhos em vídeo | Mensal |
+
+**[Interno]** Hoje o blog tem **1 artigo publicado, com o título "teste"** e resumo "teste1", e está no
+sitemap. O pilar 1 já tem estrutura no site (tabela `atualizacoes_obra`, secção "Evolução da obra") mas
+as 8 entradas de Merelim têm a mesma data (05/06/2026) e nenhuma fotografia.
+
+### 4.3 SEO local **[Boa prática]**, com o que está por fazer no site
+
+- **Google Business Profile** completo: categoria de construtor/promotor imobiliário, morada igual à do
+  site, horário, fotos da obra todas as semanas, posts, e **pedido de review a cada escritura**.
+- **Páginas por freguesia** (pilar 3) com título "Moradias novas em Merelim, Braga" e conteúdo único —
+  é o que permite aparecer em "moradia T3 Merelim" sem depender dos portais.
+- **Dados estruturados** (schema.org): `Organization`/`LocalBusiness` com AMI e morada;
+  `RealEstateListing` + `Offer` por imóvel; `Residence`/`SingleFamilyResidence` com áreas e quartos.
+  **[Interno]** O site não tem nenhum JSON-LD.
+- **Sitemap limpo**: hoje inclui os imóveis demo de Lisboa/Cascais e o artigo "teste", com datas de
+  criação em vez de datas de atualização.
+- **Domínio próprio** (`paineltematico.pt` está no código como `SITE_URL` por defeito, mas o site vive
+  em `*.vercel.app`) — links partilhados com domínio de marca ganham confiança e autoridade.
+- **Línguas**: o seletor oferece 9 línguas por Google Tradutor automático. **[Inferência]** Para quem
+  compra a partir do estrangeiro (emigrantes, estrangeiros), uma versão inglesa **curada** das páginas de
+  projeto vale mais do que 9 traduções automáticas sem `hreflang`.
+- **[Inferência]** Os assistentes de IA (pesquisa com IA) citam páginas factuais e estruturadas: fichas
+  com campos claros, páginas de freguesia com números e fontes, e FAQ — o mesmo trabalho serve o Google e
+  a pesquisa por IA.
+
+### 4.4 Anúncios pagos para empreendimentos
+
+> **Benchmarks de custo por lead (Meta/Google, imobiliário, Portugal) — não confirmados nesta sessão.**
+> Não ponho números. Ver Backlog para as pesquisas. Enquanto não houver dados próprios, **o único
+> benchmark que interessa é o do próprio Painel**: custo por lead → por visita → por reserva.
+
+**Pré-requisitos (hoje em falta)**
+- **Medição**: os IDs do GA4 e do Meta Pixel estão por configurar na Vercel (`HISTORY.md`, 20/07/2026).
+  Sem eventos (`ver_imovel`, `clicar_whatsapp`, `submeter_formulario`, `pedir_visita`) não se otimiza
+  uma campanha. **Não investir em anúncios antes disto.**
+- **Consentimento RGPD** nos formulários (necessário também para remarketing).
+- **Página de destino** com formulário renderizado (o formulário da página de projeto existe no código
+  mas não aparece — secção 5).
+
+**Estrutura de campanha para um lançamento (ex.: Trandeiras)** **[Boa prática]**
+
+| Fase | Duração | Objetivo | Peças | Oferta |
+|---|---|---|---|---|
+| Pré-lançamento | 3–6 semanas | Lista de espera | Renders + planta tipo + "a partir de" | "Acesso 48 h antes do público e escolha de fração por ordem de inscrição" |
+| Lançamento | 2–4 semanas | Visitas | Vídeo do terreno/obra, guia de frações | "Visitas ao sábado — escolha a hora" |
+| Remarketing | contínuo | Voltar | Diário de obra, frações que restam | "Restam [n] T3" (só se for verdade) |
+| Última fração | até vender | Decisão | Foto real, testemunho de vizinho | Nada de desconto anunciado; condições por telefone |
+
+- **Meta**: formulários instantâneos dão volume mas leads mais frios; anúncios com destino WhatsApp
+  encaixam no comportamento "50% preferem mensagens" (Zillow 2025). Testar os dois. A Meta tem regras
+  específicas para anúncios de habitação (categoria especial com segmentação limitada) — **verificar se e
+  como se aplicam em Portugal em 2026** [Não confirmado].
+- **Google Search**: palavras de intenção local ("moradia T3 Braga", "moradias novas Merelim", "terreno
+  para moradia Braga", nome do empreendimento) + campanha de marca. Anúncios de pesquisa responsivos com
+  títulos de até 30 caracteres e descrições de até 90 (ver biblioteca).
+- **Emigração**: o Minho tem uma diáspora grande; segmentar França, Suíça e Luxemburgo com o mesmo
+  anúncio em português é uma hipótese a testar, não um dado. **[Inferência]**
+
+### O que isto significa para o Painel Temático
+
+1. **A ordem é: medir → responder depressa → só depois pagar.** O dinheiro em anúncios perde-se se o
+   lead cai num formulário que não aparece, ou num WhatsApp que responde horas depois.
+2. **O diário de obra é o motor de conteúdo**: uma peça quinzenal alimenta site, Instagram, newsletter,
+   Google Business e remarketing. É também o argumento que as redes não conseguem copiar.
+3. **SEO por freguesia + Google Business** dão procura gratuita e local, onde o Painel tem produto.
+4. **Tirar o "teste" e os demo do sitemap** é SEO de primeiro dia.
+
+---
+
+## 5. Auditoria rápida de painel-tematico.vercel.app
+
+**Método.** O site não abriu nesta sessão (rede bloqueada), por isso auditei **o que ele renderiza**: o
+código-fonte das páginas públicas (`src/app/page.tsx`, `imoveis/`, `imoveis/[slug]/ImovelLuxury.tsx`,
+`projetos/`, `projetos/[slug]/ProjetoLuxury.tsx`, `construcao/`, `contacto/`, `avaliacao/`, `layout.tsx`,
+`sitemap.ts`, componentes `Navbar`, `Footer`, `PropertyCard`, `ImovelFilters`, `WhatsAppButton`,
+`LanguageSwitcher`, `home/*`), o booklet `public/booklets/escudeiros.html`, e os dados de produção
+(leitura `SELECT` a 23/11/2026). Cruzei com a auditoria UX/UI de julho de 2026
+(`docs/design/AUDITORIA-UXUI-2026-07.md`). Medições de layout no browser (375/1280 px) **não** foram
+possíveis nesta sessão.
+
+### 5.1 O que está bem
+
+- **Estética das páginas de produto**: hero a 100svh com a foto, título grande em Playfair, dourado só no
+  preço e nas ações — coerente com "premium, mas próximo".
+- **Narrativa de produto na homepage**: `MerelimShowcase` (render em parallax, interiores reais legendados
+  "Sala em open space / Cozinha equipada / Suíte principal", mapa de implantação, texto de localização
+  concreto: *"Escola primária, piscina municipal, campos de futebol e acessos à estrada nacional — a
+  poucos minutos a pé"*) e `FloorPlanStory` (percurso pelos pisos do Lote 6: *"Piso da rua — Entrada e
+  garagem"*, *"Piso intermédio — Zona social em open space"*, *"Piso superior — Três quartos, duas casas de
+  banho"*). Isto é o melhor copy do site a seguir ao booklet: explica a casa pela forma como se vive.
+- **Estados das frações** com tratamento visual próprio (disponível / reservado em diagonal / vendido
+  esbatido / em breve) — o desenho certo para um promotor.
+- **Secção "Evolução da obra"** com fase e percentagem — a estrutura existe.
+- **Booklet de Escudeiros**: factual, com fontes e avisos; referência `ESC-700`; botão "Guardar PDF".
+- **Confiança**: AMI 25031 e IMPIC 69636 no rodapé; WhatsApp flutuante com mensagem pré-preenchida;
+  página `/avaliacao` multi-passo com "Como funciona" em 4 passos.
+- **Base técnica**: sitemap dinâmico, metadados por página, `robots`, imagem OG por defeito, edição
+  inline (`/edit`) que permite corrigir textos sem programador.
+
+### 5.2 O que está mal ou falta (evidência)
+
+**Credibilidade — conteúdo que não devia estar público**
+1. **Imóveis de demonstração no ar**: "Moradia V4 Vista Mar Cascais" (1 250 000 €, **em destaque**, 0
+   fotos), "Apartamento T1 Arrendamento" (Lisboa), "Studio T0 Moderno" (Lisboa) — tabela `imoveis`,
+   `disponivel = true`. Entram na homepage (destaques e contadores), na listagem e no sitemap.
+2. **Artigo de blog "teste"** (resumo "teste1") publicado — é o único artigo do blog, e está no sitemap.
+3. **Projeto "Empreendimentos"** (texto *"Conheca os nossos proximos empreendimentos."*) ativo, mais 4
+   projetos ativos **sem descrição nem fotos** (Escudeiros, Grimancelos, Arnoso, ICF 100m2) e Lomar sem
+   fotos nem descrição longa.
+4. **`/construcao` mostra andaimes ao público**: parceiros fictícios ("Parceiro Construção A", "Parceiro
+   Materiais B", "Arquitetura C", "Engenharia D", "Marca F"), a frase *"Logos dos parceiros a adicionar.
+   Edite na página de Definições"* com link para `/admin/definicoes`, e — como `videos_obra` tem 0 ativos —
+   4 cartões "Vídeo de obra n · Em breve" e *"Os vídeos podem ser adicionados no backoffice"* com link
+   para `/admin/construcao` (`src/app/construcao/page.tsx`, linhas 20–25, 208–214, 232–235).
+5. **Testemunho na `/avaliacao`** ("Maria S., Braga · Moradia T4", 5 estrelas, *"Vendemos em menos de 2
+   meses pelo valor que sugeriram"*) está **escrito no código** (`src/app/avaliacao/page.tsx`), não vem da
+   base de testemunhos (que tem 0 publicados). Se não for uma cliente real com autorização, é um risco
+   legal e reputacional — retirar ou substituir por um real.
+6. **Contadores da homepage com "+"** (`<Counter suffix="+" />`, `page.tsx:114`) sobre números pequenos
+   (8 imóveis, com 3 demo) — já assinalado em julho (F-08).
+7. **Afirmação técnica a confirmar**: `/construcao` diz *"Certificação energética A e A+"* — deve
+   corresponder a certificados reais de cada projeto, ou sair.
+
+**Copy e dados dos anúncios** (detalhe na secção 3.6)
+8. **Bloco de 27 "especificidades" idêntico** nos dois anúncios principais (Merelim 405 000 € e Esporões
+   525 000 €) — localização (Fontela/Esporões) e tipologia (2 quartos + suite + escritório) não servem aos
+   dois; contém assinatura, "Até já!", "conosco", maiúsculas.
+9. **Descrições de uma linha** (ou nenhuma: Armazém Lomar, Apartamento Maximinos), **4 de 8 imóveis sem
+   fotografias**, **0 plantas** em todos os imóveis.
+10. **Gralhas visíveis**: hero *"A SUA comeca aqui."*, *"todos os canto do distrito"*, "Esporoes",
+    "panoramica", "contemporaneo", "Armazem", "Merelim " (com espaço); nas atualizações de obra
+    "Estrutra", "Impermealização", "Capotto".
+11. **Descrição perde os parágrafos**: renderizada num `<p>` sem `whitespace-pre-line`
+    (`ImovelLuxury.tsx:255–257`).
+12. **Faltam campos que o comprador e a lei pedem**: classe energética, ano/entrega, área bruta vs útil vs
+    terreno, orientação, referência do imóvel (o tipo `Imovel` em `src/types/database.ts` não os tem).
+
+**Conversão**
+13. **Sem CTA persistente em mobile** na ficha e no projeto (F-03, julho — por fazer).
+14. **WhatsApp da ficha e do projeto abre sem mensagem** (`https://wa.me/351913440800`,
+    `ImovelLuxury.tsx:467` e `:512`; `ProjetoLuxury.tsx:576`) — o comercial não sabe de que imóvel se
+    trata. O botão flutuante tem mensagem, mas genérica.
+15. **Página de projeto não captura leads**: `ProjetoForm` está definido (`ProjetoLuxury.tsx:618`) mas
+    não é renderizado; frações sem CTA próprio; "em breve" sem "avisar-me" (F-04, julho — por fazer).
+16. **Esporões** tem 7 unidades e 1 disponível no projeto, mas **0 registos em `unidades`** — o argumento
+    "última moradia" não aparece na página.
+17. **Testemunhos carregados e não mostrados**: `ProjetoLuxury` recebe `testemunhos` mas não os
+    renderiza (só aparecem nas linhas 70 e 75, na assinatura do componente).
+18. **"Concluído X%" engana**: o hero do projeto mostra a `percentagem_conclusao` da atualização mais
+    recente (`ProjetoLuxury.tsx:140, 220`), mas cada atualização é **uma fase** (Fundações 10%,
+    Acabamentos 62%…). Com as 8 atualizações de Merelim na mesma data, o número exibido é arbitrário. A
+    timeline mostra dia e mês sem ano.
+19. **Diário de obra parado**: última atualização a 05/06/2026, **0 fotografias** em 8 atualizações.
+20. **Sem cross-sell** no fim da ficha e do projeto (F-07, julho — por fazer).
+21. **Menu sem "Imóveis" como item** (há só o botão "Ver Imóveis"), sem "Vender/Avaliar" e sem
+    blog/guias (`Navbar.tsx:11–15`: Início, Projetos, Construção, Sobre, Contacto).
+22. **Hero da homepage sem vídeo nem imagem**: aponta para `/videos/hero.mp4`, e `public/videos/` só tem
+    um `README.txt` (F-06, julho — por fazer); usa `h-screen` em vez de `100svh` (F-12).
+
+**SEO, partilha e confiança técnica**
+23. **Título duplicado** nas fichas e projetos (`"… | Painel Temático | Painel Temático"`:
+    `imoveis/[slug]/page.tsx:26`, `projetos/[slug]/page.tsx:13` + template do `layout.tsx`) — F-01, por
+    fazer.
+24. **Sem imagem na pré-visualização do link** quando o imóvel não tem fotos: a página define
+    `openGraph.images: []`, o que anula a imagem por defeito do layout — F-02, por fazer.
+25. **Zero dados estruturados** (JSON-LD) em todo o site; `alt` genéricos ("Foto 1", "Principal").
+26. **9 línguas por Google Tradutor** (`LanguageSwitcher.tsx`), sem `hreflang`.
+27. **Rodapé legal incompleto** (sem Livro de Reclamações, privacidade, RAL; sem consentimento RGPD nos
+    formulários) — F-17, por fazer. Rodapé das páginas de produto com "© 2025".
+28. **Email do booklet é Gmail** (`paineltematico@gmail.com`) enquanto o site usa `geral@paineltematico.pt`.
+29. **Mapa por texto da morada** (`maps.google.com/maps?q=…`) com filtro CSS invertido — a marcação pode
+    cair no centro da freguesia; o booklet já usa coordenadas.
+
+### 5.3 Estado da auditoria de julho de 2026 (quatro meses depois)
+
+| Finding (jul/2026) | Estado a 23/11/2026 | Evidência |
+|---|---|---|
+| F-01 Título duplicado | **Aberto** | `imoveis/[slug]/page.tsx:26` |
+| F-02 OG sem imagem | **Aberto** | `page.tsx:29` (array vazio) |
+| F-03 CTA sticky mobile | **Aberto** | nenhum componente sticky na ficha |
+| F-04 Projeto sem unidades/form | **Aberto** | `ProjetoForm` não renderizado; Esporões sem `unidades` |
+| F-06 Hero sem vídeo | **Aberto** | `public/videos/` só com README |
+| F-07 Cross-sell | **Aberto** | sem secção "Também lhe pode interessar" |
+| F-08 Estatísticas fracas | **Aberto** | `suffix="+"` |
+| F-11 Filtros/ordenação | **Parcial** | filtros colapsáveis em mobile (20/07); sem ordenação |
+| F-12 `h-screen` | **Aberto** | `HomeHero.tsx:89` |
+| F-17 Rodapé legal/RGPD | **Aberto** | sem links legais em `src/` |
+| F-18 Microdetalhes (© 2025…) | **Aberto** | `ImovelLuxury.tsx:546`, `ProjetoLuxury.tsx:605` |
+| F-19 Schema.org | **Aberto** | sem `ld+json` em `src/` |
+| F-20 Analytics | **Parcial** | componente feito; IDs por configurar (HISTORY 20/07) |
+| F-21 Prova social | **Piorou?** | testemunho fixo no código da `/avaliacao`; 0 na base |
+
+**[Inferência]** O problema do site não é falta de diagnóstico nem de desenho — é **um backlog de
+execução de 4 meses**. As melhorias abaixo põem o conteúdo e os textos à frente do código, porque se
+fazem em minutos no modo `/edit` e no admin.
+
+### 5.4 Melhorias priorizadas (25)
+
+Esforço: **S** = minutos/horas no admin ou `/edit` · **M** = 1–3 dias de código · **L** = 1–3 semanas.
+
+**P0 — Antes de qualquer campanha ou link enviado (esta semana)**
+
+| # | Melhoria | Resolve | Esforço |
+|---|---|---|---|
+| 1 | Despublicar os 3 imóveis demo (Cascais, Lisboa ×2), o artigo "teste" e o projeto "Empreendimentos"; esconder projetos sem fotos nem texto até terem conteúdo | 1, 2, 3 | S |
+| 2 | Limpar a `/construcao`: tirar parceiros fictícios, textos e links para o backoffice, e os cartões "Vídeo de obra · Em breve" (mostrar a secção só quando houver vídeos) | 4 | S + M |
+| 3 | Retirar o testemunho "Maria S." se não for real e autorizado | 5 | S |
+| 4 | Reescrever os dois anúncios principais com dados certos (secção 3.6 e biblioteca); tirar assinatura, "Até já!", maiúsculas, "conosco" | 8, 10 | S |
+| 5 | Corrigir hero e cartões "Porquê nós" (ver fórmulas: *"Construímos o que vendemos."*); varrer gralhas e acentos em todos os textos | 10, E | S |
+| 6 | Pôr fotografias em todos os imóveis públicos (ou despublicar os que não têm) e pelo menos uma planta por imóvel | 9 | S/M |
+| 7 | Corrigir título duplicado e imagem OG de recurso (uma linha por página + não enviar array vazio) | 23, 24 | S |
+| 8 | Contadores: tirar o "+" ou trocar por métricas de construtor reais (obras entregues, anos, famílias) | 6 | S |
+
+**P1 — Conversão (2–4 semanas)**
+
+| # | Melhoria | Resolve | Esforço |
+|---|---|---|---|
+| 9 | Barra sticky mobile na ficha e no projeto: **Ligar · WhatsApp · Agendar**, com WhatsApp pré-preenchido: "Olá, vi a [ref./título] no vosso site e gostava de saber mais." | 13, 14 | M |
+| 10 | Página de projeto: renderizar o `ProjetoForm`, CTA por fração, "Avisar-me quando disponível" nas "em breve", plantas por fração (`unidades.planta`) | 15 | M |
+| 11 | Carregar as unidades de Esporões (e restantes) para o estado "última moradia" aparecer | 16 | S |
+| 12 | Diário de obra a sério: fotos em cada atualização, datas reais, cadência quinzenal; trocar o "Concluído X%" por **barra por fase** (ou um % global calculado à parte); ano na data | 18, 19 | S + M |
+| 13 | Renderizar testemunhos quando existirem e recolher 3–5 reais (compradores de Esporões/Merelim, vídeo de 30 s) | 17 | M |
+| 14 | Ficha em blocos Zillow-PT: *O que tem de especial · Quanto vale (€/m² vs freguesia) · Quanto fica por mês (com pressupostos) · A zona*; descrição com parágrafos | 11 | M |
+| 15 | Novos campos estruturados: classe energética, ano/entrega, áreas útil/bruta/terreno, orientação, referência — e mostrá-los na ficha e no cartão | 12 | M |
+| 16 | "Também lhe pode interessar" + ligação imóvel ↔ projeto-mãe | 20 | M |
+| 17 | Menu: "Imóveis", "Projetos", "Vender / Terrenos", "Construção", "Sobre", "Contacto"; blog só quando houver 3 artigos reais | 21 | S |
+| 18 | Hero da homepage com imagem real de recurso (Merelim) enquanto não há vídeo; `100svh` | 22 | S |
+| 19 | Rodapé legal + checkbox RGPD em todos os formulários | 27 | S/M |
+
+**P2 — Crescimento (1–3 meses)**
+
+| # | Melhoria | Resolve | Esforço |
+|---|---|---|---|
+| 20 | JSON-LD (`Organization`/`LocalBusiness` com AMI; `RealEstateListing`+`Offer`; `Residence`), `alt` descritivos, sitemap com `updated_at` | 25 | M |
+| 21 | Domínio próprio `paineltematico.pt` + email do domínio em todos os booklets e PDFs | 28 | S (dono) |
+| 22 | Páginas por freguesia (Merelim, Esporões, Lomar, Escudeiros, Nogueira) com tempos, escolas, serviços, preços INE e o produto disponível | SEO | L |
+| 23 | Booklets para todos os produtos (molde Escudeiros) com QR para a ficha e para o WhatsApp com a referência, e página "E construímos a sua casa neste lote" | 28, 2.x | M |
+| 24 | Trocar as 9 línguas automáticas por **EN curado** nas páginas de projeto, com `hreflang` | 26 | M |
+| 25 | Medição de funil: IDs GA4/Pixel na Vercel + eventos (`ver_imovel`, `clicar_whatsapp`, `submeter_form`, `pedir_visita`) — **antes** de qualquer anúncio pago | 4.4 | S (dono) + M |
+
+### O que isto significa para o Painel Temático
+
+1. **Metade dos problemas resolve-se sem programador**, no admin e no modo `/edit`: tirar demo e
+   testes, reescrever anúncios, corrigir gralhas, pôr fotos. É o trabalho de maior retorno por hora.
+2. **O site já tem os blocos de um bom site de promotor** (frações com estado, obra, booklet,
+   storytelling de planta); o que o trai é conteúdo vazio, desatualizado ou de teste à vista.
+3. **Nenhuma campanha antes do P0 + #9, #10 e #25** — cada link enviado ou clique pago aterra hoje numa
+   página com sinais de "site em construção".
+
 <!-- CONTINUA -->

@@ -8,7 +8,9 @@
 > **Data da pesquisa:** 23/11/2026. **Método:** pesquisa web (motor de pesquisa, modos standard e
 > extended), em PT, EN e ES. ⚠️ **Limitação importante:** nesta sessão o acesso direto às páginas
 > (WebFetch) estava bloqueado pela rede do ambiente — `egorealestate.com` e `casafari.com`
-> falharam por DNS. Tudo o que está abaixo vem dos **resultados e excertos do motor de pesquisa**,
+> falharam por DNS. E o **orçamento de pesquisa partilhado da sessão esgotou-se** depois de ~45
+> pesquisas, a meio da §2 — as §3 e §4 ficaram com partes por confirmar (ver "Limitações").
+> Tudo o que está abaixo vem dos **resultados e excertos do motor de pesquisa**,
 > com o URL de origem. Não abri nenhum PDF nem tabela de preços diretamente. Por isso:
 > - **Preços**: são os que aparecem nos excertos indexados; podem estar desatualizados. Confirmar
 >   no site do fornecedor antes de decidir.
@@ -21,7 +23,49 @@
 
 ## Resumo
 
-*(preenchido no fim — ver abaixo)*
+1. **O mercado português de CRM imobiliário é de mediação, não de promoção.** eGO (Janela
+   Digital, 50–150 €/mês + IVA, fidelização de 24 meses), HCPro e Inmovilla (ambos do
+   **idealista**) e Casafari CRM (tem plano gratuito) modelam a angariação de imóveis de terceiros.
+   Nenhum anuncia o que um promotor precisa: stock de frações por projeto com reserva a prazo,
+   plano de pagamentos e CPCV.
+2. **O idealista é dono de dois dos maiores CRMs portugueses** (HCPro, Inmovilla) além de Miogest
+   e Gestim. O portal e o software que lhe publica anúncios estão na mesma mão.
+3. **As redes grandes constroem por cima**: ZOME (ZAP, ChatGPT na pesquisa), ERA (Lead.ERA, CRM
+   personalizado), RE/MAX (assistente de IA no site em 2026), Century 21 (FINANCE21), KW (Command).
+   O Painel Temático, ao construir, está do lado das redes, não das agências pequenas.
+4. **Os CRMs de promotor existem lá fora** (MRI Condo Sales, Property-xRM sobre Dynamics,
+   PropertyFlex sobre Salesforce, Bildhive, Retyn, UnitAtlas) e dão o modelo a copiar: **fração →
+   em espera (com prazo) → reservada → contrato → vendida**, com planos de pagamento e acesso de
+   mediadores externos.
+5. **Os CRMs norte-americanos** (Follow Up Boss 69 US$/utilizador a 1 000 US$/30; Lofty ~449 US$+;
+   Sierra ~300 US$; Real Geeks ~399 US$) não servem Portugal (vivem do IDX/MLS), mas mostram o
+   que os utilizadores pagam: **velocidade até ao primeiro contacto** e **follow-up automático**.
+   As críticas repetem-se: preço opaco, apps fracas, e IA de voz e de texto que não partilham o fio.
+6. **A publicação em portais faz-se pelo CRM** (API ou feed), com sincronização do estado
+   "vendido" e motivo de rejeição (eGO e Casafari documentam isto para o Imovirtual). Se o
+   idealista e o Imovirtual aceitam um feed de um *software próprio* **não ficou confirmado** — é
+   a primeira pergunta a fazer.
+7. **O agente de IA em PT já tem referências locais**: a Inmovilla qualifica leads **pelo
+   WhatsApp** com primeira mensagem imediata; o assistente da RE/MAX recolhe nome, telefone,
+   email, localização e necessidade e entrega a pessoa. Em ambos a IA faz o **primeiro minuto**,
+   não a venda.
+8. **Casafari tem API e servidores MCP para assistentes de IA** (outubro de 2026): comparáveis,
+   dados de zona, avaliação, 16 países, plano Free de 1 000 tokens e planos pagos de 49 €/249 €
+   por mês (as páginas contradizem-se nos limites). É a forma mais barata de pôr **dados reais de
+   mercado** dentro do agente.
+9. **Para precificar e argumentar em Braga**, o essencial é público e grátis *(não verificado
+   nesta sessão)*: INE — preço mediano de **transação** por freguesia e **avaliação bancária**;
+   Banco de Portugal — juros e crédito. Preço **pedido** (idealista/Casafari) não é preço pago.
+10. **No código do Painel Temático** (lido a 23/11/2026): o pipeline de leads e a matriz de
+    frações existem, mas **faltam** a ligação lead ↔ fração, a reserva com prazo, a classe
+    energética no imóvel (obrigatória em anúncios) e o **consentimento RGPD por canal** — que é
+    pré-requisito do agente de IA.
+
+**Recomendação de fundo:** **construir** o núcleo (já se faz), **integrar** portais, WhatsApp e
+dados de mercado (Casafari MCP; INE), e **ignorar** a compra de um CRM de mediação.
+
+⚠️ Ver **"Limitações e o que falta pesquisar"** antes das Fontes: o orçamento de pesquisa
+esgotou-se a meio e as secções 3 e 4 têm partes por confirmar.
 
 ---
 
@@ -33,7 +77,7 @@
 |---|---|---|---|---|
 | **eGO Real Estate** | Janela Digital, S.A. (Óbidos; fundada 1999) | CRM + site + exportação para portais + email marketing | Base **50 €/mês** (1 000 imóveis), Start **100 €/mês** (5 000), Pro **150 €/mês** (ilimitados), + IVA, **fidelização 24 meses** | Diz-se "o CRM imobiliário mais utilizado em Portugal"; clientes: JLL Residential, UNU, Coldwell Banker PT, BHHS Atlantic, Predibisa/Savills |
 | **HCPro** | Smiling Cloud Lda → comprado pelo **idealista** | CRM cloud com marketing e **faturação certificada pela AT** | Proposta PDF mostra **30 / 50 / 60 €/mês** (planos XS/S/L — correspondência não clara no excerto); Appvizer lista XS a 25 € | A Casafari chama-lhe "o segundo maior CRM imobiliário de Portugal" (fonte interessada) |
-| **Inmovilla** | Espanhol, comprado pelo **idealista**; lançado em PT a 10/04/2025 | CRM com inbox de WhatsApp e IA dentro do WhatsApp | **Não publicado** | "CRM líder na Península Ibérica" (autodeclarado); 1 343 avaliações no Trustpilot (mistas) |
+| **Inmovilla** | Espanhol, comprado pelo **idealista**; lançado em PT a 10/04/2025 | CRM com inbox de WhatsApp e IA dentro do WhatsApp | **Não publicado** | "CRM líder na Península Ibérica" (autodeclarado); 1 343 avaliações no Trustpilot |
 | **Casafari CRM** | Casafari (Lisboa) | CRM + agregador de anúncios de todos os portais + avaliação/comparáveis | Plano **gratuito** (exporta para Idealista, Imovirtual, List Globally); página PT antiga: Starter **50 €/mês** (1 utilizador), Team Starter **150 €/mês** (5) — s/ IVA | Forte em **dados** (ver §4) |
 | **KW Command** | Keller Williams (EUA) | "Sistema operativo do agente": CRM, marketing, transações, sites | Incluído na franquia KW | Há guias em PT-PT a mandar entrar em `agent.kw.com` — KW Portugal usa-o |
 | **ZAP (Zome Actions Platform)** | ZOME (proprietário) | Plataforma interna dos consultores ZOME | n/a (interno) | ZOME integrou ChatGPT na pesquisa do site; Prémio Nacional de Inovação 2023 (Web 3.0) |
@@ -516,7 +560,7 @@ Todas lidas **através dos excertos do motor de pesquisa**, não da página aber
 - Clientify — Mejores CRM inmobiliarias — https://clientify.com/blog/crm/mejores-crm-inmobiliarias — 08/2026
 - Casafari — CASAFARI CRM: Get to know the Free Plan — https://www.casafari.com/insights/casafari-crm-get-to-know-the-free-plan — c. 23/11/2026
 - Casafari — CASAFARI + CASAFARI CRM — Primeiros Passos — https://www.casafari.com/lp/primeirospassos/ — c. 2023
-- Dinheiro Vivo — Casafari. O Google das casas… — https://dinheirovivo.dn.pt/empresas/casafari-o-google-das-casas-quer-conquistar-o-mundo-a-partir-de-lisboa-12799228.html — c. 2020
+- Dinheiro Vivo — Casafari. O Google das casas… — https://dinheirovivo.dn.pt/empresas/casafari-o-google-das-casas-quer-conquistar-o-mundo-a-partir-de-lisboa-12799228.html — data não confirmada (reportagem antiga)
 - Portal da Queixa — Casafari: cobrança indevida — https://portaldaqueixa.com/brands/casafari/complaints/casafari-cobranca-indevida-93009823 — 2023
 - Casafari Help Center — How can I export my properties to Imovirtual — https://helpcenter.casafari.com/en/crm/how-can-i-export-my-properties-to-imovirtual — c. 23/11/2026
 - Indomio — Simplifique e acelere a publicação dos seus anúncios — https://www.indomio.es/pt/info/software-inmobiliarios/ — c. 23/11/2026
@@ -530,7 +574,7 @@ Todas lidas **através dos excertos do motor de pesquisa**, não da página aber
 - Echoboomer — RE/MAX lança chatbot para agilizar primeiro contacto — https://echoboomer.pt/remax-lanca-chatbot-site-oficial/ — 2026
 - HR Portugal — rede imobiliária atingiu os 12 mil profissionais (RE/MAX) — https://hrportugal.sapo.pt/?p=330296 — c. 23/11/2026
 - Executive Digest — Zome cria app para agilizar trabalho dos consultores — https://executivedigest.sapo.pt/zome-cria-app-para-agilizar-trabalho-dos-consultores-e-poupar-tempo — c. 23/11/2026
-- Executive Digest — Zome.pt primeiro site de rede com ChatGPT na pesquisa — https://executivedigest.sapo.pt/?p=409626 — 2023
+- Executive Digest — Zome.pt primeiro site de rede com ChatGPT na pesquisa — https://executivedigest.sapo.pt/?p=409626 — data não confirmada (o prémio de inovação é de 2023)
 - HR Portugal — mediadora lança plataforma de formação online (Zome Academy) — https://hrportugal.sapo.pt/mediadora-imobiliaria-nacional-lanca-nova-plataforma-de-formacao-online-das-vendas-a-literacia-financeira-e-ha-conteudos-gratuitos/ — 05/2025
 - Marketeer — Mariana Coimbra (ERA Portugal) — https://marketeer.sapo.pt/a-plataforma-de-comunicacao-que-agora-lancamos-tem-uma-plasticidade-imensa-garante-mariana-coimbra-era-portugal/ — c. 23/11/2026
 - Portal da Queixa — solução de BI da GSTEP na ERA Portugal — https://portaldaqueixa.com/brands/era-portugal/news/solucao-de-business-intelligence-implementada-pela-gstep-melhora-processos-internos-da-era-portugal — c. 23/11/2026
@@ -603,8 +647,8 @@ Todas lidas **através dos excertos do motor de pesquisa**, não da página aber
 - idealista/data — Avaliação automática de carteiras (AVM) — https://www.idealista.pt/data/consultoria-imobiliaria-tecnologica/avaliacao-automatica/ — c. 23/11/2026
 - idealista/data — Serviços para investidores — https://www.idealista.pt/data/servicos-para-investidores-imobiliarios/ — c. 23/11/2026
 - idealista/data — Serviços para empresas de avaliação e peritos — https://www.idealista.pt/data/empresas-de-avaliacao-e-peritos-servicos/ — c. 23/11/2026
-- ISCTE — dissertação (J. Pequito Zacarias) sobre AVM — https://repositorio.iscte-iul.pt/bitstream/10071/26808/1/master_joao_pequito_zacarias.pdf — c. 2022
-- ISCTE — dissertação (A. Pimentel Bertão) sobre AVM — https://repositorio.iscte-iul.pt/bitstream/10071/24877/1/master_ana_pimentel_bertao.pdf — c. 2022
+- ISCTE — dissertação (J. Pequito Zacarias) sobre AVM — https://repositorio.iscte-iul.pt/bitstream/10071/26808/1/master_joao_pequito_zacarias.pdf — data não confirmada
+- ISCTE — dissertação (A. Pimentel Bertão) sobre AVM — https://repositorio.iscte-iul.pt/bitstream/10071/24877/1/master_ana_pimentel_bertao.pdf — data não confirmada
 
 ### A verificar (citadas como ponto de partida, não lidas nesta sessão)
 INE (https://www.ine.pt) · Banco de Portugal BPstat (https://bpstat.bportugal.pt) · Confidencial

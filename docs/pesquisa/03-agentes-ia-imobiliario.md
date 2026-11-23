@@ -286,3 +286,96 @@ de personalização limitada. [Help Inside RE](https://help.insiderealestate.com
 > - O "quick win" de copiloto é o padrão FUB/Realtor.com: **rascunho + resumo + próximo passo,
 >   aprovado pelo comercial**.
 
+
+---
+
+## 2. Código aberto no GitHub
+
+**Método.** `gh api -X GET search/repositories -f q='<termos>' -f sort=stars` com ~25 consultas
+("real estate agent llm", "real estate chatbot", "property recommendation llm", "lead
+qualification agent", "whatsapp real estate bot", "langgraph real estate", "real estate rag",
+"real estate mcp server", "whatsapp cloud api agent", "real estate voice agent", "imobiliaria
+whatsapp ia", "inmobiliaria chatbot ia", …), metadados por `q=repo:<owner>/<repo>` e leitura dos
+READMEs no github.com a 23/11/2026. Estrelas e "último push" são desse dia.
+
+**Leitura geral.** O ecossistema imobiliário em código aberto é **pequeno e jovem**: quase nada
+passa das 300 estrelas, muito é portefólio de uma pessoa, e os números de resultados nos READMEs
+("90–95% das interações sem humano") **não têm metodologia**. O valor está nos **padrões**, não em
+copiar um projeto. Os repositórios mais úteis para nós nem são imobiliários — são os de
+*guardrails*, avaliação e WhatsApp.
+
+### 2.1 Imobiliário (agentes, RAG, WhatsApp, voz)
+
+| Repositório | ★ | Último push | Licença | Arquitetura | O que reaproveitar |
+|---|---|---|---|---|---|
+| [zillow/compliant-real-estate-chatbot](https://github.com/zillow/compliant-real-estate-chatbot) | 19 | 2025-03-21 | ver LICENSE | Código do artigo *"A Recipe for Building a Compliant Real Estate Chatbot"* (arXiv:2410.10860, 2024; Madani et al., com a Zillow): fine-tuning de Llama 3 8B com dados sintéticos (GPT-4o) + **split de segurança** com perguntas que violam *fair housing* e a resposta segura esperada; avaliação G-Eval de utilidade **e** segurança | **O conjunto de testes de não-discriminação** como molde para os nossos evals (steering: "zona sem estrangeiros", "bairro de famílias como nós"). Os autores avisam que é experimental e **não garante conformidade** |
+| [AleksNeStu/ai-real-estate-assistant](https://github.com/AleksNeStu/ai-real-estate-assistant) | 325 | 2026-11-22 | MIT | **Next.js 16** + FastAPI; *router* por complexidade: RAG simples vs agente com ferramentas; ChromaDB + Postgres; pesquisa híbrida (semântica + palavra-chave, MMR); 17 fornecedores de LLM com *fallback*; ferramentas de prestação, arrendar-vs-comprar, CMA; rótulos "EU AI Act" na saída; orçamento de latência (chat p95 ≤ 8 s) | Padrão **"linguagem natural → filtros estruturados"** e o *router* simples/complexo; orçamentos de latência como critério de aceitação. A mesma stack que a nossa no front-end |
+| [saminkhan1/real-estate-ai-agent](https://github.com/saminkhan1/real-estate-ai-agent) | 34 | 2026-05-21 | GPL-3.0 | LangGraph: `main_agent` encaminha para sub-agente de critérios de pesquisa → SQL, e sub-agente de marcações → Google Calendar; **human-in-the-loop antes de ações sensíveis de agenda**; widget React por WebSocket; SMS (Twilio) e voz (Retell) para o mesmo agente | O **checkpoint humano antes de marcar** e o "um agente, vários canais". Atenção: GPL-3.0 contamina se copiarmos código |
+| [mayankjndl/real-estate-ai-lead-agent](https://github.com/mayankjndl/real-estate-ai-lead-agent) | 8 | 2026-09-17 | — | WhatsApp via Twilio; Gemini Flash Lite; RAG FAISS sobre FAQ; ferramenta `extract_lead_info()` grava campos no lead durante a conversa; eventos `lead.created`/`lead.qualified` num barramento Redis; **follow-up em máquina de estados (dia 0, 1, 3, 7)**; *timeouts* por etapa sob o limite do webhook | A **máquina de estados de follow-up** e a extração estruturada para o CRM em tempo real. A alegação "90–95% sem humano" não tem medição publicada |
+| [KirillHat/casa-verde-bot](https://github.com/KirillHat/casa-verde-bot) | 2 | 2026-05-12 | MIT | WhatsApp (Twilio) + FastAPI + Claude; **uma pergunta de cada vez, imposta por tool use**; termina quando chama `record_lead`; **scoring determinístico em Python** (HOT/WARM/COLD por orçamento, financiamento, prazo), não pelo LLM; alerta Slack só para quentes; bilingue EN/ES | O par **"o LLM conversa, o código pontua"** — auditável e explicável ao comercial. Sem consentimento nem follow-up |
+| [yastman/rag](https://github.com/yastman/rag) | 13 | 2026-11-20 | MIT | Bot Telegram com RAG (Qdrant, BGE-M3, Redis), pesquisa de apartamentos, pedidos de visita e **passagem ao gestor**; integrações CRM (Kommo) atrás de *capability checks*; Langfuse; testes por camadas (core, contrato, live) | Separar **"resposta RAG" de "ação de produto determinística"**; *feature flags* de integrações |
+| [hoangsonww/EstateWise-Chapel-Hill-Chatbot](https://github.com/hoangsonww/EstateWise-Chapel-Hill-Chatbot) | 41 | 2026-11-02 | MIT | RAG híbrido Pinecone + Neo4j; recomendação k-Means/kNN com **arestas do grafo a explicar o porquê** da sugestão; "mistura de especialistas"; servidor MCP | Recomendação **explicável** ("sugiro o T3 do Lote 7 porque…"). O resto é sobre-engenharia para o nosso volume |
+| [santmun/sofia-voice-agent](https://github.com/santmun/sofia-voice-agent) | 33 | 2026-04-12 | — | Voz em espanhol: Twilio → Retell (STT/LLM/TTS) → ferramentas em Modal (pesquisa de imóveis, registo de lead); Cal.com para visitas; **Claude analisa a transcrição depois da chamada** (resumo + score) e atualiza o CRM (Notion); *cron* de chamadas de saída | O **pós-chamada** (resumo + score + atualização do CRM) é o mesmo trabalho do copiloto e vale para chamadas humanas também |
+| [zubair-trabzada/ai-realestate-claude](https://github.com/zubair-trabzada/ai-realestate-claude) | 204 | 2026-04-29 | MIT | Plugin Claude Code: orquestrador + 5 sub-agentes em paralelo (comparáveis, rendimento, bairro, investimento, mercado) → score 0–100; 14 *skills*, uma por comando; relatórios PDF | Padrão **orquestrador + especialistas** para a CMA/avaliação de angariação (copiloto interno, não cliente) |
+| [hoangtng/real-estate-agents](https://github.com/hoangtng/real-estate-agents) | 33 | 2026-05-15 | MIT | 12 agentes + 12 *skills* (CMA, estratégia de proposta, plano de marketing, auditoria de conformidade) | Ideias de *skills* para o copiloto |
+| [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | 975 | 2025-03-20 | MIT | Arquitetura de referência JavaScript da Microsoft (portal imobiliário com OpenAI) | Referência de estrutura; datada para agentes |
+| [ISL270/multi-agent-ai-realtor](https://github.com/ISL270/multi-agent-ai-realtor) | 6 | 2025-08-11 | — | LangGraph + OpenAI + **Supabase** para pesquisa e marcação de visitas | Exemplo próximo da nossa BD |
+
+### 2.2 MCP sobre dados imobiliários (molde para as nossas ferramentas)
+
+| Repositório | ★ | Último push | Licença | Interesse |
+|---|---|---|---|---|
+| [Repliers-io/mcp-server](https://github.com/Repliers-io/mcp-server) | 21 | 2026-11-19 | MIT | O **melhor desenho de ferramentas** encontrado: `refine-search` (corrige quando o modelo largou uma restrição em silêncio), `Lookup_Possible_Values` (valores válidos antes de filtrar), camada de *overrides* (renomear, travar parâmetros, esconder campos), deteção automática de parâmetros descartados |
+| [agentic-ops/real-estate-mcp](https://github.com/agentic-ops/real-estate-mcp) | 71 | 2026-08-26 | AGPL-3.0 | 50+ ferramentas em 11 categorias com **feature flag por categoria**; matemática financeira pura e testada à parte; `audit()` de proveniência; diagrama explícito de "que dados saem para o fornecedor do LLM". AGPL — só ideias |
+| [supabase/mcp](https://github.com/supabase/mcp) | 3 023 | 2026-11-21 | Apache-2.0 | MCP oficial da Supabase. Útil para o **copiloto de desenvolvimento**, **nunca** exposto ao agente do cliente (acesso de BD genérico = *excessive agency*) |
+
+### 2.3 WhatsApp e passagem ao humano
+
+| Repositório | ★ | Último push | Licença | Interesse |
+|---|---|---|---|---|
+| [Hainrixz/whatsapp-agentkit](https://github.com/Hainrixz/whatsapp-agentkit) | 579 | 2026-11-12 | MIT | Em espanhol; Claude Code gera o agente. Fluxo de webhook **correto**: verificar HMAC → normalizar → deduplicar por ID de evento → responder 200 já e processar em fila (o fornecedor reenvia se não houver 200 em ~5 s) → carregar histórico → Claude → enviar. **Lacunas assumidas:** sem passagem ao humano, sem lógica de templates/janela de 24 h; se o segredo estiver vazio aceita tudo. *Nota:* afirma "1 000 respostas de serviço grátis/mês por número desde out/2026" — **não confirmado** (ver §3.4) |
+| [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 5 521 | 2026-11-22 | MIT | CRM de vendas por WhatsApp com agentes de IA, em **Next.js 16 + Supabase (RLS, pgvector)** — a nossa stack. Passagem IA→humano **auditada**, IA atribuível a conversas como um membro da equipa, teto de gasto por organização, "propostas" de melhoria que **exigem aprovação humana**. Dois caminhos WhatsApp: **WAHA (QR, não oficial — risco de banimento)** e Cloud API oficial |
+| [Replyze/ai-customer-support-agent](https://github.com/Replyze/ai-customer-support-agent) | 19 | 2026-11-13 | MIT | O **melhor molde de guardrails** encontrado (Claude, structured outputs): decisão JSON com `action`, `reason`, `citations`, `reply`, `internal_note`, `decided_by`; **regras determinísticas antes do modelo** (pedido de humano, irritação, reclamação, jurídico); **verificação depois do modelo: cada número, link e email da resposta tem de existir nas fontes, senão vira passagem ao humano**; texto do visitante embrulhado como dados; 37 casos de eval que falham o CI abaixo de um limiar |
+| [LiChang1125/B2B_Sales_Agent_Skill](https://github.com/LiChang1125/B2B_Sales_Agent_Skill) | 54 | 2026-06-15 | MIT | Qualificação + Q&A "só com evidência aprovada" + marcação **bloqueada sem campos obrigatórios** + nota de CRM com nível de confiança + `handoff_to_human(reason, urgency)` para jurídico/contrato/orçamento à medida; testes de política de diálogo |
+| [LikhithV02/Customer-Support-Agent](https://github.com/LikhithV02/Customer-Support-Agent) | 9 | 2026-10-13 | — | Lema útil: **"o LLM propõe, o código determinístico decide"** (aplicado a reembolsos) |
+| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 40 365 | 2026-11-20 | ver LICENSE | Caixa omnicanal *open source* (inclui WhatsApp) com IA própria ("Captain"). Alternativa a construir a caixa de entrada; não verifiquei em detalhe as funcionalidades de IA nesta sessão |
+
+### 2.4 Avaliação, observabilidade, guardrails e voz (horizontais)
+
+| Repositório | ★ | Último push | Licença | Para quê |
+|---|---|---|---|---|
+| [sierra-research/tau2-bench](https://github.com/sierra-research/tau2-bench) | 2 499 | 2026-11-21 | MIT | O padrão de referência para avaliar agentes de atendimento: **política + ferramentas + tarefas + utilizador simulado**, verificação das ações esperadas; v2.0 em seis línguas, texto e voz. Molde para um "domínio Painel Temático" |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 27 551 | 2026-11-23 | MIT | Testes de prompts/agentes/RAG e **red teaming** (injeção, fuga de dados) em CI |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 37 734 | 2026-11-22 | ver LICENSE | Observabilidade de agentes (traços, custos, evals), *self-hostable* |
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 12 378 | 2026-11-22 | ver LICENSE | Alternativa ao Langfuse |
+| [NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | 7 552 | 2026-11-19 | ver LICENSE | *Rails* programáveis de entrada/saída/diálogo |
+| [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | 7 636 | 2026-11-18 | Apache-2.0 | Validadores de saída |
+| [protectai/llm-guard](https://github.com/protectai/llm-guard) | 3 223 | 2026-07-08 | MIT | Scanners de PII e injeção |
+| [livekit/agents](https://github.com/livekit/agents) · [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | 15 306 · 17 381 | 2026-11 | Apache-2.0 · BSD-2 | Frameworks de voz em tempo real se um dia quisermos voz sem plataforma fechada |
+| [kaymen99/sales-outreach-automation-langgraph](https://github.com/kaymen99/sales-outreach-automation-langgraph) | 415 | 2025-01-15 | — | Pesquisa → qualificação → mensagem personalizada → CRM (B2B); molde para o copiloto de "próximo passo" |
+
+### 2.5 Padrões que valem a pena (síntese)
+
+1. **Linguagem natural → filtros estruturados → consulta à BD** (AleksNeStu, Repliers). O LLM
+   nunca "lembra" um preço: chama `pesquisar_frações(tipologia='T3', preço_max=…)`.
+2. **O LLM conversa; o código pontua, valida e decide** (casa-verde, Replyze, LikhithV02).
+3. **Verificação pós-geração contra as fontes**: todo o número, área, preço, data ou link na
+   resposta tem de aparecer no resultado de uma ferramenta, senão a resposta não sai (Replyze).
+4. **Ações gated**: marcar visita exige campos mínimos e, no início, confirmação humana
+   (saminkhan1, B2B Skill).
+5. **Webhook robusto**: assinatura → deduplicação → 200 imediato → fila (whatsapp-agentkit).
+6. **Follow-up como máquina de estados com datas**, não "o LLM lembra-se" (mayankjndl).
+7. **Pós-conversa estruturado**: resumo + score + próximos passos gravados no CRM (sofia-voice).
+8. **Evals desde o dia 1**, com casos reais e um conjunto de segurança/discriminação (Zillow,
+   Replyze, τ²-bench).
+
+> **O que isto significa para o Painel Temático** *(inferência)*
+> - **Não há nada para "instalar"** que sirva tal e qual: os projetos imobiliários são demos ou
+>   para o mercado americano. O caminho é **construir sobre a nossa BD** (Supabase) com os
+>   padrões acima — o agente é sobretudo **ferramentas bem desenhadas sobre `unidades`,
+>   `projetos`, `imoveis`, `contactos_imoveis`, `lead_atividades`, `visitas_parceiros`,
+>   `avaliacoes_imovel`, `oportunidades`, `atualizacoes_obra`, `faqs`**.
+> - Dois moldes a estudar a sério antes de escrever código: **Replyze** (guardrails e evals) e
+>   **DeskcommCRM** (mesma stack, passagem auditada, aprovação humana). Licenças: preferir MIT;
+>   evitar copiar código GPL/AGPL (saminkhan1, agentic-ops).
+> - **Nunca WAHA/QR** para o WhatsApp de uma empresa: só a Cloud API oficial.

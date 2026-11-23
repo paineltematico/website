@@ -458,3 +458,546 @@ A tabela completa de KPIs, com fórmulas, está na **secção D**.
   deste capítulo.
 
 ---
+
+## B. Gestão de produto (promoção imobiliária)
+
+### 8. Pré-vendas: vender em planta
+
+#### 8.1 O enquadramento jurídico português
+
+**Factos [V]** (Código Civil, lido através da jurisprudência; confirmar a redação em vigor):
+- **Forma do CPCV (art. 410.º, n.º 3):** quando a promessa é sobre um prédio urbano ou uma fração
+  autónoma, **construído, em construção ou a construir**, o documento exige o **reconhecimento
+  presencial das assinaturas** e a **certificação**, pela entidade que faz o reconhecimento, da
+  existência da **licença de construção** (ou de utilização). O Supremo trata o reconhecimento
+  presencial como formalidade essencial à validade do contrato.
+- **Sinal (art. 442.º):** se quem não cumpre é o comprador, perde o sinal; se é o vendedor, o
+  comprador pode exigir **o sinal em dobro**. Os tribunais exigem **incumprimento definitivo**, e
+  não mero atraso (mora), para a resolução com o sinal em dobro.
+- **Execução específica (art. 830.º):** em regra, o sinal afasta-a. **Mas há uma exceção para as
+  promessas de transmissão sobre edifícios**: o comprador pode escolher entre o sinal em dobro e
+  pedir ao tribunal que a venda se faça.
+- **Simplex Urbanístico (DL 10/2024):** desde **1/1/2024** a escritura já **não exige que se mostre
+  a autorização de utilização nem a ficha técnica da habitação**. Mas todos os intervenientes
+  passaram a ter o **dever de avisar** o comprador se o imóvel não tiver o título urbanístico
+  necessário. Os juristas aconselham pedir a documentação toda **antes do CPCV**. A revogação total
+  do RGEU estava prevista para 1/6/2026; **não confirmei** se aconteceu.
+
+**[C] — não reverificado nesta sessão (pesquisa esgotada):**
+- **Espanha** obriga o promotor a garantir as quantias recebidas antes da entrega (seguro ou aval
+  bancário, e conta especial), pela disposição adicional primeira da Lei de Ordenação da
+  Edificação, na redação da Lei 20/2015. **Não encontrei uma obrigação geral equivalente em
+  Portugal** (**não confirmado**). Na prática, a proteção do comprador português assenta no regime
+  do sinal e na execução específica.
+- **Branqueamento de capitais (Lei 83/2017):** as entidades que exercem atividade imobiliária,
+  promotores incluídos, são entidades obrigadas: identificação e diligência sobre o cliente,
+  origem dos fundos e comunicações periódicas ao IMPIC.
+- **IMT no CPCV:** o IMT pode tornar-se devido antes da escritura se houver *tradição* (entrega do
+  imóvel ao promitente-comprador) ou se o CPCV permitir ceder a posição contratual. Confirmar com
+  um contabilista antes de redigir as cláusulas.
+
+#### 8.2 Estrutura comercial recomendada [I]
+
+| Peça | O que é | Boas práticas |
+|---|---|---|
+| **Pré-lançamento** | Lista de espera com interesse registado, antes da tabela pública | Pede só nome, contacto, tipologia e prazo. Dá **48 horas de acesso antecipado** à tabela. Mede a procura antes de fixar o preço (secção 11). |
+| **Reserva** | Documento comercial: bloqueia uma fração por um prazo curto, contra um valor | Valor fixo e baixo face ao preço. **Prazo para o CPCV de 15 a 30 dias.** Regras escritas sobre a devolução: por exemplo, devolve-se se o crédito for recusado com prova do banco dentro do prazo. A fração sai do mercado no site no instante da reserva. |
+| **CPCV** | Contrato-promessa com sinal | Reconhecimento presencial e certificação da licença. **Sinal + reforços ligados a marcos verificáveis da obra** (por exemplo: assinatura; estrutura concluída; cobertura; antes da escritura), e não a datas fixas. Prazo para a escritura indexado à licença de utilização, com tolerância definida. Mapa de acabamentos e memória descritiva em anexo. |
+| **Personalização** | Escolhas de acabamentos dentro de uma gama, com prazo-limite | Catálogo fechado com preços dos *upgrades*; **data-limite de escolha por fase de obra**; cada escolha confirmada por escrito (aditamento). |
+| **Escritura** | Transmissão de propriedade | O crédito do comprador é desembolsado aqui. A avaliação bancária é feita perto do fim da obra **[I]**. |
+
+**O que limita o sinal [I, sobre factos V]:** com um LTV máximo de 90%, um comprador sem garantia
+pública precisa de pelo menos 10% de capitais próprios, mais os impostos e a escritura. Um sinal
+mais reforços que passe disso exclui precisamente o comprador típico (jovem, metade dos empréstimos
+abaixo de 170 mil €). Para quem tem garantia pública, o banco pode financiar até 100%, mas **só na
+escritura**, e **o dinheiro do sinal sai do bolso dele** antes disso. Um plano de pagamentos que
+não caiba nisto parte o funil entre a reserva e o CPCV.
+
+**Garantia como diferenciação [I]:** como (aparentemente) a lei portuguesa não obriga a garantir
+os sinais, oferecer **garantia bancária ou seguro-caução sobre as quantias entregues**, ou mantê-las
+numa conta separada até um marco, é um argumento de confiança forte para quem compra em planta.
+O custo deve ser comparado com o efeito na conversão reserva → CPCV.
+
+#### O que isto significa para o Painel Temático
+- **Normalizar três documentos-modelo** (reserva, CPCV, aditamento de acabamentos), revistos por um
+  jurista, e um **plano de pagamentos por marcos** igual em todos os projetos.
+- Os marcos de pagamento devem ser os **mesmos marcos que o sistema de custos já regista** (ver
+  10.3): assim "estrutura concluída" é um facto registado na obra, e não uma declaração do
+  comercial.
+- Um CPCV com reforços é **tesouraria previsível**. O sistema de custos já projeta as entradas
+  das prestações dos clientes de obra (`entradasDePrestacoes` na Tesouraria). Os reforços dos
+  CPCV de promoção própria são o mesmo tipo de dinheiro e podem entrar no mesmo mapa **[I]**.
+
+---
+
+### 9. Stock de frações
+
+#### 9.1 Estados: o que existe e o que falta
+
+Hoje: `disponivel | reservado | vendido | em_breve`. O BRIEFING regista que a sincronização com
+`projetos.unidades_disponiveis` **ainda não está feita**.
+
+Proposta **[I]** — o estado interno é mais fino do que o que se mostra no site:
+
+| Estado interno | Definição | O site mostra | Transições permitidas | Automático |
+|---|---|---|---|---|
+| `em_breve` | Ainda sem tabela pública (pré-lançamento) | "Em breve" + "Avisa-me" | → `disponivel`, `bloqueada` | Ao passar a disponível: avisa a lista de espera, por ordem e com 48 horas de exclusividade |
+| `disponivel` | À venda, com preço publicado | Preço + botão de contacto | → `opcao`, `reservada`, `bloqueada` | — |
+| `opcao` | **Pré-reserva de 48–72 horas** dada por um comercial a um cliente concreto (à espera do valor da reserva) | "Reservada" | → `reservada`, `disponivel` (ao expirar) | **Expira sozinha**; avisa o comercial 6 horas antes |
+| `reservada` | Documento de reserva assinado + valor recebido | "Reservada" | → `cpcv`, `disponivel` (desistência, com motivo) | Alerta quando o prazo para o CPCV está a 5 dias de acabar |
+| `cpcv` | CPCV assinado + sinal recebido | "Vendida" | → `vendida`, `disponivel` (resolução, raro) | Plano de reforços com alertas por marco |
+| `vendida` | Escritura feita | "Vendida" | → `entregue` | Abre o pós-venda |
+| `entregue` | Chaves entregues | "Vendida" | — | Inicia o calendário de garantias |
+| `bloqueada` | Fora do mercado por razão interna: **permuta** com o dono do terreno, uso do promotor, *showroom*, litígio | Não aparece, ou aparece como "Indisponível" | → `disponivel` | Motivo obrigatório |
+
+**Regras [I]:**
+- **Uma fração, um lead dono.** `opcao`, `reservada` e `cpcv` exigem `lead_id` e `responsavel_id`.
+  Uma mudança de estado é uma linha de histórico (o mesmo padrão de `lead_atividades.mudanca_estado`).
+- **O site lê o estado público derivado**, nunca o interno. `unidades_disponiveis` deixa de ser
+  uma coluna escrita à mão e passa a ser uma contagem (vista ou *trigger*) — é o *todo* pendente
+  do BRIEFING.
+- **A permuta é comum em Portugal** **[I]**: frações entregues ao dono do terreno em pagamento.
+  Têm de existir no stock (contam para a obra e para os custos), mas não à venda.
+
+#### 9.2 Mapa de disponibilidade
+
+- **Grelha piso × fração** (o "mapa de vendas"), com cores por estado e, ao passar o rato, a
+  tipologia, a área, a orientação, o preço e o comercial responsável. É o ecrã que o diretor
+  comercial abre todos os dias **[I]**.
+- Para o público, a mesma grelha simplificada é o **Guia Interativo de Frações** que o BRIEFING
+  planeia para Trandeiras: filtros, cartões, comparador e planta com sobreposição.
+
+#### 9.3 Gestão de preços por fração [I]
+
+- **Preço base por m² do projeto × coeficientes:** piso (cada piso acima vale mais, o rés-do-chão
+  com jardim é um caso à parte), orientação solar, vista, exposição a ruído, áreas exteriores
+  (varanda/terraço/jardim a uma fração do m² interior), lugares de garagem e arrumos com preço
+  próprio. Os coeficientes ficam numa tabela, não em cada fração, para que uma revisão seja um
+  só gesto.
+- **A tabela de preços tem versões**, com data, autor e motivo. Cada reserva e cada CPCV guardam
+  **o preço e a versão da tabela em vigor**. Sem isto não se responde a "a quanto vendemos o T2 do
+  2.º andar, e com que desconto?".
+- **Revisão por tranches:** um preço de lançamento para os primeiros, e subidas quando se vende uma
+  percentagem do stock (por exemplo, ao chegar a 30% e a 60%) ou quando a absorção supera o plano.
+  O inverso (descida) só com o custo real à frente (secção 11).
+- **Os limiares do comprador jovem são limiares de preço [I, sobre factos V]:** 330.539 € (fim da
+  isenção total do IMT Jovem em 2026) e 450.000 € (teto da garantia pública). Uma fração a 335 mil €
+  perde a isenção total para o comprador jovem; uma a 455 mil € perde a garantia. **Rever a tabela
+  à luz destes dois números** antes de cada lançamento, e atualizá-los a cada Orçamento do Estado.
+
+#### O que isto significa para o Painel Temático
+- Juntar `opcao`, `cpcv`, `entregue` e `bloqueada` aos quatro estados atuais, com histórico e
+  expiração automática. É o que permite a uma equipa pequena **não vender a mesma fração duas
+  vezes**.
+- Trandeiras (8 frações, tipologias e áreas diferentes) é o caso que precisa de preços por
+  coeficiente e de tabela versionada. Merelim (5 em breve) é o caso da lista de espera.
+
+---
+
+### 10. Comunicação de obra ao comprador
+
+#### 10.1 O que existe
+- `atualizacoes_obra` (com `percentagem_conclusao`) e `videos_obra`; a timeline na página do
+  projeto; a página `/construção`, ainda básica.
+- Uma área de cliente para quem já comprou **não existe** (não aparece no BRIEFING).
+
+#### 10.2 O que um bom portal de comprador tem [I]
+
+Não consegui verificar nesta sessão exemplos concretos de portais de cliente de promotores
+portugueses ou espanhóis (**não confirmado**). A lista que se segue é uma síntese de prática e
+não descreve um concorrente em particular:
+
+| Bloco | Conteúdo | Notas |
+|---|---|---|
+| **A minha fração** | Planta, áreas, mapa de acabamentos escolhidos, preço e plano de pagamentos (pago / por pagar / próximo marco) | Lido do CRM; nunca escrito à mão duas vezes |
+| **A obra** | Atualizações com fotografia e vídeo, data e fase; percentagem global; próximo marco | O mesmo conteúdo da página pública, mais o específico do edifício do comprador |
+| **Documentos** | CPCV, aditamentos, licenças, pré-certificado e certificado energético, ficha técnica da habitação, manual do proprietário | Ligações assinadas e com prazo, nunca URLs públicos |
+| **Escolhas** | Catálogo de acabamentos com prazo-limite, preço dos *upgrades* e confirmação | Fecha automaticamente na data-limite |
+| **Visitas à obra** | Marcação de visitas acompanhadas, em datas abertas pela equipa | Regras de segurança: EPI, acompanhamento, sem acesso livre |
+| **Entrega** | Marcação da vistoria, lista de pendentes, entrega de chaves | O auto de entrega fica no histórico |
+| **Assistência** | Pedido de assistência com fotografia, estado e SLA | Abre o calendário de garantias legais (5/10 anos, [C]) |
+
+#### 10.3 A vantagem do Painel Temático: a obra já é registada ao dia [I]
+
+O sistema de custos (CARRINHO, `/home/user/carrinhoGES`) **usa a mesma base Supabase**, e o
+`CLAUDE.md` dele diz que a base é partilhada com o `painel-tematico`. Já regista:
+- **Marcos da obra derivados do registo** (`lib/obraMarcos`): por exemplo, "Laje P1 betonada" é o
+  primeiro dia com mão de obra em `Estrutura · Lajes · betonar` nessa zona;
+- **o estado por fase** (`obra_plano.estado`) e uma timeline do que **aconteceu**;
+- e a tabela `atualizacoes_obra` aparece na lista de tabelas que o `renomear_fase` do CARRINHO
+  atualiza — ou seja, já tem uma coluna de fase partilhada pelos dois sistemas.
+
+Daqui sai uma automação de baixo custo: **quando nasce um marco no CARRINHO, propor uma
+atualização de obra no painel** ("Laje do 1.º piso betonada"), que o gestor de projeto confirma com
+duas fotografias antes de ser publicada para os compradores daquele projeto. Os custos **nunca**
+atravessam para o lado público: só o marco e a data.
+
+⚠️ Antes de ligar os dois sistemas: são autenticações diferentes (o painel usa JWT próprio e
+*service role*; o CARRINHO usa Supabase Auth com RLS), e a correspondência `projetos` ↔ `obras` tem
+de ser explícita (um `obra_id` no projeto), nunca adivinhada pelo nome.
+
+#### O que isto significa para o Painel Temático
+- O primeiro passo é uma **área de cliente mínima**: a minha fração, o plano de pagamentos, os
+  documentos e as atualizações da obra. As escolhas de acabamentos e a assistência vêm a seguir.
+- **Cadência fixa:** uma atualização de obra por mês, no mínimo, e uma em cada marco. A falta de
+  notícias é o que gera as chamadas ansiosas.
+- Os mesmos conteúdos servem três públicos: o comprador (portal), o lead em nutrição (newsletter)
+  e o site (página do projeto). Escreve-se uma vez.
+
+---
+
+### 11. Precificação com base no custo
+
+#### 11.1 O mercado à volta [V]
+- **Braga, 2.º trimestre de 2026:** mediana de transação de **2.417 €/m²** (+21,6% num ano).
+  Inclui casas usadas. A casa nova costuma estar acima da mediana (23 dos 24 maiores municípios),
+  mas o preço dela sobe menos do que o da usada (+12,3% contra +18,0%).
+- **A capacidade de compra está a ser apertada por regra:** taxa de esforço máxima de 45% desde
+  1/8/2026, em vez de 50%. Ao mesmo tempo, a garantia pública (até 450 mil €) e o IMT Jovem (até
+  330.539 €) dão fôlego ao comprador jovem, mas com tetos.
+
+#### 11.2 Método proposto [I]
+
+**(a) Custo total por fração** (sobre a área de construção, ABC):
+```
+custo_fracao = custo_construcao_m2 × ABC_fracao      # real (obra concluída) ou orçado com o real das anteriores
+             + terreno_alocado                        # por permilagem ou por ABC
+             + projetos_licencas_taxas_alocados
+             + custos_financeiros_alocados            # juros do financiamento à obra
+             + custos_comerciais                      # marketing, comissões, cliente-mistério
+             + IVA_nao_dedutivel                      # ver nota fiscal abaixo
+             + contingencia
+```
+**(b) Preço mínimo** (a margem é sobre o preço, e não sobre o custo):
+`preco_minimo = custo_fracao / (1 − margem_alvo)`. A margem-alvo é uma decisão da administração;
+não encontrei um *benchmark* fiável de margem de promoção em Portugal (**não confirmado**).
+
+**(c) Preço de mercado:** comparáveis (INE para transações, idealista/Imovirtual para preços
+pedidos, Confidencial Imobiliário se houver assinatura) × os coeficientes da fração (secção 9.3).
+
+**(d) Decisão:** preço de tabela = máx(preço mínimo, preço de mercado ajustado). Se o preço de
+mercado ficar **abaixo** do preço mínimo, o problema é do projeto, não da tabela — e é melhor
+sabê-lo no estudo de viabilidade do que na última fração.
+
+**(e) Método residual para comprar terreno:** `valor_max_terreno = receita_prevista −
+custos_sem_terreno − margem_alvo × receita_prevista`. Vive nas `oportunidades` de tipo `compra`
+(o campo `estimativa` jsonb já guarda linhas de receita e custo).
+
+**(f) Absorção e revisão:**
+`absorcao_mensal = frações em CPCV no mês / frações disponíveis no início do mês`. Se a absorção
+real superar o plano em dois meses seguidos, sobe-se a tranche seguinte. Se ficar abaixo, olha-se
+primeiro para o funil (há leads? visitam? onde se perdem?) e só depois para o preço, e sempre com
+o custo real à vista.
+
+**Nota fiscal [C] — confirmar com o contabilista:** a venda de imóveis habitacionais é, em regra,
+isenta de IVA (art. 9.º, n.º 30, do CIVA), e por isso o IVA suportado na construção destinada a
+venda de habitação tende a **não ser dedutível** e a ser **custo**. O CARRINHO já tem um regime de
+IVA por obra (`obras.regime_iva`) e a função `custoComRegime` (dedutível = sem IVA; não dedutível =
+com IVA e com o IVA da autoliquidação). **Para a promoção de habitação, o regime certo à partida é
+"não dedutível"**. Houve anúncios de uma taxa reduzida de IVA na construção para habitação a
+preços controlados, que **não confirmei** nesta sessão.
+
+#### 11.3 A ligação ao custo real [I]
+
+O que o CARRINHO já sabe e o painel comercial pode ler (só leitura, só `super_admin`/`diretor`):
+- **Custo real acumulado por obra e por fase**, com a mão de obra incluída;
+- **custo por m² de obras concluídas comparáveis** (o `/rendimento` e as composições medem €/m² por
+  unidade de obra);
+- **o orçamento contra o real** (`obra_orcamento`), que diz se a obra em curso vai derrapar antes de
+  se fixar a tranche seguinte de preços.
+
+Isto permite três ecrãs no painel:
+1. **Ficha de rentabilidade do projeto:** receita vendida (CPCV + escrituras) + receita por vender
+   (a preço de tabela) − custo real − custo por incorrer = **margem prevista**, atualizada à semana.
+2. **Preço mínimo por fração** ao lado do preço de tabela, visível só para a direção. Nenhum
+   comercial dá um desconto que passe a linha sem aprovação.
+3. **Alerta de margem:** quando o custo real por m² ultrapassa o orçado em X%, a direção é avisada
+   antes de rever a tabela.
+
+#### O que isto significa para o Painel Temático
+- A maioria dos promotores pequenos fixa preços olhando para o vizinho. O Painel Temático pode
+  fixá-los **olhando para o vizinho e para o próprio custo**, ao cêntimo. É a vantagem mais rara
+  deste capítulo e a que pede menos dados novos: os dois sistemas já existem e partilham a base.
+- **Primeiro passo:** a correspondência projeto ↔ obra, e uma vista de leitura com o custo real
+  por obra. Sem expor custos ao site, nem a papéis comerciais.
+
+---
+
+## C. Proposta de pipeline e estados para o CRM do Painel Temático [I]
+
+Princípio: **o mínimo de estados novos que torna o funil mensurável**, aproveitando o que existe
+(`contactos_imoveis`, `lead_atividades`, `oportunidades`, frações). Os SLAs pressupõem a escala de
+serviço da secção 2.3.
+
+### C.1 Pipeline do comprador (`contactos_imoveis.estado`)
+
+| Etapa (estado) | Definição | Ação automática | SLA | Quem |
+|---|---|---|---|---|
+| `novo` | Lead criado, sem conversa nos dois sentidos | Resposta ao cliente (email + WhatsApp) em < 1 min; push/email ao responsável; `first_response_at` | Nível 1: conversa ≤ 5 min em horário (≤ 9h30 do dia útil seguinte fora de horas); nível 2: ≤ 2h úteis | Comercial de serviço (atribuição por escala) |
+| `contactado` | Primeira conversa nos dois sentidos | Grava `first_contact_at`; abre a checklist de qualificação | Qualificação completa em ≤ 48h | Comercial responsável |
+| `qualificado` | ≥ 4 das 6 dimensões LPMAMA-PT + produto compatível | Sugere frações compatíveis (tipologia, orçamento, prazo); envia o dossier da fração | Propor visita em ≤ 24h | Comercial |
+| `nutricao` *(paralelo)* | Qualificado, sem prazo (≥ 6 meses) ou à espera de produto | Entra na cadência B (mensal) ou C (lista de espera); chamada a cada 90 dias | Revisão trimestral | Marketing (envios) + comercial (chamadas) |
+| `visita_agendada` | Data e hora confirmadas pelo cliente | Convite de calendário; lembrete 24h e 2h antes (WhatsApp); morada/ponto de encontro | Confirmar até 24h antes | Comercial |
+| `visita_feita` *(novo)* | A visita aconteceu | Mensagem de agradecimento + resumo em ≤ 2h; tarefa "chamada D2" | Ponto de situação em ≤ 48h | Comercial |
+| `negociacao` (proposta) | Proposta escrita sobre uma fração concreta | Gera o PDF da proposta com a versão da tabela; põe a fração em `opcao` (48–72h) | Resposta do cliente em ≤ 72h (expira a opção) | Comercial; desconto acima do limite → diretor |
+| `reserva` | Reserva assinada + valor recebido | Fração → `reservada`; tarefa "CPCV até D+15/30"; alerta a 5 dias do fim | CPCV em 15–30 dias | Comercial + diretor (documentos) |
+| `cpcv` *(novo)* | CPCV assinado com reconhecimento + sinal recebido | Fração → `cpcv`; cria o plano de reforços por marco; dá acesso à área de cliente | Reforços cobrados ≤ 5 dias úteis após cada marco | Diretor / administrativo |
+| `escritura` (`ganho`) | Escritura/DPA feitos | Fração → `vendida`; regista o preço final e o desconto; agenda a entrega | Entrega conforme o CPCV | Diretor |
+| `pos_venda` *(novo)* | Chaves entregues | Fração → `entregue`; inicia o programa da secção 5.2 (NPS D+7, Google D+30, 6 e 12 meses) e o calendário de garantias | Assistência: urgente ≤ 24h; normal ≤ 5 dias úteis | Gestor de projeto |
+| `perdido` | Fechado sem negócio | **Motivo obrigatório**; se o motivo for preço, prazo ou financiamento → cadência E (90/180 dias) | — | Comercial; o diretor revê os motivos mensalmente |
+
+Regras transversais:
+- Qualquer lead sem atividade há 14 dias num estado ativo → tarefa "próximo passo" ao responsável;
+  há 30 dias → aparece na revisão semanal do diretor.
+- Mudança de estado = linha `mudanca_estado` em `lead_atividades` (já existe), **com a data em que
+  o facto aconteceu**, e não só a data do registo.
+- Um lead com `venda_dependente = true` cria automaticamente uma `oportunidade` de captação.
+
+### C.2 Pipeline de captação e de compra para promover (`oportunidades`)
+
+Os estados atuais (`nova`, `em_analise`, `convertida`, `arquivada`) passam a ser **macroestados**;
+acrescenta-se uma `etapa` fina:
+
+| Macroestado | Etapa | Definição | Ação automática | SLA | Quem |
+|---|---|---|---|---|---|
+| `nova` | `nova` | Pedido de avaliação, contacto de proprietário, terreno sinalizado | Email ao proprietário com os próximos passos | Contacto ≤ 1h útil | Super_admin / diretor |
+| `em_analise` | `avaliacao_marcada` | Visita ao imóvel/terreno com data | Lembrete; checklist de documentos (caderneta, certidão, planta, certificado energético) | Visita ≤ 5 dias úteis | Diretor |
+| `em_analise` | `estudo_entregue` | Estudo de mercado entregue (venda) ou **viabilidade** feita (compra para promover: método residual, secção 11.2e) | Follow-up D+3 e D+7 | Estudo ≤ 3 dias úteis após a visita | Diretor |
+| `em_analise` | `proposta` | Proposta de angariação (preço, plano de marketing, comissão, exclusividade) **ou** proposta de compra do terreno | Validade da proposta com alerta | Resposta ≤ 7 dias | Diretor |
+| `convertida` | `mediacao_assinada` | Contrato de mediação escrito (exclusivo/aberto, com os efeitos especificados) — **só com licença AMI ou com uma parceira** | Converte em `imoveis` (já existe); data de fim do contrato com alerta a 30 dias | — | Diretor |
+| `convertida` | `compra_cpcv` → `compra_escritura` | Terreno/imóvel comprado para promover | Cria o projeto e a obra (ligação ao CARRINHO) | — | Super_admin |
+| `arquivada` | `perdida` | Com motivo (preço, concorrente, desistência, inviável) | Reativação aos 6 meses se o motivo for preço | — | — |
+
+### C.3 Estados da fração
+
+Ver a tabela 9.1: `em_breve → disponivel → opcao → reservada → cpcv → vendida → entregue`, mais
+`bloqueada`. **Quem pode mudar:** comercial até `opcao`; diretor a partir de `reservada`; só
+super_admin desfaz `cpcv`/`vendida`. **SLA:** a `opcao` expira às 72h; a `reservada` gera alerta a
+5 dias do prazo do CPCV.
+
+### C.4 Campos novos (resumo)
+
+| Tabela | Campo | Para quê |
+|---|---|---|
+| `contactos_imoveis` | `first_response_at`, `first_contact_at` | Speed-to-lead (KPIs 1–3) |
+| | `motivo_perda` (lista fechada) | Saber porque se perde |
+| | `fonte` normalizada + `campanha`/`utm_*` | Custo por lead e por venda por fonte |
+| | `fracao_id` (interesse principal) | Ligar o lead ao stock |
+| | `financiamento_estado`, `capitais_proprios`, `elegivel_jovem`, `prazo_compra`, `venda_dependente`, `pais_residencia`, `decisores` | Qualificação LPMAMA-PT |
+| | `consentimento_marketing` (+ data e origem) | Nutrição legal |
+| | `proxima_acao_em` | Nada fica sem próximo passo |
+| frações | estados novos + `preco_tabela_versao_id`, `preco_fecho`, `lead_id`, `estado_desde`, `motivo_bloqueio` | Stock, desconto e absorção |
+| nova: `tabela_precos_versoes` | versão, data, autor, motivo, coeficientes | Revisões de preço auditáveis |
+| nova: `planos_pagamento` / `pagamentos_cpcv` | marco, valor, data prevista, data paga | Cobranças e tesouraria |
+| nova: `pos_venda_pedidos` | fração, descrição, fotografias, estado, datas | Assistência e garantias |
+| nova: `inqueritos_nps` | lead/fração, momento, nota, comentário | NPS |
+| `projetos` | `obra_id` (CARRINHO) | Ponte custo↔preço e marcos de obra |
+
+---
+
+## D. Proposta de KPIs com fórmula [I]
+
+As metas são **pontos de partida** a rever depois dos primeiros 90 dias de medição. Onde há um
+*benchmark* externo, vai indicado; onde não há, diz-se.
+
+| # | KPI | Fórmula | Meta inicial | Benchmark externo |
+|---|---|---|---|---|
+| 1 | **Speed-to-lead (≤ 5 min)** | leads de nível 1 com `first_contact_at − created_at ≤ 5 min` (em horário) ÷ leads de nível 1 em horário | ≥ 60% → 80% | LRM 2007: 5 min vs 30 min = odds de contacto 100x [V] |
+| 2 | **Tempo mediano até à 1.ª conversa** | mediana(`first_contact_at − created_at`) | < 15 min | Mercado dos EUA: resposta típica > 8h (DelPrete 2024) [V] |
+| 3 | **Leads sem contacto em 24h** | leads sem `first_contact_at` às 24h ÷ leads | < 5% | > 1 em 3 nunca respondidos (DelPrete) [V]; 23% nunca (HBR 2011) [V] |
+| 4 | **Taxa de contacto** | leads que chegaram a `contactado` ÷ leads (sem spam/duplicados) | medir | não confirmado |
+| 5 | **Taxa de qualificação** | `qualificado` ÷ `contactado` | medir | não confirmado |
+| 6 | **Visita por qualificado** | `visita_feita` ÷ `qualificado` | medir | Fornecedor: 30–40% de leads → consulta (fraco) [V] |
+| 7 | **Faltas a visitas** | (marcadas − feitas) ÷ marcadas | < 15% | não confirmado |
+| 8 | **Visitas por venda** | visitas feitas ÷ CPCV, por projeto | medir | não confirmado |
+| 9 | **Reserva → CPCV** | CPCV ÷ reservas iniciadas no período (coorte) | ≥ 85% | não confirmado |
+| 10 | **Conversão global por fonte** | CPCV da fonte ÷ leads da fonte | medir por fonte | não confirmado |
+| 11 | **Ciclo de venda** | mediana(data do CPCV − `created_at`) | medir | não confirmado |
+| 12 | **Custo por lead (CPL)** por fonte | gasto da fonte no período ÷ leads da fonte | medir | não confirmado |
+| 13 | **Custo por venda (CAC)** por fonte | gasto da fonte ÷ CPCV atribuídos à fonte | medir | não confirmado |
+| 14 | **Absorção mensal** | frações que passaram a `cpcv` no mês ÷ frações disponíveis no início do mês | conforme o plano do projeto | não confirmado |
+| 15 | **% vendido do projeto** | frações em `cpcv`+`vendida`+`entregue` ÷ frações vendáveis (sem `bloqueada`) | plano por marco de obra | — |
+| 16 | **Dias em stock** | mediana(data `cpcv` − data `disponivel`) por fração | medir | não confirmado |
+| 17 | **Desconto médio** | Σ(preço de tabela da versão − preço de fecho) ÷ Σ preço de tabela | ≤ 3% | não confirmado (CI/SIR publica, [C]) |
+| 18 | **€/m² de fecho vs mercado** | preço de fecho ÷ área ÷ mediana INE de Braga do trimestre | acompanhar | INE Braga 2T2026: 2.417 €/m² [V] |
+| 19 | **Margem prevista do projeto** | (receita vendida + receita por vender a preço de tabela − custo real − custo por incorrer) ÷ receita total | ≥ margem-alvo | não confirmado |
+| 20 | **Desvio de custo** | (custo real €/m² − orçado €/m²) ÷ orçado | ≤ 5% | — |
+| 21 | **Avaliação → angariação** (captação) | contratos de mediação ÷ avaliações feitas | medir | não confirmado |
+| 22 | **% de exclusivas** | angariações em exclusivo ÷ angariações | ≥ 50% | PT ~20% em exclusivo (estimativa de autor, Imovirtual) [V] |
+| 23 | **NPS da entrega / a 12 meses** | % promotores (9–10) − % detratores (0–6) | ≥ 50 | definição Bain [C]; sem *benchmark* PT |
+| 24 | **Avaliações no Google** | nº e média por trimestre | +1 por entrega; média ≥ 4,7 | 71% não consideram < 3 estrelas (BrightLocal 2024, secundário) [V] |
+| 25 | **% de negócio por referência** | CPCV com `fonte = referência/cliente` ÷ CPCV | ≥ 25% a 2 anos | NAR: 43% dos compradores por referência; 41–50% do negócio do mediador [V] |
+| 26 | **Tempo de resolução da assistência** | mediana(fecho − abertura) por gravidade | urgente ≤ 24h; normal ≤ 5 dias úteis | — |
+| 27 | **Higiene de dados** | leads perdidos com `motivo_perda` ÷ perdidos; leads ativos com `proxima_acao_em` ÷ ativos | 100% / ≥ 95% | — |
+
+**Painel semanal mínimo [I]:** KPIs 1, 3, 9, 14, 17 e 27, por comercial e por projeto. O resto vai
+para a revisão mensal.
+
+---
+
+## Fontes
+
+Datas: publicação da fonte quando conhecida; "s/d" quando não foi possível confirmá-la. Marca:
+[V] verificada por pesquisa nesta sessão · [C] conhecimento prévio, por reverificar.
+
+### Speed-to-lead e comportamento face ao agente
+- [V] Oldroyd, J. / InsideSales.com — *Lead Response Management Study* (2007). Resumos:
+  https://pt.slideshare.net/slideshow/insidesales-mit/1809952 (s/d) ·
+  https://www.insidesales.com/rethinking-our-lrm-study-about-lead-response-management/ (s/d)
+- [V] Oldroyd, McElheran e Elkington — "The Short Life of Online Sales Leads", *Harvard Business
+  Review*, março de 2011: https://scholarsarchive.byu.edu/facpub/9711 (registo do artigo). Resumos:
+  https://www.expertise.ai/stats/speed-to-lead-statistics (s/d) ·
+  https://kaivix.com/en/insights/lead-response-time-evidence (s/d)
+- [V] Mike DelPrete — "Secret Shopping: 47% of Online Property Inquiries Are Ignored", 13/08/2024:
+  https://www.mikedp.com/articles/2024/8/13/secret-shopping-47-of-online-property-inquiries-are-ignored
+- [V] Inman — "DelPrete 'Secret Shopper' Sting Reveals Agents Lose Hosts Of Leads", 30/07/2024:
+  https://inman.com/2024/07/30/delprete-secret-shopper-sting-reveals-agents-lose-hosts-of-leads
+- [V] HousingWire — "Almost half of listing inquiries don't receive a response from an agent", 2024:
+  https://housingwire.com/articles/almost-half-of-listing-inquiries-dont-receive-a-response-from-an-agent-delprete
+- [V] Florida Realtors — "Real estate inquiries often fail to reach agents", out/2026:
+  https://www.floridarealtors.org/news-media/news-articles/2026/10/real-estate-inquiries-often-fail-reach-agents
+- [V] Zillow — *Buyers: Results from the Zillow Consumer Housing Trends Report 2025*, 2024/2025:
+  https://www.zillow.com/research/buyers-housing-trends-report-2025-35688
+- [V] Zillow — comunicado "Online research now shapes how most agent relationships begin",
+  30/12/2025: https://zillow.mediaroom.com/2025-12-30-Zillow-report-Online-research-now-shapes-how-most-agent-relationships-begin
+- [V] Inman — "5 takeaways from Zillow's 2025 Consumer Housing Trends Report", 07/10/2024:
+  https://inman.com/2024/10/07/5-takeaways-from-zillows-2025-consumer-housing-trends-report
+
+### Qualificação
+- [V] The Close — "LPMAMA" (s/d): https://theclose.com/lpmama/
+- [V] Sierra Interactive — "Qualifying buyer leads with the LPMAMA conversation framework" (s/d):
+  https://help.sierrainteractive.com/helpcenter/qualifying-buyer-leads-with-the-lpmama-conversation-framework
+- [V] Keller Ink — "Qualify clients with LPMAMA" (s/d):
+  https://kellerink.com/blogs/news/qualify-clients-with-lpmama-the-mother-of-all-conversation-frameworks
+- [V] HousingWire — "LPMAMA" (s/d): https://www.housingwire.com/articles/lpmama/
+- [C] HubSpot — "BANT" (por reverificar): https://blog.hubspot.com/sales/bant
+
+### Referências, avaliações e pós-venda
+- [V] NAR — *2025 Profile of Home Buyers and Sellers*, nov/2025:
+  https://www.rirealtors.org/clientuploads/documents/NAR/Homebuyers_and_sellers_trend_2025.pdf
+- [V] Virginia REALTORS — "Key Takeaways from NAR's 2025 Profile of Home Buyers and Sellers",
+  08/12/2025: https://virginiarealtors.org/2025/12/08/key-takeaways-from-nars-2025-profile-of-home-buyers-and-sellers/
+- [V] NAR — "First-time home buyer share inches up to 22%; median age remains at record high of
+  40", nov/2026: https://www.nar.realtor/newsroom/first-time-home-buyer-share-inches-up-to-22-median-age-remains-at-record-high-of-40
+- [V] Real Estate News — "Share of buyers, sellers using agents hits record high", 11/11/2026:
+  https://www.realestatenews.com/2026/11/11/share-of-buyers-sellers-using-agents-hits-record-high
+- [V] NAR — "Income steady even as market slows: 2025 Member Trends", 2025:
+  https://www.nar.realtor/news/real-estate-news/sales-marketing/income-steady-even-as-market-slows-2025-member-trends
+- [V] HousingWire — "NAR 2026 Member Profile", 2026:
+  https://www.housingwire.com/articles/nar-2026-member-profile-experience/
+- [V] BrightLocal — *Local Consumer Review Survey 2025*, jan/2025:
+  https://www.brightlocal.com/research/local-consumer-review-survey-2025/
+- [C] Bain & Company — Net Promoter System, "Measuring your Net Promoter Score" (por reverificar):
+  https://www.netpromotersystem.com/about/measuring-your-net-promoter-score/
+- [C] Decreto-Lei n.º 84/2021, de 18 de outubro (garantias na venda de bens, imóveis incluídos) —
+  Diário da República (por reverificar): https://diariodarepublica.pt/dr/detalhe/decreto-lei/84-2021-172938301
+- [C] Decreto-Lei n.º 68/2004 (ficha técnica da habitação) — Diário da República (por reverificar):
+  https://diariodarepublica.pt/dr/detalhe/decreto-lei/68-2004-209419
+
+### Mediação, CPCV e enquadramento jurídico
+- [V] Lei n.º 15/2013, de 8 de fevereiro (mediação imobiliária) — Diário da República:
+  https://diariodarepublica.pt/dr/detalhe/lei/15-2013-257806
+- [V] gov.pt — Guia prático "Mediação imobiliária" (s/d): https://www.gov.pt/guias/mediacao-imobiliaria
+- [V] Tribunal da Relação do Porto, acórdão de 09/11/2023, proc. 2142/20.7T8BRG.P1 (vLex):
+  https://vlex.pt/vid/acordao-n-2142-20-1032046429
+- [V] Tribunal da Relação de Coimbra — "Contrato de mediação imobiliária. Remuneração.
+  Exclusividade" (s/d): https://trc.pt/?p=35947
+- [V] Imovirtual — "Os desafios do regime aberto na mediação imobiliária" (s/d):
+  https://www.imovirtual.com/noticias/imoblog/os-desafios-do-regime-aberto-na-mediacao-imobiliaria/
+- [V] Doutor Finanças — "Em tempo de escassez, partilhar" (s/d):
+  https://www.doutorfinancas.pt/imobiliario/em-tempo-de-escassez-partilhar/
+- [V] Doutor Finanças — "Mediação imobiliária com ou sem exclusividade" (s/d):
+  https://www.doutorfinancas.pt/vida-e-familia/mediacao-imobiliaria-com-ou-sem-exclusividade/
+- [V] Decreto-Lei n.º 236/80 (alteração do art. 410.º do Código Civil) — Diário da República:
+  https://diariodarepublica.pt/dr/detalhe/decreto-lei/236-1980-472484
+- [V] Decreto-Lei n.º 379/86 (alterações aos arts. 442.º e 830.º do Código Civil) — Diário da
+  República: https://diariodarepublica.pt/dr/detalhe/decreto-lei/379-1986-220772
+- [V] Jurisprudência sobre sinal e reconhecimento presencial (PGDL/STJ, s/d):
+  https://www.pgdlisboa.pt/jurel/stj_mostra_doc.php?codarea=1&nid=1826 ·
+  https://trc.pt/ap1482090tbgrdc1/
+- [V] idealista — "Simplex permite venda de casa sem licença: os riscos para quem compra", jan/2024:
+  https://www.idealista.pt/news/node/60989
+- [V] idealista — "Comprar casa sem apresentar licença: tudo o que muda no simplex", jan/2024:
+  https://www.idealista.pt/news/node/61073
+- [V] Ordem dos Advogados — "Há novas regras para o licenciamento no âmbito do urbanismo",
+  22/02/2024: https://portal.oa.pt/comunicacao/imprensa/2024/2/22/ha-novas-regras-para-o-licenciamento-no-ambito-do-urbanismo/
+- [V] Cuatrecasas — "Guia Simplex Urbanístico" (s/d):
+  https://www.cuatrecasas.com/pt/portugal/imobiliario/art/guia-simplex-urbanistico-1
+- [C] Lei n.º 83/2017 (branqueamento de capitais) — Diário da República (por reverificar):
+  https://diariodarepublica.pt/dr/detalhe/lei/83-2017-107981565
+- [C] Lei n.º 41/2004, art. 13.º-A (comunicações não solicitadas) — Diário da República (por
+  reverificar): https://diariodarepublica.pt/dr/detalhe/lei/41-2004-480771
+- [C] Espanha — Lei 20/2015 (disposição adicional primeira da LOE, garantia das quantias
+  antecipadas) — BOE (por reverificar): https://www.boe.es/buscar/act.php?id=BOE-A-2015-7897
+
+### Financiamento e fiscalidade
+- [V] ECO — "Banco de Portugal aperta regras do crédito a partir de agosto", 02/07/2026:
+  https://eco.sapo.pt/2026/07/02/banco-de-portugal-aperta-regras-do-credito-a-partir-de-agosto/
+- [V] ECO — "Banco de Portugal reduz para 45% taxa de esforço máxima no crédito à habitação",
+  20/05/2026: https://eco.sapo.pt/2026/05/20/banco-de-portugal-reduz-para-45-taxa-de-esforco-maxima-no-credito-a-habitacao/
+- [V] RTP — "Banco de Portugal aperta regras para quem pede crédito à habitação ou ao consumo",
+  2026: https://www.rtp.pt/noticias/economia/banco-de-portugal-aperta-regras-para-quem-pede-credito-a-habitacao-ou-ao-consumo_n1750930
+- [V] DECO Proteste — "Novas regras do crédito à habitação: o que muda em agosto", 2026:
+  https://www.deco.proteste.pt/dinheiro/comprar-vender-casa/noticias/novas-regras-credito-habitacao-muda-agosto
+- [V] Governo de Portugal — "Garantia Pública: o que é e como funciona?" (s/d):
+  https://portugal.gov.pt/pt/gc24/comunicacao/noticias/garantia-publica-o-que-e-e-como-funciona
+- [V] Governo de Portugal — "Garantia pública reforçada em 750 milhões de euros" (2025/2026):
+  https://portugal.gov.pt/gc25/comunicacao/noticias/garantia-publica-reforcada-em-750-milhoes-de-euros
+- [V] Renascença — "Garantia pública faz disparar empréstimos a 100%", 30/03/2026:
+  https://rr.pt/noticia/economia/2026/03/30/habitacao-garantia-publica-faz-disparar-emprestimos-a-100-pagos-ate-a-reforma/465000/
+- [V] Correio da Manhã — "Quase 90% dos créditos à habitação com garantia pública financiam 100%
+  da compra" (2026): https://www.cmjornal.pt/sociedade/amp/quase-90-dos-creditos-a-habitacao-com-garantia-publica-financiam-100-da-compra
+- [V] idealista — "Crédito jovem: 56% da garantia pública foi usada para comprar casa" (2026):
+  https://www.idealista.pt/news/node/76808
+- [V] Doutor Finanças — "Escalões do IMT sobem 2% em 2026 e jovens ficam isentos até 330.539
+  euros" (2026): https://www.doutorfinancas.pt/impostos/escaloes-do-imt-sobem-2-em-2026-e-jovens-ficam-isentos-ate-330-539-euros/
+- [V] Montepio — "IMT Jovem: guia para ter isenção até aos 35 anos" (s/d):
+  https://www.montepio.org/blog/casa/imt-jovem-guia-para-ter-isencao-ate-aos-35-anos/
+- [V] DECO Proteste — "Isenção de IMT: como funciona o benefício para jovens até 35 anos" (s/d):
+  https://www.deco.proteste.pt/dinheiro/comprar-vender-casa/noticias/isencao-imt-como-funciona-beneficio-para-jovens-ate-35-anos
+- [C] Código do IVA, art. 9.º, n.º 30 (isenção na transmissão de imóveis) — Portal das Finanças (por
+  reverificar): https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva9.aspx
+
+### Mercado e compradores em Portugal
+- [V] Observador — "Estrangeiros compram menos casas mas o mercado imobiliário teve outro ano
+  recorde em 2025", 2026: https://observador.pt/especiais/estrangeiros-compram-menos-casas-mas-o-mercado-imobiliario-teve-outro-ano-recorde-em-2025-precos-subiram-quase-18/
+- [V] Observador — "Casas compradas por estrangeiros são quase 50% mais caras", 23/10/2026:
+  https://observador.pt/2026/10/23/casas-compradas-por-estrangeiros-em-lisboa-sao-quase-50-mais-caras/
+- [V] Dinheiro Vivo — "Preços das casas em Portugal sobem 16,8% em 2025 para 2.076 €/m²", 2026:
+  https://dinheirovivo.dn.pt/economia/preos-das-casas-sobem-168-em-2025-para-2076-eurosm2
+- [V] INE — *Estatísticas de Preços da Habitação ao Nível Local, 4.º trimestre de 2025*, 2026:
+  https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=789055201&att_display=n&att_download=y
+- [V] Forbes Portugal — "Preço das casas subiu 18% no segundo trimestre, mas transações
+  diminuíram", 2026: https://www.forbespt.com/?p=197896
+- [V] RTP — "Preços da habitação desaceleram entre abril e junho pelo 2.º trimestre consecutivo",
+  2026: https://www.rtp.pt/noticias/economia/precos-da-habitacao-desaceleram-entre-abril-e-junho-pelo-2o-trimestre-consecutivo_n1766952
+- [V] idealista — "Casas vendidas em Portugal atingem preço histórico após subir 19,8%", 2026:
+  https://www.idealista.pt/news/node/76623
+- [V] idealista — "Casas novas à venda mais que duplicam em 5 anos, mas procura absorve", 2026:
+  https://www.idealista.pt/news/node/74198
+- [V] idealista — "Preço das casas em Braga atinge novo máximo em fevereiro de 2026", mar/2026:
+  https://www.idealista.pt/news/node/74628
+- [V] Braga TV — "Preços das casas em Braga sobem 10,2% num ano", 2026:
+  https://bragatv.pt/precos-das-casas-em-braga-sobem-102-num-ano/
+- [V] idealista — "Compradores de casas estão mais informados e exigentes", 14/04/2026:
+  https://www.idealista.pt/news/imobiliario/habitacao/2026/04/14/74837-falta-de-casas-ha-um-interesse-crescente-em-reconverter-imoveis
+- [V] idealista — "Venda de casas e subida de preços atingem recordes em 2025", 23/03/2026:
+  https://www.idealista.pt/news/imobiliario/habitacao/2026/03/23/74572-venda-de-casas-e-subida-de-precos-atingem-maximos-historicos-em-2025
+- [V] idealista — "É melhor vender uma casa antes de comprar outra ou o contrário?", 10/04/2026:
+  https://www.idealista.pt/news/imobiliario/habitacao/2026/04/10/74677-e-melhor-vender-uma-casa-antes-de-comprar-outra-ou-o-contrario
+- [V] Dinheiro Vivo — "Volume de transações da Remax sobe 21,7% em 2025 para 8,7 mil milhões de
+  euros", 2026: https://dinheirovivo.dn.pt/empresas/volume-de-transaes-da-remax-sobe-217-em-2025-para-87-mil-milhes-de-euros
+- [V] ECO — "Faturação das 5 maiores imobiliárias aumenta 24,4%…" (s/d):
+  https://eco.sapo.pt/especiais/faturacao-das-5-maiores-imobiliarias-aumenta-244-a-boleia-de-um-exercito-de-quase-25-mil-vendedores-de-casas/
+
+### Fontes internas (código lido)
+- `/home/user/website/supabase-schema-completo.sql` — `contactos_imoveis`, `lead_atividades`,
+  `unidades`, `atualizacoes_obra` (com `fase`).
+- `/home/user/website/supabase-oportunidades.sql` — `oportunidades`.
+- `/home/user/website/src/types/database.ts` — estados da fração (`em_breve` incluído).
+- `/home/user/website/BRIEFING.md` — estado do CRM, pendentes (Resend, sincronização das frações,
+  nutrição).
+- `/home/user/carrinhoGES/CLAUDE.md` — base Supabase partilhada; marcos da obra; `regime_iva` e
+  `custoComRegime`; recebimentos e Tesouraria.
+- `/home/user/carrinhoGES/supabase/migrations/20260828100000_renomear_fase.sql` — o
+  `renomear_fase` atualiza `atualizacoes_obra.fase`.
