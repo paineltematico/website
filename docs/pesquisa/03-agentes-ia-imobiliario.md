@@ -2,11 +2,52 @@
 
 > Capítulo de pesquisa para o Painel Temático (Braga). Eixo: agentes de IA imobiliários —
 > produtos, código aberto, arquitetura, guardrails, prática no terreno e copiloto interno.
-> Pesquisa feita a 23/11/2026. Em curso — gravado de forma incremental.
+> Pesquisa feita a 23/11/2026.
 
 ## Resumo
 
-*(a preencher no fim)*
+1. **O mercado já tem cinco famílias de produtos** — ISAs de IA para leads (Structurely, Ylopo,
+   Verse), copilotos de CRM (Follow Up Boss, Lofty, Rechat, Compass, Realtor.com), pesquisa
+   conversacional dos portais (Zillow e idealista dentro do ChatGPT, Redfin, HeyImmo), agentes de
+   promotoras/redes no WhatsApp (Metrovacesa, MRV, Tecnisa, Lais, QuintoAndar, RE/MAX PT) e
+   plataformas de voz (Retell, Vapi, Synthflow). Nenhuma serve tal e qual: não falam PT-PT, não
+   conhecem o nosso CRM ou assumem o mercado americano (§1).
+2. **Os casos mais próximos do nosso são promotoras**: Metrovacesa (MiA, set/2025), MRV
+   (conversão 20→40% com a Sofia, auto-reportado) e Tecnisa (Isa: um terço dos leads qualificados
+   online; uma venda >1 M R$ após 235 mensagens em 26 dias). Padrão comum: primeiro contacto 24/7,
+   acompanhamento longo e passagem a um comercial já com o cliente qualificado (§1.2).
+3. **Quase todos os resultados publicados são auto-reportados**; o ganho mais robusto é
+   **responder depressa e fora de horas** (HBR 2011; 47,5% das mensagens fora de horas na
+   EliseAI; 50–70% das mensagens sem resposta nas imobiliárias brasileiras), não "a IA vender
+   melhor" (§5.1).
+4. **O ponto onde os produtos falham é a passagem ao humano** (avaliações da Verse.ai) e onde os
+   melhores se distinguem (resumo + comercial nomeado + bot em pausa) (§4.2).
+5. **No GitHub não há nada para instalar**, mas há padrões valiosos: linguagem natural → filtros →
+   BD; "o LLM conversa, o código pontua e decide"; **verificador que bloqueia qualquer número que
+   não venha de uma ferramenta** (Replyze); webhooks robustos; follow-up em máquina de estados;
+   evals desde o dia 1 (τ²-bench, conjunto de segurança da Zillow) (§2).
+6. **Arquitetura recomendada é pequena**: Messages API + tool runner (Sonnet 5.5 para o cliente,
+   Haiku 5.5 para triagem, Opus 5.5 para análise), ~12 ferramentas sobre as tabelas que já existem,
+   documentos por projeto em cache com citações (sem base vetorial no arranque), registo por turno
+   e evals em CI (§3, §7).
+7. **Custo de LLM é irrelevante face ao valor de um lead**: ~US$ 0,10–0,15 por conversa de 10
+   turnos em Sonnet 5.5 (preços lidos hoje); o custo real é construção, dados certos e revisão
+   (§3.5).
+8. **Guardrails decisivos são código, não prompt**: dados só por ferramenta, verificador de saída,
+   gatilhos de passagem ao humano, ferramentas com âmbito fixado no servidor (§4).
+9. **Obrigações legais claras** ⚠: aviso "sou uma IA" na primeira interação (AI Act art. 50.º,
+   desde 02/08/2026), informação RGPD e consentimento para marketing/WhatsApp, limites de
+   aconselhamento (crédito é atividade regulada). **O site ainda não tem página de política de
+   privacidade** — pré-requisito (§4.4–4.5).
+10. **Começar pelo copiloto interno** (registo automático pós-chamada, lista diária de quem
+    contactar, rascunhos de WhatsApp com a fração) e só depois o agente do cliente, primeiro na
+    página da fração que o comercial envia por WhatsApp — é aí que o funil real do Painel Temático
+    leva o cliente (§6, §8).
+
+**Limitações desta pesquisa**: a quota de pesquisa web esgotou-se a meio e vários domínios
+(Meta, UE, rismedia, ylopo, followupboss, cio.com) estavam bloqueados na rede da sessão. Fóruns
+(Reddit, Hacker News) ficaram **por cobrir**, e os pontos de regulação e WhatsApp estão marcados
+⚠ (conhecimento prévio a confirmar). Ver "Notas de método" e "Fontes".
 
 ## Notas de método
 
@@ -15,6 +56,11 @@
   cio.com, developers.facebook.com) **não abriram** a partir deste ambiente (domínio bloqueado
   na rede da sessão); nesses casos o conteúdo vem dos excertos devolvidos pelo motor de pesquisa
   e está assinalado. Convém reabrir esses links num browser antes de citar números em público.
+- **A quota de pesquisa web (200 por turno, partilhada por todos os agentes) esgotou-se** depois
+  das secções 1 e 2. As secções 3–6 apoiam-se no que já tinha sido recolhido, em páginas da
+  Anthropic e do GitHub lidas diretamente, e em conhecimento prévio assinalado com ⚠. Uma
+  segunda volta de pesquisa deve cobrir: fóruns (Reddit/HN), rate card do WhatsApp para
+  Portugal, estado do Omnibus Digital do AI Act e orientações da CNPD sobre chatbots.
 - **Factos ≠ inferências.** Os números de resultados publicados por fabricantes (taxas de
   resposta, conversões) são **auto-reportados** e quase nunca auditados — vão marcados como
   tal. As leituras para o Painel Temático são **inferências** e estão nas caixas
@@ -49,7 +95,8 @@
   [blog: AI voice + AI texting](https://www.ylopo.com/blog/how-real-estate-teams-are-using-ai-voice-ai-texting-to-convert-more-leads)
   (consultado 23/11/2026).
 - **Crítica a reter:** o caso "o cliente não percebeu que era IA" é apresentado como mérito;
-  na UE, depois de 02/08/2026, é precisamente o que o **art. 50.º do AI Act** proíbe (ver §4).
+  na UE, desde 02/08/2026, o **art. 50.º do AI Act** obriga precisamente a informar a pessoa de
+  que está a falar com uma IA (ver §4.5).
 
 **Structurely — "Aisa Holmes"** · EUA
 - **O que faz:** ISA de IA por SMS e email (e voz em versões recentes) que qualifica por prazo,
@@ -160,6 +207,8 @@
   [ImmoScout24 press](https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/immoscout24-startet-kostenlosen-ki-assistenten-heyimmo/),
   [OpenAI — Scout24](https://openai.com/index/scout24),
   [SMG 21/05/2026](https://swissmarketplace.group/media-release/immoscout24-search-dialogue-en).
+- **Fotocasa** (ES) lançou pesquisa assistida por IA a 28/10/2025, a seguir ao ImmoScout24
+  ([Online Marketplaces](https://www.onlinemarketplaces.com/?p=104726), excerto de pesquisa).
 
 **Casafari — agentes de IA** · PT (sede em Lisboa)
 - Dados de mercado em 20+ países; "agentic AI" no CRM (analisar imóveis, ordenar leads, criar
@@ -256,6 +305,9 @@ de personalização limitada. [Help Inside RE](https://help.insiderealestate.com
 - **Synthflow:** caso Kleindienst Group (promotor, Dubai) — "outreach 10×", sem métricas de
   tempo de resposta; *live transfer* e multi-tenant.
   [Synthflow — Kleindienst](https://synthflow.ai/customer-stories/kleindienst-group-scaled-lead-outreach-10x-with-voice-ai).
+- **ElevenLabs Agents:** tem páginas de uso para atendimento de gestão de imóveis em português
+  ([ElevenLabs](https://elevenlabs.io/pt/agents/property-management-answering-service)); não
+  analisado em detalhe.
 - **Vapi:** US$ 0,05/min só de orquestração; custo real ~US$ 0,08–0,13/min com STT, LLM, TTS e
   telefonia; ZDR +US$ 1 000/mês. [Retell — Vapi pricing](https://www.retellai.com/blog/revealing-vapi-ai-pricing),
   [Telnyx — Vapi pricing](https://telnyx.com/resources/vapi-pricing) (2026).
@@ -415,7 +467,7 @@ copiar um projeto. Os repositórios mais úteis para nós nem são imobiliários
 |---|---|---|
 | **LLM principal (cliente)** | **Claude Sonnet 5.5** (`claude-sonnet-5-5`), esforço `low`/`medium` | Equilíbrio custo/qualidade para conversa com ferramentas; US$ 2 / 10 por MTok, *cache read* US$ 0,10 ([pricing, lido 23/11/2026](https://platform.claude.com/docs/en/about-claude/pricing)). Opus 5.5 (US$ 4/20) para o copiloto analítico; Haiku 5.5 (US$ 0,10/0,50) para classificação, triagem e *screens* |
 | **Triagem/guarda de entrada** | Haiku 5.5 com *structured outputs*: língua, intenção, pedido de humano, tentativa de injeção, dados sensíveis | Padrão "harmlessness screen" da Anthropic ([Mitigate jailbreaks](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks)) |
-| **Orquestração** | **Messages API + tool runner do SDK TypeScript** (`@anthropic-ai/sdk`), em *route handlers* do Next.js na Vercel | Controlo total do ciclo, latência baixa, sem *sandbox*; o histórico fica **na nossa BD** (RGPD). Alternativas: **Managed Agents** (Anthropic aloja o ciclo e um *sandbox*; beta; US$ 0,08/hora de sessão + tokens; guarda o histórico da sessão até ser apagado — [pricing](https://platform.claude.com/docs/en/about-claude/pricing)) — faz mais sentido para tarefas longas do copiloto do que para chat; **Claude Agent SDK** (o *harness* do Claude Code como biblioteca, com ferramentas de ficheiros/bash — [overview](https://code.claude.com/docs/en/agent-sdk/overview)) — adequado a automações internas de back-office, **não** ao chat com clientes |
+| **Orquestração** | **Messages API + tool runner do SDK TypeScript** (`@anthropic-ai/sdk`), em *route handlers* do Next.js na Vercel | Controlo total do ciclo, latência baixa, sem *sandbox*; o histórico fica **na nossa BD** (RGPD). Alternativas: **Managed Agents** (Anthropic aloja o ciclo e um *sandbox*; beta; US$ 0,08/hora de sessão em execução + tokens — [pricing](https://platform.claude.com/docs/en/about-claude/pricing); segundo a documentação de programador da Anthropic, guarda o histórico da sessão até ser apagado) — faz mais sentido para tarefas longas do copiloto do que para chat; **Claude Agent SDK** (o *harness* do Claude Code como biblioteca, com ferramentas de ficheiros/bash — [overview](https://code.claude.com/docs/en/agent-sdk/overview)) — adequado a automações internas de back-office, **não** ao chat com clientes |
 | **Ferramentas (CRM)** | Funções TypeScript no servidor com `supabaseAdmin`, **cada uma com o seu próprio âmbito** (ver 3.3); `strict: true` nos esquemas | Nunca dar ao agente SQL genérico nem o MCP da Supabase. Opcional: expor as mesmas funções como **servidor MCP interno** para o copiloto e para o Claude da equipa — uma implementação, vários clientes |
 | **Conhecimento (RAG)** | Fase 1: **sem base vetorial** — por projeto, os documentos (memória descritiva, mapa de acabamentos, FAQ, condições de pagamento, últimas `atualizacoes_obra`) cabem em dezenas de milhares de tokens; carregam-se como blocos `document` com **citações** e **prompt caching**. Fase 2: `pgvector` no Supabase se o corpus crescer | 1M de contexto a preço normal e *cache hits* a 5% do preço de entrada no Sonnet 5.5 tornam o "contexto inteiro + citações" mais simples e mais fiável do que *chunking* para um corpus pequeno ([pricing](https://platform.claude.com/docs/en/about-claude/pricing)) |
 | **Plantas e fotos** | Plantas em PDF/imagem lidas pelo modelo (visão) **para descrever**, nunca para extrair áreas — as áreas vêm da `unidades.area_m2` | Uma área lida de uma imagem é exatamente o tipo de número que não pode ser inventado |
@@ -833,3 +885,328 @@ tempo de resposta e da noite/fim de semana**, não de a IA vender melhor do que 
 >   lei (art. 50.º) e o que evita o "odeio bots".
 > - Com uma equipa pequena, o risco maior do copiloto é **ninguém o usar**: tem de viver dentro do
 >   `/admin` e começar por uma ou duas coisas que poupam tempo visível.
+
+---
+
+## 6. Copiloto interno da equipa comercial
+
+### 6.1 O que existe
+
+| Função | Exemplos (fonte) | Modo |
+|---|---|---|
+| **Rascunho de resposta** a SMS/email/WhatsApp com o histórico do lead | Follow Up Boss *Smart Messages*, incluído sem custo ([FUB, jun/2025](https://updates.followupboss.com/en/smart-messages-ai_suggested-text-and-email-replies-built-into-your-workflow)); BoldTrail *Smart Assistant* ([Inside RE](https://help.insiderealestate.com/en/articles/8219516-kvcore-smart-assistant-powered-by-ai)) | Sugere; o agente envia |
+| **Resumo diário e próximos passos** por cliente | Realtor.com RealAssist para agentes — "o agente revê e aprova cada tarefa" ([Inman, 06/10/2026](https://inman.com/2026/10/06/realtor-com-adds-realassist-ai)); resumos matinais de leads na Lofty ([lofty.com](https://lofty.com/ai/copilot)) | Lista do dia, aprovação |
+| **Atualizar o CRM por linguagem natural/voz** | Compass AI Assistant ([Fortune, 23/09/2026](https://fortune.com/2026/09/23/compass-ai-assistant-real-estate-agents)); Rechat Lucy "Hey Lucy" ([Inman, 21/07/2026](https://www.inman.com/2026/07/21/rechat-hey-lucy-ad-campaign/)); **Inmovilla no WhatsApp do agente**, regista contactos a partir de mensagens e lembra tarefas ([idealista.pt](https://www.idealista.pt/news/node/75745)) | Conversa → registo |
+| **Resumo e score depois da chamada** | sofia-voice-agent: Claude lê a transcrição, resume, pontua e atualiza o CRM ([GitHub](https://github.com/santmun/sofia-voice-agent)) | Automático, revisível |
+| **Listas de prospeção / quem vai vender** | Compass (listas de potenciais vendedores); Homebot *Likelihood to Sell* ([Homebot](https://homebot.ai/blog/how-homebot-is-investing-in-ai)) | Sugestão |
+| **Descrições de anúncios e materiais** | Rechat Lucy (campanhas, sites de imóvel — [HousingWire](https://www.housingwire.com/articles/rechat-launches-lucy-an-ai-agent-assistant/)); serviço de IA do idealista para melhorar descrições em Portugal ([idealista.pt, node 60096](https://www.idealista.pt/news/node/60096) — data não confirmada) | Rascunho editável |
+| **Apoio à angariação / CMA** | Casafari *Presentation Builder* ([caso Porta da Frente](https://casafari.com/case-studies/casafari-agentic-ai-luxury-real-estate-porta-frente-christies/)); plugin CMA para Claude Code ([GitHub](https://github.com/zubair-trabzada/ai-realestate-claude)) | Apoio ao comercial |
+| **Assistente para os vendedores da promotora** | MRV lançou o "Marco" para apoiar corretores (mai/2025 — título de [TI Inside](https://tiinside.com.br/12/05/2025/mrv-lanca-o-assistente-virtual-marco-para-apoiar-corretores-de-imoveis/)); Metrovacesa reduziu consultas internas "de minutos para segundos" com IA da Microsoft (fev/2025 — título de [Microsoft News ES](https://news.microsoft.com/es-es/2025/02/25/metrovacesa-reduce-los-tiempos-de-respuesta-en-consultas-internas-de-minutos-a-segundos-con-la-ia-de-microsoft/)) | Q&A interno sobre projetos e processos |
+
+### 6.2 O que efetivamente poupa tempo
+
+**Facto:** quase não há medições independentes. Os números são do fabricante — "até 20 h/mês"
+(Lofty), "15 000 agentes, 97 000 conversas" (Compass) — e a adoção real pode ser baixa (10% no
+RealAssist). **Inferência** a partir do padrão das fontes, por ordem de retorno provável numa
+equipa pequena:
+
+1. **Registo automático** — transformar chamada, nota de voz ou conversa de WhatsApp num registo
+   em `lead_atividades` + campos do lead (orçamento, tipologia, prazo). É o trabalho que ninguém
+   quer fazer e o que torna o CRM verdadeiro. (Compass, Inmovilla, sofia-voice.)
+2. **"Quem contacto hoje e porquê"** — lista diária com leads quentes sem atividade, follow-ups
+   de `oportunidades.follow_up_data` vencidos, visitas sem seguimento. Os critérios são **código**
+   (como no `/vendas` que já existe); o LLM só escreve a frase e o rascunho.
+3. **Rascunhos de mensagem com contexto da fração** (WhatsApp/email), aprovados antes de sair — o
+   funil real do Painel Temático passa por **enviar o link do imóvel por WhatsApp** depois da
+   chamada (skill `/vendas`), e o rascunho pode já levar o link, a planta e a resposta às
+   perguntas da chamada.
+4. **Resumo do lead antes de ligar** (histórico, objeções, frações que encaixam no orçamento).
+5. **Descrições de frações e anúncios** a partir dos campos da BD (nunca inventar áreas nem
+   acabamentos) — poupa tempo em lançamentos de projeto com muitas frações.
+6. **Perguntas ao funil em linguagem natural** ("quantos leads do Lote 7 chegaram a visita em
+   outubro?") — útil, mas o risco é **números errados**: a consulta deve ser gerada para vistas só
+   de leitura e o número mostrado vem do código, com a consulta visível.
+7. **CMA/apoio à angariação** — valor alto para captação de proprietários, mas depende de dados de
+   mercado pagos (Casafari, etc.) e é a função com mais risco de "número inventado"; fica para
+   depois.
+
+### 6.3 O que o projeto já tem
+
+- A *skill* **`/vendas`** (`.claude/skills/vendas/SKILL.md`) já é um protótipo de copiloto de
+  direção comercial: lê `projetos`, `unidades`, `contactos_imoveis` e `imoveis` **só em
+  agregados**, proíbe dados pessoais no relatório, exige "números sempre com fonte" e "se um dado
+  não existe, di-lo". São exatamente as regras deste capítulo — o copiloto de produção pode
+  herdá-las.
+- **Funil real descrito nessa skill**: *placa na rua → chamada ao comercial → link enviado por
+  WhatsApp → navegação → visita → reserva; "o site é a ferramenta de fecho, não a porta de
+  entrada"*. Isto muda a prioridade: o agente do cliente vale mais **no WhatsApp e na página da
+  fração que o comercial enviou** do que como chatbot genérico da homepage *(inferência)*.
+- Peças reaproveitáveis: `src/lib/calendar.ts` (Google Calendar), `src/lib/email.ts` (Resend),
+  `src/lib/rate-limit.ts`, `src/lib/permissions.ts` (`canUser`), `/api/avaliacao` (já cria
+  `avaliacoes_imovel` + lead — a porta de entrada da captação), sequências de email das
+  avaliações.
+
+> **O que isto significa para o Painel Temático** *(inferência)*
+> - **O copiloto deve vir primeiro**: risco quase nulo (o humano aprova tudo), dados já existentes,
+>   ganho imediato nas funções 1–3, e prepara os dados de que o agente do cliente precisa.
+> - Medir desde o início: minutos poupados por lead (auto-registo), % de rascunhos enviados sem
+>   edição, follow-ups vencidos por semana.
+
+---
+
+## 7. Proposta de arquitetura (diagrama em texto)
+
+```
+                         ┌──────────────────────── CANAIS ────────────────────────┐
+  Cliente comprador ───▶ │ Chat na página da fração/projeto (Next.js, streaming)  │
+  Proprietário       ──▶ │ WhatsApp Cloud API (oficial; opt-in; janela 24 h)      │
+                         │ Email (Resend) — fichas, plantas, confirmações          │
+                         │ [fase 3] Voz: só resumo pós-chamada de chamadas humanas │
+                         └───────────────┬─────────────────────────────────────────┘
+                                         │ webhook: assinatura → dedupe → 200 já → fila
+                                         ▼
+ ┌───────────────────────────── GATEWAY (route handlers, Vercel) ─────────────────────┐
+ │ identidade (telefone/email → lead) · rate limit · horário · consentimento          │
+ │ 1.ª mensagem: "sou uma IA" + privacidade + "falar com uma pessoa"                   │
+ └───────────────┬─────────────────────────────────────────────────────────────────────┘
+                 ▼
+ ┌─────────── PRÉ-MODELO (código + Haiku 5.5) ───────────┐
+ │ regras: pede humano? irritação? negociação? CPCV?     │──── sim ───┐
+ │ screen: injeção / fora do âmbito / dados sensíveis    │            │
+ └───────────────┬───────────────────────────────────────┘            │
+                 ▼ não                                                 │
+ ┌──────────── AGENTE DO CLIENTE (Sonnet 5.5, tool runner) ──────────┐ │
+ │ system fixo em cache: papel, PT-PT, limites, política de dados     │ │
+ │ documentos do projeto em cache (memória descritiva, acabamentos,   │ │
+ │ FAQ, condições) com citações                                       │ │
+ │ ferramentas (âmbito fixado no servidor, strict):                   │ │
+ │  pesquisar_imoveis · pesquisar_fracoes · detalhe_fracao ·          │ │
+ │  estado_obra · consultar_documentos · valores_validos ·            │ │
+ │  disponibilidade_visita · pedir_visita · registar_lead ·           │ │
+ │  atualizar_qualificacao · registar_consentimento ·                 │ │
+ │  registar_proprietario · pedir_humano                              │ │
+ └───────────────┬────────────────────────────────────────────────────┘ │
+                 ▼                                                      │
+ ┌─────────── PÓS-MODELO (código) ───────────┐                          │
+ │ verificador: cada €, m², data, referência │── falha ──┐              │
+ │ e link existe nos resultados do turno?    │           │              │
+ │ PT-PT · tamanho · aviso de valores        │           ▼              ▼
+ └───────────────┬───────────────────────────┘   ┌──────── PASSAGEM AO HUMANO ────────┐
+                 ▼ ok                            │ resumo estruturado → comercial      │
+            resposta ao cliente                  │ (email/WhatsApp interno, /admin)    │
+                                                 │ bot em pausa nessa conversa         │
+                                                 │ cliente sabe quem e quando          │
+                                                 └──────────────┬──────────────────────┘
+                 │                                              │
+                 ▼                                              ▼
+ ┌──────────────────────────── SUPABASE (fonte da verdade) ─────────────────────────────┐
+ │ imoveis · projetos · unidades · atualizacoes_obra · faqs                (leitura)    │
+ │ contactos_imoveis · lead_atividades · oportunidades · avaliacoes_imovel (escrita     │
+ │                                                     estreita, por ferramenta)         │
+ │ NOVAS: conversas · mensagens · consentimentos · agente_turnos (custo, latência,      │
+ │        ferramentas, decided_by)                                                       │
+ └───────────────┬──────────────────────────────────────────────────────────────────────┘
+                 │
+                 ▼
+ ┌──────────── COPILOTO DA EQUIPA (/admin, JWT + canUser) ─────────────┐
+ │ Opus 5.5 / Sonnet 5.5; tarefas noturnas na Batch API                │
+ │ resumo_lead · proximo_passo · rascunho_mensagem · leads_parados ·   │
+ │ alertas · funil (vistas só leitura) · descricao_anuncio ·            │
+ │ resumo_chamada · [depois] comparaveis                                │
+ │ TUDO o que sai ou escreve = rascunho → o comercial aprova            │
+ │ (opcional) as mesmas funções como servidor MCP interno               │
+ └──────────────────────────────────────────────────────────────────────┘
+
+ ┌──────────── QUALIDADE (fora do caminho do cliente) ─────────────┐
+ │ evals em CI (30–50 casos: factualidade, limites, passagem,      │
+ │ discriminação, injeção, PT-PT, aviso IA) · pass^k · red team    │
+ │ painel: 1.ª resposta, passagens, visitas, erros factuais, custo │
+ └─────────────────────────────────────────────────────────────────┘
+```
+
+**Fluxos principais**
+
+1. **Comprador, fora de horas, no WhatsApp** → gateway identifica o lead pelo número → agente
+   responde com dados de `unidades` → oferece visita → `pedir_visita` (pendente) → de manhã o
+   comercial confirma no `/admin` com um clique; o cliente recebe a confirmação (dentro da janela
+   de 24 h, ou por *utility template*).
+2. **Comprador quer negociar** → regra pré-modelo dispara → passagem ao humano com resumo → bot em
+   pausa.
+3. **Proprietário quer vender** → `registar_proprietario` cria `oportunidades` (tipo `venda`) ou
+   encaminha para o fluxo de avaliação → o comercial liga; o agente **nunca** dá valor.
+4. **Comercial depois de uma chamada** → dita uma nota de voz ou cola a transcrição → copiloto
+   propõe registo + campos + rascunho de WhatsApp com o link da fração → aprova → grava.
+5. **Segunda-feira de manhã** → Batch noturna gera a lista "quem contactar hoje" com rascunhos.
+
+---
+
+## 8. Casos de uso por prioridade (impacto × esforço × risco)
+
+Escala 1–3 (impacto: 3 = alto; esforço: 3 = alto; risco: 3 = alto). **Prioridade** = juízo
+combinado *(inferência)*, a favor de impacto alto com esforço e risco baixos.
+
+| # | Caso de uso | Papel | Impacto | Esforço | Risco | Prioridade | Notas |
+|---|---|---|---|---|---|---|---|
+| 1 | **Registo automático pós-chamada/conversa** (resumo + campos + `lead_atividades`) | Copiloto | 3 | 1 | 1 | **P1** | Humano aprova; torna o CRM fiável para tudo o resto |
+| 2 | **Lista diária "quem contactar e porquê"** + alertas (follow-ups vencidos, quentes parados) | Copiloto | 3 | 1 | 1 | **P1** | Critérios em código (reaproveitar `/vendas`); LLM só redige |
+| 3 | **Rascunhos de WhatsApp/email com contexto da fração** | Copiloto | 3 | 1 | 1 | **P1** | Envio sempre humano; inclui link, planta, respostas |
+| 4 | **Página de privacidade + texto de aviso de IA + tabela de consentimentos** | Base | 2 | 1 | 1 | **P1** | Pré-requisito legal (§4.4–4.5) |
+| 5 | **Assistente na página da fração/projeto** (perguntas sobre área, preço, acabamentos, obra; pedido de visita pendente) | Cliente | 3 | 2 | 2 | **P2** | Começa onde o funil real leva o cliente (link enviado por WhatsApp); ferramentas só de leitura |
+| 6 | **Resposta imediata a leads de formulários/portais** (1.º contacto em <1 min, qualificação leve, passagem ao comercial) | Cliente | 3 | 2 | 2 | **P2** | O ganho mais documentado (*speed-to-lead*, §5.1) |
+| 7 | **Agente no WhatsApp Business** (fora de horas, qualificação, visitas) | Cliente | 3 | 3 | 2 | **P2** | Verificação Meta, *templates*, opt-in, janela de 24 h |
+| 8 | **Descrições de frações/anúncios a partir da BD** | Copiloto | 2 | 1 | 1 | **P2** | Útil em lançamentos com muitas frações |
+| 9 | **Captação de proprietários** (recolher dados, marcar avaliação, follow-up da avaliação) | Cliente | 2 | 2 | 2 | **P2** | Liga a `/api/avaliacao` e às `oportunidades`; nunca dar valor |
+| 10 | **Follow-up automático de leads mornos** (sequência com datas, *templates*) | Cliente | 2 | 2 | 2 | **P3** | Consentimento; cuidado com insistência e opt-outs |
+| 11 | **Perguntas ao funil em linguagem natural** | Copiloto | 2 | 2 | 2 | **P3** | Vistas só de leitura; número vem do código |
+| 12 | **Notícias de obra personalizadas a compradores** (a partir de `atualizacoes_obra`) | Cliente | 2 | 1 | 1 | **P3** | Pós-venda; relação e referências |
+| 13 | **CMA / apoio à angariação** | Copiloto | 2 | 3 | 3 | **P4** | Dados de mercado pagos; risco de número inventado |
+| 14 | **Agente de voz a ligar a leads** | Cliente | 2 | 3 | 3 | **P4** | PT-PT, consentimento (Lei 41/2004), gravação; começar por voz só para resumir chamadas humanas |
+| 15 | **Marcação autónoma de visitas (sem confirmação humana)** | Cliente | 2 | 2 | 3 | **P4** | Só depois de semanas de pedidos pendentes sem erros |
+
+### 8.1 Faseamento sugerido *(inferência)*
+
+| Fase | Conteúdo | Critério de saída |
+|---|---|---|
+| **0 — Base (1–2 semanas)** | Página de privacidade; tabelas `conversas`, `mensagens`, `consentimentos`, `agente_turnos`; dados de `unidades` e documentos por projeto completos e atuais; 30 casos de eval escritos | Cada fração tem preço, área, estado e planta corretos; evals correm |
+| **1 — Copiloto (2–4 semanas)** | Casos 1, 2, 3 no `/admin` | ≥50% dos rascunhos enviados com pouca edição; follow-ups vencidos a descer |
+| **2 — Cliente no site (3–4 semanas)** | Caso 5 e 6, pedidos de visita pendentes, passagem ao humano | 0 erros factuais no eval e numa amostra semanal; tempo até 1.ª resposta < 1 min |
+| **3 — WhatsApp** | Caso 7 (+ 9, 10) | Opt-in registado em 100%; passagens corretas; sem queixas |
+| **4 — Avançado** | 11, 13, 14, 15 conforme os dados das fases anteriores | Decisão com números das fases 1–3 |
+
+---
+
+## Fontes
+
+Legenda do estado: **L** = página lida nesta sessão (23/11/2026) · **P** = conteúdo obtido dos
+excertos do motor de pesquisa (página não aberta, muitas vezes por bloqueio de domínio) ·
+**⚠** = conhecimento prévio, não reverificado nesta sessão. Datas = publicação quando conhecida;
+senão, "consultado 23/11/2026".
+
+### Produtos e casos (EUA)
+- Ylopo — AI agents lead nurture · https://www.ylopo.com/ai-agents-lead-nurture · consultado 23/11/2026 · P
+- Ylopo — How real estate teams are using AI voice & AI texting · https://www.ylopo.com/blog/how-real-estate-teams-are-using-ai-voice-ai-texting-to-convert-more-leads · consultado 23/11/2026 · P
+- aitoolsbakery — Structurely Pricing (2026) · https://aitoolsbakery.com/?p=14014 · 2026 · P
+- aitoolsbakery — Structurely review · https://aitoolsbakery.com/blog/structurely-review/ · 2026 · P
+- aiproductivity.ai — Structurely pricing · https://aiproductivity.ai/pricing/structurely/ · 2026 · P
+- Trustpilot — Structurely · https://nz.trustpilot.com/review/structurely.com · consultado 23/11/2026 · P
+- G2 — Structurely reviews · https://www.g2.com/products/structurely/reviews · consultado 23/11/2026 · P
+- Zendesk — Structurely realtor chatbots · https://www.zendesk.com/blog/structurely-realtor-chatbots/ · consultado 23/11/2026 · P
+- G2 — Verse.ai reviews · https://www.g2.com/products/verse-io/reviews · avaliações 2018–2026 · P
+- Software Advice — Agentology/Verse profile · https://www.softwareadvice.com/crm/agentology-profile/ · consultado 23/11/2026 · P
+- Real Estate News — Roof AI CEO on ChatGPT and the need for guardrails · https://www.realestatenews.com/2024/06/12/roof-ai-ceo-on-chatgpt-and-the-need-for-guardrails · 12/06/2024 · P
+- Long & Foster — partners with Roof AI · https://newsroom.longandfoster.com/news/long-foster-real-estate-partners-with-roof-ai/ · P
+- Lofty — AI Copilot · https://lofty.com/ai/copilot · consultado 23/11/2026 · P
+- Luxury Presence — Lofty Review 2026 · https://luxurypresence.com/blogs/lofty-review · 2026 · P
+- RISMedia — Lofty expands agentic AI OS (Cowork) · https://www.rismedia.com/2026/07/28/lofty-expands-agentic-ai-os-real-estate-cowork/ · 28/07/2026 · P
+- Follow Up Boss — Smart Messages · https://updates.followupboss.com/en/smart-messages-ai_suggested-text-and-email-replies-built-into-your-workflow · jun/2025 · P
+- Follow Up Boss — 2025 Wrapped · https://www.followupboss.com/blog/2025-wrapped · dez/2025 · P
+- HousingWire — Rechat launches Lucy · https://www.housingwire.com/articles/rechat-launches-lucy-an-ai-agent-assistant/ · jul/2025 · P
+- Inman — Meet Lucy · https://www.inman.com/2025/07/23/meet-lucy-an-ai-assistant-thats-all-about-empowering-agents/ · 23/07/2025 · P
+- Inman — Rechat "Hey Lucy" ad campaign · https://www.inman.com/2026/07/21/rechat-hey-lucy-ad-campaign/ · 21/07/2026 · P
+- Fortune — Compass AI assistant · https://fortune.com/2026/09/23/compass-ai-assistant-real-estate-agents · 23/09/2026 · P
+- Real Estate News — Compass unveils AI assistant · https://www.realestatenews.com/2026/07/21/compass-unveils-ai-assistant-brokerage-comparison-tool-launches · 21/07/2026 · P
+- Google Cloud Press Corner — Realtor.com launches RealAssist AI · https://www.googlecloudpresscorner.com/2026-06-02-Realtor-com-R-Launches-RealAssist-TM-AI-A-Completely-Reimagined-Way-to-Find-A-Home · 02/06/2026 · P
+- Inman — Realtor.com adds RealAssist AI (agentes) · https://inman.com/2026/10/06/realtor-com-adds-realassist-ai · 06/10/2026 · P
+- PYMNTS — The AI House Hunter Meets a Skeptical Market · https://www.pymnts.com/artificial-intelligence-2/2026/the-ai-house-hunter-meets-a-skeptical-market/ · 2026 · P (só título/resumo)
+- Zillow Group — Zillow debuts the only real estate app in ChatGPT · https://www.zillowgroup.com/news/zillow-becomes-first-real-estate-app-in-chatgpt · 06/10/2025 · P
+- Zillow Group — Zillow in ChatGPT: fair housing · https://www.zillowgroup.com/news/zillow-in-chatgpt-fair-housing · out/2025 · P
+- Redfin — Ask Redfin launches nationwide · https://redfin.com/news/ask-redfin-launches-nationwide · 2024 · P
+- Redfin — Conversational search (com a Sierra) · https://www.redfin.com/news/redfin-debuts-conversational-search-to-reinvent-how-people-find-homes/ · 13/11/2025 · P
+- EliseAI — A year to remember (2025) · https://eliseai.com/blog/a-year-to-remember-for-multifamily-eliseai · dez/2025 · P
+- Business Wire — EliseAI and Zillow Rentals (+43%) · https://www.businesswire.com/news/home/20260611736825/en/ · 11/06/2026 · P
+- EliseAI — Summit Property Management case · https://eliseai.com/customer-stories/revolutionizing-the-self-serve-prospect-experience-at-summit-property-management-with-ai-guided-tours · 2025 · P
+- Homebot — How Homebot is investing in AI · https://homebot.ai/blog/how-homebot-is-investing-in-ai · P
+- Homebot — Q2 2026 product releases · https://homebot.ai/blog/q2-2026-product-releases · 2026 · P
+- Inside Real Estate — kvCORE Smart Assistant · https://help.insiderealestate.com/en/articles/8219516-kvcore-smart-assistant-powered-by-ai · P
+- Retell AI — Real estate · https://www.retellai.com/industry-pages/real-estate · consultado 23/11/2026 · P
+- Retell AI — ISpeedToLead case study · https://www.retellai.com/case-study/ispeedtolead-retell-ai-lead-response-case-study · P
+- Retell AI — 9 best AI voice agents for real estate (cita inquérito Inman 2025) · https://www.retellai.com/blog/ai-voice-agent-for-real-estate · 2026 · P
+- Retell AI — Revealing Vapi pricing · https://www.retellai.com/blog/revealing-vapi-ai-pricing · 2026 · P
+- Telnyx — Vapi pricing · https://telnyx.com/resources/vapi-pricing · 2026 · P
+- Synthflow — Kleindienst Group · https://synthflow.ai/customer-stories/kleindienst-group-scaled-lead-outreach-10x-with-voice-ai · P
+- ElevenLabs — Atendimento para gestão de imóveis · https://elevenlabs.io/pt/agents/property-management-answering-service · P
+
+### Produtos e casos (Portugal, Espanha, Brasil, Alemanha/Suíça)
+- idealista — launches its app on ChatGPT · https://www.idealista.com/en/news/property-for-sale-in-spain/2026/03/13/887103-idealista-launches-its-app-on-chatgpt · 13/03/2026 · P
+- idealista.pt — app integrada no ChatGPT · https://www.idealista.pt/news/node/74218 · 2026 · P
+- idealista.pt — WhatsApp + IA: o CRM imobiliário que trabalha sempre contigo (Inmovilla) · https://www.idealista.pt/news/node/75745 · 2026 (data exata não confirmada) · P
+- idealista.pt — IA na mediação imobiliária: "Portugal começa a acompanhar a evolução" · https://www.idealista.pt/news/node/66750 · P
+- idealista.pt — serviço de IA para melhorar descrições de imóveis · https://www.idealista.pt/news/node/60096 · data não confirmada · P (só título)
+- Marketeer — RE/MAX põe IA no primeiro contacto · https://marketeer.sapo.pt/?p=422216 · 11/09/2026 · P
+- Echo Boomer — RE/MAX lança chatbot · https://echoboomer.pt/remax-lanca-chatbot-site-oficial/ · set/2026 · P
+- Executive Digest — O impacto da IA no mercado imobiliário (CEO RE/MAX) · https://executivedigest.sapo.pt/?p=600599 · P
+- ECO — vERA, a assistente virtual (ERA) · https://eco.sapo.pt/2019/11/27/vera-a-assistente-virtual-que-o-ajuda-a-comprar-casa · 27/11/2019 · P
+- Inman — Portuguese real estate agent inks $100M in sales; it's a bot · https://www.inman.com/2025/03/13/portuguese-real-estate-agent-inks-100m-in-sales-the-twist-its-a-bot/ · 13/03/2025 · P
+- Fox Business — First-ever AI real estate agent generates $100M in Portugal · https://www.foxbusiness.com/real-estate/first-ever-ai-real-estate-agent-generates-100m-sales-portugal · 2025 · P
+- Casafari — Agentic AI automates seller funnel · https://casafari.com/insights/agentic-ai-automates-seller-funnel-growth/ · P
+- Casafari — caso Porta da Frente Christie's · https://casafari.com/case-studies/casafari-agentic-ai-luxury-real-estate-porta-frente-christies/ · P
+- Alimarket — Metrovacesa lanza MiA · https://www.alimarket.es/construccion/noticia/414282/metrovacesa-lanza-mia--su-agente-de-ia-que-ofrece-una-atencion-integral-personalizada-en-tiempo-real · set/2025 · P
+- CIO España — Metrovacesa lanza MiA · https://www.cio.com/article/4063228/metrovacesa-lanza-mia-un-agente-virtual-conversacional-basado-en-ia-generativa.html · set/2025 · P
+- Microsoft News ES — Metrovacesa reduce tiempos de respuesta internos · https://news.microsoft.com/es-es/2025/02/25/metrovacesa-reduce-los-tiempos-de-respuesta-en-consultas-internas-de-minutos-a-segundos-con-la-ia-de-microsoft/ · 25/02/2025 · P (só título)
+- Microsoft News BR — MRV dobra a conversão com a Sofia · https://news.microsoft.com/pt-br/mrv-dobra-a-conversao-de-seus-leads-com-a-sofia-um-chatbot-de-ia-generativa-com-tecnologia-microsoft/ · 2024 · P
+- TI Inside — IA eleva conversão de leads da MRV de 20 para 70% · https://tiinside.com.br/15/01/2026/ia-eleva-conversao-de-leads-da-mrv-de-20-para-70-e-atende-130-mil-clientes-por-mes/ · 15/01/2026 · P
+- TI Inside — MRV lança o assistente virtual Marco · https://tiinside.com.br/12/05/2025/mrv-lanca-o-assistente-virtual-marco-para-apoiar-corretores-de-imoveis/ · 12/05/2025 · P (só título)
+- InvestNews — Chatbots viram corretores virtuais · https://investnews.com.br/tecnologia/chatbots-viram-corretores-virtuais-e-ganham-espaco-no-mercado-imobiliario/amp/ · P
+- Exame — IA da Tecnisa fecha venda · https://exame.com/mercado-imobiliario/inteligencia-artificial-da-tecnisa-fecha-venda-de-imovel-de-r-18-milhao · fev/2026 · P
+- TI Inside — IA vende apartamento milionário em São Paulo · https://tiinside.com.br/en/14/04/2025/ia-vende-apartamento-milionario-em-sao-paulo/ · 14/04/2025 · P
+- Finsiders — Lais supera 5 milhões de pessoas atendidas · https://finsidersbrasil.com.br/conteudo-de-marca/lais-supera-5-milhoes-de-pessoas-atendidas-e-inaugura-nova-fase-da-proptech-lastro/ · conteúdo de marca · P
+- Startups.com.br — Lastro levanta Série A de R$ 85M · https://startups.com.br/negocios/proptechs/proptech-lastro-levanta-serie-a-de-r-85m-liderada-pela-prosus/ · P
+- Mobile Time — IA do QuintoAndar Business (Domi) · https://www.mobiletime.com.br/noticias/19/08/2026/ia-quintoandar-business/ · 19/08/2026 · P
+- Canaltech — Nova IA do QuintoAndar marca visitas pelo WhatsApp · https://canaltech.com.br/mercado/nova-ia-do-quintoandar-recomenda-imoveis-e-marca-visitas-pelo-whatsapp/ · 2026 · P
+- QuintoAndar — Domi · https://quintoandar.com.br/domi · consultado 23/11/2026 · P
+- ImmoScout24 — startet KI-Assistenten HeyImmo · https://www.immobilienscout24.de/unternehmen/news-medien/news/default-title/immoscout24-startet-kostenlosen-ki-assistenten-heyimmo/ · 21/10/2025 · P
+- OpenAI — Scout24 · https://openai.com/index/scout24 · P
+- SMG — ImmoScout24 launches dialogue-based property search · https://swissmarketplace.group/media-release/immoscout24-search-dialogue-en · 21/05/2026 · P
+- Online Marketplaces — Fotocasa launches AI-assisted search · https://www.onlinemarketplaces.com/?p=104726 · 28/10/2025 · P
+
+### GitHub (todos L, metadados de 23/11/2026)
+- https://github.com/zillow/compliant-real-estate-chatbot (artigo arXiv:2410.10860, 2024)
+- https://github.com/AleksNeStu/ai-real-estate-assistant
+- https://github.com/saminkhan1/real-estate-ai-agent
+- https://github.com/mayankjndl/real-estate-ai-lead-agent
+- https://github.com/KirillHat/casa-verde-bot
+- https://github.com/yastman/rag
+- https://github.com/hoangsonww/EstateWise-Chapel-Hill-Chatbot
+- https://github.com/santmun/sofia-voice-agent
+- https://github.com/zubair-trabzada/ai-realestate-claude
+- https://github.com/hoangtng/real-estate-agents
+- https://github.com/Azure-Samples/contoso-real-estate
+- https://github.com/ISL270/multi-agent-ai-realtor
+- https://github.com/Repliers-io/mcp-server
+- https://github.com/agentic-ops/real-estate-mcp
+- https://github.com/supabase/mcp
+- https://github.com/Hainrixz/whatsapp-agentkit
+- https://github.com/melgarafael/DeskcommCRM
+- https://github.com/Replyze/ai-customer-support-agent
+- https://github.com/LiChang1125/B2B_Sales_Agent_Skill
+- https://github.com/LikhithV02/Customer-Support-Agent (só descrição)
+- https://github.com/chatwoot/chatwoot (só metadados)
+- https://github.com/sierra-research/tau2-bench
+- https://github.com/promptfoo/promptfoo · https://github.com/langfuse/langfuse · https://github.com/Arize-ai/phoenix · https://github.com/NVIDIA-NeMo/Guardrails · https://github.com/guardrails-ai/guardrails · https://github.com/protectai/llm-guard · https://github.com/livekit/agents · https://github.com/pipecat-ai/pipecat · https://github.com/kaymen99/sales-outreach-automation-langgraph (metadados)
+
+### Engenharia, modelos e custos
+- Anthropic — Building effective agents · https://www.anthropic.com/engineering/building-effective-agents · 19/12/2024 · L
+- Anthropic — Writing effective tools for agents · https://www.anthropic.com/engineering/writing-tools-for-agents · 11/09/2025 · L
+- Anthropic — Demystifying evals for AI agents · https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents · 09/01/2026 · L
+- Claude Docs — Pricing · https://platform.claude.com/docs/en/about-claude/pricing · consultado 23/11/2026 · L
+- Claude Docs — Reduce hallucinations · https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations · L
+- Claude Docs — Mitigate jailbreaks and prompt injections · https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks · L
+- Claude Code Docs — Agent SDK overview · https://code.claude.com/docs/en/agent-sdk/overview · L
+- Anthropic — Commercial Terms of Service · https://www.anthropic.com/legal/commercial-terms · ⚠ (não lido)
+
+### Regulação, segurança e prática (⚠ não reverificados nesta sessão)
+- Regulamento (UE) 2024/1689 (AI Act), art. 4.º, 50.º, 99.º, 113.º, Anexo III · https://eur-lex.europa.eu/eli/reg/2024/1689/oj · 12/07/2024 · ⚠
+- RGPD — Regulamento (UE) 2016/679 (art. 6.º, 7.º, 13.º, 22.º, 28.º, 35.º, cap. V) · https://eur-lex.europa.eu/eli/reg/2016/679/oj · ⚠
+- Lei 41/2004 (comunicações eletrónicas; art. 13.º-A) · Lei 83/2017 (branqueamento) · DL 81-C/2017 (intermediários de crédito) · Lei 93/2017 (não discriminação) — confirmar redação em vigor no Diário da República (https://diariodarepublica.pt) · ⚠
+- Meta — WhatsApp Business Platform pricing · https://developers.facebook.com/docs/whatsapp/pricing · ⚠ (domínio bloqueado nesta sessão)
+- WhatsApp Business Solution Terms · https://www.whatsapp.com/legal/business-solution-terms · ⚠
+- OWASP — Top 10 for LLM Applications 2025 · https://genai.owasp.org/llm-top-10/ · ⚠
+- Simon Willison — The lethal trifecta for AI agents · https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/ · 16/06/2025 · ⚠
+- Moffatt v. Air Canada, 2024 BCCRT 149 · https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html · 14/02/2024 · ⚠
+- HBR — The Short Life of Online Sales Leads · https://hbr.org/2011/03/the-short-life-of-online-sales-leads · mar/2011 · ⚠
+- Incidentes Chevrolet de Watsonville (dez/2023), DPD (jan/2024) e encerramento do Zillow Offers (nov/2021) — citados de memória, sem link verificado · ⚠
+
+### Código do próprio projeto (lido)
+- `supabase-schema-completo.sql`, `supabase-oportunidades.sql`, `src/types/database.ts`,
+  `src/app/api/admin/visitas/route.ts`, `src/app/api/avaliacao/route.ts`, `src/lib/*`,
+  `package.json`, `BRIEFING.md`, `.claude/skills/vendas/SKILL.md` (23/11/2026).
