@@ -99,6 +99,27 @@
 | **Crédito** | Taxa de esforço de 45% desde 01/08/2026; garantia pública para jovens até 31/12/2026 com imóvel até 450 000 € (prorrogação não confirmada); IMT Jovem com isenção total até 330 539 € | Ter estes limiares em conta na tabela de preços |
 | **Garantia de obra nova** (DL 84/2021) | 10 anos para defeitos estruturais e 5 anos para o resto | Usar como argumento de venda; ninguém o destaca (cap. 01) |
 
+## 1-B. Promotores de referência (cap. 01 §12–13, segunda volta)
+
+- **No Porto, a obra nova vende-se antes de existir.** Entre 40% e 60% vende-se em planta ou no
+  início da obra (Dinheiro Vivo), em lançamentos com data. Exemplos:
+  - Pleno (VIZTA): 46% vendido ou reservado no lançamento;
+  - PURE (Fercopor): 30 de 34 casas em duas semanas;
+  - Terrazza Park: 26% em três dias de feira.
+- **Os promotores de referência não vendem sozinhos.**
+  - Bonjardim (Avenue): JLL, Predibisa e LUXIMOS, em co-exclusivo; 80% vendido em 7 meses, com
+    stand no local.
+  - Mereces 718 (DST, Barcelos): vendido pela RE/MAX e pela Predimed.
+- **O espaço digital está, ao que parece, por ocupar.** A imprensa não mostra nenhum promotor com
+  mapa de frações em tempo real, reserva online, diário de obra ou área de cliente. Os sites deles
+  não abriram nesta sessão, por isso isto falta confirmar.
+- **O preço de entrada tornou-se um produto.** A marca CORE da VIZTA vende a casa «essencial» e
+  põe os extras com preço à parte.
+- **Braga custa cerca de 60% do Porto em €/m²** (2 173 €/m² pedidos em Braga contra 3 700 €/m²
+  vendidos no Porto, de fontes diferentes). A DST é o promotor local com escala.
+- **Há um prémio regional ao alcance:** o Prémio Nacional do Imobiliário tem a categoria «Habitação
+  Norte». Ganhou o Bonjardim em 2025 e o Greenstone em 2026.
+
 ## 2. As 5 decisões que recomendo
 
 | # | Decisão | Porquê | Custo de não decidir |

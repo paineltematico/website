@@ -109,6 +109,7 @@ Uma IA em português de Portugal ajuda nos dois lados:
 | 3.1 | **Mockups de julho por ordem de funil:** barra fixa no telemóvel com WhatsApp já preenchido com o imóvel; página de projeto com guia e mapa de frações, formulário e «avisar-me»; ficha em blocos com planta e custo mensal | cap. 04 §5, `docs/design/mockups` |
 | 3.2 | **Diário de obra público e relatório de obra para compradores** (skill `/relatorio-obra`), a partir da vista `v_obra_publica` do CARRINHO | cap. 07 §4, cap. 05 §10 |
 | 3.3 | **Assistente IA na página da fração ou projeto:** responde sobre a fração, a obra e o processo; pedidos de visita ficam pendentes até confirmação humana; passagem a uma pessoa com resumo; aviso de IA; 30–50 casos de avaliação em CI | cap. 03 §7–8 (5, 6) |
+| 3.3b | **Lançamento com data para cada projeto:**<br>• página «brevemente» com lista prioritária por tipologia (estado `lista_espera` no CRM, contado por tipologia);<br>• data de abertura de vendas anunciada;<br>• evento (visita ao terreno ou feira);<br>• condições de lançamento com prazo.<br>É assim que os promotores do Porto vendem os primeiros 25–50% | cap. 01 §13 |
 | 3.4 | **SEO e medição:** JSON-LD (`RealEstateListing`, `Residence`), sitemap completo, eventos de funil GA4 e Pixel (só com consentimento), páginas por freguesia | cap. 04, cap. 00 §1 |
 
 **Critério de saída**
@@ -125,6 +126,7 @@ Uma IA em português de Portugal ajuda nos dois lados:
 | 4.4 | **Dados de mercado:** Casafari MCP e INE trimestral; `/benchmark-precos` e `/radar-concorrencia` | cap. 02 §4, cap. 07 |
 | 4.5 | **MCP público do Painel Temático** com frações disponíveis e pedido de contacto, publicado no registo oficial | cap. 07 §5 |
 | 4.6 | **Área de cliente** para quem compra em planta: obra, documentos e pagamentos | cap. 01, 05 |
+| 4.7 | **Canal misto com regras escritas:**<br>• o canal direto fica como principal;<br>• nos lançamentos, 1–2 mediadoras em co-exclusivo com prazo (ZOME, E&V Braga-Guimarães ou Q+P \| Knight Frank, conforme o produto);<br>• o lead da parceira entra no CRM com origem e comissão por fração;<br>• candidatar uma obra entregue ao Prémio Nacional do Imobiliário (Habitação Norte) | cap. 01 §13, §16 |
 
 ## 5. MVP (6 semanas) — o que se mostra no fim
 
