@@ -746,3 +746,90 @@ promptfoo, §2.4).
 >   art. 50.º e o art. 13.º.
 > - Antes de lançar: AIPD curta, acordos com subcontratantes, política de retenção e um *red
 >   team* de uma tarde.
+
+---
+
+## 5. Fóruns, discussões e o que acontece na prática
+
+> **Limitação honesta desta secção.** A única pesquisa dirigida a fóruns (Reddit, sobre a
+> Structurely) não devolveu fios de discussão, e a quota de pesquisa web esgotou-se antes das
+> pesquisas planeadas a r/realtors, r/RealEstateTechnology, r/LocalLLaMA, r/LangChain e Hacker
+> News. O que segue vem de **avaliações de utilizadores** (G2, Capterra, Trustpilot), **imprensa
+> do setor** (Inman, HousingWire, RISMedia, Real Estate News, PYMNTS), **blogs de engenharia**
+> (Anthropic) e de casos documentados que conheço de antes (⚠). **Recomenda-se uma segunda volta
+> só a fóruns** antes de decisões de produto.
+
+### 5.1 *Speed-to-lead*: o ganho mais robusto é responder depressa e sempre
+
+- ⚠ **HBR, "The Short Life of Online Sales Leads"** (Oldroyd, McElheran & Elkington, mar/2011):
+  em 2 241 empresas dos EUA, quem contactou o lead **na primeira hora** teve ~7× mais probabilidade
+  de o qualificar do que quem esperou uma hora mais, e >60× mais do que quem esperou 24 h; o tempo
+  médio de resposta era 42 h e 23% nunca responderam.
+  [HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads). Estudo antigo e de vendas em
+  geral, mas é a base de todo o discurso das ISAs de IA.
+- Um inquérito da Inman de 2025, citado por terceiros, dá **mais de 15 horas** de resposta média de
+  um agente americano a um pedido novo (citação em segunda mão via
+  [Retell — ranking de agentes de voz](https://www.retellai.com/blog/ai-voice-agent-for-real-estate), 2026).
+- **50–70% das mensagens** que as imobiliárias brasileiras recebem em anúncios **ficam sem
+  resposta** (QuintoAndar, ao lançar o Domi, ago/2026 — [Mobile Time](https://www.mobiletime.com.br/noticias/19/08/2026/ia-quintoandar-business/)).
+- **47,5% das mensagens** de arrendamento chegam **fora de horas** (EliseAI, 2025 —
+  [EliseAI](https://eliseai.com/blog/a-year-to-remember-for-multifamily-eliseai)).
+
+*Leitura (inferência):* boa parte do valor publicado das "ISAs de IA" vem de **tapar o buraco do
+tempo de resposta e da noite/fim de semana**, não de a IA vender melhor do que uma pessoa.
+
+### 5.2 Os leads "odeiam bots"? O que as fontes mostram
+
+- **O problema não é o bot; é o bot que finge, insiste ou não passa a vez.** As avaliações da
+  Verse.ai queixam-se de clientes que pensavam ter um humano do outro lado quando o lead respondia,
+  e de *templates* genéricos ([G2](https://www.g2.com/products/verse-io/reviews)); as da
+  Structurely, de suporte e integrações com CRM, e de o bot "se baralhar" com perguntas
+  ([Trustpilot](https://nz.trustpilot.com/review/structurely.com), [G2](https://www.g2.com/products/structurely/reviews)).
+- **Ceticismo do mercado**: a PYMNTS titulou em 2026 *"The AI House Hunter Meets a Skeptical
+  Market"* sobre o RealAssist da Realtor.com
+  ([PYMNTS](https://www.pymnts.com/artificial-intelligence-2/2026/the-ai-house-hunter-meets-a-skeptical-market/)
+  — só li o título e o resumo); a Inman notou que chamar "agente" a uma IA no imobiliário
+  "compreensivelmente inquieta" os profissionais ([Inman, 23/07/2025](https://www.inman.com/2025/07/23/meet-lucy-an-ai-assistant-thats-all-about-empowering-agents/)).
+- **Do lado da equipa, a adoção é o gargalo**: o RealAssist para agentes tinha **10% de adoção**
+  no lançamento ([Inman, 06/10/2026](https://inman.com/2026/10/06/realtor-com-adds-realassist-ai));
+  a Compass montou um esforço interno para pôr os seus ~83 000 agentes a usar o assistente
+  (título de notícia; não li o artigo). A Lofty é criticada pela curva de aprendizagem das
+  automações ([Luxury Presence, 2026](https://luxurypresence.com/blogs/lofty-review)).
+- **Em Portugal, o discurso é "complementar, não substituir"** — a CEO da RE/MAX Portugal defende
+  que a tecnologia não deve substituir a proximidade humana na compra e venda
+  ([Executive Digest](https://executivedigest.sapo.pt/?p=600599)).
+- **Taxas de resposta publicadas** existem mas são do fabricante: 48% ao SMS de IA (Ylopo); "até
+  +60% de conversão" (Lais); 20→40% (MRV/Microsoft). Nenhuma é auditada (§1.2).
+
+### 5.3 O que falha (síntese das fontes)
+
+| Falha | Onde se viu | Antídoto |
+|---|---|---|
+| Passagem ao humano opaca ou tardia | Verse.ai (avaliações) | Gatilhos em código + resumo + pausa do bot (§4.2) |
+| Mensagens genéricas / *templates* | Verse.ai, BoldTrail ("personalização limitada") | Contexto do lead e da fração em cada mensagem; o comercial aprova *templates* |
+| Inventar factos | ⚠ Air Canada (2024); CEO da Roof AI sobre *guardrails* ([Real Estate News, 12/06/2024](https://www.realestatenews.com/2024/06/12/roof-ai-ceo-on-chatgpt-and-the-need-for-guardrails)) | Dados só por ferramenta + verificador (§4.1) |
+| Manipulação por *prompt* | ⚠ Chatbot de concessionário Chevrolet "vende" carro por 1 US$ (dez/2023); ⚠ chatbot da DPD (Reino Unido) a insultar a empresa a pedido de um cliente (jan/2024) | Sem ferramentas de preço/proposta; *screens*; recusa fora do âmbito (§4.6) |
+| Integrações com o CRM que partem | Structurely (resposta da própria empresa no Trustpilot) | Construir sobre o **nosso** CRM, não por cima |
+| Não compensa a baixo volume | "só compensa acima de ~200 leads/mês" (crítica à Structurely, [aitoolsbakery](https://aitoolsbakery.com/blog/structurely-review/)) | Para nós, o argumento não é volume: é **não perder nenhum lead** de um produto caro |
+| Equipa não usa | Realtor.com 10%; Compass | Copiloto dentro do ecrã que já se usa (`/admin`), poucas funções, que poupem tempo no 1.º dia |
+| Automação de preços/avaliações | ⚠ Zillow Offers encerrado em nov/2021 por não conseguir prever preços com a precisão necessária | A CMA é **apoio** ao comercial, nunca número dado ao cliente (§4.7) |
+
+### 5.4 O que dizem os blogs de engenharia (lido hoje)
+
+- **Simplicidade e ferramentas bem desenhadas acima de frameworks** ([Anthropic, 19/12/2024](https://www.anthropic.com/engineering/building-effective-agents);
+  [11/09/2025](https://www.anthropic.com/engineering/writing-tools-for-agents)).
+- **Evals pequenos e reais primeiro; pass^k para agentes virados ao cliente; utilizador
+  simulado; ler transcrições** ([Anthropic, 09/01/2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)).
+- **Conteúdo de terceiros é dado, não instrução** ([Anthropic — Mitigate jailbreaks](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks)).
+- **A Redfin construiu a pesquisa conversacional com a Sierra** (nov/2025), a empresa por trás do
+  τ-bench — sinal de que os grandes compram a disciplina de avaliação, não só o modelo
+  ([Redfin](https://www.redfin.com/news/redfin-debuts-conversational-search-to-reinvent-how-people-find-homes/)).
+
+> **O que isto significa para o Painel Temático** *(inferência)*
+> - O argumento de negócio mais sólido é **"nenhum pedido fica sem resposta em 1 minuto, a
+>   qualquer hora"**, não "a IA vende". É também o mais fácil de medir (tempo até 1.ª resposta,
+>   % de pedidos fora de horas).
+> - Ser **transparente** (é uma IA) e **passar depressa a uma pessoa nomeada** é ao mesmo tempo a
+>   lei (art. 50.º) e o que evita o "odeio bots".
+> - Com uma equipa pequena, o risco maior do copiloto é **ninguém o usar**: tem de viver dentro do
+>   `/admin` e começar por uma ou duas coisas que poupam tempo visível.
