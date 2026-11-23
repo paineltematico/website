@@ -465,13 +465,273 @@ resposta rápida) — os dois pontos em que uma equipa pequena pode igualar uma 
 
 ---
 
-## 13. Promotores com marketing de empreendimentos exemplar — por verificar (CRÍTICO)
+## 13. Promotores de referência — marketing de empreendimentos (CRÍTICO)
 
-> ⚠️ **É a secção mais importante para o Painel Temático e ficou por fazer.** Não chegámos a
-> pesquisar nenhum promotor. Candidatos a estudar, **sem afirmações sobre eles**: Vanguard
-> Properties, VIC Properties, Avenue, Habitat Invest, Bondstone, Kronos Homes e Mexto (Porto); e,
-> em Braga, os grupos de construção Casais e dst (para ver como uma construtora local comunica
-> empreendimentos). A lista deve ser revista: o critério é marketing, não dimensão.
+> **Sessão 2 (2026-11-23).** Na primeira sessão esta secção ficou por fazer. Nesta foi pesquisada
+> com motor de busca, porque a leitura direta dos sites continuava bloqueada. A consequência
+> prática conta para ler tudo o que se segue:
+> - **o que a imprensa conta** (ritmo de vendas, canais, eventos, preços publicados, prémios)
+>   ficou bem coberto;
+> - **o que só se vê no site** (mapa de frações, reserva online, diário de obra, área de cliente)
+>   ficou quase todo por verificar e aparece como ❓ na grelha (13.8).
+>
+> A lista de candidatos da primeira sessão foi revista pelo critério "Norte + marketing
+> documentado". **Vanguard** e **VIC Properties** não deram nada de útil sobre marketing (uma das
+> pesquisas devolveu outra empresa, brasileira, com o mesmo nome). **Casais** aparece sobretudo como
+> construtora e em *build to rent* com a Sonae Sierra (ECO, 24/03/2026
+> <https://eco.sapo.pt/2026/03/24/sonae-sierra-e-casais-vao-construir-casas-para-o-mercado-de-arrendamento/>),
+> não a vender frações próprias ao público, por isso ficou de fora. Entraram **VIZTA**, **Fercopor**
+> e **DST Real Estate**, que não estavam na lista.
+
+### 13.0 O contexto: no Porto, a obra nova vende-se antes de estar construída
+
+- **[Facto]** Entre **40% e 60%** das casas novas do Porto são compradas em planta ou no início da
+  obra; na Quintela + Penalva | Knight Frank a fatia é de **60–65%** das suas vendas no Porto
+  (Francisco Quintela). A procura antecipada concentra-se em T0 e T1 e em famílias de segmento
+  médio e médio-alto — Dinheiro Vivo
+  <https://dinheirovivo.dn.pt/neg%C3%B3cios/mais-de-60-das-casas-no-porto-so-compradas-em-planta-ou-incio-de-obra>
+  (data não visível; replicado pelo The Portugal News a 27/01/2026
+  <https://www.theportugalnews.com/news/2026-01-27/half-of-the-houses-in-porto-sold-at-the-start-of-construction/950858>);
+  idealista, "mais de 50%" <https://www.idealista.pt/news/node/73598> (2026, lido em excerto de
+  pesquisa). É uma estimativa do setor, não uma estatística oficial.
+- **[Facto, só título]** idealista/news, 2026: "Procura por casas em planta já supera interesse
+  por imóveis concluídos" <https://www.idealista.pt/news/node/75925>.
+- **[Facto]** Porto: preço médio de venda de **3 700 €/m²** (+14%), segundo o Market 360 da JLL
+  (lido em excerto de pesquisa) <https://www.jll.com/pt-pt/newsroom/jll-porto-2025-highlights>.
+  Braga: **2 173 €/m²** em fevereiro de 2026, máximo histórico, +11,3% num ano — idealista
+  <https://www.idealista.pt/news/node/74628>. Os dois números não são comparáveis à letra (um é
+  preço de venda de uma consultora, o outro é preço pedido num portal), mas dão a ordem de
+  grandeza: **Braga vale cerca de 60% do Porto**.
+- **[Facto]** A casa nova custa em média **~50% mais** do que a usada (cerca de 100 mil € de
+  diferença; preço médio da nova acima de 300 mil € pela primeira vez, dados do INE) — idealista
+  <https://www.idealista.pt/news/node/67432>; The Portugal News, 27/12/2024
+  <https://theportugalnews.com/news/2024-12-27/new-houses-in-portugal-cost-50-more/94504>. Em
+  2025 a usada subiu mais depressa (+18,9%) do que a nova (+14,2%) (INE, lido em excerto de
+  pesquisa).
+- **[Facto]** Planos de pagamento que aparecem em anúncios de obra nova: **15% no CPCV, 55% na
+  escritura e o restante por marcos da obra** (Matosinhos); **30% no CPCV e 70% na escritura**
+  (Algarve) — anúncios no casa.sapo (lido em excerto de pesquisa, consultado em 2026-11-23).
+- **[Inferência]** O jogo de um promotor decide-se **antes de a obra arrancar**: lançamento,
+  lista de interessados, preço publicado e primeiro sinal. Tudo o que vem a seguir (diário de
+  obra, área de cliente) serve para **não perder** o que se vendeu e para alimentar a fase
+  seguinte.
+
+### 13.1 Avenue — Bonjardim (Porto) e NoLiPa (Lisboa)
+
+- **[Facto]** Promotora que chegou a Portugal em 2015, com foco no residencial premium; o diretor-
+  -geral Aniceto Viegas falou em 17 projetos em oito anos e numa aposta futura também na classe
+  média; noutra entrevista, **"60% a 80% dos imóveis são vendidos em planta"** e "40% dos
+  compradores são portugueses" (números antigos) — idealista
+  <https://www.idealista.pt/news/node/42453>, <https://www.idealista.pt/news/node/60152>.
+- **[Facto] Bonjardim (centro do Porto)**: condomínio de uso misto (habitação, hotel, lojas e uma
+  praça central), com **93 apartamentos** — idealista <https://www.idealista.pt/news/node/46432>,
+  <https://www.idealista.pt/news/node/51137>.
+  - **Canal**: **co-exclusivo de três mediadoras — JLL, Predibisa e LUXIMOS Christie's**. Sete
+    meses depois do arranque das vendas estavam vendidos **80%** dos apartamentos, e a promotora
+    **abriu um stand de vendas no local** — JLL newsroom (cita dados a 30/06/2022, portanto c.
+    2022) <https://www.jll.com/pt-pt/newsroom/bonjardim-inaugura-stand-de-vendas-apartamentos-vendidos>.
+  - **Prémios**: Prémio SIL 2024 (Reabilitação Urbana) e **Prémio Nacional do Imobiliário 2025,
+    categoria Habitação Norte**; as lojas estão 95% ocupadas — Cushman & Wakefield, novembro de
+    2025 <https://www.cushmanwakefield.com/pt-pt/portugal/news/2025/11/award-winning-bonjardim-in-the-heart-of-porto-attracts-leading-brands>.
+  - O investimento aparece como 57 M€ numa fonte e 65 M€ noutra (idealista, excertos).
+- **[Facto] NoLiPa (Campo Grande, Lisboa)** — a referência de **preço publicado**: 466 apartamentos
+  em sete edifícios, T0 a T4 de 43 a 185 m², preços de **320 mil € a 1 M€, média de ~7 000 €/m²**
+  (maio de 2025); mais de 40% vendido nos quatro primeiros edifícios; entrega no fim de 2027;
+  **escritório de vendas aberto todos os dias das 9 às 19 h**; comercializado por **Dils, JLL e
+  RE/MAX Collection**; as **plantas por fração** estão em PDF alojados no idealista — idealista
+  <https://www.idealista.pt/news/node/72189>, <https://www.idealista.pt/news/node/69522>; The
+  Portugal News, 12/05/2025
+  <https://www.theportugalnews.com/news/2025-05-12/lisbon-attracts-275-million-real-estate-investment-as-industry-calls-for-tax-cuts-and-simpler-licensing/97538>
+  (lidos em excerto de pesquisa).
+- **[Não confirmado]** Mapa de frações em tempo real, reserva online, diário de obra e área de
+  cliente no site da Avenue: o site não pôde ser lido.
+
+### 13.2 Bondstone — Greenstone (Foz do Porto), Prémio Nacional do Imobiliário 2026
+
+- **[Facto]** A Bondstone nasceu como **Louvre** (promotora de luxo fundada em 2016) e passou a
+  apostar também noutros segmentos — idealista <https://www.idealista.pt/news/node/42494>.
+- **[Facto] Greenstone** (Nevogilde, Foz do Douro): **36 moradias** — 27 *garden villas* e
+  *townhouses* T2 a T4 (140–225 m², jardim privado) e 9 *sky villas* (210–355 m², *rooftop*
+  privado); investimento acima de 30 M€; arquiteto José Carlos Cruz — JLL newsroom
+  <https://www.jll.com/pt-pt/newsroom/greenstone-condominio-de-moradias-exclusivas-no-porto-apresentado-num-evento-unico>.
+  - **Lançamento**: apresentação na Casa de Montevideu, no Porto, para **cerca de 100
+    convidados** (potenciais clientes, promotor e arquiteto) — mesma fonte.
+  - **Canal**: **co-exclusivo JLL + Predibisa** (mesma fonte); o empreendimento aparece também na
+    secção de empreendimentos da Portugal Sotheby's
+    <https://www.sothebysrealtypt.com/developments/greenstone-porto-aldoar-foz-do-douro-e-nevogilde_pt1_471>
+    (consultado em 2026-11-23).
+  - **Ritmo**: **30% reservado antes do arranque da obra** — idealista
+    <https://www.idealista.pt/news/node/47386>; **mais de 75% vendido** com a obra a decorrer —
+    idealista <https://www.idealista.pt/news/node/59864>.
+  - **Comprador**: maioria portuguesa, "a grande maioria famílias do Porto ou de concelhos
+    vizinhos"; cerca de 25% de clientes do Brasil, EUA, Luxemburgo e África do Sul (mesmas fontes,
+    lidas em excerto de pesquisa).
+  - **Prémio**: venceu a categoria **Habitação Norte** do **Prémio Nacional do Imobiliário 2026**
+    (organizado pela Magazine Imobiliário, 92 candidaturas, cerimónia em março de 2026) — Jornal
+    Económico <https://jornaleconomico.sapo.pt/?p=1392504> (lido em excerto de pesquisa).
+- **[Não confirmado]** Preço "desde" publicado: não encontrado.
+
+### 13.3 Fercopor — Boavista e Foz (Porto)
+
+- **[Facto]** Promotora familiar do grupo Ferreira da Costa, fundada em 1981, focada no segmento
+  alto do Porto — idealista e site da empresa <https://fercopor.pt/en/> (consultado em
+  2026-11-23).
+- **[Facto] PURE** (Avenida da Boavista): 34 apartamentos, T2 a T5 duplex, 18 M€; **31 de 34
+  vendidos, 30 deles nas duas primeiras semanas** da venda em planta, com **data de arranque das
+  vendas anunciada** (23 de novembro, ano não visível no excerto) — site Fercopor (lido em excerto
+  de pesquisa); idealista "PURE sai do papel – as 34 casas têm dono" (2023)
+  <https://www.idealista.pt/news/node/57453>.
+- **[Facto]** Outros: **Enlight** (venda em planta; 15 de 21 apartamentos vendidos numa notícia —
+  <https://www.idealista.pt/news/node/53525>), **Prisma** (73 apartamentos, mais de 40 M€ —
+  <https://www.idealista.pt/news/node/60540>), **Raiz** (57 apartamentos na Boavista) e
+  **Foliage**, o primeiro na Foz (28 apartamentos, 25 M€) — ECO, 08/05/2025
+  <https://eco.sapo.pt/2025/05/08/fercopor-desce-da-boavista-a-foz-com-novo-predio-de-luxo-no-porto/>.
+- **[Facto]** Site próprio com portefólio por projeto e **brochura digital em PDF** (ex.:
+  <https://fercopor.pt/wp-content/uploads/2026/01/Brochura-Digital-ENLIGHT_04.08.22.pdf>,
+  consultado em 2026-11-23). O PURE aparece também numa página de empreendimento da Engel &
+  Völkers; exclusividade **não confirmada**.
+- **[Inferência]** É o caso mais limpo de **lançamento com data marcada**: anuncia-se o dia em
+  que as vendas abrem, acumula-se procura, e quase tudo se vende em duas semanas.
+
+### 13.4 VIZTA — Pleno (Maia) e a marca CORE: preço de entrada baixo, extras à parte
+
+- **[Facto]** A VIZTA é a antiga **Nexity Portugal**, com 13 projetos em Lisboa, Porto e Algarve —
+  idealista <https://www.idealista.pt/news/node/60912>, <https://www.idealista.pt/news/node/68967>.
+- **[Facto] Pleno** (Quinta da Pícua, Águas Santas, Maia): primeira fase com **110 apartamentos
+  T1 a T4, de 57 a 106 m², de 224 420 € a 357 700 €** — idealista
+  <https://www.idealista.pt/news/node/68972>; **46% vendido ou reservado** no lançamento e, mais
+  tarde, quase 50% e **sem T1 disponíveis** — idealista <https://www.idealista.pt/news/node/70821>,
+  <https://www.idealista.pt/news/node/75163>; projeto total de ~380 casas e ~105 M€ (outra fonte
+  diz 97 M€) — iberian.property
+  <https://iberian.property/news/residential/vizta-invests-eur105m-in-new-residential-project-in-greater-porto/>;
+  entrega no 2.º semestre de 2027. **[Inferência]** Se os extremos de preço corresponderem aos
+  extremos de área, o Pleno anda entre ~3 400 e ~3 900 €/m² — perto da média do Porto, mas na Maia.
+- **[Facto] CORE by VIZTA**: marca de "habitação mais acessível" em que o comprador leva o
+  **essencial** e **a cozinha equipada e o aquecimento são opcionais**, para baixar o preço de
+  entrada; o CEO Fernando Vasco Costa resume-o como "o essencial a um preço mais baixo do que o
+  habitual"; o primeiro projeto CORE é em Leça da Palmeira — idealista
+  <https://www.idealista.pt/news/node/68967>, <https://www.idealista.pt/news/node/69347>; Jornal
+  Económico <https://jornaleconomico.sapo.pt/?p=1285003>.
+- **[Facto]** Usa **conteúdo patrocinado**: a NIT publicou "Encontrámos casas a menos de 300 mil
+  euros no segredo mais bem guardado do Porto" **em parceria com a VIZTA**
+  <https://www.nit.pt/fora-de-casa/na-cidade/encontramos-casas-a-menos-de-300-mil-euros-no-segredo-mais-bem-guardado-do-porto>.
+  **[Inferência]** Várias peças do idealista/news sobre o Pleno têm tom de conteúdo de marca
+  ("Pleno: o novo capítulo na habitação de qualidade…"); não confirmámos se são pagas.
+- **[Inferência]** O CORE é um **configurador ao contrário**: em vez de vender *upgrades* sobre um
+  preço alto, publica um preço baixo e põe à parte o que muitos compradores querem. É exatamente
+  a lógica que um promotor de Braga pode testar numa tipologia de entrada.
+
+### 13.5 DST Real Estate — o promotor com escala no Minho (Barcelos, Guimarães)
+
+- **[Facto]** O **dstgroup** (sede em Braga) entrou na promoção residencial com projetos em
+  Barcelos, Guimarães e Famalicão, e Porto e Grande Lisboa em análise — Dinheiro Vivo
+  <https://dinheirovivo.dn.pt/grupo-dst-entra-no-negocio-da-promocao-residencial--14963459.html>;
+  idealista <https://www.idealista.pt/news/node/52920>; dstgroup
+  <https://dstsgps.com/press-room/news/dst-invests-50-million-in-mereces-in-barcelos-and-guimaraes-/>.
+- **[Facto] Mereces 718** (Barcelinhos, Barcelos): quatro edifícios; segunda fase com 160
+  habitações e 30 M€; **preços desde 147 mil €** e 42 de 160 apartamentos vendidos nos primeiros
+  quatro lotes (lido em excerto de pesquisa) — idealista <https://www.idealista.pt/news/node/57810>.
+  **Salgueiral Residences** (Guimarães): seis edifícios de sete pisos, apresentado como habitação
+  de luxo; o valor de investimento diverge entre fontes (13 M€ num título, 20 M€ noutro excerto).
+- **[Facto] Canal**: há frações do Mereces 718 anunciadas pela **RE/MAX** (T4 novo, 218 m²,
+  490 000 €) <https://remax.pt/en/imoveis/venda-apartamento-t4-barcelos-barcelinhos/126281025-87>
+  e pela **Predimed** (penthouse T4, 199 m², 630 000 €) num classificado
+  <https://www.custojusto.pt/braga/imobiliario/apartamentos/penthouse-t4-nova-terraco-pa-45156196>
+  (consultados em 2026-11-23). **[Inferência]** Comercialização **aberta a várias redes**, o
+  oposto do co-exclusivo de duas ou três mediadoras que se vê no Porto premium.
+- **[Facto]** Em 2026 anunciou 200 habitações para **arrendamento a jovens** em Barcelos com renda
+  até 400 € — ECO, 14/05/2026
+  <https://eco.sapo.pt/2026/05/14/dst-leva-para-barcelos-200-habitacoes-com-rendas-ate-400-euros/>.
+- **[Não confirmado]** Site próprio do empreendimento, mapa de frações, diário de obra.
+- **[Inferência]** É o concorrente de promoção mais parecido com o Painel no território (mesmo
+  distrito, mesmas tipologias, construtora própria) e tem uma vantagem que o Painel não tem:
+  **escala de marca** (o grupo é conhecido em Braga por razões que não são habitação). Não mostra,
+  nas fontes, nenhum diferencial digital.
+
+### 13.6 Kronos Homes — referência nacional: arquitetura de autor como marca
+
+- **[Facto]** Promotora espanhola (40% da atividade do grupo em Portugal). **Distrikt** (Parque
+  das Nações): investimento acima de 125 M€ e vendas acima de 180 M€, concluído em outubro de
+  2025 — Forbes Portugal <https://www.forbespt.com/?p=172647>; **ZEN** (Paço do Lumiar) concluído
+  com **95% vendido** — Portugal Resident
+  <https://www.portugalresident.com/kronos-homes-completes-zen-in-lisbon-with-95-of-homes-sold/>;
+  cerca de **500 casas entregues desde 2024** (lido em excerto de pesquisa).
+- **[Facto]** Vale do Lobo Residences arrancou a obra em junho de 2025 com **40% reservado** —
+  idealista <https://www.idealista.pt/en/news/luxury-real-estate-in-portugal/2025/06/30/70188-the-residences-at-vale-do-lobo-40-reserved-as-portugal-s-top-new-luxury-development-breaks-ground>;
+  lançou também residências com a marca Marriott nos Salgados, desde 330 mil € — idealista
+  <https://www.idealista.pt/news/node/69723>.
+- **[Facto]** Usa **arquitetos de autor como identidade de marca** (Souto de Moura em The One,
+  RCR em Palmares) — Arquitectura Viva <https://arquitecturaviva.com/articulos/proyectos-de-kronos>.
+- **[Não confirmado]** App ou área de cliente em Portugal: não encontrámos nada.
+
+### 13.7 Casos curtos que ensinam alguma coisa
+
+- **Terrazza Park (Paranhos, Porto) — lançamento numa feira.** **[Facto]** O pré-lançamento foi no
+  **Imobinvest 2025** (Alfândega do Porto, 12–14/09/2025), liderado pela **Zome Matosinhos** com a
+  equipa de arquitetura MASSLAB, com **condições comerciais só para quem estava na feira**; em três
+  dias ficaram **26% das 23 frações reservadas** — idealista <https://www.idealista.pt/news/node/71729>
+  (peça com tom de conteúdo de marca; o promotor não é identificado no excerto).
+- **Coslos (Grande Porto) — o contraexemplo.** **[Facto]** Empresa familiar de construção e
+  promoção (fundada em 1996) que **decidiu não vender em planta**: vende o imóvel feito, com
+  "transparência e segurança"; o artigo sugere que quem vendeu em planta a preço fixo pode vir a
+  perder dinheiro com a subida de custos — idealista <https://www.idealista.pt/news/node/49908>
+  (data não visível; provavelmente c. 2021). **[Inferência]** Lembra que o preço de lançamento é um
+  risco do promotor: uma pré-venda precisa de cláusulas de revisão ou de margem.
+- **BluePeak (Porto) — o portal de cliente prometido.** **[Facto, autodeclarado]** A apresentação da
+  empresa (2024) anuncia um **portal de cliente** onde o comprador "adiciona serviços extra,
+  acompanha o progresso da obra, escolhe os acabamentos e consulta imagens 3D e de realidade
+  aumentada" <https://www.noticiasdeaveiro.pt/wp-content/uploads/2024/02/BluePeak-Apresentacao-da-Empresa-2.pdf>.
+  Não verificámos se existe; a empresa parece fazer sobretudo remodelação. É o **único** caso
+  português encontrado que promete área de cliente com acompanhamento de obra.
+- **Mexto (Lisboa).** **[Facto]** O'Living (Parque das Nações), dirigido à classe média e média-alta
+  nacional, com **85% das vendas a portugueses** — idealista <https://www.idealista.pt/news/node/59627>.
+  Sem projetos no Porto nas fontes.
+
+### 13.8 A grelha de 10 pontos aplicada
+
+Legenda: ✅ confirmado · ◐ parcial ou indireto · ❓ não verificado (o site não pôde ser lido e a
+imprensa não fala disso) · — não existe nas fontes.
+
+| Promotor (projeto) | 1 Site | 2 Mapa de frações | 3 Preço público | 4 Reserva online | 5 Diário de obra | 6 Área de cliente | 7 Configurador | 8 Lançamento | 9 Canais | 10 Captação | Vendas documentadas |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Avenue** (Bonjardim; NoLiPa) | ❓ | ❓ | ◐ intervalo e €/m² na imprensa (NoLiPa); plantas por fração em PDF no idealista | ❓ | ❓ | ❓ | ❓ | ✅ stand no local; escritório aberto todos os dias | ✅ co-exclusivo JLL + Predibisa + LUXIMOS (Bonjardim); Dils + JLL + RE/MAX Collection (NoLiPa) | ◐ imprensa e prémios | 80% em 7 meses (Bonjardim) |
+| **Bondstone** (Greenstone) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ evento com ~100 convidados e o arquiteto | ✅ co-exclusivo JLL + Predibisa; também na Sotheby's | ◐ imprensa e prémio | 30% antes da obra; >75% em obra |
+| **Fercopor** (PURE, Enlight…) | ✅ site do grupo, brochura PDF | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ data de arranque de vendas anunciada | ◐ E&V lista o PURE; exclusividade não confirmada | ◐ imprensa | 30 de 34 em duas semanas (PURE) |
+| **VIZTA** (Pleno; CORE) | ❓ | ❓ | ✅ intervalo publicado (224–358 mil €) | ❓ | ❓ | ❓ | ✅ CORE: cozinha e aquecimento opcionais | ◐ fases (Pleno → Pleno Jardim) | ❓ | ✅ conteúdo patrocinado (NIT) | 46% no lançamento |
+| **DST Real Estate** (Mereces 718) | ❓ | ❓ | ◐ "desde 147 mil €" | ❓ | ❓ | ❓ | ❓ | ◐ por fases e lotes | ✅ rede aberta (RE/MAX, Predimed) | ❓ | 42 de 160 nos primeiros lotes |
+| **Kronos Homes** (Distrikt, ZEN) | ❓ | ❓ | ◐ "desde" nalguns projetos | ❓ | ❓ | ❓ | ❓ | ✅ arquiteto de autor; marca hoteleira | ❓ | ◐ imprensa | 95% vendido à conclusão (ZEN) |
+| **Terrazza Park** (Zome Matosinhos) | ❓ | ◐ 23 frações em tabela | ❓ | — | ❓ | ❓ | ❓ | ✅ pré-lançamento em feira com condições exclusivas | ✅ rede (ZOME) a liderar | ✅ feira | 26% em três dias |
+| **BluePeak** | ❓ | ❓ | ❓ | ❓ | ◐ prometido | ◐ prometido (portal) | ◐ prometido (acabamentos, 3D, RA) | ❓ | ❓ | ❓ | — |
+| **Painel Temático (hoje)** | ✅ | ◐ dados no CRM, não publicados | ❓ | — | ◐ atualizações de obra no CRM | — | — | ❓ | direto | site + CRM próprio | — |
+
+**[Inferência]** As colunas 2, 4, 5 e 6 (mapa de frações, reserva online, diário de obra, área de
+cliente) ficaram vazias em **todos** os promotores. A ausência na imprensa **não prova** que não
+existam nos sites — mas mostra que **nenhum destes promotores os usa como argumento de venda**. Os
+argumentos que a imprensa repete são outros: ritmo de vendas ("X% vendido"), arquiteto, prémio,
+evento de lançamento, co-exclusivo com marcas de mediação.
+
+**O que isto significa para o Painel Temático (secção 13)**
+- **Copiar o calendário, não o luxo.** Os casos de sucesso documentados vendem 25–50% **antes** da
+  obra: Greenstone (30%), VIZTA (46%), Terrazza Park (26% numa feira), Fercopor (30 de 34 em duas
+  semanas). O padrão repete-se: **anúncio de data → lista de interessados → evento ou feira →
+  condições de lançamento com prazo → reserva**. Um projeto do Painel deve ter este guião escrito
+  antes do primeiro anúncio, e o CRM deve medir a lista de espera por tipologia.
+- **Publicar o preço.** Os casos com preço público (NoLiPa, Pleno, Mereces) são os que a imprensa
+  cita com números. Uma tabela de frações com preço por fração é barata de fazer e o comprador
+  português de obra nova compara por €/m².
+- **Testar uma tipologia "essencial" ao estilo CORE**: preço base sem cozinha equipada ou sem uma
+  opção cara, com os extras como lista de preços à parte. Em Braga, onde o m² vale ~60% do Porto,
+  o preço de entrada decide quem chega a visitar.
+- **O espaço livre é o pós-venda digital.** Ninguém mostra mapa de frações em tempo real, reserva
+  online, diário de obra ou área de cliente (só a BluePeak o promete). O Painel tem os dados no CRM;
+  **ser o primeiro do Minho a publicá-los** é um diferencial que não custa obra nova.
+- **Canal**: no Porto premium, o promotor entrega o lançamento a duas ou três mediadoras em
+  co-exclusivo; no Minho (DST), o produto vai para a rede aberta. O meio-termo que serve o Painel é
+  **um ou dois parceiros com regras escritas**, mantendo o canal direto como principal (secção 16,
+  linha 8).
+- **Prémio regional ao alcance**: o **Prémio Nacional do Imobiliário** tem uma categoria **Habitação
+  Norte** (Bonjardim em 2025, Greenstone em 2026). Uma obra entregue do Painel pode candidatar-se —
+  é prova social que as redes não dão.
 
 **Grelha de análise proposta** (a mesma para todos, para o resultado ser comparável):
 

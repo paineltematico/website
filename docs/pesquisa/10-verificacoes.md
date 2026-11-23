@@ -81,3 +81,38 @@ Fontes:
 - Hansberry Tomkiel — *European Commission orders interim measures against Meta's exclusion of rival AI chatbots from WhatsApp* — <https://hansberrytomkiel.com/en/european-commission-orders-interim-measures-against-metas-exclusion-of-rival-ai-chatbots/> (lido em excerto)
 - learnmind.ai — *WhatsApp Business AI Chatbot Policy 2026, Clause by Clause* — <https://www.learnmind.ai/blog-post/whatsapp-business-ai-chatbot-2026-policy-guide> (fonte secundária; lido em excerto)
 
+## 3. AI Act (Regulamento (UE) 2024/1689) — art. 50.º, art. 4.º e o "Digital Omnibus"
+
+**Veredicto: CORRIGIDO** (o calendário do cap. 06 estava certo; o Omnibus **foi aprovado e
+publicado** — é o **Regulamento (UE) 2026/1744** — e, ao contrário do que a proposta fazia esperar,
+**não adiou o dever de dizer "isto é uma IA"** nem retirou o dever de literacia às empresas).
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Art. 4.º (literacia em IA) — data | Aplica-se desde **02/02/2025** | CONFIRMADO |
+| Art. 4.º depois do Omnibus | **Continua a obrigar fornecedores e responsáveis pela implantação** (*deployers* — a Painel Temático é um). A proposta da Comissão passava o dever para a Comissão e os Estados-Membros; o texto final **rejeitou isso** e acrescentou-lhes um papel de apoio. O padrão **suavizou-se**: em vez de "assegurar um nível suficiente de literacia", pede-se que se tomem medidas para a apoiar, e o texto diz que não obriga a garantir um nível específico de literacia de cada pessoa | CORRIGIDO (o cap. 06 dizia "suaviza o art. 4.º" — certo, mas **não o elimina**); várias fontes (CDT, IAPP, CMS), lido em excerto |
+| Art. 50.º (transparência) — data | **02/08/2026**, já em aplicação | CONFIRMADO |
+| Art. 50.º, n.º 1 (informar que se fala com uma IA) e n.ºs 3 e 4 (reconhecimento de emoções, *deep fakes*, texto de interesse público) | **Não foram adiados**: aplicam-se desde 02/08/2026, sem período de graça | CONFIRMADO em várias fontes (aiactblog.nl, Usercentrics, FPF), lido em excerto |
+| Art. 50.º, n.º 2 (marcação legível por máquina do conteúdo sintético) | Período transitório **até 02/12/2026**, só para sistemas colocados no mercado **antes** de 02/08/2026 | lido em excerto (FPF, aiactblog.nl) |
+| Omnibus — estado | **Aprovado.** Parlamento a 16/06/2026; Conselho em fim de jun./início de jul. de 2026 (as fontes divergem: 29/06 ou 08/07); **publicado no JOUE a 24/07/2026, em vigor desde 27/07/2026**, como Regulamento (UE) 2026/1744 | CONFIRMADO em várias fontes secundárias; **não li o JOUE** |
+| Alto risco (contexto) | Anexo III adiado para **02/12/2027**; Anexo I para **02/08/2028** | lido em excerto |
+
+**O que isto muda para o produto:** o chat do site e o WhatsApp **têm de dizer desde a primeira
+mensagem que é uma IA** — obrigação em vigor hoje, sem adiamento. E a empresa tem de ter **alguma
+medida de literacia** para quem usa a IA (formação curta, registo de quem a fez) — dever mais leve
+do que em 2024, mas existente.
+
+Fontes:
+- aiactblog.nl — *Article 50 transparency obligations: the AI Act deadline of 2 August 2026 that has not been postponed* — <https://www.aiactblog.nl/en/posts/article-50-transparency-deadline-2-august-2026> — 2026 (lido em excerto)
+- Future of Privacy Forum — *The AI Act implementation timeline: What changes under the AI Omnibus?* — <https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/> — 2026 (lido em excerto)
+- Usercentrics — *EU AI Act Deal: Digital Omnibus Now in Force* — <https://usercentrics.com/knowledge-hub/eu-ai-act-high-risk-delay-article-50-transparency-consent/> (lido em excerto)
+- Gibson Dunn — *EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes* — <https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/> (lido em excerto)
+- Lewis Silkin — *Council of the EU gives AI Omnibus final green light* — <https://lewissilkin.com/insights/2026/07/09/council-of-the-eu-gives-ai-omnibus-final-green-light-102nbb1> — 09/07/2026 (lido em excerto)
+- Cuatrecasas — *Digital Omnibus on AI has been published* — <https://www.cuatrecasas.com/en/spain/intellectual-property/art/digital-omnibus-ai-has-been-published> — jul/2026 (lido em excerto)
+- CDT — *Final AI Omnibus Text Dilutes Fundamental Rights Protections* — <https://cdt.org/?p=11417> — 2026 (lido em excerto)
+- IAPP — *EU AI Act literacy changes may complicate more than simplify compliance* — <https://iapp.org/news/a/eu-ai-act-literacy-changes-may-complicate-more-than-simplify-compliance> (lido em excerto)
+- CMS — *Guide on AI Omnibus (July 2026)* — <https://cms.law/en/content/download/886967/file/Guide%20on%20AI%20Omnibus_July%202026.pdf> (lido em excerto)
+
+**Antes de citar:** abrir o Regulamento (UE) 2026/1744 no EUR-Lex (não consegui chegar ao texto
+oficial) e confirmar a nova redação do art. 4.º.
+
