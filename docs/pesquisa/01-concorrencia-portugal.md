@@ -447,21 +447,135 @@ preço médio da Century 21 (278 954 €) não são comparáveis entre si sem sa
 
 ---
 
-## 12. Boutiques e mediadoras de referência — por verificar
+## 12. Boutiques de referência
 
-> ⚠️ Mesma lacuna: **não foi possível pesquisar** prémios (Prémios SIL, Portugal Real Estate
-> Awards) nem rankings de mediadores (idealista, Imovirtual). Fica a lista de **candidatas a
-> estudar**, sem afirmações sobre elas: Porta da Frente Christie's, JLL Residential, Castelhana,
-> Quintela + Penalva | Knight Frank, Savills Portugal e Fine & Country Portugal, e as vencedoras de
-> prémios no Norte (Porto e Braga), que não conseguimos identificar.
+> **Sessão 2 (2026-11-23).** Pesquisadas pelo motor de busca. O critério foi: (a) quem
+> **comercializa os empreendimentos de referência do Norte** (secção 13) e (b) quem ganhou
+> **prémios de marketing ou de agência** em 2025–2026. Porta da Frente Christie's (Lisboa) ficou de
+> fora: o lado Christie's no Norte é a LUXIMOS. **Não encontrámos nenhuma mediadora de Braga
+> distinguida por um prémio do setor** — só prémios internos de rede (ex.: Platinum/Gold da RE/MAX
+> atribuídos a equipas de Braga) e a ZOME Maximinos a citar o título de "Melhor Empresa para
+> Trabalhar no Setor Imobiliário" da marca (página da agência, consultado em 2026-11-23).
 
-O que procurar em cada uma (grelha para a pesquisa seguinte): ficha de imóvel (fotos, vídeo,
-planta, tour 3D), preço público ou "sob consulta", captação de proprietários, newsletter,
-conteúdos de bairro, relatórios de mercado próprios, prova social, tempo de resposta a um lead.
+### 12.0 O facto estrutural: as boutiques do Norte estão a ser compradas
 
-**O que isto significa para o Painel Temático (provisório)**: as boutiques interessam como
-referência de **apresentação** (fotografia, texto, ficha) e de **atendimento** (um interlocutor,
-resposta rápida) — os dois pontos em que uma equipa pequena pode igualar uma marca grande.
+- **[Facto]** A **Predibisa** (Porto) foi comprada pela **Savills** a 1/06/2023 e passou a chamar-se
+  "Savills incorporating Predibisa" a 3/07/2023, mantendo os dois nomes para deixar clara a equipa
+  local — Savills <https://en.savills.pt/insight-and-opinion/savills-news/348973/predibisa-rebrands-to-savills>.
+- **[Facto]** A **Castelhana** (Lisboa, com carteira também no Porto e no Algarve) foi a porta de
+  entrada da **Dils** (italiana) em Portugal em 2024 — The Portugal News, 14/05/2024
+  <https://ftp.theportugalnews.com/news/2024-05-14/dils-enters-the-portuguese-market-through-castelhana/88855>;
+  a Dils comprou depois a Lucas Fox em Espanha (2025, segundo conteúdo patrocinado no ECO) e
+  **reforçou-se no Porto em outubro de 2025 "para aproximação a investidores no Norte e Centro"** —
+  ECO, 16/10/2025 <https://eco.sapo.pt/2025/10/16/imobiliaria-dils-reforca-no-porto-para-aproximacao-a-investidores-no-norte-e-centro/>.
+- **[Facto]** A **Seed Real Estate** (Lisboa) foi integrada na Coldwell Banker como **Coldwell
+  Banker Seed** — idealista <https://www.idealista.pt/news/node/73503> (data não visível) — e a
+  Coldwell Banker passou a ser da **Compass** a 9/01/2026 (secção 6).
+- **[Inferência]** No Norte, quem comercializa empreendimentos premium já são sobretudo
+  **marcas internacionais com equipa local** (JLL, Savills/Predibisa, Knight Frank via Q+P,
+  Christie's via LUXIMOS, Dils). Para o Painel, isto quer dizer que os parceiros de lançamento
+  "boutique" disponíveis no Porto são poucos e grandes; em Braga, a boutique local independente
+  com marketing de empreendimentos **não apareceu** nas pesquisas.
+
+### 12.1 LUXIMOS Christie's International Real Estate (Porto)
+
+- **[Facto]** Afiliada Christie's no Porto, presente nos lançamentos de referência da cidade:
+  co-exclusivo do **Bonjardim** (com JLL e Predibisa) e do **Fernão Magalhães 127** (com JLL e
+  Savills) — JLL newsroom
+  <https://www.jll.com/pt-pt/newsroom/fernao-magalhaes-127-condominio-de-excelencia-chega-ao-porto-com-a-jll-savills-e-luximos-christie>.
+- **[Facto]** **Antas Atrium**: a primeira fase ganhou o **Prémio Nacional do Imobiliário 2024**; a
+  segunda fase (55 M€ previstos) está em comercialização pela Christie's International Real Estate
+  — idealista, "Conforto, privacidade e segurança: os pilares do Antas Atrium"
+  <https://www.idealista.pt/news/etiquetas/casas-no-porto?page=2> (lido em excerto de pesquisa).
+  **[Inferência]** No Porto, a afiliada Christie's é a LUXIMOS; o excerto não a nomeia.
+- **[Facto]** **Lançamentos internacionais**: o **Val D'Ouro Palace** (palacete do séc. XVIII no
+  centro histórico, "reservado a apenas 16 famílias") e o **SeaHaus Atlantik Residenz** (Foz) foram
+  apresentados em **Manhattan**, no evento "An Evening in Portugal" da Christie's com a LUXIMOS; o
+  Val D'Ouro é comercializado em conjunto com a Savills e a Portugal Sotheby's — blogue "Sublime"
+  da LUXIMOS, 16/09/2025
+  <https://www.luximos.pt/en/news/sublime-blog/2025/09/16/autumn-in-porto-two-unmissable-luxury-launches>;
+  idealista <https://www.idealista.pt/news/node/71725>, <https://www.idealista.pt/news/node/71728>.
+- **[Facto]** O site tem **blogue editorial próprio** ("Sublime") e convite a **pedido de reunião
+  virtual** em cada página (consultado em 2026-11-23, via excerto).
+
+### 12.2 Savills incorporating Predibisa (Porto)
+
+- **[Facto]** Co-exclusiva do **Bonjardim** e do **Greenstone** enquanto Predibisa, e do **Fernão
+  Magalhães 127** já como Savills (fontes em 12.0, 12.1 e 13.2).
+- **[Inferência]** É o caso de uma boutique portuense que **ganhou escala ao vender-se**: a equipa
+  local manteve o nome porque era ele que os promotores do Porto conheciam.
+
+### 12.3 Quintela + Penalva | Knight Frank (Porto, Lisboa, Estoril)
+
+- **[Facto]** Mediadora do segmento de luxo, com parceria com a Knight Frank desde 2021; abriu loja
+  no Porto em 2023 — ECO, 13/07/2023
+  <https://eco.sapo.pt/2023/07/13/quintela-e-penalva-abre-loja-no-porto-e-escritorio-em-lisboa/>.
+- **[Facto]** Em 2025: **40 vendas acima de 1 M€**; **60–65% do que vende no Porto está em planta
+  ou em início de obra**; os empreendimentos novos ficam **"no mercado entre dois e seis meses"**,
+  com T1 e T2 a vender mais depressa — Dinheiro Vivo (fonte em 13.0; lido em excerto de pesquisa).
+- **[Facto]** Tem um **Departamento de Empreendimentos** (diretor: Pedro Bettencourt) e comercializa
+  em exclusivo o **Porto Gardens** (apartamentos e *townhouses* perto da Boavista) — idealista
+  <https://www.idealista.pt/news/node/73980>.
+
+### 12.4 JLL Residential (Porto)
+
+- **[Facto]** Não é uma boutique, mas é **a peça comum** dos lançamentos premium do Porto: Bonjardim,
+  Greenstone, Fernão Magalhães 127, **Condominhas Urban Living** (co-exclusivo, entre a Foz e o
+  centro histórico) e, em Lisboa, NoLiPa — JLL newsroom
+  <https://www.jll.com/pt-pt/newsroom/condominhas-urban-living-e-uma-nova-referencia-residencial-entre-a-foz-do-douro-e-o-centro-historico-do-porto>.
+  A equipa do Porto chegou às **40 pessoas** em 2025 — JLL Porto 2025 Highlights
+  <https://www.jll.com/pt-pt/newsroom/jll-porto-2025-highlights> (lido em excerto de pesquisa).
+- **[Facto]** O método que aparece nos comunicados: **evento de apresentação** (Greenstone),
+  **stand de vendas no local** (Bonjardim), **co-exclusivo** com uma ou duas casas locais, e
+  comunicados com a percentagem vendida a cada fase.
+
+### 12.5 Dils (ex-Castelhana)
+
+- **[Facto]** Faz a **intermediação e o posicionamento estratégico** do **Central Freixo** (Porto,
+  projeto de Souto de Moura) — Dils <https://dils.com/en/news/porto-looks-to-the-future-with-central-freixo-the-project-designed-by-souto-de-moura-takes-shapedils-is-in-charge-of-the-brokerage-services-and-strategic-positioning-of-the-development>;
+  co-comercializa o NoLiPa (13.1); tem lojas em Comporta, Estoril e Porto (conteúdo patrocinado).
+- **[Facto]** Comunica com **conteúdo de marca pago** de forma sistemática: pelo menos cinco peças
+  "BRANDS' ECO" entre setembro e dezembro de 2025 (ex.: <https://eco.sapo.pt/2025/09/25/dils-um-ano-a-transformar-o-imobiliario-em-portugal/>).
+
+### 12.6 Prémios de marketing: Seed (Lisboa) e Fine & Country (Algarve)
+
+- **[Facto]** **Seed Real Estate** ganhou, dois anos seguidos, *Best Real Estate Agency (Single
+  Office)*, *Best Real Estate Marketing* e *Best Real Estate Website* em Portugal nos International
+  Property Awards; o método descrito é **fotografia profissional e vídeo cinematográfico para todos
+  os imóveis** — The Portugal News, 18/04/2025
+  <https://www.theportugalnews.com/news/2025-04-18/seed-real-estate-an-awarded-strategy/96952>
+  (peça com tom promocional). Integrada na Coldwell Banker com **16 empreendimentos** em carteira,
+  carteira avaliada em 206 M€, 15 profissionais em sete línguas — idealista
+  <https://www.idealista.pt/news/node/73503>.
+- **[Facto]** **Fine & Country Portugal** ganhou *Best Real Estate Marketing Portugal* e foi
+  distinguida em *Real Estate Agency Website Portugal* nos International Property Awards 2026
+  (cerimónia a 22/10/2026, em Londres); o *managing partner* Nuno Durão resume a abordagem como
+  apresentar cada casa e cada lugar **como uma história** — Portugal Resident
+  <https://www.portugalresident.com/fine-country-portugal-best-real-estate-marketing-award-2026/>.
+  Atua sobretudo no Algarve.
+- **[Não confirmado]** A **WhiteOne – Mediação Imobiliária** aparece como vencedora de *Best Real
+  Estate Agency 2–4 Offices Portugal* 2025–2026 (excerto de pesquisa); localização não confirmada.
+
+O que procurar em cada uma (grelha da sessão 1, mantém-se para quando os sites puderem ser lidos):
+ficha de imóvel (fotos, vídeo, planta, tour 3D), preço público ou "sob consulta", captação de
+proprietários, newsletter, conteúdos de bairro, relatórios de mercado próprios, prova social, tempo
+de resposta a um lead.
+
+**O que isto significa para o Painel Temático (secção 12)**
+- **A bitola de apresentação está escrita nos prémios**: fotografia profissional e vídeo para
+  **cada** imóvel (Seed), cada casa contada **como uma história** do sítio (Fine & Country), blogue
+  editorial próprio (LUXIMOS). Para um promotor pequeno, o equivalente é: um vídeo e uma sessão de
+  fotografia por empreendimento e por fase de obra, e um texto de bairro (Lamaçães, Gualtar,
+  Merelim) escrito por quem lá constrói.
+- **Se o Painel quiser um parceiro de lançamento**, os candidatos naturais são três perfis:
+  a **ZOME** (Braga e Matosinhos; já lidera pré-lançamentos em feira, 13.7), a **Engel & Völkers
+  Braga-Guimarães/Minho** (premium, secção 7) ou, para um produto mais alto, uma das casas do
+  Porto (**Q+P | Knight Frank**, com departamento de empreendimentos). Co-exclusivo **com prazo**
+  e regras de lead no CRM, nunca exclusivo em aberto.
+- **Evitar** o conteúdo patrocinado genérico (Dils, VIZTA) como substituto de prova: funciona
+  para notoriedade, mas o comprador de Braga confia mais numa obra que pode visitar.
+- **Oportunidade**: não há uma boutique de Braga com marketing premiado. O lugar de "quem melhor
+  apresenta casas novas em Braga" está vago — e pode ser ocupado pelo próprio promotor.
 
 ---
 

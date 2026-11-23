@@ -116,3 +116,65 @@ Fontes:
 **Antes de citar:** abrir o Regulamento (UE) 2026/1744 no EUR-Lex (não consegui chegar ao texto
 oficial) e confirmar a nova redação do art. 4.º.
 
+## 4. CNPD — orientações sobre chatbots/IA, marketing direto e cookies
+
+**Veredicto: CONFIRMADO quanto ao marketing direto; CORRIGIDO quanto a IA e cookies** (não existe,
+nos resultados encontrados, **nenhuma orientação própria da CNPD sobre chatbots ou IA**, nem uma
+**diretriz da CNPD sobre cookies** — o que há são documentos do CEPD que a CNPD divulga, e uma nota de
+2021 sobre cookies em sites de entidades públicas).
+
+| Tema | O que existe | Estado |
+|---|---|---|
+| **Marketing direto** | **Diretriz/2022/1 sobre comunicações eletrónicas de marketing direto**, aprovada em **janeiro de 2022** (o cap. 06 diz 25/01/2022; o mês confirma-se no Relatório de 2022, o dia não o li). Diz que email, SMS/MMS e chamadas a pessoas singulares caem na **Lei 41/2004** (lei especial), com o RGPD no resto; que só há **duas bases**: interesse legítimo (cliente já existente, produtos análogos) e **consentimento**; e que o consentimento tem de ser **expresso, prévio** ao envio e precedido da informação do art. 13.º do RGPD | CONFIRMADO (lido em excerto) |
+| **Chatbots / IA** | **Nenhuma orientação nacional específica.** A CNPD divulgou o guia do CEPD *"AI Privacy Risks & Mitigations – Large Language Models"* (abril de 2025, só em inglês); emitiu em **maio de 2025** um alerta sobre o uso de dados pessoais pela Meta para treino de IA; aderiu em **fev/2026** a uma declaração conjunta de 61 autoridades sobre imagens geradas por IA; e o Plano de Atividades 2026 prevê coordenar o grupo de IA generativa da Rede Ibero-americana. A referência europeia útil é o **Parecer 28/2024 do CEPD** (modelos de IA e dados pessoais, dez/2024), que existe em PT | CORRIGIDO — não há "orientações da CNPD sobre chatbots" a citar |
+| **Cookies** | **Não há diretriz da CNPD sobre cookies.** O Relatório de 2022 diz que a aprovação de uma diretriz de cookies foi **adiada** enquanto o CEPD analisava o tema; a página de diretrizes da CNPD lista a Diretriz/2022/1 (marketing) e a Diretriz/2023/1 (medidas de segurança), sem cookies. Existe uma **"Nota da CNPD sobre cookies" de 25/06/2021**, sobre sites de **entidades públicas**. Para o desenho do banner, a referência é europeia (CEPD: orientações sobre consentimento e sobre *dark patterns*; Comissão: retirar o consentimento tem de ser tão fácil como dá-lo) | CORRIGIDO |
+| Volume de queixas | A CNPD refere **mais de 2 500 queixas** sobre comunicações promocionais não solicitadas em 2023–2024 | lido em excerto |
+
+**O que isto muda para o produto:** para o marketing por email/WhatsApp, a Diretriz/2022/1 é a regra
+a seguir (consentimento expresso e prévio para quem não é cliente). Para a IA, as orientações a
+seguir são as do **CEPD**, não da CNPD. No banner de cookies, botões **Aceitar / Rejeitar / Configurar
+com o mesmo destaque** — é o que o CEPD pede, ainda que a CNPD não o tenha escrito numa diretriz.
+
+Fontes:
+- CNPD — *DIRETRIZ/2022/1 sobre comunicações eletrónicas de marketing direto* (PDF) — <https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121958> — jan/2022 (lido em excerto)
+- CNPD — página *Diretrizes* — <https://www.cnpd.pt/decisoes/diretrizes/> — consultada a 23/11/2026 (lido em excerto)
+- CNPD — *Relatório de atividades de 2022* — <https://www.cnpd.pt/media/tutpevyh/relato-rio_2022.pdf> (lido em excerto)
+- CNPD — *Nota da CNPD sobre cookies* — <https://www.cnpd.pt/comunicacao-publica/noticias/nota-da-cnpd-sobre-cookies/> — 25/06/2021 (data via DataGuidance: <https://www.dataguidance.com/news/portugal-cnpd-issues-note-use-cookies-announcing>; lido em excerto)
+- CNPD — *Comunicações promocionais não solicitadas e cookies destacados em conferência de marketing direto* — <https://www.cnpd.pt/comunicacao-publica/noticias/comunicacoes-promocionais-nao-solicitadas-e-cookies-destacados-em-conferencia-de-marketing-direto/> (lido em excerto)
+- CNPD — *Guia do Comité Europeu apresenta metodologia para gerir riscos de privacidade em sistemas de IA* — <https://www.cnpd.pt/comunicacao-publica/noticias/guia-do-comite-europeu-apresenta-metodologia-para-gerir-riscos-de-privacidade-em-sistemas-de-ia/> — 2025 (lido em excerto)
+- CNPD — *Relatório de Atividades 2025* (aprovado a 24/03/2026) — <https://www.cnpd.pt/media/v50frkwy/relatorio-atividades-de-2025.pdf> (lido em excerto)
+- CNPD — *Plano Anual de Atividades 2026* — <https://www.cnpd.pt/media/hvoac3wj/cndp_paa_2026_versao_digital.pdf> (lido em excerto)
+- CNPD — *CNPD assina declaração internacional sobre riscos de privacidade da IA* — <https://www.cnpd.pt/comunicacao-publica/noticias/cnpd-assina-declaracao-internacional-sobre-riscos-de-privacidade-da-ia/> — fev/2026 (lido em excerto)
+- CEPD — *Parecer 28/2024 sobre modelos de IA* (PT) — <https://www.edpb.europa.eu/system/files/documents/2025-05/edpb_opinion_202428_ai-models_pt.pdf> (lido em excerto)
+- Comissão Europeia, A sua Europa — *Privacidade em linha* — <https://europa.eu/youreurope/business/growing/digitalising/online-privacy/index_pt.htm> (lido em excerto)
+
+## 5. Licença AMI 25031 — de que entidade é?
+
+**Veredicto: NÃO CONFIRMADO.** Nenhuma fonte pública indexada liga o número 25031 a uma entidade,
+e o registo oficial (pesquisa de empresas de mediação no IMPIC / gov.pt) não é legível a partir deste
+ambiente. O que se apurou:
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Quem emite e onde se confirma | O **IMPIC** emite a licença AMI (Lei 15/2013); confirma-se no serviço público **"Pesquisar uma empresa de mediação imobiliária"** (gov.pt / IMPIC) | CONFIRMADO (lido em excerto) |
+| Há alguma página que associe "AMI 25031" a uma entidade? | **Não** — três pesquisas com o número em vários formatos não devolveram nenhum registo, lista ou anúncio com ele, além do próprio site da empresa | NÃO CONFIRMADO |
+| O que mostra o site público atual da empresa | O site **paineltematico.pt** mostra **"AMI 25031"** no rodapé e nos contactos — ou seja, é a própria empresa a declará-lo, não um registo independente | lido em excerto |
+| Dados da empresa (registos comerciais de terceiros) | **Painel Temático, Lda.**, NIF/NIPC **510053807**, sede em Braga, constituída em fins de 2011; CAE principal **68100** (compra e venda de bens imobiliários) | lido em excerto (Racius, Empresite/Jornal de Negócios, imoveisportugal.info) — fontes coerentes entre si |
+| A "Painel Temático" tem licença AMI publicada? | **Não foi possível confirmar** em fonte oficial | NÃO CONFIRMADO |
+| Nota de contexto | Uma lista de imobiliárias de Braga (out/2026) dá a outra agência o n.º **25040** — números desta ordem existem e são atribuídos a agências de Braga, mas isto **não prova** a quem pertence o 25031 | lido em excerto |
+
+**Observação que pesa na decisão:** o CAE principal registado (68100, compra e venda de imóveis) não é
+o da mediação (68311). Isso não impede ter licença AMI (o CAE secundário pode cobrir a mediação), mas
+reforça a necessidade da verificação P0 já pedida no cap. 06: **abrir a pesquisa do IMPIC com o NIPC
+510053807** e confirmar (a) que a licença 25031 existe e está ativa, (b) que está em nome deste NIPC.
+Se não estiver, o número sai do rodapé até haver licença própria.
+
+Fontes:
+- gov.pt — *Guia: Mediação imobiliária* — <https://www.gov.pt/guias/mediacao-imobiliaria> (lido em excerto)
+- Doutor Finanças — *Licença de mediação imobiliária: como obter e quais os requisitos* — <https://www.doutorfinancas.pt/imobiliario/licenca-de-mediacao-imobiliaria-como-obter-e-quais-os-requisitos/> (lido em excerto)
+- Painel Temático — site público — <https://www.paineltematico.pt/> — consultado em excerto a 23/11/2026
+- Racius — *Painel Temático – Lda* — <https://www.racius.com/painel-tematico-lda/> (lido em excerto)
+- Empresite (Jornal de Negócios) — *Painel Temático, Lda* — <https://empresite.jornaldenegocios.pt/PAINEL-TEMATICO.html> (lido em excerto)
+- imoveisportugal.info — *Painel Temático – Lda.* — <https://imoveisportugal.info/empresa-painel-tematico-em-braga-17479> (lido em excerto)
+- Viver em Braga — *Imobiliárias em Braga: lista 2026* — <https://www.viverembraga.com/post/lista-de-imobiliarias-em-braga/38/> — out/2026 (lido em excerto)
+
