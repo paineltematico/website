@@ -86,6 +86,19 @@
     - **Anúncios principais com erros:** o de Merelim tem a morada de Esporões.
     - **Cron:** o follow-up das avaliações nunca corre em produção.
 
+## 1-A. O que a verificação (cap. 10) confirmou ou corrigiu
+
+| Ponto | Resultado | Consequência |
+|---|---|---|
+| **Licença AMI 25031** | **Não confirmada.** Nenhuma fonte pública a liga a uma entidade. O registo comercial dá à Painel Temático, Lda. (NIPC 510053807) o CAE 68100, compra e venda, e não o 68311 da mediação | Confirmar no IMPIC **antes** de continuar a angariar imóveis de terceiros ou a anunciar arrendamentos |
+| **Comunicação ao IMPIC** | Confirmada: é **trimestral**, e os promotores que vendem imóveis próprios **estão abrangidos** | O CRM tem de guardar o KYC e exportar as transações (fase 1.6 da proposta) |
+| **AI Act art. 50.º, n.º 1** («sou uma IA») | Aplica-se desde 02/08/2026, **sem adiamento**. O Omnibus (Reg. (UE) 2026/1744) só deu transição ao n.º 2 | O aviso tem de existir no agente desde o primeiro dia |
+| **CNPD** | Diretriz/2022/1 confirmada: quem não é cliente tem de dar consentimento prévio e expresso para marketing. **Não há** orientação sobre chatbots nem sobre cookies | Seguir as orientações do CEPD para os cookies e para a IA |
+| **WhatsApp Cloud API** | Cobra-se por mensagem. **Desde 01/10/2026 as mensagens de serviço na janela de 24 h também são pagas**, ao preço de utility (Portugal está em «Rest of Western Europe», ≈ 0,014 € por utility e ≈ 0,049 € por marketing, segundo terceiros) | O custo é baixo mas não é zero. Conta-se no orçamento da fase 4 |
+| **Meta e chatbots de IA** | A proibição atinge só a IA de uso geral. **Um bot da empresa sobre o próprio negócio é permitido**, e no EEE a proibição está suspensa por medidas cautelares | O agente do Painel Temático pode ir para o WhatsApp |
+| **Crédito** | Taxa de esforço de 45% desde 01/08/2026; garantia pública para jovens até 31/12/2026 com imóvel até 450 000 € (prorrogação não confirmada); IMT Jovem com isenção total até 330 539 € | Ter estes limiares em conta na tabela de preços |
+| **Garantia de obra nova** (DL 84/2021) | 10 anos para defeitos estruturais e 5 anos para o resto | Usar como argumento de venda; ninguém o destaca (cap. 01) |
+
 ## 2. As 5 decisões que recomendo
 
 | # | Decisão | Porquê | Custo de não decidir |

@@ -630,9 +630,12 @@ informação mínima por fração.
 > **comercializa os empreendimentos de referência do Norte** (secção 13) e (b) quem ganhou
 > **prémios de marketing ou de agência** em 2025–2026. Porta da Frente Christie's (Lisboa) ficou de
 > fora: o lado Christie's no Norte é a LUXIMOS. **Não encontrámos nenhuma mediadora de Braga
-> distinguida por um prémio do setor** — só prémios internos de rede (ex.: Platinum/Gold da RE/MAX
-> atribuídos a equipas de Braga) e a ZOME Maximinos a citar o título de "Melhor Empresa para
-> Trabalhar no Setor Imobiliário" da marca (página da agência, consultado em 2026-11-23).
+> distinguida por um prémio do setor** — só prémios internos de rede (ex.: Platinum 2024 e Gold 2023
+> da RE/MAX na página de uma consultora de Braga <https://www.remax.pt/pt/agente/elvira-machado/123331167>)
+> e a ZOME Maximinos (Braga Urbana) a citar o título de "Melhor Empresa para Trabalhar no Setor
+> Imobiliário" da marca
+> <https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/braga-urbana-sociedade-de-mediao-imobiliria-lda-ID5543275>
+> (consultados em 2026-11-23).
 
 ### 12.0 O facto estrutural: as boutiques do Norte estão a ser compradas
 
@@ -991,7 +994,7 @@ imprensa não fala disso) · — não existe nas fontes.
 | **VIZTA** (Pleno; CORE) | ❓ | ❓ | ✅ intervalo publicado (224–358 mil €) | ❓ | ❓ | ❓ | ✅ CORE: cozinha e aquecimento opcionais | ◐ fases (Pleno → Pleno Jardim) | ❓ | ✅ conteúdo patrocinado (NIT) | 46% no lançamento |
 | **DST Real Estate** (Mereces 718) | ❓ | ❓ | ◐ "desde 147 mil €" | ❓ | ❓ | ❓ | ❓ | ◐ por fases e lotes | ✅ rede aberta (RE/MAX, Predimed) | ❓ | 42 de 160 nos primeiros lotes |
 | **Kronos Homes** (Distrikt, ZEN) | ❓ | ❓ | ◐ "desde" nalguns projetos | ❓ | ❓ | ❓ | ❓ | ✅ arquiteto de autor; marca hoteleira | ❓ | ◐ imprensa | 95% vendido à conclusão (ZEN) |
-| **Terrazza Park** (Zome Matosinhos) | ❓ | ◐ 23 frações em tabela | ❓ | — | ❓ | ❓ | ❓ | ✅ pré-lançamento em feira com condições exclusivas | ✅ rede (ZOME) a liderar | ✅ feira | 26% em três dias |
+| **Terrazza Park** (Zome Matosinhos) | ❓ | ❓ (23 frações, T1–T4) | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ pré-lançamento em feira com condições exclusivas | ✅ rede (ZOME) a liderar | ✅ feira | 26% em três dias |
 | **BluePeak** | ❓ | ❓ | ❓ | ❓ | ◐ prometido | ◐ prometido (portal) | ◐ prometido (acabamentos, 3D, RA) | ❓ | ❓ | ❓ | — |
 | **Painel Temático (hoje)** | ✅ | ◐ dados no CRM, não publicados | ❓ | — | ◐ atualizações de obra no CRM | — | — | ❓ | direto | site + CRM próprio | — |
 
@@ -1294,9 +1297,57 @@ busca, porque a leitura direta da página estava bloqueada nesta sessão.
 - KW Thrive — "Profit Share" (EUA; consultado em 2026-11-23) — <https://thrive.kw.com/culture/profit-share>
 - KW Outfront — "KW Command: How an All-in-One Platform Can Transform Your Real Estate Business" (EUA) — <https://outfront.kw.com/technology/kw-command-how-an-all-in-one-platform-can-transform-your-real-estate-business/>
 
-**Engel & Völkers (únicos pontos verificados)**
+**Engel & Völkers**
 - Engel & Völkers Portugal — avaliação de imóvel (consultado em 2026-11-23) — <https://www.engelvoelkers.com/en-pt/avaliacao-imovel>
 - Engel & Völkers — "CRM for real estate agents" (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/resources/crm-for-real-estate-agents>
+- Engel & Völkers — "The Engel & Völkers network in Portugal" (consultado em 2026-11-23) *(excerto)* — <https://engelvoelkers.com/en-pt/comporta/blog/the-engel--völkers-network-in-portugal>
+- Engel & Völkers — loja Minho (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/shops/minho>
+- Engel & Völkers — Market Report Portugal (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/market-report-portugal>
+- Engel & Völkers — empreendimentos (obra nova) em Braga (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/properties/res/sale/development/braga>
+- idealista/news — "Procura por moradias exclusivas consolida Minho como destino premium" (2026) *(excerto)* — <https://www.idealista.pt/news/node/75411>
+- The Portugal News — "North Portugal growing in luxury real estate" (12/05/2026) *(excerto)* — <https://www.theportugalnews.com/news/2026-05-12/north-portugal-growing-in-luxury-real-estate/1020717>
+- newmoney.gr — resultados globais Engel & Völkers 2025 *(excerto)* — <https://www.newmoney.gr/roh/palmos-oikonomias/epixeiriseis/engel-volkers-kategrapse-tin-ischiroteri-etisia-epidosi-stin-istoria-tis-to-2025/amp/>
+- Latham & Watkins — "Latham & Watkins Advises Permira on Acquisition of Majority Stake in Engel & Völkers" (2021) — <https://www.lw.com/news/Latham-Watkins-advises-Permira-on-Acquisition-of-majority-stake-in-Engel-Voelkers>
+- Private Equity Wire — "Permira funds acquire majority stake in property brokerage platform Engel & Völkers" (09/08/2021) — <https://www.privateequitywire.co.uk/permira-funds-acquire-majority-stake-property-brokerage-platform-engel-volkers/>
+
+**Coldwell Banker e Compass / Anywhere (sessão 2)**
+- idealista/news — "Segmento de luxo em Portugal continua a demonstrar grande dinamismo" (entrevista a Frederico Abecassis) *(excerto)* — <https://www.idealista.pt/news/node/72227>
+- idealista/news — "Coldwell Banker reforça portefólio de imóveis com nova agência em Lisboa" (Coldwell Banker Seed) *(excerto)* — <https://www.idealista.pt/news/node/73503>
+- The Portugal News — "Coldwell Banker Luxus heads promotion of sustainable development in Lisbon" (04/07/2023) — <https://www.theportugalnews.com/news/2023-07-04/coldwell-banker-luxus-heads-promotion-of-sustainable-development-in-lisbon/79194>
+- Compass, Inc. — Form 10-Q, 1.º trimestre de 2026 — <https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm>
+- Real Estate News — "Compass completes its acquisition of Anywhere Real Estate" (09/01/2026) — <https://www.realestatenews.com/2026/01/09/compass-completes-its-acquisition-of-anywhere-real-estate>
+- Bloomberg Law — "DOJ Allows Compass-Anywhere Deal After Overruling Staff" (2026) *(excerto)* — <https://news.bloomberglaw.com/business-and-practice/doj-allows-compass-anywhere-deal-over-staff-antitrust-concerns>
+
+**Portugal Sotheby's International Realty (sessão 2)**
+- ECO — "Sotheby's cresce 18% com Madeira e Porto em destaque" (11/02/2026) *(excerto)* — <https://eco.sapo.pt/2026/02/11/sothebys-cresce-18-com-madeira-e-porto-em-destaque/>
+- Forbes Portugal — "Portugal Sotheby's com recorde de crescimento à boleia da Madeira e Porto" (2026) *(excerto)* — <https://www.forbespt.com/portugal-sothebys-com-recorde-de-crescimento-a-boleia-da-madeira-e-porto/>
+- DN — "Metade dos clientes da imobiliária de luxo Sotheby's são estrangeiros" (2025) *(excerto)* — <https://www.dn.pt/economia/metade-dos-clientes-da-imobiliária-de-luxo-sothebys-são-estrangeiros>
+- idealista/news — "Imóveis de luxo: Portugal entre os mercados mais dinâmicos da Europa" (Luxury Outlook 2026) *(excerto)* — <https://www.idealista.pt/news/node/73457>
+- Portugal Sotheby's — página do empreendimento Greenstone (consultado em 2026-11-23) — <https://www.sothebysrealtypt.com/developments/greenstone-porto-aldoar-foz-do-douro-e-nevogilde_pt1_471>
+
+**iad Portugal (sessão 2)**
+- Forbes Portugal — "Tecnologias estão a desempenhar papel transformador no negócio imobiliário" *(excerto)* — <https://www.forbespt.com/tecnologias-estao-a-desempenhar-papel-transformador-no-negocio-imobiliario/>
+- Forbes Portugal — "Minho e interior do país são novas apostas de Iad Portugal para se expandir" (data não visível) *(excerto)* — <https://www.forbespt.com/?p=169285>
+- HR Portugal — "Rede europeia de consultores imobiliários independentes ultrapassa os 25 polos de formação e 40 formadores em Portugal" *(excerto)* — <https://hrportugal.sapo.pt/?p=346129>
+- idealista/news — "iad Portugal compra PrimeBiz e admite novas aquisições em Portugal" (29/10/2025) — <https://www.idealista.pt/news/imobiliario/empresas/2025/10/29/72261-iad-portugal-compra-primebiz-e-admite-novas-aquisicoes-em-portugal>
+- ECO — "iad apresenta nova identidade de marca que expressa 'proximidade com os clientes'" (31/10/2025) — <https://eco.sapo.pt/2025/10/31/iad-apresenta-nova-identidade-de-marca-que-expressa-proximidade-com-os-clientes/>
+- Portal da Queixa — reclamações iad Portugal (consultado em 2026-11-23) — <https://portaldaqueixa.com/brands/iad-portugal/complaints>
+
+**Decisões e Soluções (sessão 2)**
+- Executive Digest — "Grupo Decisões e Soluções com faturação recorde de 112 milhões" (2026) *(excerto)* — <https://executivedigest.sapo.pt/?p=708885>
+- Dinheiro Vivo — "Faturação do grupo Decisões e Soluções sobe 20% para recorde de 112 milhões em 2025" (2026) *(excerto)* — <https://dinheirovivo.dn.pt/empresas/faturao-do-grupo-decises-e-solues-sobe-20-para-recorde-de-112-milhes-em-2025>
+- Notícias ao Minuto — "Faturação do grupo Decisões e Soluções cresce 45% para 94 milhões em 2024" (2025) — <https://www.noticiasaominuto.com/economia/2712634/faturacao-do-grupo-decisoes-e-solucoes-cresce-45-para-94-milhoes-em-2024>
+- ECO — "DS Seguros emite 15 mil novas apólices e supera 5,5 milhões de euros em prémios em 2025" (10/02/2026) — <https://eco.sapo.pt/2026/02/10/ds-seguros-emite-15-mil-novas-apolices-e-supera-55-milhoes-de-euros-em-premios-em-2025/>
+- ECO — "DS Seguros escolhe ferramenta de IA da Minalea" (29/06/2026) — <https://eco.sapo.pt/2026/06/29/ds-seguros-escolhe-ferramenta-de-ia-da-minalea/>
+
+**Predimed (sessão 2)**
+- Forbes Portugal — "Portuguesa Predimed reforça posição no mercado imobiliário" (data não visível) *(excerto)* — <https://www.forbespt.com/?p=141919>
+- Iberinform — Predimed Portugal – Mediação Imobiliária, Lda (consultado em 2026-11-23) — <https://www.iberinform.pt/empresa/24795904/predimed-portugal-mediacao-imobiliaria-lda>
+- Imovirtual — página da agência Predimed Imobiliária (consultado em 2026-11-23) — <https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/predimed-imobiliaria-ID1996063>
+- Portal da Queixa — Predimed Imobiliária (consultado em 2026-11-23) — <https://portaldaqueixa.com/brands/predimed-imobiliaria/about>
+
+**ZOME (adenda da sessão 2)**
+- Notícias ao Minuto — "Zome NOW: primeira plataforma onde pode comprar uma casa 100% à distância" (c. 2021) — <https://www.noticiasaominuto.com/casa/1803749/zome-now-primeira-plataforma-onde-pode-comprar-uma-casa-100-a-distancia>
 
 **Portais, avaliação e IA**
 - idealista — avaliação de imóveis (consultado em 2026-11-23) — <https://www.idealista.pt/en/avaliacao-de-imoveis/>
@@ -1307,3 +1358,41 @@ busca, porque a leitura direta da página estava bloqueada nesta sessão.
 - idealista/news — "WhatsApp + IA: o CRM imobiliário que trabalha sempre contigo" (2026; só título) — <https://www.idealista.pt/news/node/75745>
 - digital.gov.pt — "AMALIA: versão multimodal lançada no dia 1 de julho" (2026) — <https://digital.gov.pt/pt/noticias/amalia-versao-multimodal-lancada-no-dia-1-de-julho>
 - AI Act Portugal — "ANIA 2026-2030" (consultado em 2026-11-23) — <https://aiact-portugal.pt/pages/ania-2026-2030.html>
+
+**Mercado de obra nova (sessão 2)**
+- Dinheiro Vivo — "Mais de 60% das casas no Porto são compradas em planta ou início de obra" (data não visível) *(excerto)* — <https://dinheirovivo.dn.pt/neg%C3%B3cios/mais-de-60-das-casas-no-porto-so-compradas-em-planta-ou-incio-de-obra>
+- idealista/news — "Casas no Porto: mais de 50% são vendidas em planta ou início de obra" (2026) *(excerto)* — <https://www.idealista.pt/news/node/73598>
+- The Portugal News — "Half of the houses in Porto sold at the start of construction" (27/01/2026) — <https://www.theportugalnews.com/news/2026-01-27/half-of-the-houses-in-porto-sold-at-the-start-of-construction/950858>
+- idealista/news — "Procura por casas em planta já supera interesse por imóveis concluídos" (2026; só título) — <https://www.idealista.pt/news/node/75925>
+- JLL — "JLL Porto 2025 Highlights" (2026) *(excerto)* — <https://www.jll.com/pt-pt/newsroom/jll-porto-2025-highlights>
+- idealista/news — "Preço das casas em Braga atinge novo máximo em fevereiro de 2026" (2026) — <https://www.idealista.pt/news/node/74628>
+- idealista/news — "Comprar casa nova em Portugal? Custa mais 50% do que casa usada" (2024) *(excerto)* — <https://www.idealista.pt/news/node/67432>
+- The Portugal News — "New houses in Portugal cost 50% more" (27/12/2024) — <https://theportugalnews.com/news/2024-12-27/new-houses-in-portugal-cost-50-more/94504>
+- casa.sapo — anúncios de obra nova com planos de pagamento (consultado em 2026-11-23) *(excerto)* — <https://casa.sapo.pt/comprar-casas/em-construcao/>
+- Jornal Económico — vencedores do Prémio Nacional do Imobiliário 2026 (março de 2026) *(excerto)* — <https://jornaleconomico.sapo.pt/?p=1392504>
+- idealista/news — "Imobinvest volta à Alfândega do Porto de 12 a 14 de setembro" (2025) — <https://www.idealista.pt/news/node/70445>
+
+**Promotores (sessão 2)**
+- *Avenue* — idealista/news, "Avenue vai investir mais 150 milhões em Portugal: '60% a 80% dos imóveis são vendidos em planta'" (antigo) — <https://www.idealista.pt/news/node/42453>; "Avenue investe 400 milhões em novos projetos em Lisboa e Porto" — <https://www.idealista.pt/news/node/60152>; "Bonjardim nasce pela mão da Avenue no centro do Porto…" — <https://www.idealista.pt/news/node/46432>; "Bonjardim traz 93 modernos apartamentos ao centro do Porto" — <https://www.idealista.pt/news/node/51137>; "Bonjardim inaugurado no Porto – há seis apartamentos à venda" — <https://www.idealista.pt/news/node/66797>; JLL, "Bonjardim inaugura stand de vendas com 80% dos apartamentos vendidos" (c. 2022) — <https://www.jll.com/pt-pt/newsroom/bonjardim-inaugura-stand-de-vendas-apartamentos-vendidos>; Cushman & Wakefield, "Award-winning Bonjardim in the heart of Porto attracts leading brands" (11/2025) — <https://www.cushmanwakefield.com/pt-pt/portugal/news/2025/11/award-winning-bonjardim-in-the-heart-of-porto-attracts-leading-brands>; idealista/news, "Casas novas em Lisboa: NoLiPa sai do papel e atrai compradores" — <https://www.idealista.pt/news/node/72189>; "NoLiPa: vai nascer um novo bairro em Lisboa com 466 apartamentos" — <https://www.idealista.pt/news/node/69522>; The Portugal News (12/05/2025) — <https://www.theportugalnews.com/news/2025-05-12/lisbon-attracts-275-million-real-estate-investment-as-industry-calls-for-tax-cuts-and-simpler-licensing/97538> *(excertos)*
+- *Bondstone* — JLL, "Greenstone: condomínio de moradias exclusivas no Porto apresentado num evento único" — <https://www.jll.com/pt-pt/newsroom/greenstone-condominio-de-moradias-exclusivas-no-porto-apresentado-num-evento-unico>; JLL, "Greenstone segue a bom ritmo" — <https://www.jll.com/pt-pt/newsroom/greenstone-segue-a-bom-ritmo>; idealista/news — <https://www.idealista.pt/news/node/47386>, <https://www.idealista.pt/news/node/59864>, <https://www.idealista.pt/news/node/57856>, <https://www.idealista.pt/news/node/42494> *(excertos)*
+- *Fercopor* — site <https://fercopor.pt/en/>; brochura Enlight <https://fercopor.pt/wp-content/uploads/2026/01/Brochura-Digital-ENLIGHT_04.08.22.pdf>; idealista/news — <https://www.idealista.pt/news/node/57453>, <https://www.idealista.pt/news/node/53525>, <https://www.idealista.pt/news/node/60540>; ECO, "Fercopor desce da Boavista à Foz com novo prédio de 25 milhões" (08/05/2025) — <https://eco.sapo.pt/2025/05/08/fercopor-desce-da-boavista-a-foz-com-novo-predio-de-luxo-no-porto/> *(excertos; consultados em 2026-11-23)*
+- *VIZTA* — idealista/news — <https://www.idealista.pt/news/node/60912>, <https://www.idealista.pt/news/node/68967>, <https://www.idealista.pt/news/node/68972>, <https://www.idealista.pt/news/node/69347>, <https://www.idealista.pt/news/node/70821>, <https://www.idealista.pt/news/node/75163>; Jornal Económico — <https://jornaleconomico.sapo.pt/?p=1285003>; iberian.property — <https://iberian.property/news/residential/vizta-invests-eur105m-in-new-residential-project-in-greater-porto/>; NIT (conteúdo em parceria) — <https://www.nit.pt/fora-de-casa/na-cidade/encontramos-casas-a-menos-de-300-mil-euros-no-segredo-mais-bem-guardado-do-porto> *(excertos)*
+- *DST Real Estate* — Dinheiro Vivo, "Grupo DST entra no negócio da promoção residencial" — <https://dinheirovivo.dn.pt/grupo-dst-entra-no-negocio-da-promocao-residencial--14963459.html>; idealista/news — <https://www.idealista.pt/news/node/52920>, <https://www.idealista.pt/news/node/57810>; dstgroup — <https://dstsgps.com/press-room/news/dst-invests-50-million-in-mereces-in-barcelos-and-guimaraes-/>; ECO (14/05/2026) — <https://eco.sapo.pt/2026/05/14/dst-leva-para-barcelos-200-habitacoes-com-rendas-ate-400-euros/>; anúncio RE/MAX — <https://remax.pt/en/imoveis/venda-apartamento-t4-barcelos-barcelinhos/126281025-87>; anúncio CustoJusto (Predimed) — <https://www.custojusto.pt/braga/imobiliario/apartamentos/penthouse-t4-nova-terraco-pa-45156196> *(excertos; anúncios consultados em 2026-11-23)*
+- *Kronos Homes* — Forbes Portugal — <https://www.forbespt.com/?p=172647>; Portugal Resident — <https://www.portugalresident.com/kronos-homes-completes-zen-in-lisbon-with-95-of-homes-sold/>; idealista (30/06/2025) — <https://www.idealista.pt/en/news/luxury-real-estate-in-portugal/2025/06/30/70188-the-residences-at-vale-do-lobo-40-reserved-as-portugal-s-top-new-luxury-development-breaks-ground>; idealista — <https://www.idealista.pt/news/node/69723>; Arquitectura Viva — <https://arquitecturaviva.com/articulos/proyectos-de-kronos> *(excertos)*
+- *Casos curtos* — Terrazza Park: idealista — <https://www.idealista.pt/news/node/71729>; Coslos: idealista — <https://www.idealista.pt/news/node/49908>; BluePeak: apresentação (2024) — <https://www.noticiasdeaveiro.pt/wp-content/uploads/2024/02/BluePeak-Apresentacao-da-Empresa-2.pdf>; Mexto: idealista — <https://www.idealista.pt/news/node/59627> *(excertos)*
+- *Casais (excluída)* — ECO, "Sonae Sierra e Casais vão construir casas para o mercado de arrendamento" (24/03/2026) — <https://eco.sapo.pt/2026/03/24/sonae-sierra-e-casais-vao-construir-casas-para-o-mercado-de-arrendamento/>
+
+**Boutiques (sessão 2)**
+- Savills — "Predibisa rebrands to Savills" (2023) — <https://en.savills.pt/insight-and-opinion/savills-news/348973/predibisa-rebrands-to-savills>
+- The Portugal News — "Dils enters the Portuguese market through Castelhana" (14/05/2024) — <https://ftp.theportugalnews.com/news/2024-05-14/dils-enters-the-portuguese-market-through-castelhana/88855>
+- ECO — "Imobiliária Dils reforça no Porto para 'aproximação' a investidores no Norte e Centro" (16/10/2025) — <https://eco.sapo.pt/2025/10/16/imobiliaria-dils-reforca-no-porto-para-aproximacao-a-investidores-no-norte-e-centro/>
+- ECO (BRANDS' ECO, conteúdo patrocinado) — "Dils: um ano a transformar o imobiliário em Portugal" (25/09/2025) — <https://eco.sapo.pt/2025/09/25/dils-um-ano-a-transformar-o-imobiliario-em-portugal/>
+- Dils — Central Freixo (consultado em 2026-11-23) — <https://dils.com/en/news/porto-looks-to-the-future-with-central-freixo-the-project-designed-by-souto-de-moura-takes-shapedils-is-in-charge-of-the-brokerage-services-and-strategic-positioning-of-the-development>
+- JLL — "Fernão Magalhães 127: condomínio de excelência chega ao Porto com a JLL, Savills e LUXIMOS Christie's" — <https://www.jll.com/pt-pt/newsroom/fernao-magalhaes-127-condominio-de-excelencia-chega-ao-porto-com-a-jll-savills-e-luximos-christie>
+- JLL — "Condominhas Urban Living é uma nova referência residencial…" — <https://www.jll.com/pt-pt/newsroom/condominhas-urban-living-e-uma-nova-referencia-residencial-entre-a-foz-do-douro-e-o-centro-historico-do-porto>
+- LUXIMOS — "Autumn in Porto: two unmissable luxury launches" (16/09/2025) — <https://www.luximos.pt/en/news/sublime-blog/2025/09/16/autumn-in-porto-two-unmissable-luxury-launches>
+- idealista/news — "Val D'Ouro Palace: uma referência de luxo intimista no Porto" — <https://www.idealista.pt/news/node/71725>; "SeaHaus: viver no Porto entre o mar e a sustentabilidade tecnológica" — <https://www.idealista.pt/news/node/71728>; "Conforto, privacidade e segurança: os pilares do Antas Atrium" — <https://www.idealista.pt/news/etiquetas/casas-no-porto?page=2> *(excertos)*
+- ECO — "Quintela e Penalva abre loja no Porto e escritório em Lisboa" (13/07/2023) — <https://eco.sapo.pt/2023/07/13/quintela-e-penalva-abre-loja-no-porto-e-escritorio-em-lisboa/>
+- idealista/news — "Porto Gardens: apartamentos e townhouses no centro da Invicta" — <https://www.idealista.pt/news/node/73980>
+- The Portugal News — "Seed Real Estate: an awarded strategy" (18/04/2025) — <https://www.theportugalnews.com/news/2025-04-18/seed-real-estate-an-awarded-strategy/96952>
+- Portugal Resident — "Fine & Country Portugal: Best Real Estate Marketing award 2026" (2026) — <https://www.portugalresident.com/fine-country-portugal-best-real-estate-marketing-award-2026/>

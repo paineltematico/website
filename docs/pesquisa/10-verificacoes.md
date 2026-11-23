@@ -250,3 +250,78 @@ Fontes:
 - Montepio — *IMT Jovem: guia para ter isenção até aos 35 anos* — <https://www.montepio.org/blog/casa/imt-jovem-guia-para-ter-isencao-ate-aos-35-anos/> (lido em excerto)
 - gov.pt — *Pedir isenção de IMT e IS* — <https://www.gov.pt/servicos/pedir-isencao-imt-e-is> — atualizado a 27/03/2026 (lido em excerto)
 
+## 8. Banco de Portugal — taxa de esforço máxima na Recomendação macroprudencial
+
+**Veredicto: CONFIRMADO** (50% → **45%**, em vigor a **01/08/2026**, Recomendação Macroprudencial
+n.º 1/2026), com um pormenor que o cap. 05 não tinha: a **exceção de 10%** por instituição.
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Alteração | Limite de **DSTI (taxa de esforço)** desce de **50% para 45%** | CONFIRMADO em várias fontes (ECO, Jornal Económico, Doutor Finanças, DNotícias, Forbes PT) |
+| Diploma | **Recomendação Macroprudencial n.º 1/2026** do Banco de Portugal | CONFIRMADO (lido em excerto) |
+| Anúncio | **02/07/2026** (data das notícias; não li o comunicado do BdP) | lido em excerto |
+| Entrada em vigor | **01/08/2026**, para contratos cuja **avaliação de solvabilidade** seja feita a partir dessa data | CONFIRMADO |
+| Exceção | Cada instituição pode conceder, **em cada semestre, até 10% do montante de crédito** acima dos 45% | lido em excerto |
+| Âmbito | Crédito à habitação e ao consumo; **a locação financeira imobiliária saiu** do âmbito | lido em excerto |
+| LTV | **Mantém-se** (o cap. 05 dá 90% HPP / 80% restantes — as fontes dizem que o LTV não mudou, sem repetir os valores), sobre o **menor** entre preço e avaliação; acaba o LTV de 100% para imóveis detidos pelos próprios bancos | parcialmente confirmado; os 90/80 **não foram relidos** |
+| Natureza | É uma **recomendação** (não uma lei), mas os bancos cumprem-na e o BdP monitoriza | lido em excerto |
+
+**O que isto muda para o produto:** o simulador de prestação e a qualificação "F — Financiamento" do
+cap. 05 devem usar **45%** desde 01/08/2026 — e dizer que é o limite do Banco de Portugal, não uma
+garantia de aprovação (o banco ainda aplica o choque de taxa de juro).
+
+Fontes:
+- Doutor Finanças — *Crédito habitação com regras mais apertadas: taxa de esforço máxima baixa para 45%* — <https://www.doutorfinancas.pt/creditos/banco-de-portugal-aperta-regras-no-credito-habitacao-taxa-de-esforco-maxima-baixa-para-45/> — jul/2026 (lido em excerto)
+- Jornal Económico — *Banco de Portugal altera limite da taxa de esforço no crédito à habitação para 45% mas mantém taxa de stress* — <https://jornaleconomico.sapo.pt/noticias/banco-de-portugal-altera-limite-da-taxa-de-esforco-no-credito-a-habitacao-para-45-mas-mantem-taxa-de-stress/> — jul/2026 (lido em excerto)
+- DNotícias — *Banco de Portugal altera regras para crédito e reduz taxa de esforço para 45%* — <https://www.dnoticias.pt/2026/7/2/497650-banco-de-portugal-altera-regras-para-credito-e-reduz-taxa-de-esforco-para-45/> — 02/07/2026 (lido em excerto)
+- Forbes Portugal — *Banco de Portugal altera regras para crédito e reduz taxa de esforço para 45%* — <https://www.forbespt.com/banco-de-portugal-altera-regras-para-credito-e-reduz-taxa-de-esforco-para-45/> — jul/2026 (lido em excerto)
+- Portal do Crédito — *BdP reduz taxa de esforço recomendada* — <https://portaldocredito.pt/noticias/bdp-reduz-taxa-de-esforco-recomendada/> (lido em excerto)
+
+## 9. DL 84/2021 — prazos de garantia de imóveis novos vendidos a consumidores
+
+**Veredicto: CONFIRMADO** (10 anos estruturais / 5 anos restantes), e fica identificado o artigo que
+o cap. 06 deixou "a verificar": **art. 23.º, n.º 1, als. a) e b)**.
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Prazo — elementos construtivos **estruturais** | **10 anos** (art. 23.º, n.º 1, al. a)) | CONFIRMADO (citado num acórdão de tribunal de recurso e em comentários de PLMJ, idealista, Imojuris), lido em excerto |
+| Prazo — **restantes** faltas de conformidade | **5 anos** (art. 23.º, n.º 1, al. b)) | CONFIRMADO, idem |
+| Desde quando | Contratos de compra e venda de imóveis **celebrados a partir de 01/01/2022** (antes: 5 anos para tudo, pelo regime anterior) | CONFIRMADO, lido em excerto |
+| Denúncia do defeito | O diploma **eliminou o prazo fixo de denúncia** a contar do conhecimento do defeito; mas os direitos **caducam 3 anos após a denúncia** (com suspensão da contagem prevista no art. 25.º, n.º 2) | lido em excerto (idealista, acórdão); **redação exata do art. 25.º não relida** |
+| Direitos do consumidor | Reparação/substituição, redução do preço, resolução (como no cap. 06) | não relido nesta verificação |
+| Lista de "elementos estruturais" | O diploma prevê uma **portaria** com essa lista; uma fonte nota que **não tinha sido publicada** — não consegui confirmar se já existe | NÃO CONFIRMADO |
+
+**O que isto muda para o produto:** a página "garantia e pós-venda" (cap. 01, ideia 4) pode dizer
+**"10 anos para a estrutura, 5 anos para o resto, a contar da entrega"** com base no art. 23.º do
+DL 84/2021, para escrituras desde 2022. Não dizer "a denúncia não tem prazo" sem o jurista ler o
+art. 25.º, e não listar o que é "estrutural" enquanto a portaria não for confirmada.
+
+Fontes:
+- Diário da República — *Decreto-Lei n.º 84/2021, de 18 de outubro* — ELI <https://data.dre.pt/eli/dec-lei/84/2021/10/18/p/dre> (não aberto; citado a partir de excertos)
+- Jurisprudencia.pt — acórdão que aplica o art. 23.º do DL 84/2021 — <https://www.jurisprudencia.pt/acordao/233534/pdf> (lido em excerto)
+- PLMJ — *Novo regime de compra e venda de bens de consumo* — <https://plmj.com/xms/files/03_Novidades_legislativas/2021/11_novembro/NI_Novo_Regime_de_Compra_e_Venda_de_bens_de_Consumo.pdf> — nov/2021 (lido em excerto)
+- idealista — *Garantia de bens imóveis e móveis é alargada – o que vai mudar?* — <https://www.idealista.pt/news/node/49600> — 08/11/2021 (lido em excerto)
+- Imojuris — *Alargado para 10 anos o prazo de garantia dos bens [imóveis]* — <https://imojuris.vidaimobiliaria.com/actualidade/noticias/Alargado-para-10-anos-o-prazo-de-garantia-dos-bens/> (lido em excerto)
+- Morais Leitão — *Direitos do consumidor na compra e venda de bens móveis e imóveis…* — <https://www.mlgts.pt/xms/files/site_2018/Newsletters/2021/Direitos_do_consumidor_na_compra_e_venda_de_bens_moveis_e_imoveis_e_de_conteudos_e_servicos_digitais_-_Legal_Alert.pdf> — 2021 (lido em excerto)
+
+---
+
+## Resumo
+
+| # | Ponto | Veredicto | Valor a usar |
+|---|---|---|---|
+| 1 | Preços WhatsApp Cloud API, Portugal | **CORRIGIDO** | Por mensagem desde 01/07/2025; PT = "Rest of Western Europe": marketing ≈ 0,049 €, utility e authentication ≈ 0,0142 €. **Serviço na janela de 24 h é pago desde 01/10/2026** (ao preço de utility), com ~1 000 grátis/mês por número (franquia dos parceiros, não lida na Meta) |
+| 2 | Política Meta para chatbots de IA | **CONFIRMADO / estado CORRIGIDO** | Proíbe assistentes de IA como funcionalidade **principal** (termos de 15/10/2025, aplicação 15/01/2026); bot de empresa sobre o próprio negócio **permitido**. No EEE, proibição **suspensa** por medidas cautelares da Comissão (09/06/2026) |
+| 3 | AI Act, art. 50.º e 4.º, Omnibus | **CORRIGIDO** | Omnibus **aprovado** = Reg. (UE) 2026/1744 (JOUE 24/07/2026). Art. 50.º, n.º 1 em vigor desde **02/08/2026, sem adiamento**; só o n.º 2 tem transição até 02/12/2026. Art. 4.º desde 02/02/2025, **mantido** para as empresas, com dever suavizado |
+| 4 | CNPD: IA, marketing, cookies | **CONFIRMADO (marketing) / CORRIGIDO (IA, cookies)** | Diretriz/2022/1 existe (jan/2022). **Não há** orientação CNPD sobre chatbots nem diretriz de cookies — usar CEPD |
+| 5 | Licença AMI 25031 | **NÃO CONFIRMADO** | Nenhum registo público associa o número a uma entidade; só o site da empresa o declara. Verificar no IMPIC com o NIPC 510053807 (Painel Temático, Lda., CAE 68100) |
+| 6 | Comunicação ao IMPIC | **CONFIRMADO** | Trimestral (Lei 58/2020; Reg. 603/2021, art. 20.º), até ao fim do trimestre seguinte; **promotores que vendem imóveis próprios estão abrangidos** (CAE 41100 e 68100) |
+| 7 | Garantia pública jovens / IMT Jovem | **CONFIRMADO** (prorrogação NÃO CONFIRMADA) | Contratos até **31/12/2026**, imóvel ≤ **450 000 €**; 2027 anunciado, ainda não é lei. IMT Jovem 2026: isenção total até **330 539 €** (gov.pt ainda mostra o teto parcial de 2025) |
+| 8 | BdP, taxa de esforço | **CONFIRMADO** | **45%** (era 50%), Recomendação n.º 1/2026, em vigor **01/08/2026**; exceção de 10% por banco e semestre |
+| 9 | DL 84/2021, garantia de imóveis | **CONFIRMADO** | **10 anos** estrutural, **5 anos** restante (art. 23.º, n.º 1), contratos desde 01/01/2022 |
+
+**Limitações desta verificação:** feita só com pesquisa web (19 pesquisas); nenhuma página foi aberta
+diretamente (a leitura da página de preços da Meta falhou por bloqueio de rede — o host
+developers.facebook.com teria de ser autorizado nas definições de rede da sessão). Quatro coisas
+continuam por ler na fonte primária: o rate card da Meta em EUR (ponto 1), o texto do Reg. (UE)
+2026/1744 no EUR-Lex (ponto 3), o registo AMI no IMPIC (ponto 5) e o art. 25.º do DL 84/2021 (ponto 9).

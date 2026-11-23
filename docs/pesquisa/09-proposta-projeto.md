@@ -227,8 +227,10 @@ Fórmulas completas no cap. 05 D.
 
 ## 11. Perguntas que só tu podes responder
 
-1. **AMI 25031:** de que entidade é, e está ativo? Queremos continuar a angariar imóveis de
-   terceiros e a anunciar arrendamentos, ou ficamos só com o que é nosso?
+1. **AMI 25031:** de que entidade é, e está ativo? A verificação (cap. 10) não encontrou ligação
+   pública. O registo comercial da Painel Temático, Lda. tem CAE 68100 (compra e venda), e não o
+   da mediação. Queremos continuar a angariar imóveis de terceiros e a anunciar arrendamentos,
+   através de uma entidade com licença ou de uma parceira, ou ficamos só com o que é nosso?
 2. **Equipa:** quem responde aos leads hoje, em que horário, e quem faz o quê (comercial, diretor,
    gestor de projeto)? Vai haver escala para responder em 5 minutos?
 3. **Projetos à venda agora:** quais e quantas frações (Merelim, Esporões, Lomar, Trandeiras)? Os
