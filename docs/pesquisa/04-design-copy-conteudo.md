@@ -40,7 +40,64 @@
 
 ## Resumo
 
-<!-- RESUMO -->
+**As 10 descobertas mais importantes**
+
+1. **O desenho certo já existe — falta executá-lo.** Os mockups de julho de 2026 (`docs/design/mockups/`)
+   cobrem quase todos os padrões confirmados nas referências (custo mensal, planta, guia de frações,
+   processo "da visita à chave", cross-sell). Dos findings da auditoria de julho, **12 continuam
+   abertos** e 2 estão parciais (secção 5.3).
+2. **Há conteúdo de teste e de demonstração à vista do público**: uma moradia em Cascais de 1,25 M€ **em
+   destaque e sem fotos**, dois imóveis de Lisboa, o único artigo do blog chamado **"teste"**, um projeto
+   chamado "Empreendimentos", e na `/construcao` parceiros fictícios ("Parceiro Construção A") e frases
+   com links para o backoffice. É o maior risco de credibilidade e resolve-se em minutos.
+3. **Os dois anúncios mais caros partilham o mesmo bloco de 27 "características"** — o de Merelim fala
+   da morada de Esporões ("Loteamento da Fontela") e o T4 de Esporões descreve "2 quartos + suite +
+   escritório". Inclui assinatura, "Até já!", maiúsculas e "conosco" (PT-BR). Mais gralhas no hero
+   ("A SUA comeca aqui.").
+4. **Prova social frágil**: o único testemunho do site ("Maria S.", 5 estrelas) está **escrito no código**
+   da `/avaliacao`; a base tem 0 testemunhos publicados; a página de projeto carrega testemunhos mas não
+   os mostra; os contadores "+" assentam em 8 imóveis, 3 deles demo.
+5. **Media: fotografia e planta primeiro.** Fotografias "muito úteis" para 81% dos compradores (NAR 2025);
+   mais de 1/3 menos propensos a contactar sem planta (Rightmove); o idealista associa multimédia a
+   ~+92% de contactos (2020–21). **Hoje 4 dos 8 imóveis públicos não têm fotos e nenhum tem planta.**
+6. **Tours 3D atraem atenção, não preço**: a Zillow mediu +75% de favoritos e +65% de vistas (2021), mas
+   um estudo de Harvard com 75 178 vendas em Los Angeles não encontrou subida significativa de preço e
+   sugere tempos de venda até mais longos. Para o Painel, o tour é ferramenta para compradores à
+   distância, no fim da obra.
+7. **As referências de UX convergem em dois padrões baratos**: a ficha organizada por perguntas (Zillow,
+   2023: "o que tem de especial / quanto vale / quanto fica por mês / a zona") e a galeria que contém a
+   planta e o vídeo, com ícones na capa e contactos dentro da galeria (Rightmove, 2020).
+8. **O diferenciador "construímos o que vendemos" está parado**: as 8 atualizações de obra de Merelim
+   têm todas a mesma data (05/06/2026), zero fotografias, e o "Concluído X%" do projeto mostra a
+   percentagem de uma fase arbitrária. É o conteúdo que nenhuma rede consegue copiar.
+9. **Velocidade e canal de resposta pesam mais do que o design**: responder em menos de 1 hora torna a
+   qualificação ~7× mais provável (HBR 2011); 47% dos pedidos online a agentes ficam sem resposta
+   (DelPrete 2024); 50% dos compradores preferem mensagens a chamadas (Zillow 2025). No site do Painel, o
+   WhatsApp da ficha e do projeto **abre sem dizer de que imóvel se trata**, e o formulário do projeto não
+   é renderizado.
+10. **Em Braga, "temos IA" e "avaliação grátis" já não diferenciam** — a ZOME (sede em Braga) tem pesquisa
+    com ChatGPT desde 2023 e o Zome Go!; a RE/MAX tem assistente e "Quanto vale a sua casa". O que as
+    redes não têm é **informação de produto em primeira mão**; e a captação útil para um promotor é
+    "tem um terreno?", não "quanto vale a sua casa".
+
+**Recomendações**
+
+1. **Semana de limpeza (P0) antes de enviar mais links ou pagar anúncios**: despublicar demo e teste,
+   limpar a `/construcao`, retirar o testemunho fixo se não for real, reescrever os dois anúncios
+   principais, corrigir gralhas, fotos e uma planta em cada imóvel, título duplicado e imagem OG.
+   Quase tudo se faz no admin e no modo `/edit`.
+2. **Implementar os mockups por ordem de funil**: barra sticky mobile com WhatsApp pré-preenchido →
+   página de projeto com guia de frações, formulário e "avisar-me" → ficha em blocos Zillow-PT com
+   planta, custo mensal e cross-sell.
+3. **Reescrever todos os anúncios com o molde *Lugar · Casa · Prova · Pedido*** e criar os campos que
+   faltam (classe energética, ano/entrega, áreas útil/bruta/terreno, orientação, referência). O booklet
+   de Escudeiros é o guia de tom.
+4. **Pôr o diário de obra a funcionar como motor de conteúdo**: 6 fotos do mesmo ângulo + 1 vídeo
+   vertical por quinzena e por obra, que alimentam site, Instagram, newsletter, Google Business e
+   remarketing; mais páginas por freguesia e um "Braga em números" trimestral com dados do INE.
+5. **Completar a pesquisa externa numa sessão seguinte** (Backlog no fim): galeria de 10–20 anúncios reais
+   de redes e promotores, benchmarks de Meta/Google, e validação jurídica das obrigações de anúncio —
+   e medir o site no browser a 375/1280 px.
 
 ---
 
