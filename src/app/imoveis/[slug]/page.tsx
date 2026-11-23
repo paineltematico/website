@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import { headers } from 'next/headers'
 import type { Metadata } from 'next'
 import { supabaseAdmin } from '@/lib/supabase-admin'
 import ImovelLuxury from './ImovelLuxury'
@@ -22,11 +23,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const imovel = await getImovel(slug)
   if (!imovel) return { title: 'Imóvel não encontrado' }
+  // URL absoluto do próprio site (o metadataBase pode apontar para um domínio ainda não ligado)
+  const h = await headers()
+  const host = h.get('x-forwarded-host') ?? h.get('host') ?? 'painel-tematico.vercel.app'
+  const ogImage = `https://${host}/api/og/imovel/${slug}`
   return {
-    title: `${imovel.titulo} | Painel Temático`,
+    title: imovel.titulo,
     description: imovel.descricao ?? undefined,
     openGraph: {
-      images: imovel.fotos?.[0] ? [{ url: imovel.fotos[0] }] : [],
+      title: imovel.titulo,
+      description: imovel.descricao ?? undefined,
+      images: imovel.fotos?.[0] ? [{ url: ogImage, width: 1200, height: 630, type: 'image/jpeg', alt: imovel.titulo }] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: imovel.fotos?.[0] ? [ogImage] : [],
     },
   }
 }
