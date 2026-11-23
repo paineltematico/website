@@ -178,3 +178,32 @@ Fontes:
 - imoveisportugal.info — *Painel Temático – Lda.* — <https://imoveisportugal.info/empresa-painel-tematico-em-braga-17479> (lido em excerto)
 - Viver em Braga — *Imobiliárias em Braga: lista 2026* — <https://www.viverembraga.com/post/lista-de-imobiliarias-em-braga/38/> — out/2026 (lido em excerto)
 
+## 6. Comunicação ao IMPIC das transações imobiliárias (Lei 83/2017; Regulamento IMPIC 603/2021)
+
+**Veredicto: CONFIRMADO** (trimestral desde a Lei 58/2020; os promotores que vendem imóveis próprios
+**estão abrangidos**), e **fecha-se o prazo** que o cap. 06 deixou "não confirmado".
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Periodicidade | **Trimestral.** A Lei 58/2020 alterou o **art. 46.º, n.º 1, al. b)** da Lei 83/2017, de semestral para trimestral; o **art. 20.º, n.º 1, do Regulamento n.º 603/2021** (02/07/2021) prevê a comunicação trimestral de cada transação | CONFIRMADO (Aviso n.º 739/2021 no DR; IMPIC), lido em excerto |
+| Prazo de cada comunicação | **Até ao fim do trimestre seguinte** àquele em que o negócio foi celebrado: 1.º trim. → 30/06; 2.º → 30/09; 3.º → 31/12; 4.º → 31/03 do ano seguinte. Conta a data da **escritura / DPA / contrato**, não a do pagamento | **CONFIRMADO** — o cap. 06 marcava como "não confirmado"; o exemplo dele (4.º trim. 2022 até 31/03/2023) bate com esta regra. Fontes de apoio (ComunicaPro, expediente.pt), coerentes com o exemplo do idealista |
+| Promotor que vende imóveis próprios está abrangido? | **Sim.** A Lei 83/2017 conta como atividade imobiliária a **mediação, a compra, venda, compra para revenda ou permuta de imóveis, o arrendamento e a promoção imobiliária**. A promoção define-se (Reg. 276/2019, em resumo) como impulsionar, programar, dirigir e financiar obras de construção **para posterior transmissão ou cedência**. O IMPIC identifica as entidades obrigadas também pelo **CAE — 41100 (promoção imobiliária) e 68100 (compra e venda de bens imobiliários)** | CONFIRMADO (Banco de Portugal reproduz a lista; apresentação IMPIC/AICOPA com os CAE), lido em excerto |
+| O que se comunica | **Anexo A** — início de atividade, **uma vez, em 60 dias** (art. 46.º, n.º 1, al. a)); **Anexo B** — cada venda, **mesmo que tenha passado por uma mediadora** | lido em excerto (fonte de apoio) |
+| Conservação | **7 anos** | lido em excerto (fonte de apoio) — o cap. 06 tinha "provavelmente 7 anos"; **não li o art. 51.º** |
+
+**O que isto muda para o produto:** a Painel Temático (CAE 68100, ponto 5) é entidade obrigada
+**pelas vendas dos seus próprios lotes**, independentemente da licença AMI. O CRM deve guardar, por
+venda, os dados do Anexo B e a data da escritura, e avisar no fim de cada trimestre seguinte.
+
+Fontes:
+- Diário da República — *Aviso n.º 739/2021, de 12 de janeiro* — <https://diariodarepublica.pt/dr/detalhe/aviso/739-2021-153663117> — 12/01/2021 (lido em excerto)
+- IMPIC — *Comunicações obrigatórias de atividades imobiliárias (Lei n.º 83/2017)* — <https://www.impic.pt/impic/pt-pt/comunicacoes-obrigatorias/comunicacoes-obrigatorias-de-atividades-imobiliarias-lei-no-832017-de-18-de-agosto> (lido em excerto)
+- IMPIC — *Orientação Genérica n.º 1/IMPIC/2021* — <https://www.impic.pt/impic/assets/misc/img/OG_2021IMPIC01.pdf> — 2021 (lido em excerto)
+- IMPIC — *Perguntas frequentes: combate ao branqueamento de capitais* — <https://www.impic.pt/impic/pt-pt/perguntas-frequentes/combate-ao-branqueamento-de-capitais-e-ao-financiamento-do-terrorismo_4> (lido em excerto)
+- CRS Advogados — *Legal alert: comunicação de transações imobiliárias ao IMPIC* — <https://crs-advogados.com/legal-alert-comunicacao-de-transacoes-imobiliarias-ao-impic/> (lido em excerto)
+- ComunicaPro — *Comunicações Obrigatórias ao IMPIC: guia, prazos e coimas* — <https://comunicapro.pt/pt/comunicacoes-impic/> (fonte de apoio; lido em excerto)
+- Banco de Portugal — texto da Lei 83/2017 (PDF) — <https://www.bportugal.pt/sites/default/files/anexos/legislacoes/275425933_1.doc.pdf> (lido em excerto)
+- AICOPA — apresentação IMPIC sobre BCFT — <https://www.aicopa.pt/anexos/seminario/IMPICBCFT.pdf> (lido em excerto)
+- Millennium bcp — *Novas obrigações para imobiliárias* — <https://ind.millenniumbcp.pt/pt/geral/fiscalidade/Pages/Novas-obrigacoes-para-imobiliarias.aspx> (lido em excerto)
+- Imojuris — *Reporte de transações imobiliárias ao IMPIC* — <https://imojuris.vidaimobiliaria.com/actualidade/not%C3%ADcias/Reporte-de-transacoes-imobiliarias-ao-IMPIC-I-P-pa> (lido em excerto)
+

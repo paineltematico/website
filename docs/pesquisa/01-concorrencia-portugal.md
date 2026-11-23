@@ -1075,17 +1075,17 @@ Legenda: ✅ confirmado nesta pesquisa · ◐ confirmado mas antigo ou parcial �
 
 | Rede | Modelo | Escala 2025 | Faturação 2025 | Avaliação online | IA / chat no site | CRM / ferramenta interna | App cliente | Obra nova | Crédito | Extra diferenciador |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **RE/MAX** | Franchising; consultores independentes | ✅ 422 agências, 11 350 consultores | ✅ volume 8,67 mil M€ | ✅ "Quanto vale a sua casa" | ✅ assistente de triagem e encaminhamento (2026) | ✅ MaxWork (+ Alfredo ◐, REATIA ◐) | ❓ | ❓ (recruta para "empreendimentos") | ❓ | RE/MAX Collection (luxo); dono global novo (Real REMAX Group) |
-| **ZOME** | Rede própria + *hubs*; sede em Braga | ◐ (~900 consultores, antigo) | ✅ 53,1 M€; volume 2 276 M€ | ✅ Zome Go! (IA + big data) | ✅ ChatGPT na pesquisa (2023) | ✅ HOT – Hub Operations Tool | ❓ | ❓ | ❓ | Origem minhota; CTO tornado CEO |
+| **RE/MAX** | Franchising; consultores independentes | ✅ 422 agências, 11 350 consultores | ✅ volume 8,67 mil M€ | ✅ "Quanto vale a sua casa" | ✅ assistente de triagem e encaminhamento (2026) | ✅ MaxWork (+ Alfredo ◐, REATIA ◐) | ❓ | ◐ RE/MAX Collection co-comercializa o NoLiPa; anuncia frações do Mereces 718 (DST) | ❓ | RE/MAX Collection (luxo); dono global novo (Real REMAX Group) |
+| **ZOME** | Rede própria + *hubs*; sede em Braga | ◐ (~900 consultores, antigo) | ✅ 53,1 M€; volume 2 276 M€ | ✅ Zome Go! (IA + big data) | ✅ ChatGPT na pesquisa (2023) | ✅ HOT – Hub Operations Tool | ◐ Zome NOW, compra à distância (c. 2021) | ◐ Zome Matosinhos lidera pré-lançamentos (Terrazza Park, 26% numa feira) | ❓ | Origem minhota; CTO tornado CEO |
 | **ERA** | Master franchise; >200 agências | ✅ ~3 300 | ✅ 126,9 M€ | ✅ quantovale.era.pt | ❓ | ❓ | ❓ | ✅ Brand New Home: 20 M€, ~1 700 casas, 18% | ❓ | ERA Warranty (24 meses, comprador) |
 | **Century 21** | Franchising; direitos PT+ES até 2054 | ✅ 5 086 prof.; ~200 agências (antigo) | ✅ 149,85 M€ | ❓ | ❓ (IA só no discurso de recrutamento) | ✅ 21Online | ◐ agenda de visitas sincronizada; vendedor vê visitas e propostas | ❓ | ✅ Finance21 (meta 1 000 M€ em 2026) | Subdomínio por agência |
 | **KW** | Market Centers; *growth share* | ✅ ~3 000; 32 MC | ✅ 86 M€ | ❓ | ❓ | ◐ Fizbot (formação); Command ❓ | ❓ | ❓ | ✅ +40% | Formação e marca pessoal |
-| **Coldwell Banker** | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| **Engel & Völkers** | ❓ (franchising de *shops*) | ❓ | ❓ | ✅ página de avaliação | ❓ | ❓ | ❓ | ❓ | ❓ | Premium ❓ |
-| **Portugal Sotheby's** | ❓ (licença) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | Luxo ❓ |
-| **iad** | ❓ (sem lojas) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| **Decisões e Soluções** | ❓ (imobiliário + crédito + seguros) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| **Predimed** | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| **Coldwell Banker** | Franchising de luxo; dono global Compass desde 9/01/2026 | ✅ 12 agências, ~250 colaboradores (Grande Lisboa e Açores) | ◐ >120 M€ "em negócios" (período não claro) | ❓ | ❓ | ❓ | ❓ | ✅ Coldwell Banker Seed (16 empreendimentos); Luxus com departamento de empreendimentos | ❓ | Cresce comprando boutiques (Seed) |
+| **Engel & Völkers** | Franchising de *shops*; Permira 60% desde 2021 | ◐ licenças Braga-Guimarães, Porto, Porto cidade, Gaia; loja Minho | ◐ grupo: 1,3 mil M€ em comissões (global) | ✅ página de avaliação | ❓ | ❓ | ❓ | ✅ páginas de empreendimento (obra nova em Braga) | ❓ | Market Report com €/m² de Braga e Guimarães |
+| **Portugal Sotheby's** | Licença da marca (dona: Anywhere → Compass); licenciado PT não confirmado | ❓ | ◐ +18% (melhor ano); Porto +67% em volume | ❓ | ❓ | ❓ | ❓ | ✅ secção de empreendimentos (ex.: Greenstone) | ❓ | 56% compradores PT; Luxury Outlook próprio |
+| **iad** | Sem lojas, 100% digital; comissão até 87,8% (2023) | ◐ 1 019 consultores (data não clara) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | Aposta no Minho e interior; comprou a PrimeBiz (2025) |
+| **Decisões e Soluções** | Imobiliário + crédito + seguros | ✅ >600 lojas, 6 000 trabalhadores | ✅ 112 M€ (grupo); >480 M€ em imóveis escriturados | ❓ | ◐ "my pitch" (Minalea) para seguros, interno | ❓ | ❓ | ❓ | ✅ é o núcleo do modelo | 63 lojas novas em 2025 |
+| **Predimed** | Rede de capital português ("a maior", autodeclarado) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ◐ anuncia obra nova em Braga (Andorinhas, Mereces 718) | ❓ | Portal da Queixa 38,9/100 |
 | **Painel Temático (hoje)** | Promotor com produto próprio | 3 projetos (Esporões, Merelim, Lomar) | — | site tem `/avaliacao` | — | CRM próprio (leads, atividades, oportunidades, frações, atualizações de obra) | — | ✅ é o produto | — | **controla a obra** |
 
 ---
