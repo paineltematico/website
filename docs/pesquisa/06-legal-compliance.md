@@ -14,7 +14,31 @@
 
 ## Resumo
 
-*(preenchido no fim — ver abaixo da secção 8)*
+1. **Vender o que é seu não exige licença AMI; mediar o alheio exige.** A Lei 15/2013 define
+   mediação como procurar destinatários **em nome dos clientes** (art. 2.º), e isso inclui
+   divulgar/publicitar imóveis de clientes. O CRM e o site **já fazem angariações e anúncios "Para
+   Arrendamento"** — logo o regime da mediação aplica-se, e o AMI mostrado no rodapé (25031, defeito
+   em `settings.ts`) tem de ser confirmado como licença **ativa e da entidade certa**.
+2. **O promotor é entidade obrigada no branqueamento de capitais mesmo sem mediar** (Lei 83/2017,
+   art. 4.º: compra, venda e promoção imobiliária). Supervisão do IMPIC; regulamento em vigor é o
+   **603/2021** (não o 276/2019); as transações comunicam-se ao IMPIC **trimestralmente** desde a
+   Lei 58/2020. KYC antes do CPCV; nada em numerário ≥ 3 000 € (LGT, art. 63.º-E).
+3. **Marketing a leads precisa de consentimento por canal** (Lei 41/2004, art. 13.º-A; CNPD,
+   Diretriz/2022/1). O soft opt-in só cobre **clientes** e produtos análogos; WhatsApp e SMS
+   estão abrangidos. O site não tem política de privacidade, cookies, nem campos de consentimento,
+   e o `Analytics.tsx` carregaria GA4/Meta Pixel sem consentimento.
+4. **AI Act: o art. 50.º aplica-se desde 02/08/2026** — o agente tem de dizer que é IA; imagens de
+   staging virtual de imóveis reais são *deep fakes* a rotular; a literacia em IA (art. 4.º) está
+   em vigor desde 02/02/2025. O agente não é alto risco, salvo se avaliar solvabilidade.
+   (Datas do texto publicado; **verificar** se o "Digital Omnibus" de 19/11/2025 já foi aprovado e
+   o que mudou.)
+5. **Anúncios**: classe energética obrigatória (SCE, DL 101-D/2020), veracidade de áreas e preços
+   (DL 57/2008), rotulagem de renders, e no site: identificação legal, Livro de Reclamações
+   Eletrónico e RAL. O link para a plataforma europeia ODR já não deve ser necessário (encerrada
+   em 2025 — a verificar). Quase toda a secção 5 ficou por reconfirmar em fonte primária.
+6. **A secção 8 tem uma checklist de 44 itens** com a norma de base e a prioridade; os P0 são o
+   AMI, o registo/reporte IMPIC, o KYC no CRM, a política de privacidade/cookies, o consentimento
+   por canal, a classe energética e a identificação legal no rodapé.
 
 ## Notas de método — ler antes de citar qualquer coisa daqui
 
@@ -901,3 +925,103 @@ agente/automação · **P2** = boa prática / preparação.
    confirmados aqui.
 
 ---
+
+> **AVISO FINAL — não é aconselhamento jurídico.** Este capítulo organiza fontes e levanta
+> perguntas; não substitui o parecer de um advogado sobre a situação concreta da Painel Temático.
+
+## Fontes
+
+Consulta a **23/11/2026**. "Excerto" = conteúdo lido através do motor de pesquisa (a página em si
+não abriu nesta sessão). As datas são as de publicação quando conhecidas.
+
+### A. Fontes com excerto lido nesta sessão
+
+**Mediação imobiliária**
+- Lei n.º 15/2013, de 8 de fevereiro — DR, 1.ª série, n.º 28 (08/02/2013) — https://diariodarepublica.pt/dr/detalhe/lei/15-2013-257806
+- Lei n.º 15/2013 (PDF do DR no site do IMPIC) — https://www.impic.pt/impic/assets/misc/pdf/legislacao/Lei201315.pdf
+- Decreto-Lei n.º 102/2017, de 23 de agosto — https://diariodarepublica.pt/dr/detalhe/decreto-lei/102-2017-108041482
+- informador.pt — DL 102/2017 — https://informador.pt/legislacao/diploma/decreto-lei-n-o-102-2017/
+- informador.pt — Portaria n.º 228/2018 — https://informador.pt/legislacao/diploma/portaria-n-o-228-2018/
+- Portaria n.º 199/2013 — https://diariodarepublica.pt/dr/detalhe/portaria/199-2013-513608
+- Decreto-Lei n.º 77/99 (revogado) — https://diariodarepublica.pt/dr/detalhe/decreto-lei/77-1999-144988
+- gov.pt — Guia "Mediação imobiliária" (atualizado 09/06/2026, segundo o excerto) — https://www.gov.pt/guias/mediacao-imobiliaria
+- gov.pt — Licença para o exercício da atividade — https://www.gov.pt/servicos/mediacao-imobiliaria-licenca-para-o-exercicio-da-atividade
+- gov.pt — Pesquisar uma empresa de mediação imobiliária — https://www.gov.pt/servicos/pesquisar-uma-empresa-de-mediacao-imobiliaria
+- gov.pt — Taxa anual de regulação e comprovação de requisitos — https://www.gov.pt/servicos/mediacao-imobiliaria-pagamento-da-taxa-anual-de-regulacao-e-comprovacao-dos-requisitos-da-licenca-ou-do-registo
+- PLMJ — General contractual terms in estate agency contracts (data não confirmada, ≈2018) — https://www.plmj.com/en/know-how/informative-notes/general-contractual-terms-and-conditions-in-estate-agency-contracts/19091
+- SRS Legal / idealista — Responsabilidades da agência imobiliária (27/12/2023) — https://www.srslegal.pt/xms/files/Comunicacao/SRS_na_Imprensa/2023/2023_12_27_AO_Idealista_Responsabilidades_Agencia_Imobiliaria_JPS.pdf
+- TRC — Proibição de receber remuneração de clientes e destinatários do mesmo negócio — https://trc.pt/mediacao-imobiliaria-proibicao-de-receber-remuneracao-de-clientes-e-destinatarios-do-mesmo-negocio/
+- jurisprudencia.pt — Mediação imobiliária, cláusula de exclusividade — https://jurisprudencia.pt/acordao/219719/
+- jurisprudencia.pt — Contrato de mediação imobiliária, remuneração — https://jurisprudencia.pt/acordao/244880/
+- STJ (dgsi.pt) — remuneração e causa imputável ao cliente — https://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/40d299edf7e9dcb880258998002b780f?OpenDocument=
+- Pedro Vasconcelos — Contratos de mediação imobiliária: simples e com exclusividade (2020) — https://pedro-vasconcelos-sn5l.squarespace.com/s/2020-26-1401-1462.pdf
+- idealista — IMPIC e AT vão cruzar dados para combater mediação imobiliária ilegal (data não confirmada) — https://www.idealista.pt/news/node/76312
+- idealista — Fisco e IMPIC apertam cerco aos mediadores "clandestinos" (data não confirmada) — https://www.idealista.pt/news/node/61389
+- idealista — Agentes imobiliários com licença de mediadoras? (data não confirmada) — https://www.idealista.pt/news/node/69107
+
+**Branqueamento de capitais**
+- Lei n.º 83/2017, de 18 de agosto — https://diariodarepublica.pt/dr/detalhe/lei/83-2017-108021178
+- Lei n.º 83/2017, texto consolidado (Portal das Finanças) — https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Lei_83_2017.pdf
+- Lei n.º 58/2020, de 31 de agosto — https://diariodarepublica.pt/dr/detalhe/lei/58-2020-141382321
+- Regulamento n.º 603/2021, de 2 de julho (IMPIC) — https://diariodarepublica.pt/dr/detalhe/regulamento/603-2021-166264672
+- Aviso n.º 739/2021 (DR, 2.ª série, 12/01/2021) — https://diariodarepublica.pt/dr/detalhe/aviso/739-2021-153663117 · PDF IMPIC: https://www.impic.pt/impic/assets/misc/pdf/legislacao/Aviso2021739.pdf
+- IMPIC — Orientação Genérica n.º 1/IMPIC/2021 — https://www.impic.pt/impic/assets/misc/img/OG_2021IMPIC01.pdf
+- IMPIC — Perguntas frequentes BCFT (desatualizado quanto a prazos) — https://www.impic.pt/impic/pt-pt/perguntas-frequentes/combate-ao-branqueamento-de-capitais-e-ao-financiamento-do-terrorismo_4
+- ASMIP — Branqueamento de capitais — https://www.asmip.pt/pt/asmip/branqueamento-de-capitais_312/
+- AICCOPN — Combate ao branqueamento de capitais no setor imobiliário — https://www.aiccopn.pt/combate-ao-branqueamento-de-capitais-no-setor-imobiliario/
+- Imojuris — Regulamento n.º 603/2021 — https://imojuris.vidaimobiliaria.com/actualidade/novidades/Regulamento-n-o-603-2021-de-2-de-julho/
+- Imojuris — O regulamento n.º 603/2021 do IMPIC e as novidades — https://imojuris.vidaimobiliaria.com/actualidade/opinioes/O-regulamento-n-o-603-2021-do-IMPIC-e-as-novidades/
+- Imojuris — Deveres de identificação e diligência acrescidos — https://imojuris.vidaimobiliaria.com/actualidade/noticias/Deveres-de-identificacao-e-diligencia-acrescidos-n/
+- PLMJ — Novo Regulamento IMPIC (2021) — https://plmj.com/xms/files/NL_Novo_Regulamento_IMPIC.PDF
+- PLMJ — Guia Branqueamento de capitais (2024) — https://plmj.com/xms/files/07_Guias_e_Manuais/2024/Branqueamento_de_capitais.pdf
+- Millennium bcp — Novas obrigações para imobiliárias — https://ind.millenniumbcp.pt/pt/geral/fiscalidade/Pages/Novas-obrigacoes-para-imobiliarias.aspx
+- idealista — Imobiliárias obrigadas a comunicar transações ao IMPIC todos os trimestres (2020) — https://www.idealista.pt/news/node/44544
+- idealista — Mediação imobiliária: obrigatório comunicar transações até 31 de março (2023) — https://www.idealista.pt/news/node/57312
+- Lei n.º 70/2025, de 22 de dezembro — https://diariodarepublica.pt/dr/detalhe/lei/70-2025-992098940
+- Lei n.º 72/2025 — https://diariodarepublica.pt/dr/detalhe/lei/72-2025-992402106
+- Cuatrecasas — Lei de execução do Regulamento de Transferências de Fundos e Criptoativos — https://www.cuatrecasas.com/pt/portugal/financeiro/art/lei-execucao-regulamento-transferencias-fundos-criptoativos
+- DLA Piper — AML/CFT and sanctions in 2026 (25/03/2026) — https://www.dlapiper.com/en/insights/publications/2026/03/aml-cft-and-sanctions-in-2026
+- Portal das Finanças — LGT, art. 63.º-E — https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/lgt/Pages/lgt63e.aspx
+- Lei n.º 92/2017 — https://diariodarepublica.pt/dr/detalhe/lei/92-2017-108030505
+- Garrigues — LGT/RGIT: proibição de pagamento em numerário (2017) — https://www.garrigues.com/pt/pt-PT/news/lgtrgit-proibicao-de-pagamento-em-numerario
+- OCC — LGT: pagamentos em numerário — https://www.occ.pt/pt-pt/noticias/lgt-pagamentos-em-numerario
+- eucrim — The EU's new AML single rulebook regulation (2024) — https://eucrim.eu/news/the-eu-new-aml-single-rulebook-regulation/
+- fiscal-requirements.com — EU 10 000 € cash payment limit from July 2027 — https://www.fiscal-requirements.com/news/6249-eu-introduces-10000-cash-payment-limit-and-stricter-customer-identification-rules-from-july-2027
+
+**Marketing e comunicações eletrónicas**
+- CNPD — Diretriz/2022/1 sobre comunicações eletrónicas de marketing direto (aprovada 25/01/2022) — https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121958
+- NOVA Consumer Lab — Diretriz 2022/1 da CNPD — https://novaconsumerlab.novalaw.unl.pt/comunicacoes-eletronicas-de-marketing-direto-diretriz-2022-1-da-cnpd/
+- Abreu Advogados — Diretriz (PDF, fev/2022) — https://abreuadvogados.com/wp-content/uploads/2022/02/Diretriz_comunicacoes_eletronicas_de_marketing_direto.pdf
+- Garrigues — Nova diretriz da CNPD sobre marketing direto (2022) — https://www.garrigues.com/pl/pt-PT/news/nova-diretriz-da-cnpd-marketing-direto-o-tem-mudar-na-forma-empresas-fazem-marketing.md
+- Lexology — Nova diretriz da CNPD sobre marketing direto (2022) — https://www.lexology.com/library/detail.aspx?g=8ee70bce-7bc1-46e8-b6d2-3da16e80abec
+- Lei n.º 41/2004, de 18 de agosto — https://diariodarepublica.pt/dr/detalhe/lei/41-2004-480710
+- Lei n.º 46/2012 — https://diariodarepublica.pt/dr/detalhe/lei/46-2012-174793
+- Decreto-Lei n.º 62/2009 — https://diariodarepublica.pt/dr/detalhe/decreto-lei/62-2009-604821
+- Legiscope — Marketing eletrónico em Portugal: prova e oposição — https://www.legiscope.com/blog/marketing-eletronico-portugal-prova-oposicao.html
+- Comissão Europeia — Podem dados recebidos de terceiros ser usados para marketing? — https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/legal-grounds-processing-data/can-data-received-third-party-be-used-marketing_pt
+
+### B. Fontes primárias indicadas mas NÃO abertas nesta sessão (conteúdo de conhecimento prévio — verificar)
+
+- RGPD — Regulamento (UE) 2016/679 — https://eur-lex.europa.eu/eli/reg/2016/679/oj
+- AI Act — Regulamento (UE) 2024/1689 (JO 12/07/2024) — https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+- Comissão Europeia — Regulatory framework for AI (inclui o Digital Omnibus, proposto a 19/11/2025) — https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+- AMLR — Regulamento (UE) 2024/1624 — https://eur-lex.europa.eu/eli/reg/2024/1624/oj
+- AMLD6 — Diretiva (UE) 2024/1640 — https://eur-lex.europa.eu/eli/dir/2024/1640/oj
+- EU-US Data Privacy Framework — Decisão de Execução (UE) 2023/1795 (10/07/2023) — https://eur-lex.europa.eu/eli/dec_impl/2023/1795/oj
+- Cláusulas contratuais-tipo — Decisão de Execução (UE) 2021/914 — https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj
+- EDPB — Opinion 28/2024 on AI models (17/12/2024) — https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en
+- EPBD reformulada — Diretiva (UE) 2024/1275 — https://eur-lex.europa.eu/eli/dir/2024/1275/oj
+- Fim da plataforma ODR — Regulamento (UE) 2024/3228 — https://eur-lex.europa.eu/eli/reg/2024/3228/oj
+- Livro de Reclamações Eletrónico — https://www.livroreclamacoes.pt
+- WhatsApp Business Messaging Policy — https://business.whatsapp.com/policy
+- Meta for Developers — Obtaining opt-in for WhatsApp — https://developers.facebook.com/docs/whatsapp/overview/getting-opt-in
+- Diplomas nacionais a abrir no **diariodarepublica.pt** (texto consolidado): Lei n.º 58/2019;
+  Código Civil (arts. 410.º, 413.º, 440.º–442.º, 755.º, 830.º, 1225.º); DL n.º 330/90 (Código da
+  Publicidade); DL n.º 57/2008 e DL n.º 109-G/2021; DL n.º 9/2021 (RJCE); DL n.º 101-D/2020 (SCE);
+  DL n.º 68/2004 (FTH); DL n.º 10/2024 (Simplex urbanístico); DL n.º 555/99 (RJUE); DL n.º 84/2021;
+  DL n.º 156/2005 e DL n.º 74/2017; Lei n.º 144/2015; DL n.º 7/2004; DL n.º 24/2014; Código das
+  Sociedades Comerciais (art. 171.º); Lei n.º 7/2007 (Cartão de Cidadão); Lei n.º 93/2017; DL n.º
+  81-C/2017 (intermediários de crédito); Lei n.º 153/2015 (peritos avaliadores); Regulamento CNPD
+  n.º 1/2018 (lista de AIPD).
+- Jurisprudência do TJUE (curia.europa.eu): *Planet49*, C-673/17 (01/10/2019); *Fashion ID*,
+  C-40/17 (29/07/2019). Tribunal Geral: *Latombe c. Comissão*, T-553/23 (set/2025).

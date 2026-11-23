@@ -787,4 +787,383 @@ Esforço: **S** = minutos/horas no admin ou `/edit` · **M** = 1–3 dias de có
 3. **Nenhuma campanha antes do P0 + #9, #10 e #25** — cada link enviado ou clique pago aterra hoje numa
    página com sinais de "site em construção".
 
-<!-- CONTINUA -->
+---
+
+## Galeria de exemplos
+
+> Só exemplos com fonte confirmada nesta sessão ou observados no próprio código/dados. As referências que
+> conheço mas não verifiquei (Compass, Redfin, Engel & Völkers, Sotheby's, The Agency, ERA, Century 21,
+> KW, promotores espanhóis) estão no Backlog — não as descrevo sem as ter visto.
+
+| # | Exemplo | Link | O que copiar |
+|---|---|---|---|
+| 1 | Zillow — ficha redesenhada por perguntas (out/2023) | <https://zillow.mediaroom.com/2023-10-23-Zillow-unveils-a-new-look-for-property-pages,-their-biggest-redesign-in-5-years> | Blocos "O que tem de especial · Quanto vale · Quanto fica por mês · A zona" |
+| 2 | Zillow BuyAbility (2025) | <https://www.zillowgroup.com/news/zillow-innovation-2025> | Prestação indicativa ligada ao preço, com pressupostos à vista |
+| 3 | Zillow SkyTour (verão 2025) | <https://www.zillow.com/agents/summer-product-launch-skytour> | Vista aérea do lote/loteamento como peça de primeira linha nos terrenos |
+| 4 | Zillow — preço total no arrendamento | <https://www.zillow.com/rentals-network/pricing-transparency> | No arrendamento, mostrar renda + encargos fixos num só número |
+| 5 | Zillow — tours 3D: +75% favoritos, +65% vistas (2021) | <https://www.zillow.com/research/3d-tours-virtual-tools-popular-29650> | Tour como ferramenta de atenção, não de preço |
+| 6 | Rightmove — vídeo e tour dentro da galeria, ícones na foto (2020) | <https://www.patma.co.uk/blog/2020/10/the-new-rightmove-page-layout/> | "12 fotos · Planta · Vídeo" sobre a foto de capa; contactos dentro da galeria |
+| 7 | Rightmove — planta e decisão de contacto | <https://www.rightmove.co.uk/news/articles/property-news/maximise-chances-finding-buyer-floorplan/> | Planta em todos os anúncios, por piso, com áreas |
+| 8 | Rightmove Development Profiles (2025) | <https://hub.rightmove.co.uk/development-profiles> | Empreendimento com página e identidade próprias, não N anúncios soltos |
+| 9 | Rightmove — estimador de obras que lê a planta (2025) | <https://www.rightmove.co.uk/press-centre/?p=4705> | Para lotes e casas para recuperar: "o que pode fazer aqui e quanto custa" |
+| 10 | idealista — visita guiada virtual | <https://www.idealista.com/tools/centrodeayuda/pt-pt/articulos/sala-virtual-de-visitas/> | Visita por videochamada para compradores à distância (emigrantes) |
+| 11 | idealista — multimédia e contactos (12/2020, 02/2021) | <https://www.idealista.pt/news/financas/negocios/2021/02/05/46159-a-importancia-das-visitas-virtuais-na-mediacao-imobiliaria> | Fotografia profissional + vídeo como padrão mínimo |
+| 12 | RE/MAX — assistente de primeiro contacto (09/2026, via cap. 01) | <https://marketeer.sapo.pt/re-max-poe-inteligencia-artificial-no-primeiro-contacto-com-clientes-e-promete-encontrar-o-consultor-certo/> | Triagem "comprar / vender / avaliar" — mas o Painel deve **responder** sobre o produto antes de pedir dados |
+| 13 | RE/MAX — "Quanto vale a sua casa" (via cap. 01) | <https://www.doutorfinancas.pt/vida-e-familia/habitacao/quanto-vale-a-minha-casa/> | Captação de proprietários — adaptar a "Tem um terreno?" |
+| 14 | ZOME — pesquisa com ChatGPT (2023, via cap. 01) | <https://www.diarioimobiliario.pt/Zome-pt-e-o-primeiro-site-de-uma-rede-imobiliaria-com-integracao-de-ChatGPT-na-pesquisa-de-imoveis> | Lição: "IA" já não diferencia em Braga |
+| 15 | ZOME — Zome Go! (via cap. 01) | <https://www.diarioimobiliario.pt/Actualidade/Zome-lanca-ferramenta-digital-que-agiliza-a-colocacao-de-imoveis-a-venda-no-mercado> | Avaliação rápida como porta de entrada da captação |
+| 16 | HBS — 75 178 vendas: tours 3D não sobem o preço | <https://www.library.hbs.edu/working-knowledge/are-virtual-tours-still-worth-it-in-real-estate-evidence-from-75000-home-sales> | Prudência: não prometer "vende mais caro com 3D" |
+| 17 | NAR 2025 — fotografias "muito úteis" para 81% | <https://www.nar.realtor/news/economists-outlook/top-10-takeaways-from-nars-2025-profile-of-home-buyers-and-sellers> | Investir primeiro em fotografia |
+| 18 | **Interno** — booklet de Escudeiros | <https://painel-tematico.vercel.app/booklets/escudeiros.html> | Tom factual, ficha, "o que pode construir", mercado com fontes, aviso legal |
+| 19 | **Interno** — `FloorPlanStory` (percurso pelos pisos do Lote 6) | `src/components/home/FloorPlanStory.tsx` | Descrever a casa pelo percurso: "piso da rua → zona social → zona privada" |
+| 20 | **Interno** — mockup do guia de frações | `docs/design/mockups/projeto-fracoes.html` | Filtros por tipologia/estado, "Avisar-me quando disponível", comparar frações |
+| 21 | **Interno** — mockup da ficha | `docs/design/mockups/imovel.html` | "Quanto fica por mês?", "Da visita à chave, sem surpresas", "Também lhe pode interessar" |
+
+---
+
+## Biblioteca de fórmulas de copy em PT-PT (prontas a usar)
+
+> Os valores entre `[ ]` têm de ser confirmados antes de publicar. Onde os dados atuais se contradizem
+> (ex.: 276 m² no anúncio vs 280 m² nas frações de Merelim), deixei os dois.
+
+### A. Assinatura e hero da homepage
+
+1. **Construímos o que vendemos.** — *Moradias e lotes em Braga, do projeto à chave, com quem os constrói.* (do mockup de julho)
+2. **Veja a obra antes de escolher a casa.** — *Acompanhe cada fase, fotografada e datada, até à entrega.*
+3. **Casas novas em Braga, feitas por quem as vende.** — *Sem intermediários entre si e o construtor.*
+4. **Do terreno à chave, connosco.** — *Projetamos, construímos e entregamos.*
+5. **Moradias em Merelim, Esporões e Escudeiros.** — *Construção própria. Venda direta.* (versão SEO)
+
+CTAs do hero: **Ver casas disponíveis** · **Falar com o construtor** (em vez de "Ver Imóveis · Agendar Visita · Fale Connosco" — três CTAs com o mesmo peso diluem a escolha).
+
+### B. Títulos de anúncio (45–70 caracteres)
+
+| Situação | Fórmula | Exemplo para o Painel |
+|---|---|---|
+| Moradia nova | [Tipologia] nova em [freguesia] · [diferenciador] | **Moradia T3+1 nova em Merelim · jardim e garagem para 2 carros** |
+| Última unidade | Última moradia de [n] em [empreendimento] · [tipologia] | **Última moradia da Fontela, Esporões · T4 de gaveto com 400 m²** |
+| Em planta | [Tipologia] em [freguesia] · entrega [mês/ano] · desde [preço] | **Moradias T3+1 em Merelim · entrega [mês/ano] · desde 395 000 €** |
+| Lote | Lote de [área] para moradia em [freguesia] · [estado] | **Lote de 700 m² para moradia em Escudeiros · plano, pronto a projetar** |
+| Revenda | [Tipologia] em [freguesia] · [diferenciador] · [área] | **Apartamento T2 em Frossos · [diferenciador real] · 75 m²** |
+| Arrendamento | [Tipologia] para arrendar em [freguesia] · [renda] €/mês | **T1 para arrendar em Maximinos · 45 m² · 650 €/mês** |
+| Comercial | [Tipo] de [área] em [freguesia] · [uso] | **Armazém de 198 m² em Lomar · [entrada independente / pé-direito x m]** |
+
+### C. Primeira frase (o que aparece na pré-visualização)
+
+- "A última das sete moradias da Fontela — e a única de gaveto, com jardim em dois lados."
+- "Três pisos, jardim nas traseiras e garagem para dois carros, a [10] minutos do centro de Braga."
+- "Um lote plano de 700 m², entre moradias, onde cabe uma casa de 280 m² com jardim a sul."
+- "Construída por nós, com capoto em toda a fachada e bomba de calor de 270 L."
+- "Se procura um T3 novo em Braga com escritório em casa, esta é a planta."
+- "Visitámos a obra esta manhã: a cobertura está fechada e as caixilharias chegam na próxima semana."
+
+### D. Descrições completas (molde *Lugar · Casa · Prova · Pedido*)
+
+**D1 — Moradia T3+1, Merelim S. Pedro** (substitui o texto atual)
+
+> **Moradia T3+1 nova em Merelim · jardim e garagem para 2 carros**
+>
+> Em Merelim S. Pedro, a [10] minutos do centro de Braga, com a escola primária, a piscina municipal e os
+> campos de futebol a poucos minutos a pé.
+>
+> A casa organiza-se em três pisos. Ao nível da rua, a garagem para dois carros, arrumos e lavandaria, com
+> acesso direto ao jardim nas traseiras ([±45] m²) e a um escritório que também serve de quarto de
+> hóspedes. No piso intermédio, sala, jantar e cozinha num só espaço. No piso de cima, [três quartos, um
+> deles em suite — confirmar distribuição e número de casas de banho].
+>
+> Construída pelo Painel Temático: bomba de calor de 270 L para águas quentes, caixilharia de alumínio com
+> vidro duplo, estores elétricos térmicos, roupeiros embutidos lacados, e pré-instalações de ar
+> condicionado, alarme, videovigilância, som ambiente, portão automático e recuperador de calor.
+>
+> [276/280] m² · Classe energética [ ] · Entrega [mês/ano] · Ref. [ML7]
+>
+> Venda direta pelo construtor. Marque uma visita — respondemos no próprio dia.
+>
+> *Imagens 3D ilustrativas. Áreas indicativas, a confirmar no projeto aprovado.*
+
+**D2 — Moradia T4, Esporões (Loteamento da Fontela)**
+
+> **Última moradia da Fontela, Esporões · T4 de gaveto com 400 m²**
+>
+> Na Rua das Camélias, Loteamento da Fontela, em Esporões — [x] minutos do centro de Braga. É a última
+> das sete moradias do empreendimento, e a única de gaveto.
+>
+> Jardim em dois lados, espaço para piscina [confirmar: incluída ou possível] e garagem dupla. [Descrever
+> os pisos: zona social, cozinha, quatro quartos, casas de banho.]
+>
+> Construída por nós, com as mesmas soluções das restantes seis: [bomba de calor, caixilharia, capoto…
+> confirmar].
+>
+> 400 m² · Classe energética [ ] · Ref. [ ] · 525 000 €
+>
+> Quem lá vive já pode contar como é. Peça-nos o contacto de um vizinho, ou marque a visita.
+
+> ⚠️ Mudar o título "Moradia T4 com Piscina" se a piscina não estiver incluída.
+
+**D3 — Lote, Escudeiros** (já no tom certo no booklet; versão anúncio)
+
+> **Lote de 700 m² para moradia em Escudeiros · plano, pronto a projetar**
+>
+> Na Rua do Hospital, numa rua de moradias a sul de Braga, perto da escola básica, da igreja e de um
+> supermercado, com ligação rápida à N309.
+>
+> Solo urbano no PDM, sem RAN nem REN, praticamente plano. Cabe uma moradia isolada de dois pisos com cerca
+> de 280 m² e jardim a sul e nascente — e, sendo plano, poupa em muros e terras.
+>
+> Destaque e registo concluídos antes da escritura. 99 000 € · Ref. ESC-700.
+>
+> Quer construir aqui? Somos construtores: damos-lhe prazo e custo indicativos para a sua casa.
+>
+> *Esquema preliminar, sem valor de projeto. Parâmetros a confirmar junto da Câmara Municipal de Braga.*
+
+### E. Destaques FAB (substituem a lista de 27 linhas)
+
+| Característica | → Vantagem | → Benefício (o que se escreve) |
+|---|---|---|
+| Bomba de calor 270 L | água quente sem caldeira a gás | "Água quente para a família inteira, com menos gás e menos conta." |
+| Capoto (ETICS) em toda a fachada | isolamento contínuo | "Casa fresca no verão e quente no inverno, sem pontes térmicas." |
+| Garagem para 2 carros + arrumos + lavandaria | espaço técnico fora da casa | "Os carros, as bicicletas e a máquina de lavar ficam cá em baixo." |
+| Escritório junto ao jardim | divisão flexível | "Trabalhar de casa a olhar para o jardim — ou receber quem vem de visita." |
+| Pré-instalações (AC, alarme, som, portão) | escolhe depois, sem obras | "Decide mais tarde o que instalar, sem abrir paredes." |
+| Estores elétricos térmicos + vidro duplo | conforto e ruído | "Escuro total para dormir e silêncio da rua, com um botão." |
+
+### F. CTAs por contexto
+
+| Contexto | CTA principal | CTA secundário | Microcopy de confiança |
+|---|---|---|---|
+| Ficha de imóvel | **Marcar visita** | WhatsApp | "Respondemos no próprio dia, também ao sábado de manhã." |
+| Projeto | **Escolher a minha fração** | Falar com o construtor | "Plantas e preços de cada fração, sem compromisso." |
+| Fração disponível | **Quero saber mais sobre a [ML8]** | Comparar | — |
+| Fração reservada | **Avisar-me se ficar livre** | Ver outras frações | "Às vezes uma reserva não avança. Avisamos primeiro quem pediu." |
+| Fração "em breve" | **Entrar na lista de espera** | — | "Recebe as plantas 48 h antes do público." |
+| Lote | **Pedir o booklet do lote** | Quero construir aqui | "PDF com ficha, localização e o que pode construir." |
+| Captação | **Tem um terreno? Fale connosco** | Avaliar a minha casa | "Resposta em 48 h. Confidencial." |
+| Obra | **Receber o diário de obra** | — | "Um email por mês. Sai quando quiser." |
+| Formulário — botão | **Enviar pedido** | — | Confirmação: "Recebido. A [nome] vai responder-lhe hoje até às [h]." |
+| Formulário — erro | — | — | "Não conseguimos enviar. Tente outra vez ou fale connosco pelo WhatsApp." |
+
+### G. Mensagens de WhatsApp pré-preenchidas (`wa.me/351913440800?text=…`)
+
+- Ficha: "Olá! Vi a *[título]* (ref. [ref]) no vosso site e gostava de saber mais."
+- Fração: "Olá! Tenho interesse na fração *[ML8]* de *[Merelim]*. Podem enviar-me a planta e as condições?"
+- Visita: "Olá! Gostava de visitar *[título]*. Tenho disponibilidade [ao sábado de manhã / durante a semana]."
+- Lote: "Olá! Gostava de receber o booklet do lote *[ESC-700]* e saber quanto custaria construir lá."
+- Terreno (captação): "Olá! Tenho um terreno em *[freguesia]* e gostava de saber se vos interessa."
+
+### H. Emails
+
+**H1 — Resposta imediata a um pedido** · Assunto: *[Título] — planta, fotos e próximos passos*
+> Olá [Nome],
+>
+> Obrigado pelo interesse na [título]. Junto envio o booklet com a planta, as áreas e a localização.
+>
+> Sou [nome], do Painel Temático — somos nós que construímos esta casa, por isso qualquer pergunta sobre
+> materiais, prazos ou acabamentos é comigo.
+>
+> Tenho estes horários para a visita: [dia/hora] ou [dia/hora]. Responda com o que lhe der jeito, ou
+> escreva-me no WhatsApp ([link]).
+>
+> Até breve,
+> [Nome] · [telefone]
+
+**H2 — D+2** · Assunto: *As 3 perguntas que nos fazem sempre sobre [Merelim]*
+> 1. **Quando fica pronta?** [Mês/ano previsto] — e pode acompanhar a obra aqui: [link].
+> 2. **O que está incluído?** [lista curta] — e o que fica à sua escolha.
+> 3. **Como se reserva?** Com um sinal de [x] e um contrato-promessa (CPCV); depois o crédito e a escritura.
+>
+> Se ainda tem dúvidas, a forma mais rápida é ver a casa. [Marcar visita]
+
+**H3 — Newsletter mensal "Diário de obra"** · Assunto: *[Mês]: a cobertura de Merelim fechou*
+> **Merelim** — [fase]. [2 frases + 3 fotos.] Próximo passo: [x].
+> **Esporões** — [ ]. **Escudeiros** — [ ].
+> **Braga em números** — Mediana de venda: 2 417 €/m² no 2.º trimestre (INE). [1 frase de contexto.]
+> **Disponível agora** — [1 produto, 1 foto, 1 link].
+
+**H4 — Lista de espera → lançamento** · Assunto: *Trandeiras: as plantas chegam-lhe 48 h antes de todos*
+> Está na lista de espera de Trandeiras desde [data]. Como prometido, recebe as plantas e os preços das
+> [8] frações antes de saírem no site. As escolhas fazem-se por ordem de pedido. [Ver frações]
+
+### I. Posts
+
+**Instagram — carrossel (6 slides) "O que não se vê numa visita"**
+1. "5 coisas que estão dentro das paredes da sua casa nova (e que ninguém lhe mostra numa visita)"
+2. "1. Capoto — [foto da fachada a meio]. Isola a casa por fora, sem pontes térmicas."
+3. "2. Tubagem de águas e esgotos — [foto]. Testada antes de fechar as paredes."
+4. "3. Rede ITED — [foto]. Fibra e TV preparadas em todas as divisões."
+5. "4. Pladur com isolamento — [foto]. Menos ruído entre quartos."
+6. "5. Impermeabilização da cobertura — [foto]. A parte da casa que nunca vai ver. Acompanhe a obra no link da bio."
+Legenda: "Construímos o que vendemos — por isso podemos mostrar o que está por trás. Merelim, [mês]. #Braga #MoradiasBraga #ObraNova #Merelim"
+
+**Reel (25 s) "Esta semana na obra"**
+- Plano 1 (3 s): portão da obra, legenda "Merelim · semana [n]".
+- Plano 2 (8 s): o que mudou (mesmo ângulo da semana anterior → hoje).
+- Plano 3 (8 s): um detalhe com explicação de 1 frase, voz de quem constrói.
+- Plano 4 (6 s): "Ainda há [3] moradias. Link na bio."
+
+**Facebook (público local)**
+> Merelim, [mês]: as moradias já têm cobertura fechada. Ficam a [10] minutos do centro, com a escola e a
+> piscina municipal a poucos minutos a pé. Ainda há três T3+1 disponíveis — fotos, plantas e preços no
+> site: [link]. Visitas ao sábado de manhã.
+
+**LinkedIn (empresa como construtora)**
+> Porque é que fazemos capoto em toda a fachada, mesmo quando o projeto só o exige numa parte?
+> Porque o isolamento só funciona se for contínuo — e porque somos nós que respondemos pela casa depois da
+> chave. Em Merelim, [x] m² de ETICS aplicados este mês. [foto] #Construção #Braga #EficiênciaEnergética
+
+**TikTok / Shorts (30 s, de frente para a câmara)**
+> "Isto é uma bomba de calor de 270 litros. Numa casa nova em Braga, substitui o esquentador e a caldeira
+> para a água quente. Porquê? [1 razão]. Quanto poupa? Depende da família — por isso não lhe vou dar um
+> número inventado. O que posso dizer é [facto]. Somos o Painel Temático, construímos em Braga."
+
+**Google Business Profile (semanal)**
+> Obra de Merelim — semana [n]: [fase]. 3 moradias T3+1 disponíveis, entrega [mês/ano]. Ver plantas e
+> preços → [link].
+
+### J. Anúncios pagos
+
+**Meta — pré-lançamento**
+- Texto principal: "Moradias novas em [freguesia], construídas e vendidas por nós. Inscreva-se e receba as plantas e os preços 48 h antes do público."
+- Título: "Lista de espera — [Empreendimento]" · Descrição: "Sem compromisso"
+- CTA: "Inscrever-se"
+
+**Meta — lançamento (destino WhatsApp)**
+- Texto principal: "[n] moradias T3+1 em Merelim, a [10] min do centro de Braga. Jardim, garagem para 2 carros e bomba de calor. Fale direto com o construtor."
+- Título: "Desde 395 000 € · Merelim" · CTA: "Enviar mensagem"
+
+**Meta — última unidade**
+- Texto principal: "Das sete moradias da Fontela, resta uma: a de gaveto, com jardim em dois lados e 400 m². Visitas esta semana."
+- Título: "Última moradia · Esporões"
+
+**Google — títulos (≤ 30 caracteres, contados)**
+Moradias Novas em Merelim (25) · T3+1 com Jardim em Braga (24) · Construímos o Que Vendemos (26) ·
+Última Moradia em Esporões (26) · Lote de 700 m² em Escudeiros (28) · Visitas ao Sábado de Manhã (26) ·
+Fale Direto com o Construtor (28) · Veja a Obra Semana a Semana (27) · Moradias T3 e T4 em Braga (25) ·
+Garagem para 2 Carros (21) · Bomba de Calor Incluída (23) · Sem Intermediários (18)
+
+**Google — descrições (≤ 90 caracteres, contadas)**
+- "Moradias T3+1 novas em Merelim, a 10 min do centro de Braga. Marque já a sua visita." (84)
+- "Construídas por nós: capoto, bomba de calor e caixilharia térmica. Veja a obra." (79)
+- "Lote plano de 700 m² para moradia isolada, sem RAN nem REN. Booklet com tudo no site." (85)
+- "Responda a 3 perguntas e receba as plantas e o preço de cada fração no WhatsApp." (80)
+
+> Confirmar antes de usar: os "10 min do centro" (vêm da descrição do projeto na base de dados, não de
+> uma medição) e "sem RAN nem REN" (vem do booklet; manter só com a certidão/PDM à mão).
+
+### K. Avisos legais curtos (validar com jurista)
+
+- Renders: "Imagens 3D meramente ilustrativas; não constituem elemento contratual."
+- Áreas: "Áreas indicativas, a confirmar no projeto aprovado e na caderneta predial."
+- Prestação: "Simulação indicativa com [taxa]% a [n] anos e entrada de [x]%. Não é uma proposta de crédito."
+- Staging: "Decoração virtual. Ver fotografia real ao lado."
+- Licença: "Painel Temático · AMI 25031 · IMPIC 69636."
+
+### L. Voz da marca — usar / evitar
+
+| Usar | Evitar |
+|---|---|
+| construímos, entregamos, a obra, a chave | oportunidade única, imperdível, não perca |
+| minutos, metros, m², orientação, marca do material | bem localizado, perto de tudo, zona privilegiada |
+| connosco, casa de banho, logradouro, fração, CPCV | conosco, banheiro, unidade, aluguel |
+| "respondemos hoje" (e cumprir) | "resposta imediata" (se não for) |
+| números com fonte (INE, projeto aprovado) | "valorização garantida", "ótimo investimento" |
+| frases curtas, tom calmo | maiúsculas, exclamações, "VIDA e MOVIMENTO" |
+
+---
+
+## Backlog de verificação (para a sessão seguinte)
+
+O que ficou por fazer por falta de orçamento de pesquisa ou por bloqueio de rede. Correr pela ordem:
+
+1. **Abrir o site em produção** a 375 e 1280 px (requer permitir `painel-tematico.vercel.app` na rede da
+   sessão) e medir o que o código sugere (CTA, sobreposições, hero vazio).
+2. 10–20 anúncios reais com link — pesquisas: `site:idealista.pt moradia T3 Braga nova construção`;
+   `site:zome.pt moradia Braga`; `site:remax.pt empreendimento Braga`; `site:era.pt moradia Braga`;
+   `site:century21.pt Braga moradia`; `site:kwportugal.pt Braga`; `site:engelvoelkers.com/pt Braga`;
+   `site:portugalsir.com moradia`.
+3. Sites de empreendimentos em Portugal com seletor de frações: "empreendimento Braga frações
+   disponíveis planta interativa"; "Vanguard Properties empreendimento site"; "Habitat Invest
+   empreendimento"; "Kronos Homes Portugal".
+4. Reserva online em Espanha: "AEDAS Homes reserva online vivienda"; "Neinor Homes área cliente
+   evolución obra"; "Metrovacesa reserva online".
+5. Sites de luxo e boutiques: Compass, Redfin (agendar visita, estimativa), Sotheby's, The Agency;
+   prémios de design ("real estate website awards 2025 Awwwards").
+6. NAR 2025 PDF oficial (plantas e tours — números contraditórios); NAR *Profile of Home Staging* (2023
+   ou mais recente) para staging virtual.
+7. Estudo HBS sobre tours 3D: autores, data e conclusões exatas.
+8. idealista: estudo original sobre vídeo/tour e contactos (o "40–60%" do Inmolovers); existência de
+   simulador de prestação embebido na ficha do idealista.pt.
+9. Benchmarks de anúncios: "LocaliQ search advertising benchmarks 2025 real estate"; "WordStream Facebook
+   ads benchmarks 2025 real estate cost per lead"; dados europeus/portugueses se existirem.
+10. Meta: "special ad category housing Europe 2025/2026" — aplica-se a Portugal?
+11. Legal PT: DL 101-D/2020 (classe energética em anúncios), Lei 15/2013 (AMI na publicidade), DL 68/2004
+    (Ficha Técnica da Habitação), Livro de Reclamações Eletrónico, RAL, regras de publicidade a crédito do
+    Banco de Portugal — confirmar artigos e redação.
+12. ANAC: requisitos atuais para drones em fotografia imobiliária.
+13. Conteúdo de consultores e redes em Portugal: "consultor imobiliário Instagram Portugal",
+    "podcast imobiliário Portugal 2025", "RE/MAX Portugal YouTube", "relatório de mercado imobiliário
+    Braga".
+14. Whitespark *Local Search Ranking Factors* (última edição) para o Google Business Profile.
+15. Exemplos de copy de newsletters de promotores (Portugal/Espanha) e de anúncios Meta de
+    empreendimentos (Biblioteca de Anúncios da Meta: pesquisar "moradias Braga", "empreendimento Braga").
+
+---
+
+## Fontes
+
+Datas: a do documento quando visível; senão "consultado a 23/11/2026". Fontes "via cap. 01/05" foram
+recolhidas pelos capítulos irmãos e não re-verificadas nesta sessão.
+
+**Design e UX**
+- Zillow — "Zillow unveils a new look for property pages, their biggest redesign in 5 years" — <https://zillow.mediaroom.com/2023-10-23-Zillow-unveils-a-new-look-for-property-pages,-their-biggest-redesign-in-5-years> — 23/10/2023
+- Online Marketplaces — "Zillow's Listing Pages Get Biggest Overhaul in Five Years" — <https://onlinemarketplaces.com/articles/zillows-listing-pages-get-biggest-overhaul-in-five-years> — consultado a 23/11/2026
+- Zillow Group — "Zillow's most innovative launches of the year" — <https://www.zillowgroup.com/news/zillow-innovation-2025> — 2025
+- Zillow — "Summer just got hotter: Zillow debuts five powerful new features" — <https://s25.q4cdn.com/975009107/files/doc_news/Summer-just-got-hotter-Zillow-debuts-five-powerful-new-features-2025.pdf> — 2025
+- Zillow — SkyTour — <https://www.zillow.com/agents/summer-product-launch-skytour> — 2025
+- Zillow — "Zillow launches a personalized hub that guides home buyers from first search to closing" — <https://s25.q4cdn.com/975009107/files/doc_news/Zillow-launches-a-personalized-hub-that-guides-home-buyers-from-first-search-to-closing-2026.pdf> — 2026
+- Zillow — "Understanding Zillow's New Total Price Display" — <https://www.zillow.com/rentals-network/pricing-transparency> — consultado a 23/11/2026
+- PaTMa — "How To Understand The New Rightmove Page Layout" — <https://www.patma.co.uk/blog/2020/10/the-new-rightmove-page-layout/> — 10/2020
+- Rightmove Hub — "We've been working on a new look property details page" — <https://hub.rightmove.co.uk/weve-been-working-on-a-new-look-property-details-page/> — consultado a 23/11/2026
+- Rightmove — "The photos on the website are now bigger" — <https://www.rightmove.co.uk/news/?p=77383> — consultado a 23/11/2026
+- Rightmove — "Maximise the chances of finding a buyer with a floorplan" — <https://www.rightmove.co.uk/news/articles/property-news/maximise-chances-finding-buyer-floorplan/> — consultado a 23/11/2026
+- Rightmove Hub — "Development profiles" — <https://hub.rightmove.co.uk/development-profiles> — 2025
+- Rightmove — "Rightmove trialling new Renovation Cost Estimator" — <https://www.rightmove.co.uk/press-centre/?p=4705> — 2025
+- idealista — "Visita guiada virtual" (centro de ajuda) — <https://www.idealista.com/tools/centrodeayuda/pt-pt/articulos/sala-virtual-de-visitas/> — consultado a 23/11/2026
+- idealista — idealista/hipotecas — <https://www.idealista.com/hipotecas/> — consultado a 23/11/2026
+- RE/MAX — assistente de IA (Marketeer, via cap. 01) — <https://marketeer.sapo.pt/re-max-poe-inteligencia-artificial-no-primeiro-contacto-com-clientes-e-promete-encontrar-o-consultor-certo/> — 11/09/2026
+- Doutor Finanças — "Quanto vale a minha casa" (via cap. 01) — <https://www.doutorfinancas.pt/vida-e-familia/habitacao/quanto-vale-a-minha-casa/> — consultado a 23/11/2026
+- Diário Imobiliário — "Zome.pt é o primeiro site de uma rede imobiliária com integração de ChatGPT…" (via cap. 01) — <https://www.diarioimobiliario.pt/Zome-pt-e-o-primeiro-site-de-uma-rede-imobiliaria-com-integracao-de-ChatGPT-na-pesquisa-de-imoveis> — 2023
+- Creative News — "Zome lança novo site…" (via cap. 01) — <https://creativenews.pt/2023/07/03/zome-lanca-novo-site-para-melhorar-experiencia-dos-visitantes/> — 03/07/2023
+- Diário Imobiliário — Zome Go! (via cap. 01) — <https://www.diarioimobiliario.pt/Actualidade/Zome-lanca-ferramenta-digital-que-agiliza-a-colocacao-de-imoveis-a-venda-no-mercado> — data não visível
+
+**Media**
+- NAR — 2025 Profile of Home Buyers and Sellers (cópia RI Realtors) — <https://www.rirealtors.org/clientuploads/documents/NAR/Homebuyers_and_sellers_trend_2025.pdf> — 2025 (dados jul/2024–jun/2025)
+- NAR — 2025 Profile (cópia Greater Bergen Realtors) — <https://www.greaterbergenrealtors.com/clientuploads/Broker_Page/2025_Profile_of_Home_Buyers_and_Sellers.pdf> — 2025
+- NAR — "Top 10 Takeaways from NAR's 2025 Profile of Home Buyers and Sellers" — <https://www.nar.realtor/news/economists-outlook/top-10-takeaways-from-nars-2025-profile-of-home-buyers-and-sellers> — 2025
+- idealista/news — "A importância das visitas virtuais na mediação imobiliária" — <https://www.idealista.pt/news/financas/negocios/2021/02/05/46159-a-importancia-das-visitas-virtuais-na-mediacao-imobiliaria> — 05/02/2021
+- idealista/news — "Dicas para distinguir o imóvel da concorrência…" — <https://www.idealista.pt/news/imobiliario/habitacao/2020/12/23/45710-dicas-para-distinguir-o-imovel-da-concorrencia-e-conseguir-uma-venda-de-sucesso> — 23/12/2020
+- idealista/news — "Como criar bons anúncios para vender casa" — <https://www.idealista.pt/news/imobiliario/habitacao/2020/12/07/45526-como-criar-um-bom-anuncio-para-vender-uma-casa-na-internet> — 07/12/2020
+- Inmolovers — "Cómo optimizar tus anuncios en Idealista…" (afirmação não confirmada) — <https://inmolovers.com/portales/como-optimizar-anuncios-idealista> — 2026
+- Zillow Research — 3D tours e ferramentas virtuais — <https://www.zillow.com/research/3d-tours-virtual-tools-popular-29650> — 2021
+- Zillow Research — 3D home tours e coronavírus — <https://www.zillow.com/research/3d-home-tours-coronavirus-26568> — 2020
+- Zillow — "Virtual tours help homes sell faster" — <https://www.zillow.com/learn/virtual-tours-home-sell-faster> — 2021
+- Harvard Business School Working Knowledge — "Are Virtual Tours Still Worth It in Real Estate? Evidence from 75,000 Home Sales" — <https://www.library.hbs.edu/working-knowledge/are-virtual-tours-still-worth-it-in-real-estate-evidence-from-75000-home-sales> — data não visível
+- Matterport — "With 3D Tours, properties sell up to 31% faster and at a higher price" (fabricante) — <https://matterport.com/es/blog/3d-tours-properties-sell-31-faster-and-higher-price> — data não visível
+
+**Conteúdo, aquisição e mercado (via cap. 05)**
+- Oldroyd, McElheran, Elkington — "The Short Life of Online Sales Leads", HBR — <https://scholarsarchive.byu.edu/facpub/9711> — 03/2011
+- Mike DelPrete — "Secret Shopping: 47% of Online Property Inquiries Are Ignored" — <https://www.mikedp.com/articles/2024/8/13/secret-shopping-47-of-online-property-inquiries-are-ignored> — 13/08/2024
+- Zillow — Consumer Housing Trends Report 2025 (compradores) — <https://www.zillow.com/research/buyers-housing-trends-report-2025-35688> — 2025
+- BrightLocal — Local Consumer Review Survey 2025 — <https://www.brightlocal.com/research/local-consumer-review-survey-2025/> — 2025
+- Forbes Portugal — preços INE 2.º trimestre 2026 por município — <https://www.forbespt.com/?p=197896> — 2026
+- Braga TV — "Preços das casas em Braga sobem 10,2% num ano" — <https://bragatv.pt/precos-das-casas-em-braga-sobem-102-num-ano/> — 10/2026
+- idealista/news — crédito à habitação 2025, 58% com 18–35 anos — <https://www.idealista.pt/news/imobiliario/habitacao/2026/04/14/74837-falta-de-casas-ha-um-interesse-crescente-em-reconverter-imoveis> — 14/04/2026
+
+**Internas (lidas a 23/11/2026)**
+- Código-fonte do site — `/home/user/website/src` (ficheiros citados na secção 5)
+- Booklet de Escudeiros — `/home/user/website/public/booklets/escudeiros.html` (publicado a 20/11/2026)
+- Auditoria UX/UI de julho de 2026 — `/home/user/website/docs/design/AUDITORIA-UXUI-2026-07.md`
+- Mockups — `/home/user/website/docs/design/mockups/` (homepage, imovel, projeto-fracoes, avaliacao)
+- Base de dados de produção (Supabase, leitura `SELECT`): `imoveis`, `projetos`, `unidades`,
+  `atualizacoes_obra`, `site_settings`, `blog_posts`, `testemunhos`, `videos_obra`
+- `BRIEFING.md` e `HISTORY.md` do repositório
+
