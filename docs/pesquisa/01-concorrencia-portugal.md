@@ -733,7 +733,9 @@ evento de lançamento, co-exclusivo com marcas de mediação.
   Norte** (Bonjardim em 2025, Greenstone em 2026). Uma obra entregue do Painel pode candidatar-se —
   é prova social que as redes não dão.
 
-**Grelha de análise proposta** (a mesma para todos, para o resultado ser comparável):
+### 13.9 Definição da grelha e notas da sessão 1
+
+**Grelha de análise proposta** (sessão 1; é a que se aplica na tabela 13.8):
 
 1. **Site próprio do empreendimento** (domínio próprio vs página no site do grupo).
 2. **Mapa de frações** com disponibilidade em tempo real (vendida / reservada / livre), planta por
@@ -750,9 +752,11 @@ evento de lançamento, co-exclusivo com marcas de mediação.
 **Sinal que já temos** (do lado das redes): a ERA vendeu ~1 700 casas novas em 2025 e a obra nova
 pesa 18% da sua faturação, com a AM do Porto à frente (secção 3). **[Inferência]** Os promotores do
 Norte estão a vender muito através de redes — o que significa que boa parte deles **não tem canal
-direto forte**. É a abertura.
+direto forte**. É a abertura. *(Sessão 2: confirma-se em parte — no Porto premium os promotores
+entregam o lançamento a mediadoras em co-exclusivo, e no Minho a DST usa a rede aberta. Mas a
+abertura não é "ninguém tem canal": é "ninguém tem canal **digital** próprio documentado".)*
 
-**O que isto significa para o Painel Temático (provisório)**
+**O que isto significa para o Painel Temático (sessão 1, mantém-se)**
 - A grelha acima é também a **lista de requisitos do site** dos empreendimentos: cada ponto que o
   Painel cumprir e os concorrentes não é um argumento de venda.
 - Os pontos 2, 4, 5 e 6 (frações em tempo real, reserva, diário de obra, área de cliente) assentam
