@@ -207,3 +207,46 @@ Fontes:
 - Millennium bcp — *Novas obrigações para imobiliárias* — <https://ind.millenniumbcp.pt/pt/geral/fiscalidade/Pages/Novas-obrigacoes-para-imobiliarias.aspx> (lido em excerto)
 - Imojuris — *Reporte de transações imobiliárias ao IMPIC* — <https://imojuris.vidaimobiliaria.com/actualidade/not%C3%ADcias/Reporte-de-transacoes-imobiliarias-ao-IMPIC-I-P-pa> (lido em excerto)
 
+## 7. Garantia pública para jovens (DL 44/2024) e IMT Jovem 2026
+
+**Veredicto: CONFIRMADO** (prazo até 31/12/2026, teto de 450 000 €, isenção total do IMT Jovem até
+330 539 €), **com dois avisos**: a prorrogação para 2027 está **anunciada mas ainda não é lei**, e uma
+página oficial (gov.pt) mostra um teto parcial diferente.
+
+### 7.1 Garantia pública (Decreto-Lei n.º 44/2024, de 10 de julho)
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Diploma | **DL n.º 44/2024, de 10/07**; regulamentado pela **Portaria n.º 236-A/2024/1, de 27/09**; garantia prestada através da DGTF | CONFIRMADO (DR, lido em excerto) |
+| Limite de preço | **Valor da transação ≤ 450 000 €** (é o preço do imóvel, não o empréstimo); garantia **até 15% do valor da transação** | CONFIRMADO (texto do DL citado em excerto) |
+| Outras condições | 18–35 anos; habitação própria e permanente; o mutuário não pode ser proprietário de prédio/fração habitacional nem usar a garantia mais do que uma vez; segundo a DECO, rendimento coletável < 80 000 € (8.º escalão) e sem dívidas ao Fisco e à SS. **Não cobre crédito à construção** | lido em excerto |
+| Prazo atual | **Contratos celebrados até 31/12/2026** | CONFIRMADO |
+| Prorrogada? | **Anunciada, não aprovada.** O relatório do OE2027 (out/2026) diz que a garantia se mantém em 2027, mas a proposta de lei **não a prorroga** — depende de diploma próprio. Na especialidade do OE2027 foi aprovada a **19/11/2026** uma proposta (PSD/CDS) que **alarga a garantia à autoconstrução e à construção modular** (até 100% do terreno e da empreitada); o OE2027 ainda não tinha votação final global nem publicação à data desta verificação | **NÃO CONFIRMADO** que vigore em 2027 |
+
+### 7.2 IMT Jovem 2026
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Isenção total (Continente) | **Até 330 539 €** (escalões de 2025 atualizados em 2% pelo OE2026; em 2025 era 324 058 €) | CONFIRMADO (Montepio e outras fontes), lido em excerto |
+| Isenção parcial | **Entre 330 539 € e 660 982 €**: paga-se IMT só sobre a parte acima de 330 539 €, a 8% | lido em excerto |
+| Sem isenção | **Acima de 660 982 €** | lido em excerto |
+| Açores e Madeira | Isenção total até **413 174 €** | lido em excerto |
+| ⚠ Divergência | O **gov.pt** ("Pedir isenção de IMT e IS", atualizado a 27/03/2026) diz que acima de **648 022 €** não há isenção — é o teto de **2025** (648 022 × 1,02 = 660 982). Parece página por atualizar, mas **confirmar nas Finanças** antes de pôr o número no site | NÃO CONFIRMADO qual vale |
+| 2027 | O relatório do OE2027 prevê manter as isenções de IMT e IS para jovens | anunciado (idealista, 08/10/2026) |
+
+**O que isto muda para o produto:** os números do cap. 05 estão certos para 2026. Na página de cada
+fração, o simulador deve mostrar a garantia como **"para escrituras até 31/12/2026"** até a
+prorrogação sair em DR — uma venda em planta com escritura em 2027 **não pode** contar com ela hoje.
+
+Fontes:
+- Diário da República — *Decreto-Lei n.º 44/2024* — <https://diariodarepublica.pt/dr/detalhe/decreto-lei/44-2024-871466267> — 10/07/2024 (lido em excerto)
+- Banco Invest — *DL 44/2024* (PDF) — <https://www.bancoinvest.pt/docs/default-source/documentosgerais/dl_44_2024.pdf> (lido em excerto)
+- DECO Proteste — *Crédito habitação jovem: como funciona a garantia pública do Estado* — <https://www.deco.proteste.pt/dinheiro/comprar-vender-casa/noticias/credito-habitacao-jovem-como-funciona-garantia-publica-estado> (lido em excerto)
+- Literacia Financeira (BdP) — *Crédito habitação jovem* — <https://www.literaciafinanceira.pt/artigos/credito-habitacao-jovem> (lido em excerto)
+- ECO — *Garantia pública para jovens comprarem primeira casa mantém-se em 2027* — <https://eco.sapo.pt/2026/10/08/garantia-publica-para-jovens-comprarem-primeira-casa-mantem-se-em-2027/> — 08/10/2026 (lido em excerto)
+- Contas Poupança — *OE2027: Governo quer manter a garantia pública para jovens em 2027* — <https://contaspoupanca.pt/bancos/2026-10-09-oe2027-governo-quer-manter-a-garantia-publica-para-jovens-em-2027-f4351bc1> — 09/10/2026 (lido em excerto)
+- idealista — *Isenção de IMT Jovem mantém-se em 2027 – falta decisão final sobre garantia* — <https://www.idealista.pt/news/financas/credito-a-habitacao/2026/10/08/78113-garantia-publica-e-isencao-de-imt-mantem-se-para-jovens-em-2027> — 08/10/2026 (lido em excerto)
+- Renascença — *OE2027: Garantia pública para jovens alargada à construção da primeira casa* — <https://rr.pt/noticia/pais/2026/11/19/oe2027-garantia-publica-para-jovens-alargada-a-construcao-da-primeira-casa/494300/> — 19/11/2026 (lido em excerto)
+- Montepio — *IMT Jovem: guia para ter isenção até aos 35 anos* — <https://www.montepio.org/blog/casa/imt-jovem-guia-para-ter-isencao-ate-aos-35-anos/> (lido em excerto)
+- gov.pt — *Pedir isenção de IMT e IS* — <https://www.gov.pt/servicos/pedir-isencao-imt-e-is> — atualizado a 27/03/2026 (lido em excerto)
+

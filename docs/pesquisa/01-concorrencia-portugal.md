@@ -4,7 +4,8 @@
 > Eixo: quem são os concorrentes na captação, no marketing e na venda de imóveis em Portugal,
 > o que fazem nos sites, nas ferramentas e na IA, e onde um promotor pequeno de Braga pode ganhar.
 >
-> **Data da pesquisa:** 2026-11-23. **Autor:** pesquisa assistida (Claude), só leitura.
+> **Data da pesquisa:** 2026-11-23 (sessão 1: redes; sessão 2, no mesmo dia: promotores, boutiques
+> e as redes que faltavam). **Autor:** pesquisa assistida (Claude), só leitura.
 >
 > **Como ler este documento**
 > - Cada afirmação leva a fonte entre parênteses ou em nota. Quando a fonte não tem data visível,
@@ -51,7 +52,35 @@
   para o consultor nas redes nos próximos anos (secção 1).
 - **Lacuna**: Coldwell Banker, Engel & Völkers, Sotheby's, iad, Decisões e Soluções, Predimed, as
   boutiques e — o mais importante — **os promotores** ficaram por verificar (orçamento de pesquisa
-  esgotado). Ver secção 17.
+  esgotado). Ver secção 17. *(Fechada em grande parte na sessão 2 — ver abaixo.)*
+
+**Acrescentado na sessão 2 (2026-11-23): promotores, boutiques e as outras redes**
+
+- **No Porto, a obra nova vende-se antes de existir**: 40–60% das casas novas em planta ou no início
+  da obra (60–65% nas vendas da Q+P | Knight Frank); Greenstone tinha 30% reservado antes da obra,
+  o Pleno da VIZTA 46% no lançamento, o PURE da Fercopor 30 de 34 em duas semanas, o Terrazza Park
+  26% em três dias de feira (secções 13.0–13.7).
+- **Os promotores de referência do Porto não vendem sozinhos**: entregam o lançamento a duas ou três
+  mediadoras em co-exclusivo (JLL + Predibisa + LUXIMOS Christie's no Bonjardim; JLL + Predibisa no
+  Greenstone), com evento de apresentação e stand no local. No Minho, a DST vende o Mereces 718
+  pela rede aberta (RE/MAX, Predimed) (secções 13.1, 13.2, 13.5).
+- **Ninguém usa o digital como argumento**: em nenhum promotor estudado a imprensa fala de mapa de
+  frações em tempo real, reserva online, diário de obra ou área de cliente; só a BluePeak *promete*
+  um portal de cliente. Os sites não puderam ser lidos — é o pendente n.º 1 (secção 13.8).
+- **Preço de entrada como produto**: a VIZTA criou a marca CORE, com cozinha e aquecimento opcionais,
+  para baixar o preço base; o Pleno (Maia) publica preços de 224 a 358 mil € (secção 13.4).
+- **Há prémio regional**: o Prémio Nacional do Imobiliário tem a categoria **Habitação Norte**
+  (Bonjardim, Avenue, 2025; Greenstone, Bondstone, 2026) (secções 13.1, 13.2).
+- **As boutiques do Norte estão a ser compradas**: Predibisa → Savills (2023), Castelhana → Dils
+  (2024; Dils no Porto desde outubro de 2025), Seed → Coldwell Banker; e a Compass ficou com a
+  Coldwell Banker e a Sotheby's a 9/01/2026. **Não encontrámos nenhuma mediadora de Braga com
+  prémio** (secções 6 e 12).
+- **Braga vale ~60% do Porto** em €/m² (2 173 €/m² pedidos em fevereiro de 2026 contra 3 700 €/m² de
+  venda no Porto, fontes diferentes); a E&V tem loja no Minho e aponta Fraião, Nogueiró, Lamaçães e
+  Gualtar como as zonas mais procuradas; a iad aposta no Minho (secções 7, 9, 13.0).
+- **Redes**: a Decisões e Soluções faturou 112 M€ com mais de 600 lojas (crédito e seguros no
+  centro do modelo); a Portugal Sotheby's cresceu 18% com o Porto em destaque; a Coldwell Banker
+  tem 12 agências e nenhuma no Norte (secções 6–11).
 
 ---
 
