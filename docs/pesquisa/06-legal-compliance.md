@@ -765,3 +765,139 @@ querem publicidade ao abrigo do **art. 22.º do DL n.º 7/2004** (alterado pelo 
    (pedidos de assistência pós-venda no CRM).
 
 ---
+
+## 7. WhatsApp Business e plataformas
+
+> **[a verificar]** em toda a secção: as páginas da Meta não foram abertas nesta sessão e as
+> políticas mudam várias vezes por ano. Fontes a reabrir:
+> [WhatsApp Business Messaging Policy](https://business.whatsapp.com/policy) ·
+> [Meta for Developers — opt-in](https://developers.facebook.com/docs/whatsapp/overview/getting-opt-in).
+
+### 7.1 Regras da Meta (o que sei)
+
+- **Opt-in antes de iniciar conversas**: a empresa só pode enviar mensagens proativas a quem deu
+  **opt-in**, que tem de dizer claramente que aceita receber mensagens **daquela empresa pelo
+  WhatsApp**. A empresa tem de **respeitar pedidos de paragem**.
+- **Janela de 24 horas**: depois de o cliente escrever, a empresa responde livremente durante 24h;
+  fora dela só com **modelos (templates) pré-aprovados**, em categorias (**marketing**,
+  **utilidade**, **autenticação**). Desde 2025, cobrança **por mensagem/modelo**.
+- **Não pedir identificadores sensíveis** pelo WhatsApp (números completos de cartões de
+  pagamento, contas financeiras, **números de identificação nacional**) — relevante para o KYC.
+- **Assistentes de IA de finalidade geral**: a partir de **15/01/2026** a Meta passou a proibir na
+  WhatsApp Business Solution os fornecedores de **chatbots de finalidade geral** como função
+  principal; **bots de atendimento de uma empresa sobre o seu próprio negócio continuam
+  permitidos**. A Comissão Europeia abriu investigação de concorrência (dez/2025) e a autoridade
+  italiana impôs medidas cautelares. **Estado atual não confirmado.** Um agente da Painel Temático
+  sobre os seus imóveis está, em princípio, do lado permitido.
+
+### 7.2 Implicações RGPD/Lei 41/2004
+
+- **Mensagens de marketing por WhatsApp a pessoas singulares = comunicação não solicitada**: o
+  art. 13.º-A da Lei 41/2004 abrange "**outros tipos de aplicações similares**" (secção 3.2).
+  Precisa de **consentimento** (ou soft opt-in para clientes). O **opt-in da Meta não substitui o
+  consentimento legal** — desenhar **um só pedido** que satisfaça os dois (texto específico,
+  canal WhatsApp, entidade identificada, desmarcado, registado).
+- **Papéis**: a Painel Temático é **responsável pelo tratamento**; na **Cloud API** a Meta
+  apresenta-se como **subcontratante** nos seus termos de tratamento de dados; um **BSP**
+  (fornecedor intermediário) é outro subcontratante. Verificar transferências para os EUA (DPF/
+  cláusulas-tipo). **[a verificar]**
+- **WhatsApp Business App nos telemóveis dos comerciais** (não a API): sincroniza a agenda e
+  mistura contactos pessoais e profissionais — difícil de conciliar com registo de consentimentos,
+  exportação/apagamento e controlo de acessos. **Preferir a API** ligada ao CRM.
+- **Número**: o site usa **+351 913 440 800** (`WhatsAppButton`, emails). Se esse número passar
+  para a API, as conversas antigas não migram; planear a transição.
+
+### O que isto significa para o Painel Temático (secção 7)
+
+1. **Botão WhatsApp do site** (o utilizador inicia) = conversa de serviço dentro da janela de 24h;
+   **não** dá consentimento para marketing posterior. No primeiro contacto, o agente diz que é IA
+   e pergunta se a pessoa quer **também** receber novidades por WhatsApp (registo em `consentimentos`).
+2. **Follow-ups automáticos fora das 24h** sobre o pedido do próprio lead (ex.: "a visita é amanhã")
+   = modelo de **utilidade**; "novo projeto em Lomar" = **marketing** → só com consentimento.
+3. **Nada de documentos de identificação pelo WhatsApp** — link para upload seguro.
+4. **Guardar as conversas no CRM** (com prazo de conservação), não só na Meta, para poder responder
+   a pedidos de acesso e provar o que o agente disse.
+
+---
+
+## 8. Checklist operacional
+
+Legenda de prioridade: **P0** = risco legal atual (corrigir já) · **P1** = antes de lançar o
+agente/automação · **P2** = boa prática / preparação.
+
+### 8.1 Empresa e licenças
+
+| # | Item | Onde | Norma de base | Prior. |
+|---|---|---|---|---|
+| 1 | Confirmar licença **AMI 25031**: ativa, de que entidade (NIPC), coincide com quem opera o site | IMPIC (pesquisa pública) | Lei 15/2013, art. 3.º | **P0** |
+| 2 | Se não houver licença válida: suspender angariações de terceiros e anúncios de proprietários | CRM/site | Lei 15/2013, arts. 2.º–3.º e 32.º | **P0** |
+| 3 | Registo no IMPIC como entidade imobiliária (BCFT) e início de atividade comunicado | IMPIC | Lei 83/2017; Reg. 603/2021 | **P0** |
+| 4 | Comunicações **trimestrais** de transações em dia (vendas próprias **e** mediadas; arrendamentos ≥ 2 500 €/mês) | IMPIC | Lei 83/2017, art. 46.º, n.º 1, b), e n.º 3 | **P0** |
+| 5 | Políticas BCFT escritas, avaliação de risco, responsável pelo cumprimento, formação | Interno | Lei 83/2017; Reg. 603/2021 | **P0** |
+| 6 | Modelo de contrato de mediação conforme Portaria 228/2018 e depositado no IMPIC | Jurídico | Lei 15/2013, art. 16.º; DL 102/2017 | P0 (se medeia) |
+| 7 | Seguro de RC da mediação em vigor | Interno | Lei 15/2013, art. 7.º e Anexo I | P0 (se medeia) |
+
+### 8.2 Site público
+
+| # | Item | Norma de base | Prior. |
+|---|---|---|---|
+| 8 | Rodapé com **firma, NIPC, sede**, AMI (da entidade certa), contactos | DL 7/2004, art. 10.º; CSC, art. 171.º [a verificar] | **P0** |
+| 9 | Ligação visível ao **Livro de Reclamações Eletrónico** | DL 156/2005 / DL 74/2017 [a verificar] | **P0** |
+| 10 | Informação sobre **entidades de RAL** (ex.: CIAB, Braga) | Lei 144/2015, art. 18.º [a verificar] | **P0** |
+| 11 | **Política de privacidade** e **política de cookies**, ligadas no rodapé e em cada formulário | RGPD, arts. 12.º–14.º | **P0** |
+| 12 | **Gestão de consentimento de cookies** antes de ativar GA4/Meta Pixel (rejeitar = aceitar em destaque) | Lei 41/2004, art. 5.º; TJUE C-673/17 | **P0** (bloqueia ativar `NEXT_PUBLIC_GA_ID`/`META_PIXEL_ID`) |
+| 13 | Formulários (contacto, visita, avaliação): aviso informativo curto + caixas de marketing **desmarcadas, por canal** | RGPD, arts. 7.º e 13.º; Lei 41/2004, art. 13.º-A | **P0** |
+| 14 | **Classe energética** (ou pré-certificado) em todos os anúncios | DL 101-D/2020 [a verificar] | **P0** |
+| 15 | Tipo de área indicado junto de cada número; capacidade construtiva nos lotes | DL 57/2008 (veracidade) | P1 |
+| 16 | Rótulo em **renders** e **staging virtual** | AI Act, art. 50.º, n.º 4; DL 57/2008 | P1 |
+| 17 | Distinguir imóveis **próprios** de **mediados** (e por que entidade) | Lei 15/2013 | P1 |
+| 18 | Testemunhos: dizer se/como são verificados | DL 57/2008 (após DL 109-G/2021) [a verificar] | P2 |
+
+### 8.3 CRM
+
+| # | Item | Norma de base | Prior. |
+|---|---|---|---|
+| 19 | Tabela **`consentimentos`** (titular, canal, finalidade, texto/versão, data, origem, método, estado, retirada) | RGPD, art. 7.º, n.º 1 | **P0** antes de qualquer campanha |
+| 20 | **Lista de supressão** (oposição ao marketing) consultada por todas as automações | RGPD, art. 21.º, n.º 3; Lei 41/2004 | **P0** |
+| 21 | `imoveis.regime` (próprio/mediação) + contrato de mediação (exclusividade, comissão, validade) | Lei 15/2013, arts. 16.º, 17.º, 19.º | P0 (se medeia) |
+| 22 | Regra: comissão de **um só lado**; a empresa não compra imóvel que medeia | Lei 15/2013, art. 17.º, n.º 2 | P1 |
+| 23 | Entidade **`negocios`** com **KYC** (incl. beneficiário efetivo, PEP/sanções) **concluído antes da reserva/CPCV**, bloqueio de `reservado` sem KYC | Lei 83/2017; Reg. 603/2021 | **P0** |
+| 24 | **Meio de pagamento** e conta de origem de cada sinal/preço; alerta se numerário ≥ 3 000 € | LGT, art. 63.º-E | **P0** |
+| 25 | Export automático para a **comunicação trimestral** ao IMPIC | Lei 83/2017, art. 46.º | P1 |
+| 26 | Dossiê KYC com acesso restrito e conservação pelo prazo legal (7 anos? verificar), imune ao "apagar lead" | Lei 83/2017; RGPD, art. 17.º, n.º 3, b) | P1 |
+| 27 | `ultima_interacao_em` + **anonimização automática** de leads parados (proposta: 24 meses) | RGPD, art. 5.º, n.º 1, e); Lei 58/2019, art. 21.º | P1 |
+| 28 | Pedido de acesso/portabilidade/apagamento num clique (lead + atividades + conversas + consentimentos) | RGPD, arts. 15.º–20.º | P1 |
+| 29 | Registo das atividades de tratamento + DPAs com Supabase, Vercel, email, LLM, WhatsApp/BSP | RGPD, arts. 28.º e 30.º | P1 |
+| 30 | Partilha com parceiros só com consentimento específico por parceiro; verificar intermediação de crédito | Diretriz CNPD 2022/1; DL 81-C/2017 [a verificar] | P1 |
+| 31 | Notas de comerciais factuais (nada de opiniões sobre o cliente que não se lhe pudesse mostrar) | RGPD, art. 15.º (direito de acesso) | P2 |
+
+### 8.4 Agente de IA (chat, WhatsApp, email, voz)
+
+| # | Item | Norma de base | Prior. |
+|---|---|---|---|
+| 32 | **AIPD** concluída antes do lançamento | RGPD, art. 35.º; Reg. CNPD 1/2018 [a verificar] | **P1** |
+| 33 | **Aviso "sou uma IA"** na 1.ª interação de cada canal, registado no log | AI Act, art. 50.º, n.ºs 1 e 5 (desde 02/08/2026) | **P1** |
+| 34 | Botão/palavra para **falar com uma pessoa**; escalamento obrigatório em negociação, reclamações, dados sensíveis | Boa prática; AI Act art. 5.º; RGPD art. 22.º | P1 |
+| 35 | Só responde preços/áreas/energia/disponibilidade **a partir da BD**; sem dados → "não sei" | DL 57/2008 | P1 |
+| 36 | Proibidas urgência/escassez não verdadeiras e pressão a pessoas vulneráveis | DL 57/2008; AI Act, art. 5.º | P1 |
+| 37 | **Sem filtragem por nacionalidade/origem**; testes de enviesamento | Lei 93/2017 [a verificar] | P1 |
+| 38 | Não recolhe documentos de identificação; link para upload seguro | WhatsApp Policy; Lei 7/2007 [a verificar] | P1 |
+| 39 | Se medeia imóveis de terceiros: identifica a entidade licenciada (AMI) | Lei 15/2013 | P1 |
+| 40 | Marketing só a quem tem consentimento ativo no canal; respeita a janela 24h/modelos | Lei 41/2004, art. 13.º-A; política Meta | P1 |
+| 41 | LLM com DPA, sem treino com os nossos dados, retenção mínima, de preferência UE; transferências cobertas (DPF/SCC) | RGPD, arts. 28.º, 44.º–46.º | P1 |
+| 42 | Logs das conversas (o que o agente disse, versão do *prompt*, fontes de dados) com prazo definido | RGPD, art. 5.º, n.º 2 (responsabilidade); prova | P1 |
+| 43 | Voz: aviso de IA + aviso e consentimento de gravação; sem reconhecimento de emoções | Lei 41/2004, art. 4.º, n.º 3 [a verificar]; AI Act, arts. 5.º e 50.º | P2 |
+| 44 | **Formação registada** em IA para quem supervisiona | AI Act, art. 4.º | P1 |
+
+### 8.5 Onde é mesmo preciso advogado
+
+1. Se a estrutura do grupo (quem vende o próprio, quem medeia, em que sociedade) está correta e o
+   AMI exibido é o certo.
+2. Leitura do soft opt-in para leads que só pediram informação (a recomendação aqui é a prudente).
+3. Modelos de **reserva**, **CPCV** e **contrato de mediação** (CCG validadas no IMPIC).
+4. Papel da Painel Temático no AI Act (fornecedora vs. responsável pela implantação) e a AIPD.
+5. Encaminhamento de clientes para crédito (intermediação de crédito).
+6. Montantes de coimas e prazos exatos (IMPIC trimestral, conservação BCFT), que não foram
+   confirmados aqui.
+
+---

@@ -30,7 +30,7 @@ Cada afirmação leva uma marca de confiança:
 
 ## Resumo
 
-_(ver no fim do documento a versão consolidada em 10 descobertas; aqui o essencial)_
+O essencial em oito pontos (as recomendações estão no fim de cada secção e nas secções C e D).
 
 1. **A rapidez da primeira resposta é a alavanca mais barata e mais provada.** Os estudos clássicos
    (MIT/InsideSales 2007, HBR 2011) e um teste de 2024 em imobiliário (DelPrete) apontam na mesma
@@ -870,7 +870,8 @@ Datas: publicação da fonte quando conhecida; "s/d" quando não foi possível c
 - [V] Keller Ink — "Qualify clients with LPMAMA" (s/d):
   https://kellerink.com/blogs/news/qualify-clients-with-lpmama-the-mother-of-all-conversation-frameworks
 - [V] HousingWire — "LPMAMA" (s/d): https://www.housingwire.com/articles/lpmama/
-- [C] HubSpot — "BANT" (por reverificar): https://blog.hubspot.com/sales/bant
+- [C] BANT (*Budget, Authority, Need, Timeline*), normalmente atribuído à IBM — sem fonte
+  primária verificada nesta sessão; não citar a origem fora de casa sem a confirmar.
 
 ### Referências, avaliações e pós-venda
 - [V] NAR — *2025 Profile of Home Buyers and Sellers*, nov/2025:
@@ -887,12 +888,12 @@ Datas: publicação da fonte quando conhecida; "s/d" quando não foi possível c
   https://www.housingwire.com/articles/nar-2026-member-profile-experience/
 - [V] BrightLocal — *Local Consumer Review Survey 2025*, jan/2025:
   https://www.brightlocal.com/research/local-consumer-review-survey-2025/
-- [C] Bain & Company — Net Promoter System, "Measuring your Net Promoter Score" (por reverificar):
-  https://www.netpromotersystem.com/about/measuring-your-net-promoter-score/
+- [C] Bain & Company — Net Promoter System (definição do NPS; por reverificar). Portal:
+  https://www.netpromotersystem.com/
 - [C] Decreto-Lei n.º 84/2021, de 18 de outubro (garantias na venda de bens, imóveis incluídos) —
-  Diário da República (por reverificar): https://diariodarepublica.pt/dr/detalhe/decreto-lei/84-2021-172938301
-- [C] Decreto-Lei n.º 68/2004 (ficha técnica da habitação) — Diário da República (por reverificar):
-  https://diariodarepublica.pt/dr/detalhe/decreto-lei/68-2004-209419
+  por reverificar; pesquisar o diploma em https://diariodarepublica.pt/
+- [C] Decreto-Lei n.º 68/2004, de 25 de março (ficha técnica da habitação) — por reverificar;
+  pesquisar em https://diariodarepublica.pt/
 
 ### Mediação, CPCV e enquadramento jurídico
 - [V] Lei n.º 15/2013, de 8 de fevereiro (mediação imobiliária) — Diário da República:
@@ -923,12 +924,12 @@ Datas: publicação da fonte quando conhecida; "s/d" quando não foi possível c
   22/02/2024: https://portal.oa.pt/comunicacao/imprensa/2024/2/22/ha-novas-regras-para-o-licenciamento-no-ambito-do-urbanismo/
 - [V] Cuatrecasas — "Guia Simplex Urbanístico" (s/d):
   https://www.cuatrecasas.com/pt/portugal/imobiliario/art/guia-simplex-urbanistico-1
-- [C] Lei n.º 83/2017 (branqueamento de capitais) — Diário da República (por reverificar):
-  https://diariodarepublica.pt/dr/detalhe/lei/83-2017-107981565
-- [C] Lei n.º 41/2004, art. 13.º-A (comunicações não solicitadas) — Diário da República (por
-  reverificar): https://diariodarepublica.pt/dr/detalhe/lei/41-2004-480771
-- [C] Espanha — Lei 20/2015 (disposição adicional primeira da LOE, garantia das quantias
-  antecipadas) — BOE (por reverificar): https://www.boe.es/buscar/act.php?id=BOE-A-2015-7897
+- [C] Lei n.º 83/2017, de 18 de agosto (branqueamento de capitais; o IMPIC supervisiona o setor
+  imobiliário) — por reverificar; pesquisar em https://diariodarepublica.pt/ e https://www.impic.pt/
+- [C] Lei n.º 41/2004, art. 13.º-A (comunicações não solicitadas) — por reverificar; pesquisar em
+  https://diariodarepublica.pt/
+- [C] Espanha — Ley 20/2015 (disposição adicional primeira da Ley 38/1999, de Ordenación de la
+  Edificación: garantia das quantias antecipadas) — por reverificar; pesquisar em https://www.boe.es/
 
 ### Financiamento e fiscalidade
 - [V] ECO — "Banco de Portugal aperta regras do crédito a partir de agosto", 02/07/2026:
@@ -955,8 +956,8 @@ Datas: publicação da fonte quando conhecida; "s/d" quando não foi possível c
   https://www.montepio.org/blog/casa/imt-jovem-guia-para-ter-isencao-ate-aos-35-anos/
 - [V] DECO Proteste — "Isenção de IMT: como funciona o benefício para jovens até 35 anos" (s/d):
   https://www.deco.proteste.pt/dinheiro/comprar-vender-casa/noticias/isencao-imt-como-funciona-beneficio-para-jovens-ate-35-anos
-- [C] Código do IVA, art. 9.º, n.º 30 (isenção na transmissão de imóveis) — Portal das Finanças (por
-  reverificar): https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva9.aspx
+- [C] Código do IVA, art. 9.º, n.º 30 (isenção na transmissão de imóveis) — por reverificar;
+  códigos tributários em https://info.portaldasfinancas.gov.pt/
 
 ### Mercado e compradores em Portugal
 - [V] Observador — "Estrangeiros compram menos casas mas o mercado imobiliário teve outro ano
