@@ -1,0 +1,327 @@
+# 10 — Verificações de factos (pontos "a verificar" dos capítulos 01–07)
+
+> Verificação feita a **23/11/2026**. A rede deste ambiente bloqueia a leitura direta da maioria das
+> páginas: quase tudo foi lido **a partir dos excertos** devolvidos pelo motor de pesquisa, e isso vai
+> assinalado em cada fonte com "(lido em excerto)". Onde os excertos não chegaram para fechar a
+> questão, o veredicto é **NÃO CONFIRMADO** — não se preencheu com memória.
+>
+> Veredictos: **CONFIRMADO** (o capítulo estava certo) · **CORRIGIDO** (o capítulo tinha um valor
+> errado ou incompleto; segue o certo) · **NÃO CONFIRMADO** (as fontes encontradas não chegam).
+>
+> Antes de pôr qualquer destes valores num texto para clientes (site, agente, contratos), abrir a
+> fonte primária indicada — preços e regras mudam, e os excertos podem estar cortados.
+
+## 1. Preços da WhatsApp Business Platform (Cloud API) para Portugal — 2026
+
+**Veredicto: CORRIGIDO** (o modelo por mensagem está certo; a gratuitidade da janela de 24 h **deixou
+de ser verdade a 01/10/2026**, e o "1 000 grátis/mês" que o cap. 03 dava como não confirmado é, afinal,
+o que os parceiros da Meta publicam).
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Modelo de cobrança | **Por mensagem entregue, desde 01/07/2025** (substituiu o modelo por conversa de 24 h). A Meta cobra por **categoria × mercado**, e só as mensagens empresa → utilizador; as do utilizador para a empresa não se cobram | CONFIRMADO |
+| Portugal tem linha própria? | **Não.** Portugal cai no mercado regional **"Rest of Western Europe"** do rate card da Meta | confirmado em 2 fontes de terceiros (Whapier, Formbeep) |
+| Marketing (Portugal) | **≈ 0,049 € por mensagem entregue** (≈ 0,0592 US$ na tabela em dólares) | valores de terceiros, **coerentes entre si**; não li o rate card oficial em EUR |
+| Utility (Portugal) | **≈ 0,0142 €** (≈ 0,0171 US$); há **descontos por volume** só em utility e authentication | idem |
+| Authentication (Portugal) | **≈ 0,0142 €** (mesmo valor que utility nesta região) | idem |
+| Mudanças a 01/07/2026 | Subidas de marketing em Itália, Espanha e Reino Unido; **nenhuma referida para Portugal** | lido em excerto |
+| **Mensagens de serviço na janela de 24 h** | **Já NÃO são gratuitas desde 01/10/2026.** As respostas em texto livre dentro da janela passaram a ser cobradas por mensagem, **ao preço de utility/authentication do mercado**, sem descontos por volume. Os **utility templates dentro da janela** (grátis desde jul/2025) também passaram a pagar | CORRIGIDO — várias fontes concordantes (Twilio, respond.io, YCloud, Zoho, Zendesk) |
+| Franquia gratuita | **1 000 mensagens de serviço grátis por mês, por número de telefone da empresa** (Twilio: *"the first 1000 Service messages per month per business number will be free"*). Uma tabela da Zoho diz 1 200; um artigo nota que a página da Meta sobre mensagens sem template **não menciona** a franquia | **NÃO CONFIRMADO na fonte primária** — é o número dos parceiros |
+| Janela de 72 h (*free entry point*, anúncios Click-to-WhatsApp / botão da página) | Segundo a respond.io, **continua gratuita**. Só uma fonte o diz | NÃO CONFIRMADO |
+| Meta Business Agent | Lançado a 01/07/2026 (agente de IA da própria Meta), com **faturação à parte, por tokens** | lido em excerto |
+
+**O que isto muda para o produto (fase 2, WhatsApp):** um agente de IA que responde a leads **paga cada
+resposta** a partir da 1 001.ª do mês, por número. A ~0,014 € por resposta é barato (10 000 respostas
+≈ 142 €/mês), mas deixa de ser zero — o custo por conversa entra na conta, e o agente deve responder em
+**menos mensagens mais completas** em vez de muitas curtas. O ponto do cap. 03 sobre o README do
+`whatsapp-agentkit` ("1 000 respostas de serviço grátis/mês por número desde out/2026") **estava certo**.
+
+Fontes:
+- Meta — *Pricing on the WhatsApp Business Platform* — <https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing> — página viva, consultada a 23/11/2026 (lido em excerto; a leitura direta falhou: o host está bloqueado neste ambiente)
+- Twilio Help Center — *Notice: Changes to WhatsApp's Pricing (October 2026)* — <https://help.twilio.com/articles/53100480177819> — 2026 (lido em excerto)
+- Twilio Changelog — *Meta is updating WhatsApp pricing on July 1, 2025* — <https://www.twilio.com/en-us/changelog/meta-is-updating-whatsapp-pricing-on-july-1--2025?tab=suite> — 24/06/2025 (lido em excerto)
+- respond.io — *WhatsApp Pricing Change 2026* — <https://respond.io/blog/whatsapp-pricing-change-2026> — 2026 (lido em excerto)
+- YCloud — *WhatsApp API Pricing Update: Effective October 1, 2026* — <https://www.ycloud.com/blog/whatsapp-api-message-pricing-update-effective-october-1-2026> (lido em excerto)
+- Zoho — *WhatsApp Business Pricing Update: Service Messages Will Be Charged Starting October 2026* — <https://help.zoho.com/portal/de/community/topic/whatsapp-business-platform-message-pricing-guide> (lido em excerto)
+- Whapier — *WhatsApp Business API pricing in Portugal (2026)* — <https://whapier.com/pricing/pt> (lido em excerto)
+- Formbeep — *WhatsApp Business API Pricing (Nov 2026)* — <https://formbeep.com/whatsapp-api-pricing/> — nov/2026 (lido em excerto)
+- Omdia — *The WhatsApp free lunch is over…* — <https://omdia.tech.informa.com/om146764/the-whatsapp-free-lunch-is-over-and-meta-is-also-coming-for-the-ai-layer> (lido em excerto)
+
+**Antes de orçamentar:** abrir o rate card oficial em EUR (link da Meta acima, "Rate cards") e
+confirmar a linha *Rest of Western Europe* e a franquia de 1 000.
+
+## 2. Política da Meta para chatbots de IA no WhatsApp Business
+
+**Veredicto: CONFIRMADO no essencial, com o estado atual CORRIGIDO** (a proibição existe e um bot de
+empresa sobre o seu próprio negócio nunca foi abrangido; mas, **no EEE, a proibição está suspensa**
+desde junho de 2026 por medidas cautelares da Comissão Europeia).
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| O que diz a cláusula | Secção **"AI Providers"** acrescentada aos *WhatsApp Business Solution Terms*: proíbe fornecedores de modelos/assistentes de IA de usar a WhatsApp Business Solution para disponibilizar essas tecnologias **quando são a funcionalidade principal** — o texto diz *"the primary (rather than incidental or ancillary) functionality being made available"*, *"as determined by Meta in its sole discretion"* | CONFIRMADO (lido em excerto) |
+| Datas | Termos alterados a **15/10/2025**, com entrada em vigor para os fornecedores de IA a **15/01/2026** (o cap. 03 e o cap. 06 dizem 15/01/2026 — certo para a aplicação; a alteração dos termos é de outubro de 2025) | CONFIRMADO |
+| Um bot de empresa sobre os seus produtos? | **Permitido.** A Meta disse que a mudança *"doesn't affect businesses that are using AI to serve customers on WhatsApp"* (exemplo dado: o bot de apoio de uma agência de viagens). O agente da Painel Temático sobre os seus imóveis é IA **acessória** ao negócio — do lado permitido | CONFIRMADO (TechCrunch, 18/10/2025, lido em excerto) |
+| Itália | A AGCM impôs medidas cautelares que **suspendem os termos em Itália** a **24/12/2025** | lido em excerto (fonte secundária) |
+| Comissão Europeia | Comunicação de objeções a **09/02/2026**; **medidas cautelares adotadas a 09/06/2026**: a Meta tem de repor, no EEE, as condições de acesso anteriores a 15/10/2025 para assistentes de IA de terceiros, em 5 dias úteis, até ao fim da investigação ou **jun/2029**; coima possível até 10% do volume de negócios. Antes disso a Meta oferecera aceitar chatbots generalistas na Europa durante 12 meses **mediante cobrança** ("New pricing policy for AI Providers") | CONFIRMADO em várias fontes (CNBC, Decrypt, Cybernews, Neowin), lido em excerto |
+| Recurso da Meta | Um blog diz que a Meta recorreu para o Tribunal Geral em ago/2026 | **NÃO CONFIRMADO** (fonte secundária única) |
+| Versão dos termos | A página dos *Business Solution Terms* mostra "Last Modified: **March 6, 2026**" | lido em excerto |
+
+**O que isto muda para o produto:** nada no desenho. O agente é atendimento comercial da própria
+empresa e está fora da cláusula em qualquer cenário (proibição ativa ou suspensa). A recomendação do
+cap. 03 mantém-se por outras razões: **recusar conversa fora do âmbito** (custo por mensagem — ver
+ponto 1 — e risco de a Meta, "at its sole discretion", ler o bot como assistente generalista).
+
+Fontes:
+- TechCrunch — *WhatsApp changes its terms to bar general-purpose chatbots from its platform* — <https://techcrunch.com/2025/10/18/whatssapp-changes-its-terms-to-bar-general-purpose-chatbots-from-its-platform> — 18/10/2025 (lido em excerto)
+- WhatsApp — *Business Solution Terms* — <https://www.whatsapp.com/legal/business-solution-terms> — última modificação 06/03/2026 (lido em excerto)
+- Meta for Developers — *New pricing policy for AI Providers leveraging the WhatsApp Business Platform* — <https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/ai-providers.md> — 2026 (lido em excerto)
+- CNBC — *Meta warned EU plans to impose measures on tech giant to reverse WhatsApp AI policy* — <https://www.cnbc.com/2026/02/09/eu-interim-measures-meta-whatsapp-ai-policy-antritrust.html> — 09/02/2026 (lido em excerto)
+- Decrypt — *EU Orders Meta to Open WhatsApp to Rival AI Chatbots* — <https://decrypt.co/370580/eu-orders-meta-open-whatsapp-rival-ai-chatbots> — jun/2026 (lido em excerto)
+- Cybernews — *EU orders Meta to open WhatsApp to rival AI chatbots* — <https://cybernews.com/privacy/eu-meta-whatsapp-ai-chatbots-assistant/> — jun/2026 (lido em excerto)
+- Hansberry Tomkiel — *European Commission orders interim measures against Meta's exclusion of rival AI chatbots from WhatsApp* — <https://hansberrytomkiel.com/en/european-commission-orders-interim-measures-against-metas-exclusion-of-rival-ai-chatbots/> (lido em excerto)
+- learnmind.ai — *WhatsApp Business AI Chatbot Policy 2026, Clause by Clause* — <https://www.learnmind.ai/blog-post/whatsapp-business-ai-chatbot-2026-policy-guide> (fonte secundária; lido em excerto)
+
+## 3. AI Act (Regulamento (UE) 2024/1689) — art. 50.º, art. 4.º e o "Digital Omnibus"
+
+**Veredicto: CORRIGIDO** (o calendário do cap. 06 estava certo; o Omnibus **foi aprovado e
+publicado** — é o **Regulamento (UE) 2026/1744** — e, ao contrário do que a proposta fazia esperar,
+**não adiou o dever de dizer "isto é uma IA"** nem retirou o dever de literacia às empresas).
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Art. 4.º (literacia em IA) — data | Aplica-se desde **02/02/2025** | CONFIRMADO |
+| Art. 4.º depois do Omnibus | **Continua a obrigar fornecedores e responsáveis pela implantação** (*deployers* — a Painel Temático é um). A proposta da Comissão passava o dever para a Comissão e os Estados-Membros; o texto final **rejeitou isso** e acrescentou-lhes um papel de apoio. O padrão **suavizou-se**: em vez de "assegurar um nível suficiente de literacia", pede-se que se tomem medidas para a apoiar, e o texto diz que não obriga a garantir um nível específico de literacia de cada pessoa | CORRIGIDO (o cap. 06 dizia "suaviza o art. 4.º" — certo, mas **não o elimina**); várias fontes (CDT, IAPP, CMS), lido em excerto |
+| Art. 50.º (transparência) — data | **02/08/2026**, já em aplicação | CONFIRMADO |
+| Art. 50.º, n.º 1 (informar que se fala com uma IA) e n.ºs 3 e 4 (reconhecimento de emoções, *deep fakes*, texto de interesse público) | **Não foram adiados**: aplicam-se desde 02/08/2026, sem período de graça | CONFIRMADO em várias fontes (aiactblog.nl, Usercentrics, FPF), lido em excerto |
+| Art. 50.º, n.º 2 (marcação legível por máquina do conteúdo sintético) | Período transitório **até 02/12/2026**, só para sistemas colocados no mercado **antes** de 02/08/2026 | lido em excerto (FPF, aiactblog.nl) |
+| Omnibus — estado | **Aprovado.** Parlamento a 16/06/2026; Conselho em fim de jun./início de jul. de 2026 (as fontes divergem: 29/06 ou 08/07); **publicado no JOUE a 24/07/2026, em vigor desde 27/07/2026**, como Regulamento (UE) 2026/1744 | CONFIRMADO em várias fontes secundárias; **não li o JOUE** |
+| Alto risco (contexto) | Anexo III adiado para **02/12/2027**; Anexo I para **02/08/2028** | lido em excerto |
+
+**O que isto muda para o produto:** o chat do site e o WhatsApp **têm de dizer desde a primeira
+mensagem que é uma IA** — obrigação em vigor hoje, sem adiamento. E a empresa tem de ter **alguma
+medida de literacia** para quem usa a IA (formação curta, registo de quem a fez) — dever mais leve
+do que em 2024, mas existente.
+
+Fontes:
+- aiactblog.nl — *Article 50 transparency obligations: the AI Act deadline of 2 August 2026 that has not been postponed* — <https://www.aiactblog.nl/en/posts/article-50-transparency-deadline-2-august-2026> — 2026 (lido em excerto)
+- Future of Privacy Forum — *The AI Act implementation timeline: What changes under the AI Omnibus?* — <https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/> — 2026 (lido em excerto)
+- Usercentrics — *EU AI Act Deal: Digital Omnibus Now in Force* — <https://usercentrics.com/knowledge-hub/eu-ai-act-high-risk-delay-article-50-transparency-consent/> (lido em excerto)
+- Gibson Dunn — *EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes* — <https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/> (lido em excerto)
+- Lewis Silkin — *Council of the EU gives AI Omnibus final green light* — <https://lewissilkin.com/insights/2026/07/09/council-of-the-eu-gives-ai-omnibus-final-green-light-102nbb1> — 09/07/2026 (lido em excerto)
+- Cuatrecasas — *Digital Omnibus on AI has been published* — <https://www.cuatrecasas.com/en/spain/intellectual-property/art/digital-omnibus-ai-has-been-published> — jul/2026 (lido em excerto)
+- CDT — *Final AI Omnibus Text Dilutes Fundamental Rights Protections* — <https://cdt.org/?p=11417> — 2026 (lido em excerto)
+- IAPP — *EU AI Act literacy changes may complicate more than simplify compliance* — <https://iapp.org/news/a/eu-ai-act-literacy-changes-may-complicate-more-than-simplify-compliance> (lido em excerto)
+- CMS — *Guide on AI Omnibus (July 2026)* — <https://cms.law/en/content/download/886967/file/Guide%20on%20AI%20Omnibus_July%202026.pdf> (lido em excerto)
+
+**Antes de citar:** abrir o Regulamento (UE) 2026/1744 no EUR-Lex (não consegui chegar ao texto
+oficial) e confirmar a nova redação do art. 4.º.
+
+## 4. CNPD — orientações sobre chatbots/IA, marketing direto e cookies
+
+**Veredicto: CONFIRMADO quanto ao marketing direto; CORRIGIDO quanto a IA e cookies** (não existe,
+nos resultados encontrados, **nenhuma orientação própria da CNPD sobre chatbots ou IA**, nem uma
+**diretriz da CNPD sobre cookies** — o que há são documentos do CEPD que a CNPD divulga, e uma nota de
+2021 sobre cookies em sites de entidades públicas).
+
+| Tema | O que existe | Estado |
+|---|---|---|
+| **Marketing direto** | **Diretriz/2022/1 sobre comunicações eletrónicas de marketing direto**, aprovada em **janeiro de 2022** (o cap. 06 diz 25/01/2022; o mês confirma-se no Relatório de 2022, o dia não o li). Diz que email, SMS/MMS e chamadas a pessoas singulares caem na **Lei 41/2004** (lei especial), com o RGPD no resto; que só há **duas bases**: interesse legítimo (cliente já existente, produtos análogos) e **consentimento**; e que o consentimento tem de ser **expresso, prévio** ao envio e precedido da informação do art. 13.º do RGPD | CONFIRMADO (lido em excerto) |
+| **Chatbots / IA** | **Nenhuma orientação nacional específica.** A CNPD divulgou o guia do CEPD *"AI Privacy Risks & Mitigations – Large Language Models"* (abril de 2025, só em inglês); emitiu em **maio de 2025** um alerta sobre o uso de dados pessoais pela Meta para treino de IA; aderiu em **fev/2026** a uma declaração conjunta de 61 autoridades sobre imagens geradas por IA; e o Plano de Atividades 2026 prevê coordenar o grupo de IA generativa da Rede Ibero-americana. A referência europeia útil é o **Parecer 28/2024 do CEPD** (modelos de IA e dados pessoais, dez/2024), que existe em PT | CORRIGIDO — não há "orientações da CNPD sobre chatbots" a citar |
+| **Cookies** | **Não há diretriz da CNPD sobre cookies.** O Relatório de 2022 diz que a aprovação de uma diretriz de cookies foi **adiada** enquanto o CEPD analisava o tema; a página de diretrizes da CNPD lista a Diretriz/2022/1 (marketing) e a Diretriz/2023/1 (medidas de segurança), sem cookies. Existe uma **"Nota da CNPD sobre cookies" de 25/06/2021**, sobre sites de **entidades públicas**. Para o desenho do banner, a referência é europeia (CEPD: orientações sobre consentimento e sobre *dark patterns*; Comissão: retirar o consentimento tem de ser tão fácil como dá-lo) | CORRIGIDO |
+| Volume de queixas | A CNPD refere **mais de 2 500 queixas** sobre comunicações promocionais não solicitadas em 2023–2024 | lido em excerto |
+
+**O que isto muda para o produto:** para o marketing por email/WhatsApp, a Diretriz/2022/1 é a regra
+a seguir (consentimento expresso e prévio para quem não é cliente). Para a IA, as orientações a
+seguir são as do **CEPD**, não da CNPD. No banner de cookies, botões **Aceitar / Rejeitar / Configurar
+com o mesmo destaque** — é o que o CEPD pede, ainda que a CNPD não o tenha escrito numa diretriz.
+
+Fontes:
+- CNPD — *DIRETRIZ/2022/1 sobre comunicações eletrónicas de marketing direto* (PDF) — <https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121958> — jan/2022 (lido em excerto)
+- CNPD — página *Diretrizes* — <https://www.cnpd.pt/decisoes/diretrizes/> — consultada a 23/11/2026 (lido em excerto)
+- CNPD — *Relatório de atividades de 2022* — <https://www.cnpd.pt/media/tutpevyh/relato-rio_2022.pdf> (lido em excerto)
+- CNPD — *Nota da CNPD sobre cookies* — <https://www.cnpd.pt/comunicacao-publica/noticias/nota-da-cnpd-sobre-cookies/> — 25/06/2021 (data via DataGuidance: <https://www.dataguidance.com/news/portugal-cnpd-issues-note-use-cookies-announcing>; lido em excerto)
+- CNPD — *Comunicações promocionais não solicitadas e cookies destacados em conferência de marketing direto* — <https://www.cnpd.pt/comunicacao-publica/noticias/comunicacoes-promocionais-nao-solicitadas-e-cookies-destacados-em-conferencia-de-marketing-direto/> (lido em excerto)
+- CNPD — *Guia do Comité Europeu apresenta metodologia para gerir riscos de privacidade em sistemas de IA* — <https://www.cnpd.pt/comunicacao-publica/noticias/guia-do-comite-europeu-apresenta-metodologia-para-gerir-riscos-de-privacidade-em-sistemas-de-ia/> — 2025 (lido em excerto)
+- CNPD — *Relatório de Atividades 2025* (aprovado a 24/03/2026) — <https://www.cnpd.pt/media/v50frkwy/relatorio-atividades-de-2025.pdf> (lido em excerto)
+- CNPD — *Plano Anual de Atividades 2026* — <https://www.cnpd.pt/media/hvoac3wj/cndp_paa_2026_versao_digital.pdf> (lido em excerto)
+- CNPD — *CNPD assina declaração internacional sobre riscos de privacidade da IA* — <https://www.cnpd.pt/comunicacao-publica/noticias/cnpd-assina-declaracao-internacional-sobre-riscos-de-privacidade-da-ia/> — fev/2026 (lido em excerto)
+- CEPD — *Parecer 28/2024 sobre modelos de IA* (PT) — <https://www.edpb.europa.eu/system/files/documents/2025-05/edpb_opinion_202428_ai-models_pt.pdf> (lido em excerto)
+- Comissão Europeia, A sua Europa — *Privacidade em linha* — <https://europa.eu/youreurope/business/growing/digitalising/online-privacy/index_pt.htm> (lido em excerto)
+
+## 5. Licença AMI 25031 — de que entidade é?
+
+**Veredicto: NÃO CONFIRMADO.** Nenhuma fonte pública indexada liga o número 25031 a uma entidade,
+e o registo oficial (pesquisa de empresas de mediação no IMPIC / gov.pt) não é legível a partir deste
+ambiente. O que se apurou:
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Quem emite e onde se confirma | O **IMPIC** emite a licença AMI (Lei 15/2013); confirma-se no serviço público **"Pesquisar uma empresa de mediação imobiliária"** (gov.pt / IMPIC) | CONFIRMADO (lido em excerto) |
+| Há alguma página que associe "AMI 25031" a uma entidade? | **Não** — três pesquisas com o número em vários formatos não devolveram nenhum registo, lista ou anúncio com ele, além do próprio site da empresa | NÃO CONFIRMADO |
+| O que mostra o site público atual da empresa | O site **paineltematico.pt** mostra **"AMI 25031"** no rodapé e nos contactos — ou seja, é a própria empresa a declará-lo, não um registo independente | lido em excerto |
+| Dados da empresa (registos comerciais de terceiros) | **Painel Temático, Lda.**, NIF/NIPC **510053807**, sede em Braga, constituída em fins de 2011; CAE principal **68100** (compra e venda de bens imobiliários) | lido em excerto (Racius, Empresite/Jornal de Negócios, imoveisportugal.info) — fontes coerentes entre si |
+| A "Painel Temático" tem licença AMI publicada? | **Não foi possível confirmar** em fonte oficial | NÃO CONFIRMADO |
+| Nota de contexto | Uma lista de imobiliárias de Braga (out/2026) dá a outra agência o n.º **25040** — números desta ordem existem e são atribuídos a agências de Braga, mas isto **não prova** a quem pertence o 25031 | lido em excerto |
+
+**Observação que pesa na decisão:** o CAE principal registado (68100, compra e venda de imóveis) não é
+o da mediação (68311). Isso não impede ter licença AMI (o CAE secundário pode cobrir a mediação), mas
+reforça a necessidade da verificação P0 já pedida no cap. 06: **abrir a pesquisa do IMPIC com o NIPC
+510053807** e confirmar (a) que a licença 25031 existe e está ativa, (b) que está em nome deste NIPC.
+Se não estiver, o número sai do rodapé até haver licença própria.
+
+Fontes:
+- gov.pt — *Guia: Mediação imobiliária* — <https://www.gov.pt/guias/mediacao-imobiliaria> (lido em excerto)
+- Doutor Finanças — *Licença de mediação imobiliária: como obter e quais os requisitos* — <https://www.doutorfinancas.pt/imobiliario/licenca-de-mediacao-imobiliaria-como-obter-e-quais-os-requisitos/> (lido em excerto)
+- Painel Temático — site público — <https://www.paineltematico.pt/> — consultado em excerto a 23/11/2026
+- Racius — *Painel Temático – Lda* — <https://www.racius.com/painel-tematico-lda/> (lido em excerto)
+- Empresite (Jornal de Negócios) — *Painel Temático, Lda* — <https://empresite.jornaldenegocios.pt/PAINEL-TEMATICO.html> (lido em excerto)
+- imoveisportugal.info — *Painel Temático – Lda.* — <https://imoveisportugal.info/empresa-painel-tematico-em-braga-17479> (lido em excerto)
+- Viver em Braga — *Imobiliárias em Braga: lista 2026* — <https://www.viverembraga.com/post/lista-de-imobiliarias-em-braga/38/> — out/2026 (lido em excerto)
+
+## 6. Comunicação ao IMPIC das transações imobiliárias (Lei 83/2017; Regulamento IMPIC 603/2021)
+
+**Veredicto: CONFIRMADO** (trimestral desde a Lei 58/2020; os promotores que vendem imóveis próprios
+**estão abrangidos**), e **fecha-se o prazo** que o cap. 06 deixou "não confirmado".
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Periodicidade | **Trimestral.** A Lei 58/2020 alterou o **art. 46.º, n.º 1, al. b)** da Lei 83/2017, de semestral para trimestral; o **art. 20.º, n.º 1, do Regulamento n.º 603/2021** (02/07/2021) prevê a comunicação trimestral de cada transação | CONFIRMADO (Aviso n.º 739/2021 no DR; IMPIC), lido em excerto |
+| Prazo de cada comunicação | **Até ao fim do trimestre seguinte** àquele em que o negócio foi celebrado: 1.º trim. → 30/06; 2.º → 30/09; 3.º → 31/12; 4.º → 31/03 do ano seguinte. Conta a data da **escritura / DPA / contrato**, não a do pagamento | **CONFIRMADO** — o cap. 06 marcava como "não confirmado"; o exemplo dele (4.º trim. 2022 até 31/03/2023) bate com esta regra. Fontes de apoio (ComunicaPro, expediente.pt), coerentes com o exemplo do idealista |
+| Promotor que vende imóveis próprios está abrangido? | **Sim.** A Lei 83/2017 conta como atividade imobiliária a **mediação, a compra, venda, compra para revenda ou permuta de imóveis, o arrendamento e a promoção imobiliária**. A promoção define-se (Reg. 276/2019, em resumo) como impulsionar, programar, dirigir e financiar obras de construção **para posterior transmissão ou cedência**. O IMPIC identifica as entidades obrigadas também pelo **CAE — 41100 (promoção imobiliária) e 68100 (compra e venda de bens imobiliários)** | CONFIRMADO (Banco de Portugal reproduz a lista; apresentação IMPIC/AICOPA com os CAE), lido em excerto |
+| O que se comunica | **Anexo A** — início de atividade, **uma vez, em 60 dias** (art. 46.º, n.º 1, al. a)); **Anexo B** — cada venda, **mesmo que tenha passado por uma mediadora** | lido em excerto (fonte de apoio) |
+| Conservação | **7 anos** | lido em excerto (fonte de apoio) — o cap. 06 tinha "provavelmente 7 anos"; **não li o art. 51.º** |
+
+**O que isto muda para o produto:** a Painel Temático (CAE 68100, ponto 5) é entidade obrigada
+**pelas vendas dos seus próprios lotes**, independentemente da licença AMI. O CRM deve guardar, por
+venda, os dados do Anexo B e a data da escritura, e avisar no fim de cada trimestre seguinte.
+
+Fontes:
+- Diário da República — *Aviso n.º 739/2021, de 12 de janeiro* — <https://diariodarepublica.pt/dr/detalhe/aviso/739-2021-153663117> — 12/01/2021 (lido em excerto)
+- IMPIC — *Comunicações obrigatórias de atividades imobiliárias (Lei n.º 83/2017)* — <https://www.impic.pt/impic/pt-pt/comunicacoes-obrigatorias/comunicacoes-obrigatorias-de-atividades-imobiliarias-lei-no-832017-de-18-de-agosto> (lido em excerto)
+- IMPIC — *Orientação Genérica n.º 1/IMPIC/2021* — <https://www.impic.pt/impic/assets/misc/img/OG_2021IMPIC01.pdf> — 2021 (lido em excerto)
+- IMPIC — *Perguntas frequentes: combate ao branqueamento de capitais* — <https://www.impic.pt/impic/pt-pt/perguntas-frequentes/combate-ao-branqueamento-de-capitais-e-ao-financiamento-do-terrorismo_4> (lido em excerto)
+- CRS Advogados — *Legal alert: comunicação de transações imobiliárias ao IMPIC* — <https://crs-advogados.com/legal-alert-comunicacao-de-transacoes-imobiliarias-ao-impic/> (lido em excerto)
+- ComunicaPro — *Comunicações Obrigatórias ao IMPIC: guia, prazos e coimas* — <https://comunicapro.pt/pt/comunicacoes-impic/> (fonte de apoio; lido em excerto)
+- Banco de Portugal — texto da Lei 83/2017 (PDF) — <https://www.bportugal.pt/sites/default/files/anexos/legislacoes/275425933_1.doc.pdf> (lido em excerto)
+- AICOPA — apresentação IMPIC sobre BCFT — <https://www.aicopa.pt/anexos/seminario/IMPICBCFT.pdf> (lido em excerto)
+- Millennium bcp — *Novas obrigações para imobiliárias* — <https://ind.millenniumbcp.pt/pt/geral/fiscalidade/Pages/Novas-obrigacoes-para-imobiliarias.aspx> (lido em excerto)
+- Imojuris — *Reporte de transações imobiliárias ao IMPIC* — <https://imojuris.vidaimobiliaria.com/actualidade/not%C3%ADcias/Reporte-de-transacoes-imobiliarias-ao-IMPIC-I-P-pa> (lido em excerto)
+
+## 7. Garantia pública para jovens (DL 44/2024) e IMT Jovem 2026
+
+**Veredicto: CONFIRMADO** (prazo até 31/12/2026, teto de 450 000 €, isenção total do IMT Jovem até
+330 539 €), **com dois avisos**: a prorrogação para 2027 está **anunciada mas ainda não é lei**, e uma
+página oficial (gov.pt) mostra um teto parcial diferente.
+
+### 7.1 Garantia pública (Decreto-Lei n.º 44/2024, de 10 de julho)
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Diploma | **DL n.º 44/2024, de 10/07**; regulamentado pela **Portaria n.º 236-A/2024/1, de 27/09**; garantia prestada através da DGTF | CONFIRMADO (DR, lido em excerto) |
+| Limite de preço | **Valor da transação ≤ 450 000 €** (é o preço do imóvel, não o empréstimo); garantia **até 15% do valor da transação** | CONFIRMADO (texto do DL citado em excerto) |
+| Outras condições | 18–35 anos; habitação própria e permanente; o mutuário não pode ser proprietário de prédio/fração habitacional nem usar a garantia mais do que uma vez; segundo a DECO, rendimento coletável < 80 000 € (8.º escalão) e sem dívidas ao Fisco e à SS. **Não cobre crédito à construção** | lido em excerto |
+| Prazo atual | **Contratos celebrados até 31/12/2026** | CONFIRMADO |
+| Prorrogada? | **Anunciada, não aprovada.** O relatório do OE2027 (out/2026) diz que a garantia se mantém em 2027, mas a proposta de lei **não a prorroga** — depende de diploma próprio. Na especialidade do OE2027 foi aprovada a **19/11/2026** uma proposta (PSD/CDS) que **alarga a garantia à autoconstrução e à construção modular** (até 100% do terreno e da empreitada); o OE2027 ainda não tinha votação final global nem publicação à data desta verificação | **NÃO CONFIRMADO** que vigore em 2027 |
+
+### 7.2 IMT Jovem 2026
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Isenção total (Continente) | **Até 330 539 €** (escalões de 2025 atualizados em 2% pelo OE2026; em 2025 era 324 058 €) | CONFIRMADO (Montepio e outras fontes), lido em excerto |
+| Isenção parcial | **Entre 330 539 € e 660 982 €**: paga-se IMT só sobre a parte acima de 330 539 €, a 8% | lido em excerto |
+| Sem isenção | **Acima de 660 982 €** | lido em excerto |
+| Açores e Madeira | Isenção total até **413 174 €** | lido em excerto |
+| ⚠ Divergência | O **gov.pt** ("Pedir isenção de IMT e IS", atualizado a 27/03/2026) diz que acima de **648 022 €** não há isenção — é o teto de **2025** (648 022 × 1,02 = 660 982). Parece página por atualizar, mas **confirmar nas Finanças** antes de pôr o número no site | NÃO CONFIRMADO qual vale |
+| 2027 | O relatório do OE2027 prevê manter as isenções de IMT e IS para jovens | anunciado (idealista, 08/10/2026) |
+
+**O que isto muda para o produto:** os números do cap. 05 estão certos para 2026. Na página de cada
+fração, o simulador deve mostrar a garantia como **"para escrituras até 31/12/2026"** até a
+prorrogação sair em DR — uma venda em planta com escritura em 2027 **não pode** contar com ela hoje.
+
+Fontes:
+- Diário da República — *Decreto-Lei n.º 44/2024* — <https://diariodarepublica.pt/dr/detalhe/decreto-lei/44-2024-871466267> — 10/07/2024 (lido em excerto)
+- Banco Invest — *DL 44/2024* (PDF) — <https://www.bancoinvest.pt/docs/default-source/documentosgerais/dl_44_2024.pdf> (lido em excerto)
+- DECO Proteste — *Crédito habitação jovem: como funciona a garantia pública do Estado* — <https://www.deco.proteste.pt/dinheiro/comprar-vender-casa/noticias/credito-habitacao-jovem-como-funciona-garantia-publica-estado> (lido em excerto)
+- Literacia Financeira (BdP) — *Crédito habitação jovem* — <https://www.literaciafinanceira.pt/artigos/credito-habitacao-jovem> (lido em excerto)
+- ECO — *Garantia pública para jovens comprarem primeira casa mantém-se em 2027* — <https://eco.sapo.pt/2026/10/08/garantia-publica-para-jovens-comprarem-primeira-casa-mantem-se-em-2027/> — 08/10/2026 (lido em excerto)
+- Contas Poupança — *OE2027: Governo quer manter a garantia pública para jovens em 2027* — <https://contaspoupanca.pt/bancos/2026-10-09-oe2027-governo-quer-manter-a-garantia-publica-para-jovens-em-2027-f4351bc1> — 09/10/2026 (lido em excerto)
+- idealista — *Isenção de IMT Jovem mantém-se em 2027 – falta decisão final sobre garantia* — <https://www.idealista.pt/news/financas/credito-a-habitacao/2026/10/08/78113-garantia-publica-e-isencao-de-imt-mantem-se-para-jovens-em-2027> — 08/10/2026 (lido em excerto)
+- Renascença — *OE2027: Garantia pública para jovens alargada à construção da primeira casa* — <https://rr.pt/noticia/pais/2026/11/19/oe2027-garantia-publica-para-jovens-alargada-a-construcao-da-primeira-casa/494300/> — 19/11/2026 (lido em excerto)
+- Montepio — *IMT Jovem: guia para ter isenção até aos 35 anos* — <https://www.montepio.org/blog/casa/imt-jovem-guia-para-ter-isencao-ate-aos-35-anos/> (lido em excerto)
+- gov.pt — *Pedir isenção de IMT e IS* — <https://www.gov.pt/servicos/pedir-isencao-imt-e-is> — atualizado a 27/03/2026 (lido em excerto)
+
+## 8. Banco de Portugal — taxa de esforço máxima na Recomendação macroprudencial
+
+**Veredicto: CONFIRMADO** (50% → **45%**, em vigor a **01/08/2026**, Recomendação Macroprudencial
+n.º 1/2026), com um pormenor que o cap. 05 não tinha: a **exceção de 10%** por instituição.
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Alteração | Limite de **DSTI (taxa de esforço)** desce de **50% para 45%** | CONFIRMADO em várias fontes (ECO, Jornal Económico, Doutor Finanças, DNotícias, Forbes PT) |
+| Diploma | **Recomendação Macroprudencial n.º 1/2026** do Banco de Portugal | CONFIRMADO (lido em excerto) |
+| Anúncio | **02/07/2026** (data das notícias; não li o comunicado do BdP) | lido em excerto |
+| Entrada em vigor | **01/08/2026**, para contratos cuja **avaliação de solvabilidade** seja feita a partir dessa data | CONFIRMADO |
+| Exceção | Cada instituição pode conceder, **em cada semestre, até 10% do montante de crédito** acima dos 45% | lido em excerto |
+| Âmbito | Crédito à habitação e ao consumo; **a locação financeira imobiliária saiu** do âmbito | lido em excerto |
+| LTV | **Mantém-se** (o cap. 05 dá 90% HPP / 80% restantes — as fontes dizem que o LTV não mudou, sem repetir os valores), sobre o **menor** entre preço e avaliação; acaba o LTV de 100% para imóveis detidos pelos próprios bancos | parcialmente confirmado; os 90/80 **não foram relidos** |
+| Natureza | É uma **recomendação** (não uma lei), mas os bancos cumprem-na e o BdP monitoriza | lido em excerto |
+
+**O que isto muda para o produto:** o simulador de prestação e a qualificação "F — Financiamento" do
+cap. 05 devem usar **45%** desde 01/08/2026 — e dizer que é o limite do Banco de Portugal, não uma
+garantia de aprovação (o banco ainda aplica o choque de taxa de juro).
+
+Fontes:
+- Doutor Finanças — *Crédito habitação com regras mais apertadas: taxa de esforço máxima baixa para 45%* — <https://www.doutorfinancas.pt/creditos/banco-de-portugal-aperta-regras-no-credito-habitacao-taxa-de-esforco-maxima-baixa-para-45/> — jul/2026 (lido em excerto)
+- Jornal Económico — *Banco de Portugal altera limite da taxa de esforço no crédito à habitação para 45% mas mantém taxa de stress* — <https://jornaleconomico.sapo.pt/noticias/banco-de-portugal-altera-limite-da-taxa-de-esforco-no-credito-a-habitacao-para-45-mas-mantem-taxa-de-stress/> — jul/2026 (lido em excerto)
+- DNotícias — *Banco de Portugal altera regras para crédito e reduz taxa de esforço para 45%* — <https://www.dnoticias.pt/2026/7/2/497650-banco-de-portugal-altera-regras-para-credito-e-reduz-taxa-de-esforco-para-45/> — 02/07/2026 (lido em excerto)
+- Forbes Portugal — *Banco de Portugal altera regras para crédito e reduz taxa de esforço para 45%* — <https://www.forbespt.com/banco-de-portugal-altera-regras-para-credito-e-reduz-taxa-de-esforco-para-45/> — jul/2026 (lido em excerto)
+- Portal do Crédito — *BdP reduz taxa de esforço recomendada* — <https://portaldocredito.pt/noticias/bdp-reduz-taxa-de-esforco-recomendada/> (lido em excerto)
+
+## 9. DL 84/2021 — prazos de garantia de imóveis novos vendidos a consumidores
+
+**Veredicto: CONFIRMADO** (10 anos estruturais / 5 anos restantes), e fica identificado o artigo que
+o cap. 06 deixou "a verificar": **art. 23.º, n.º 1, als. a) e b)**.
+
+| Pergunta | Valor | Estado |
+|---|---|---|
+| Prazo — elementos construtivos **estruturais** | **10 anos** (art. 23.º, n.º 1, al. a)) | CONFIRMADO (citado num acórdão de tribunal de recurso e em comentários de PLMJ, idealista, Imojuris), lido em excerto |
+| Prazo — **restantes** faltas de conformidade | **5 anos** (art. 23.º, n.º 1, al. b)) | CONFIRMADO, idem |
+| Desde quando | Contratos de compra e venda de imóveis **celebrados a partir de 01/01/2022** (antes: 5 anos para tudo, pelo regime anterior) | CONFIRMADO, lido em excerto |
+| Denúncia do defeito | O diploma **eliminou o prazo fixo de denúncia** a contar do conhecimento do defeito; mas os direitos **caducam 3 anos após a denúncia** (com suspensão da contagem prevista no art. 25.º, n.º 2) | lido em excerto (idealista, acórdão); **redação exata do art. 25.º não relida** |
+| Direitos do consumidor | Reparação/substituição, redução do preço, resolução (como no cap. 06) | não relido nesta verificação |
+| Lista de "elementos estruturais" | O diploma prevê uma **portaria** com essa lista; uma fonte nota que **não tinha sido publicada** — não consegui confirmar se já existe | NÃO CONFIRMADO |
+
+**O que isto muda para o produto:** a página "garantia e pós-venda" (cap. 01, ideia 4) pode dizer
+**"10 anos para a estrutura, 5 anos para o resto, a contar da entrega"** com base no art. 23.º do
+DL 84/2021, para escrituras desde 2022. Não dizer "a denúncia não tem prazo" sem o jurista ler o
+art. 25.º, e não listar o que é "estrutural" enquanto a portaria não for confirmada.
+
+Fontes:
+- Diário da República — *Decreto-Lei n.º 84/2021, de 18 de outubro* — ELI <https://data.dre.pt/eli/dec-lei/84/2021/10/18/p/dre> (não aberto; citado a partir de excertos)
+- Jurisprudencia.pt — acórdão que aplica o art. 23.º do DL 84/2021 — <https://www.jurisprudencia.pt/acordao/233534/pdf> (lido em excerto)
+- PLMJ — *Novo regime de compra e venda de bens de consumo* — <https://plmj.com/xms/files/03_Novidades_legislativas/2021/11_novembro/NI_Novo_Regime_de_Compra_e_Venda_de_bens_de_Consumo.pdf> — nov/2021 (lido em excerto)
+- idealista — *Garantia de bens imóveis e móveis é alargada – o que vai mudar?* — <https://www.idealista.pt/news/node/49600> — 08/11/2021 (lido em excerto)
+- Imojuris — *Alargado para 10 anos o prazo de garantia dos bens [imóveis]* — <https://imojuris.vidaimobiliaria.com/actualidade/noticias/Alargado-para-10-anos-o-prazo-de-garantia-dos-bens/> (lido em excerto)
+- Morais Leitão — *Direitos do consumidor na compra e venda de bens móveis e imóveis…* — <https://www.mlgts.pt/xms/files/site_2018/Newsletters/2021/Direitos_do_consumidor_na_compra_e_venda_de_bens_moveis_e_imoveis_e_de_conteudos_e_servicos_digitais_-_Legal_Alert.pdf> — 2021 (lido em excerto)
+
+---
+
+## Resumo
+
+| # | Ponto | Veredicto | Valor a usar |
+|---|---|---|---|
+| 1 | Preços WhatsApp Cloud API, Portugal | **CORRIGIDO** | Por mensagem desde 01/07/2025; PT = "Rest of Western Europe": marketing ≈ 0,049 €, utility e authentication ≈ 0,0142 €. **Serviço na janela de 24 h é pago desde 01/10/2026** (ao preço de utility), com ~1 000 grátis/mês por número (franquia dos parceiros, não lida na Meta) |
+| 2 | Política Meta para chatbots de IA | **CONFIRMADO / estado CORRIGIDO** | Proíbe assistentes de IA como funcionalidade **principal** (termos de 15/10/2025, aplicação 15/01/2026); bot de empresa sobre o próprio negócio **permitido**. No EEE, proibição **suspensa** por medidas cautelares da Comissão (09/06/2026) |
+| 3 | AI Act, art. 50.º e 4.º, Omnibus | **CORRIGIDO** | Omnibus **aprovado** = Reg. (UE) 2026/1744 (JOUE 24/07/2026). Art. 50.º, n.º 1 em vigor desde **02/08/2026, sem adiamento**; só o n.º 2 tem transição até 02/12/2026. Art. 4.º desde 02/02/2025, **mantido** para as empresas, com dever suavizado |
+| 4 | CNPD: IA, marketing, cookies | **CONFIRMADO (marketing) / CORRIGIDO (IA, cookies)** | Diretriz/2022/1 existe (jan/2022). **Não há** orientação CNPD sobre chatbots nem diretriz de cookies — usar CEPD |
+| 5 | Licença AMI 25031 | **NÃO CONFIRMADO** | Nenhum registo público associa o número a uma entidade; só o site da empresa o declara. Verificar no IMPIC com o NIPC 510053807 (Painel Temático, Lda., CAE 68100) |
+| 6 | Comunicação ao IMPIC | **CONFIRMADO** | Trimestral (Lei 58/2020; Reg. 603/2021, art. 20.º), até ao fim do trimestre seguinte; **promotores que vendem imóveis próprios estão abrangidos** (CAE 41100 e 68100) |
+| 7 | Garantia pública jovens / IMT Jovem | **CONFIRMADO** (prorrogação NÃO CONFIRMADA) | Contratos até **31/12/2026**, imóvel ≤ **450 000 €**; 2027 anunciado, ainda não é lei. IMT Jovem 2026: isenção total até **330 539 €** (gov.pt ainda mostra o teto parcial de 2025) |
+| 8 | BdP, taxa de esforço | **CONFIRMADO** | **45%** (era 50%), Recomendação n.º 1/2026, em vigor **01/08/2026**; exceção de 10% por banco e semestre |
+| 9 | DL 84/2021, garantia de imóveis | **CONFIRMADO** | **10 anos** estrutural, **5 anos** restante (art. 23.º, n.º 1), contratos desde 01/01/2022 |
+
+**Limitações desta verificação:** feita só com pesquisa web (19 pesquisas); nenhuma página foi aberta
+diretamente (a leitura da página de preços da Meta falhou por bloqueio de rede — o host
+developers.facebook.com teria de ser autorizado nas definições de rede da sessão). Quatro coisas
+continuam por ler na fonte primária: o rate card da Meta em EUR (ponto 1), o texto do Reg. (UE)
+2026/1744 no EUR-Lex (ponto 3), o registo AMI no IMPIC (ponto 5) e o art. 25.º do DL 84/2021 (ponto 9).

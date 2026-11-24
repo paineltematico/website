@@ -1,0 +1,1398 @@
+# 01 — Concorrência em Portugal: redes, boutiques e promotores
+
+> Capítulo de pesquisa para o Painel Temático (construção e promoção imobiliária, Braga).
+> Eixo: quem são os concorrentes na captação, no marketing e na venda de imóveis em Portugal,
+> o que fazem nos sites, nas ferramentas e na IA, e onde um promotor pequeno de Braga pode ganhar.
+>
+> **Data da pesquisa:** 2026-11-23 (sessão 1: redes; sessão 2, no mesmo dia: promotores, boutiques
+> e as redes que faltavam). **Autor:** pesquisa assistida (Claude), só leitura.
+>
+> **Como ler este documento**
+> - Cada afirmação leva a fonte entre parênteses ou em nota. Quando a fonte não tem data visível,
+>   está marcado "consultado em 2026-11-23".
+> - **[Facto]** = dito por uma fonte (imprensa, comunicado, site oficial). **[Inferência]** = leitura
+>   nossa a partir dos factos. **[Não confirmado]** = aparece numa fonte fraca ou só numa, e não
+>   conseguimos corroborar.
+> - Números de redes vêm quase sempre de **comunicados das próprias redes**, repetidos pela imprensa
+>   do setor. Não há auditoria independente. Cuidado com três métricas que a imprensa mistura:
+>   **faturação** (comissões recebidas), **volume de negócios** (soma do preço dos imóveis
+>   transacionados) e **transações** (cada rede conta à sua maneira: compra e venda, arrendamento,
+>   lado comprador e lado vendedor).
+> - **Limitação metodológica:** nesta sessão a leitura direta de páginas (WebFetch) estava bloqueada
+>   pela rede para vários domínios (ex.: `eco.sapo.pt`, `idealista.pt`). A pesquisa foi feita com
+>   motor de busca, lendo os excertos e resumos das páginas indexadas. Onde um número só aparece num
+>   excerto, está assinalado. Antes de citar um número em público, abrir a fonte original.
+
+---
+
+## Resumo
+
+- **As redes cresceram em 2025 por causa dos preços, não do stock.** As cinco maiores (RE/MAX,
+  Century 21, ERA, KW, ZOME) faturaram +24,4% e intermediaram ~22,5 mil M€, mas as angariações
+  da ERA e da RE/MAX caíram e a ERA perdeu produtividade por consultor. **Quem tem produto próprio
+  tem o que as redes mais procuram** (secção 0).
+- **A ZOME tem sede em Braga** e é o concorrente mais direto: 53,1 M€ de faturação e 11 320
+  transações em 2025, ChatGPT na pesquisa do site desde 2023, avaliação por IA (Zome Go!) (secção 2).
+- **A obra nova é um negócio próprio dentro das redes**: a ERA ganhou 20 M€ em comissões de casas
+  novas (+51%), vendeu ~1 700, a obra nova pesa 18% da faturação, e a **AM do Porto lidera** as
+  vendas de habitação nova (secção 3).
+- **O comprador é português**: 78% na RE/MAX, 78% na Century 21, 92% na obra nova da ERA. O site e o
+  agente de IA têm de ser pensados primeiro em PT-PT.
+- **O crédito é o gargalo e virou produto**: a Century 21 criou a *fintech* Finance21 (meta de
+  1 000 M€ em 2026) e a KW cresceu 40% em crédito (secções 4 e 5).
+- **A IA das redes ainda é rasa do lado do cliente**: o assistente da RE/MAX (2026) faz triagem e
+  encaminha para um consultor; não responde sobre imóveis. A barra para um agente que **sabe** as
+  frações e a obra está baixa (secção 1).
+- **A avaliação online é uma *commodity*** (pelo menos oito gratuitas). Para um promotor, a porta de
+  entrada útil é "tem um terreno?" e "retoma da sua casa" (secção 14).
+- **Garantia vende**: a ERA anuncia 24 meses de seguro de reparações em casas usadas como "único no
+  mercado"; a garantia legal de obra nova é mais longa e ninguém a mostra (secção 3, a confirmar
+  juridicamente).
+- **A RE/MAX mudou de dono global** (Real Brokerage, ~880 M$, 2026): é de esperar mais tecnologia
+  para o consultor nas redes nos próximos anos (secção 1).
+- **Lacuna**: Coldwell Banker, Engel & Völkers, Sotheby's, iad, Decisões e Soluções, Predimed, as
+  boutiques e — o mais importante — **os promotores** ficaram por verificar (orçamento de pesquisa
+  esgotado). Ver secção 17. *(Fechada em grande parte na sessão 2 — ver abaixo.)*
+
+**Acrescentado na sessão 2 (2026-11-23): promotores, boutiques e as outras redes**
+
+- **No Porto, a obra nova vende-se antes de existir**: 40–60% das casas novas em planta ou no início
+  da obra (60–65% nas vendas da Q+P | Knight Frank); Greenstone tinha 30% reservado antes da obra,
+  o Pleno da VIZTA 46% no lançamento, o PURE da Fercopor 30 de 34 em duas semanas, o Terrazza Park
+  26% em três dias de feira (secções 13.0–13.7).
+- **Os promotores de referência do Porto não vendem sozinhos**: entregam o lançamento a duas ou três
+  mediadoras em co-exclusivo (JLL + Predibisa + LUXIMOS Christie's no Bonjardim; JLL + Predibisa no
+  Greenstone), com evento de apresentação e stand no local. No Minho, a DST vende o Mereces 718
+  pela rede aberta (RE/MAX, Predimed) (secções 13.1, 13.2, 13.5).
+- **Ninguém usa o digital como argumento**: em nenhum promotor estudado a imprensa fala de mapa de
+  frações em tempo real, reserva online, diário de obra ou área de cliente; só a BluePeak *promete*
+  um portal de cliente. Os sites não puderam ser lidos — é o pendente n.º 1 (secção 13.8).
+- **Preço de entrada como produto**: a VIZTA criou a marca CORE, com cozinha e aquecimento opcionais,
+  para baixar o preço base; o Pleno (Maia) publica preços de 224 a 358 mil € (secção 13.4).
+- **Há prémio regional**: o Prémio Nacional do Imobiliário tem a categoria **Habitação Norte**
+  (Bonjardim, Avenue, 2025; Greenstone, Bondstone, 2026) (secções 13.1, 13.2).
+- **As boutiques do Norte estão a ser compradas**: Predibisa → Savills (2023), Castelhana → Dils
+  (2024; Dils no Porto desde outubro de 2025), Seed → Coldwell Banker; e a Compass ficou com a
+  Coldwell Banker e a Sotheby's a 9/01/2026. **Não encontrámos nenhuma mediadora de Braga com
+  prémio** (secções 6 e 12).
+- **Braga vale ~60% do Porto** em €/m² (2 173 €/m² pedidos em fevereiro de 2026 contra 3 700 €/m² de
+  venda no Porto, fontes diferentes); a E&V tem loja no Minho e aponta Fraião, Nogueiró, Lamaçães e
+  Gualtar como as zonas mais procuradas; a iad aposta no Minho (secções 7, 9, 13.0).
+- **Redes**: a Decisões e Soluções faturou 112 M€ com mais de 600 lojas (crédito e seguros no
+  centro do modelo); a Portugal Sotheby's cresceu 18% com o Porto em destaque; a Coldwell Banker
+  tem 12 agências e nenhuma no Norte (secções 6–11).
+
+---
+
+## 0. O mercado em 2025, em números
+
+**[Facto]** As cinco maiores redes (RE/MAX, Century 21, ERA, KW e ZOME) fecharam 2025 com a
+faturação conjunta **+24,4%** face a 2024, intermediando cerca de **22,5 mil milhões de euros**
+em negócios, com um "exército de quase 25 mil vendedores de casas"; o preço médio dos imóveis que
+transacionaram rondou os **246 500 €** (+12%) — ECO, especial "Faturação das 5 maiores imobiliárias
+aumenta 24,4%…" (2026, lido via excerto indexado):
+<https://eco.sapo.pt/especiais/faturacao-das-5-maiores-imobiliarias-aumenta-244-a-boleia-de-um-exercito-de-quase-25-mil-vendedores-de-casas/>
+
+**[Facto]** Segundo o mesmo especial, a ERA e a RE/MAX viram as **angariações cair** 5,4% e 0,4%,
+respetivamente, enquanto ZOME, KW e Century 21 cresceram — e a ERA passou de 4,9 para 4 negócios
+por consultor (−16,8%) ao crescer de ~2 500 para ~3 300 consultores (excerto do ECO, não lido na
+íntegra). **[Inferência]** O setor cresce em faturação porque os preços sobem, não porque haja mais
+casas: a angariação (o stock) é o gargalo. Isto é decisivo para um promotor — **quem tem produto
+próprio tem o que as redes mais procuram.**
+
+**[Facto]** O presidente da RE/MAX Portugal, Manuel Alvarez, resumiu 2025 assim: "A escassez de
+oferta, sobretudo nos segmentos intermédios, continuou a limitar o potencial do mercado" —
+Construir, 26/02/2026: <https://construir.pt/2026/02/26/remax-finaliza-2025-com-movimento-de-867mme>
+
+| Rede (2025) | Faturação | Volume intermediado | Transações | Consultores | Agências / lojas | Fonte |
+|---|---|---|---|---|---|---|
+| RE/MAX | n.d. (a rede publica "volume de preços") | **8,67 mil M€** (+21,7%) | +7,7% (74 313 segundo o ECO, não confirmado noutra fonte) | 11 350 ativos (10 818 em 2024); "+12 mil profissionais" | 422 (412 em 2024) | Construir 26/02/2026; Dinheiro Vivo; Diário Imobiliário |
+| Century 21 | **149,85 M€** (+28%) | 5,31 mil M€ | 21 193 compra e venda (+10%) + 5 604 arrendamentos (+3%) | 5 086 (ECO; 5 016 em 2024) | ~200 (fonte antiga) | Executive Digest; Construir 26/02/2026; Infofranchising |
+| ERA | **126,9 M€** (+24%) | > 2,5 mil M€ (+30%) | > 13 000 (+11%) | ~3 300 | > 200 escritórios (fonte fraca) | Diário Imobiliário; Forbes PT; Notícias ao Minuto |
+| KW | **86 M€** (+18%) | n.d. | 14 500 (+10%); ticket médio 335 k€ | ~3 000 associados | + 5 Market Centers abertos em 2025 | Executive Digest; Construir 04/03/2026; Dinheiro Vivo |
+| ZOME | **53,1 M€** (+30%) | **2 276 M€** (+25%) | 11 320 (+12%) | n.d. em 2025 (~900 numa fonte antiga) | n.d. em 2025 | Construir 29/01/2026 |
+
+Notas à tabela: "n.d." = não divulgado nas fontes encontradas. O ticket médio da KW (335 k€) e o
+preço médio da Century 21 (278 954 €) não são comparáveis entre si sem saber o que cada um conta.
+
+---
+
+## 1. RE/MAX Portugal — o líder por volume, agora dentro de um grupo "tech"
+
+**Posicionamento e modelo**
+- **[Facto]** Franchising: agências franqueadas de gestão autónoma e consultores que são
+  sobretudo empresários em nome individual. 422 agências e "mais de 12 mil profissionais"; 11 350
+  consultores ativos em 2025 (10 818 em 2024) — Construir, 26/02/2026
+  <https://construir.pt/2026/02/26/remax-finaliza-2025-com-movimento-de-867mme>; HR Portugal
+  <https://hrportugal.sapo.pt/?p=330296> (consultado em 2026-11-23).
+- **[Facto]** Os compradores portugueses foram 78,3% das transações em 2025; o número de
+  transações subiu 7,7% e dezembro foi o melhor mês — Construir / Diário Imobiliário
+  <https://www.diarioimobiliario.pt/RE-MAX-movimenta-8-67-mil-milhoes-de-euros-em-2025-e-cresce-21-7>
+- **[Facto]** Submarca de luxo **RE/MAX Collection** (Forbes Portugal: "RE/MAX Collection
+  comercializou 119 imóveis de luxo no primeiro trimestre", <https://www.forbespt.com/?p=188246>,
+  ano do trimestre não confirmado no excerto).
+- **[Facto]** A RE/MAX Portugal (o master franchise português) comprou em tempos a RE/MAX França —
+  Notícias ao Minuto <https://www.noticiasaominuto.com/economia/1269124/remax-portugal-compra-remax-franca-por-2-milhoes>
+  (notícia antiga, sem data no excerto). **[Inferência]** É uma operação portuguesa com músculo e
+  autonomia face à marca-mãe.
+
+**Mudança estrutural 2026 (marca-mãe)**
+- **[Facto]** A Real Brokerage anunciou a 27/04/2026 a compra da RE/MAX Holdings, com um valor de
+  empresa de cerca de **880 M$** (7× o EBITDA de 2025 com sinergias); o grupo combinado chama-se
+  **Real REMAX Group**, com ~59% para os acionistas da Real — comunicado na Nasdaq
+  <https://www.nasdaq.com/press-release/real-acquire-remax-creating-leading-technology-enabled-global-real-estate-platform>;
+  Law360 <https://www.law360.com/real-estate-authority/articles/2470360>. O fecho terá ocorrido a
+  24/08/2026 segundo a McCarthy Tétrault
+  <https://www.mccarthy.ca/en/experience/re-max-holdings-acquired-by-real-in-us-880m-business-combination>
+  (uma só fonte para a data de fecho). O idealista noticiou "RE/MAX LLC vendida por 750 milhões de
+  euros" <https://www.idealista.pt/news/node/75225>.
+- **[Facto]** Após a venda, a RE/MAX afirmou que os agentes se manterão profissionais
+  independentes (excerto indexado do idealista, consultado em 2026-11-23).
+- **[Inferência]** A Real é uma corretora "tecnológica" (app própria para agentes). É provável que
+  nos próximos 12–24 meses chegue à rede ferramentas novas de produtividade e IA para o consultor —
+  mas o impacto no master franchise português **não está confirmado**.
+
+**Site, app e IA (cliente)**
+- **[Facto]** Assistente virtual no remax.pt, desenvolvido internamente: o utilizador diz se quer
+  comprar, vender, arrendar ou avaliar; o sistema pede nome, telefone, email, localização e tipo de
+  pedido, e encaminha para "a agência e o consultor mais adequados", para "reduzir o tempo de
+  resposta inicial" — Marketeer (datado 11/09/2026) <https://marketeer.sapo.pt/re-max-poe-inteligencia-artificial-no-primeiro-contacto-com-clientes-e-promete-encontrar-o-consultor-certo/>;
+  Echo Boomer <https://echoboomer.pt/remax-lanca-chatbot-site-oficial/>.
+  **[Inferência]** É um formulário conversacional de *triagem e encaminhamento*, não um assistente
+  que responde a perguntas sobre imóveis. A barra é baixa.
+- **[Facto]** Ferramenta pública "Quanto vale a sua casa" da RE/MAX, que considera localização,
+  área, acabamentos e data de construção — referida pelo Doutor Finanças
+  <https://www.doutorfinancas.pt/vida-e-familia/habitacao/quanto-vale-a-minha-casa/> (consultado em
+  2026-11-23).
+- **[Não confirmado]** Uma app RE/MAX com pesquisa personalizada por IA e *staging* virtual, que
+  teria ganho um prémio "Best Tech Experience 2025" — aparece num título indexado num domínio de
+  espelho (`tek.dev-dominios.com`) e não foi corroborada.
+
+**Ferramentas internas**
+- **[Facto]** CRM interno **MaxWork**: em 2022 a RE/MAX fechou parceria com a **Alfredo** (IA de
+  avaliação portuguesa), integrada no MaxWork para dar estimativas de mercado aos consultores —
+  Construir, 30/03/2022 <https://www.construir.pt/2022/03/30/alfredo-e-remax-assinam-parceria-tecnologica>
+  (antigo). Em 2020, parceria com a proptech **REATIA** (metapesquisa de anúncios e análise de
+  mercado) — Construir, 23/03/2020 <https://construir.pt/2020/03/23/re-max-estabelece-parceria-tecnologica-com-reatia>
+  (antigo).
+- **[Facto]** O domínio `maxwork.pt` recebe sobretudo tráfego direto e encaminha para login
+  Microsoft e para o remax.pt (Semrush, atualizado a 12/08/2025
+  <https://nl.semrush.com/website/maxwork.pt/overview>). **[Inferência]** Portal de login
+  interno; o conteúdo não é público.
+- **[Facto]** A marca-mãe lançou em 2025 o **MAXEngage**, programa de fidelização que dá pontos e
+  recompensas pela participação dos agentes — RE/MAX News / Real Estate News, 03/11/2025
+  <https://news.remax.com/remax-launches-loyalty-program-that-rewards-agent-engagement>. Aplicação em
+  Portugal não confirmada.
+
+**Reputação**
+- **[Facto]** A RE/MAX aparece como vencedora da "Marca Recomendada 2026" no Portal da Queixa, que
+  também tem dezenas de reclamações públicas sobre consultores (abordagens indevidas, falta de
+  transparência sobre problemas estruturais) — <https://portaldaqueixa.com/brands/remax-portugal>
+  (consultado em 2026-11-23).
+  **[Inferência]** O modelo de milhares de independentes dá escala mas qualidade desigual. É um
+  flanco: **a experiência depende do consultor que calha.**
+
+**O que isto significa para o Painel Temático**
+- **Evitar** competir em escala ou cobertura. A RE/MAX tem 422 agências; o Painel tem um produto.
+- **Copiar** a ideia do primeiro contacto guiado (comprar / vender / avaliar → dados mínimos →
+  encaminhamento), mas fazê-lo melhor: o agente de IA do Painel pode **responder** sobre as frações
+  reais (tipologia, área, preço, fase da obra) antes de pedir o contacto.
+- **Oportunidade**: a fraqueza da rede é a variabilidade do atendimento. Um promotor que responde
+  sempre com a mesma pessoa, a mesma informação e o mesmo prazo ganha confiança.
+- **Parceria possível**: as redes procuram stock ("angariações caíram"). Um promotor pode dar
+  mandatos de comercialização a consultores RE/MAX de Braga sem perder o canal direto (ver
+  "Onde o Painel Temático pode ganhar").
+
+---
+
+## 2. ZOME — a rede nascida no Minho, a concorrente mais próxima
+
+**Posicionamento e modelo**
+- **[Facto]** Sede (Zome Internacional) na Rua Dr. José Maria Brandão 26, 4710-504 **Braga** —
+  apresentação institucional <https://apresentacao.zome.pt/> (consultado em 2026-11-23). A imprensa
+  regional trata-a como "imobiliária de Braga" — O Minho
+  <https://ominho.pt/imobiliaria-de-braga-ja-faturou-38-milhoes-este-ano/> (outubro de 2025).
+- **[Facto]** Origem no **Grupo Business**, fundado em 2006 em Vila Nova de Famalicão, que se
+  expandiu para Braga e Porto (perfil LinkedIn <https://pt.linkedin.com/company/zomebusiness>,
+  fonte com cerca de três anos).
+- **[Facto]** Modelo de carreira com quatro fases: Azimute Zero, Academia Startup, Lift Zome e
+  T4 Zome; "Comissões Atraentes e Modelos de Negócio Inovadores", sem percentagens publicadas —
+  site de recrutamento <https://www.recrutamentozome.pt/> (consultado em 2026-11-23). Na abertura de
+  um *hub*, forma-se o franqueado na **HOT – Hub Operations Tool** (mesma fonte, excerto indexado).
+- **[Não confirmado]** Um blogue de uma consultora KW diz que a ZOME cobra uma taxa de 5% e que a
+  remuneração "assemelha-se bastante à da KW" <https://ana-macao-kw.pt/en/how-much-does-real-estate-consultant-earn-portugal>
+  — fonte concorrente, não oficial.
+
+**Números**
+- **[Facto]** 2025: volume de negócios **2 276 M€** (+25%), **11 320 transações** (+12%), faturação
+  **53,1 M€** (+30%), com crescimento mais forte no 2.º semestre; o crescimento é atribuído ao
+  reforço da rede, à expansão e à tecnologia — Construir, 29/01/2026
+  <https://www.construir.pt/2026/01/29/zome-com-volume-de-negocios-de-2-276me-em-2025>.
+- **[Facto]** Até setembro de 2025: 1,6 mil M€ de volume (+30,1%) e 38 M€ de faturação (+40,7%) —
+  Diário Imobiliário <https://diarioimobiliario.pt/Zome-alcanca-volume-de-negocios-recorde-de-1-6-mil-milhoes-de-euros-ate-Setembro>.
+- **[Facto, antigo]** Numa entrevista sem data clara (PME Magazine, "Queremos ser líderes do mercado
+  ibérico"), a ZOME tinha perto de 900 consultores e lojas em Braga, Famalicão, Porto, Coimbra,
+  Leiria, Cascais, Abóboda e Lisboa <https://pmemagazine.sapo.pt/queremos-ser-lideres-do-mercado-iberico/>.
+  O número de consultores em 2025 **não foi confirmado**.
+
+**Site, app e IA**
+- **[Facto]** Em 2023 o zome.pt tornou-se "o primeiro site de uma rede imobiliária com integração de
+  ChatGPT na pesquisa de imóveis" — Diário Imobiliário
+  <https://www.diarioimobiliario.pt/Zome-pt-e-o-primeiro-site-de-uma-rede-imobiliaria-com-integracao-de-ChatGPT-na-pesquisa-de-imoveis>;
+  novo site lançado em julho de 2023 — Creative News
+  <https://creativenews.pt/2023/07/03/zome-lanca-novo-site-para-melhorar-experiencia-dos-visitantes/>.
+- **[Facto]** **Zome Go!** — ferramenta para pôr imóveis à venda mais depressa, que estima o valor
+  de mercado com *big data* e IA — Diário Imobiliário
+  <https://www.diarioimobiliario.pt/Actualidade/Zome-lanca-ferramenta-digital-que-agiliza-a-colocacao-de-imoveis-a-venda-no-mercado>
+  (data não visível no excerto).
+- **[Facto]** Programa interno de IA que envolve os colaboradores (dezembro de 2023) — Human
+  Resources <https://www.human.pt/2023/12/14/zome-inova-no-imobiliario-e-envolve-colaboradores-na-ia/>.
+  Uma reportagem patrocinada mais recente (Correio da Manhã, C Studio) descreve o uso de IA para
+  antecipar preços, recomendar imóveis e responder a clientes 24 h
+  <https://cmjornal.pt/c-studio/detalhe/como-a-ia-ajuda-a-comprar-e-vender-casa-mesmo-sem-se-aperceber>
+  — conteúdo patrocinado, ler como publicidade.
+- **[Facto]** A direção mudou: em 2023 Carlos Santos aparece como CTO e Patrícia Santos como CEO;
+  numa peça mais recente, Carlos Santos surge como CEO (excertos indexados, consultado em
+  2026-11-23). **[Inferência]** Um CTO que passa a CEO diz muito sobre a aposta da casa.
+
+**Adenda (sessão 2, 2026-11-23)**
+- **[Facto]** Em c. 2021 lançou a **Zome NOW**, apresentada como a primeira plataforma para "comprar
+  uma casa 100% à distância", a partir do telemóvel ou *tablet* — Notícias ao Minuto
+  <https://www.noticiasaominuto.com/casa/1803749/zome-now-primeira-plataforma-onde-pode-comprar-uma-casa-100-a-distancia>
+  (antigo; estado atual não confirmado).
+- **[Facto]** A **Zome Matosinhos** liderou o pré-lançamento do Terrazza Park (Porto) no Imobinvest
+  2025, com condições só para a feira e 26% das frações reservadas em três dias (secção 13.7). A
+  ZOME, portanto, **já faz lançamentos de obra nova para promotores no Norte**.
+
+**O que isto significa para o Painel Temático**
+- **É o concorrente mais direto em Braga**: tem sede na cidade, marca forte no Minho, e já fez o
+  discurso "IA na pesquisa" em 2023. Um site do Painel que só diga "temos IA" não se distingue.
+- **Copiar** o "avaliar e pôr à venda em minutos" (Zome Go!) **apenas** se o Painel quiser captar
+  proprietários — para um promotor, o equivalente útil é "quanto vale o meu terreno / a minha casa
+  velha para retoma" (ver secção final).
+- **Superar** onde a ZOME não pode ir: o promotor sabe tudo sobre o produto (projeto, materiais,
+  prazos, fotos da obra semana a semana). Uma rede de mediação nunca tem isso para cada imóvel.
+- **Parceria**: com sede em Braga e foco no Norte, é a rede natural para co-comercializar
+  frações — com regras claras de partilha e de exclusividade de lead.
+
+---
+
+## 3. ERA Portugal — a "máquina de vender casas", com um departamento só para obra nova
+
+**Posicionamento e modelo**
+- **[Facto]** Master franchise: a sede (Master Franchising) concentra Expansão, Operações,
+  Finanças, Marketing, **Brand New Home**, RH e Tecnologia, e apoia "mais de 200 agências" no país;
+  cada franqueado tem um consultor de operações no terreno e formação contínua na **ERA Academy** —
+  página "franchising system" <https://www.era.pt/en/careers/franchising/franchising-system>
+  (consultado em 2026-11-23). A ERA diz ter ajudado a lançar mais de 400 negócios imobiliários
+  pelo franchising (mesma fonte).
+- **[Facto]** O contrato de master franchise foi renovado por mais 25 anos na XVII Convenção Anual
+  (Altice Arena) — idealista <https://www.idealista.pt/news/node/49459> (notícia antiga, sem ano no
+  excerto). Assina "a máquina de vender casas" (`quantovale.era.pt`, consultado em 2026-11-23).
+- **[Facto]** CEO: Rui Torgal (entrevista indexada no idealista, consultado em 2026-11-23).
+
+**Números**
+- **[Facto]** 2025: faturação de **126,9 M€** (+24%; 2024 ≈ 102 M€) — Diário Imobiliário
+  <https://www.diarioimobiliario.pt/ERA-atinge-os-126-milhoes-de-euros-de-facturacao-no-melhor-ano-de-sempre>;
+  Forbes Portugal <https://www.forbespt.com/era-atinge-melhor-ano-de-sempre-e-fatura-mais-de-126-milhoes-de-euros/>.
+  Mais de 13 000 negócios (+11%) — Notícias ao Minuto
+  <https://www.noticiasaominuto.com/economia/2924010/imobiliarias-faturacao-da-era-em-portugal-cresce-24-para-127-milhoes>.
+  Cerca de 3 300 consultores (~2 500 em 2024) segundo o ECO; o idealista fala em 3 300
+  "colaboradores" (+47,4%) — as duas contagens podem não medir o mesmo.
+- **[Facto] Novos Empreendimentos 2025** — o dado mais relevante deste capítulo para um promotor:
+  - **20 M€ em comissões** (+51%), cerca de **1 700 casas novas vendidas** (+33%), **18% da
+    faturação total** da ERA (+3 p.p.) — Dinheiro Vivo
+    <https://dinheirovivo.dn.pt/empresas/era-portugal-novos-empreendimentos-obtm-mximo-histrico-de-20-milhes-em-comisses-em-2025>;
+    Executive Digest <https://executivedigest.sapo.pt/era-vende-1-700-casas-novas-e-atinge-maximos-historicos-de-20-milhoes-de-euros-em-2025/>.
+  - **92% dos compradores de casa nova foram portugueses**; a **Área Metropolitana do Porto** foi a
+    região com maior volume de vendas de habitação nova, com o concelho do Porto à frente de Lisboa
+    (mesmas fontes).
+  - Em 2024 o departamento tinha passado os 13 M€ em comissões — Diário Imobiliário
+    <https://www.diarioimobiliario.pt/Negocios-dos-Novos-Empreendimentos-da-ERA-supera-os-13-milhoes-de-euros-em-2024>;
+    casas novas já eram 20% da faturação residencial — Construir, 08/05/2025
+    <https://construir.pt/2025/05/08/casas-novas-representam-20-da-facturacao-residencial-da-era>.
+  - Diretor do departamento: David Mourão-Ferreira (LinkedIn
+    <https://www.linkedin.com/in/davidmouraoferreira/>, consultado em 2026-11-23).
+
+**Site, app e serviços ao cliente**
+- **[Facto]** Avaliação online em `quantovale.era.pt` e convite no site para "fazer uma avaliação
+  ou criar um anúncio em poucos minutos" (consultado em 2026-11-23). Uma notícia de c. 2021 diz que
+  o site passou a dar avaliação instantânea de apartamentos e moradias com a **Alfredo AI**
+  (antigo; ferramenta atual não confirmada).
+- **[Facto]** **ERA Warranty / ERA Warranty Homes**: seguro que cobre reparações ao comprador
+  durante até **24 meses**, apresentado como "o primeiro e único seguro gratuito" do mercado
+  português (homepage e excertos indexados, consultado em 2026-11-23). Condições não lidas.
+- **[Facto]** Outras iniciativas: plataforma **ERA Business Accelerator** para empreendedores, leilões
+  online de imóveis (datas não confirmadas) e um site de qualidade de serviço `qualidade.era.pt`
+  (consultado em 2026-11-23).
+- **[Não confirmado]** CRM e ferramentas internas da ERA — não encontrámos documentação pública.
+
+**O que isto significa para o Painel Temático**
+- **Facto decisivo**: a obra nova vende no Norte, a compradores portugueses, e as redes estão a
+  montar departamentos para a vender. **O Painel Temático é exatamente o fornecedor que a ERA
+  "Brand New Home" procura** — e também o concorrente que pode dispensar o intermediário.
+- **Copiar** a lógica de **garantia visível** (ERA Warranty): o promotor já tem garantia legal sobre
+  obra nova. **[Inferência, a confirmar juridicamente]** O regime do DL 84/2021 prevê prazos de
+  garantia longos para imóveis (10 anos para elementos estruturais). Pôr isso em destaque, por
+  escrito e com a lista do que está coberto, é um argumento que nenhuma rede pode igualar sobre
+  casas usadas.
+- **Copiar** a "avaliação em minutos" só como **porta de entrada de retoma** (ver secção final).
+- **Evitar** prometer "o melhor ano de sempre": o comprador de Braga quer prazos e preço, não
+  troféus.
+
+---
+
+## 4. Century 21 Portugal — escala ibérica, crédito próprio e app com agenda partilhada
+
+**Posicionamento e modelo**
+- **[Facto]** Franchising com cerca de 200 agências e (em fonte antiga) 2 500 agentes; em 2023
+  mudou o modelo para permitir mais agências por região — Vendus
+  <https://www.vendus.pt/blog/10-melhores-franchisings-para-agencias-imobiliarias/> (consultado em
+  2026-11-23). O ECO conta 5 086 profissionais em 2025 (5 016 em 2024), sem esclarecer se é só
+  Portugal. A marca tem os direitos para Portugal e Espanha até 2054 — idealista
+  <https://www.idealista.pt/news/node/50761>. CEO: Ricardo Sousa.
+- **[Facto]** Cada agência tem subdomínio próprio (ex.: `via.century21.pt`, `moveon.century21.pt`,
+  `investment.century21.pt`, `confianca.century21.pt`) — consultado em 2026-11-23.
+  **[Inferência]** Marca nacional com identidade local de cada loja.
+
+**Números**
+- **[Facto]** 2025: faturação **149,85 M€** (+28%; 2024: 116,9 M€), volume de negócios ~5,31 mil M€,
+  **21 193 compra e venda** (+10%) e **5 604 arrendamentos** (+3%); preço médio de venda subiu de
+  225 464 € para **278 954 €**; o 4.º trimestre concentrou 28,8% das vendas e mostrou abrandamento
+  homólogo — Executive Digest
+  <https://executivedigest.sapo.pt/faturacao-da-imobiliaria-century-21-portugal-sobe-28-para-14985-me-em-2025/>;
+  Construir, 26/02/2026 <https://www.construir.pt/2026/02/26/century-21-portugal-cresce-10-em-transaccoes-em-2025>;
+  Infofranchising <https://www.infofranchising.pt/century21-portugal-franchising-2602>.
+- **[Facto]** 77,7% das transações foram de portugueses — Vida Imobiliária
+  <https://vidaimobiliaria.com/noticias/mercados/portugueses-representam-777-das-transa%C3%A7%C3%B5es-na-century-21-portugal/>.
+- **[Facto]** Ricardo Sousa: "o que se alterou foi a capacidade de concretização das transações,
+  num contexto em que o poder de compra condiciona as decisões" (mesmas fontes).
+
+**Crédito: a Finance21**
+- **[Facto]** Em agosto de 2025 a Century 21 lançou a **Finance21**, *fintech* "independente" para
+  automatizar a intermediação de crédito à habitação, com simulações em tempo real com a maioria
+  dos bancos; pode ser usada por quem não compra casa na rede, para avaliar a sua capacidade
+  financeira; meta de **1 000 M€ de crédito intermediado em 2026** (~6 000 famílias) — ECO,
+  08/08/2025 <https://eco.sapo.pt/2025/08/08/century-21-lanca-fintech-independente-dedicada-a-intermediacao-de-credito-a-habitacao/>;
+  RTP <https://www.rtp.pt/noticias/economia/century-21-espera-atingir-1000-me-em-2026-em-credito-a-habitacao-intermediado_n1674957>.
+  Se a meta foi revista, não foi confirmado.
+
+**Site, app e IA**
+- **[Facto]** App lançada em c. 2021 (idealista <https://www.idealista.pt/news/node/20013>): pesquisa
+  com georreferenciação tátil e imóveis mais perto, **agendamento automático de visitas com agendas
+  sincronizadas entre cliente e consultor**, registo de visitas virtuais e comentários do cliente
+  para o consultor, e — para quem vende — **acompanhar visitas e propostas ao seu imóvel** — RFM
+  <https://rfm.pt/atualidade/10495/vender-comprar-ou-arrendar-casa-nunca-foi-tao-facil>.
+- **[Facto]** A página de recrutamento diz que a rede usa "IA e Big Data" para ajudar os agentes e
+  apresenta o **21Online** como o CRM da rede (gestão de contactos e clientes, análise automática de
+  dados para detetar oportunidades) — <https://century21.pt/junta-te-a-nos> (consultado em
+  2026-11-23). Existe ainda uma app **C21 Edge** na App Store portuguesa
+  <https://apps.apple.com/pt/app/c21-edge/id1658401702> (função não confirmada).
+- **[Não confirmado]** IA na app do cliente. Um trabalho académico propõe integrar *chatbots* e
+  decoração virtual na rede — é um plano, não um produto lançado
+  <https://comum.rcaap.pt/entities/publication/67fc5628-c61f-42f2-b0c3-f5376844a7bb>.
+
+**O que isto significa para o Painel Temático**
+- **Copiar já**: o **agendamento de visita com disponibilidade real** (o site já tem
+  `/agendar-visita`; o passo seguinte é mostrar horários livres da equipa e confirmar sozinho).
+- **Adaptar** o "acompanhar visitas e propostas" ao promotor: o comprador de uma fração em
+  construção quer acompanhar **a obra, os documentos e os pagamentos** (reserva, CPCV, tranches,
+  escritura). Uma área de cliente com isto é o equivalente — e nenhuma rede o tem, porque não
+  controla a obra.
+- **Oportunidade**: o crédito é o gargalo ("capacidade de concretização"). Um simulador honesto e
+  uma parceria com um intermediário de crédito registado no Banco de Portugal resolvem a objeção
+  mais comum sem o Painel ter de ser intermediário. **[Inferência]** Intermediar crédito exige
+  autorização própria; o Painel deve **encaminhar**, não intermediar.
+
+---
+
+## 5. KW Portugal (Keller Williams) — formação, marca pessoal e partilha de crescimento
+
+**Posicionamento e modelo**
+- **[Facto]** Apresenta-se como "empresa de formação, coaching e tecnologia" focada na mediação;
+  32 Market Centers e mais de 2 900 associados (LinkedIn <https://www.linkedin.com/company/kwportugal/>,
+  consultado em 2026-11-23). CEO: Marco Tairum. Forbes Portugal: "Keller Williams quer conquistar a
+  liderança em Portugal" <https://www.forbespt.com/keller-williams-ruma-para-conquistar-a-lideranca/>.
+- **[Facto]** Modelo global de partilha: depois de o Market Center cobrir as despesas, parte do lucro
+  é distribuída aos associados que recrutaram agentes produtivos (*profit share* / *growth share*) —
+  KW Thrive <https://thrive.kw.com/culture/profit-share> (material dos EUA). Em Portugal o **Growth
+  Share** distribuiu **1,6 M€ em 2025** e mais de **9 M€ desde 2014** — Construir, 04/03/2026
+  <https://www.construir.pt/2026/03/04/keller-williams-portugal-com-86me-de-facturacao-e-crescimento-de-18-face-a-2024>.
+
+**Números**
+- **[Facto]** 2025: faturação **86 M€** (+18%; 2024 ≈ 72 M€), **14 500 transações** (+10%), ticket
+  médio **335 k€** (+12%), ~3 000 associados, +300 novos consultores, intermediação de crédito +40%,
+  cinco Market Centers novos (São Miguel, Castelo Branco, Linda-a-Velha, Lisboa Oriental, Loures),
+  dois deles acima de 10 M€/ano — Executive Digest
+  <https://executivedigest.sapo.pt/faturacao-da-keller-williams-portugal-cresce-18-em-2025-para-86-me/>;
+  Dinheiro Vivo <https://dinheirovivo.dn.pt/empresas/faturao-da-kw-portugal-cresce-18-para-valor-recorde-de-86-milhes>;
+  Magazine Imobiliário <https://www.magazineimobiliario.com/detalhe-noticia/kw-regista-facturacao-recorde-de-86-m-em-2025/58985>.
+- **[Facto, autodeclarado]** A KW Franchising diz que Portugal foi a operação n.º 1 fora da América
+  do Norte em 2025 <https://kellerwilliamsfranchising.com/en/blog/kw-portugal-2025-resultados>.
+- **[Facto]** Entrada nos Açores anunciada em abril de 2025 — Diário dos Açores
+  <https://diariodosacores.pt/2025/04/10/keller-williams-anuncia-entrada-nos-acores/>.
+
+**Ferramentas e tecnologia**
+- **[Facto]** Um Market Center português lista formação em **Fizbot** ("plataforma de gestão de
+  vendas para agências imobiliárias"), além de curso introdutório e *Quick Start* —
+  <https://www.kwselect.pt/formacoes> (consultado em 2026-11-23).
+- **[Facto]** A presença da KW no SIL 2025 centrou-se em IA, atendimento ao cliente, marketing,
+  expansão e formação (excerto indexado, consultado em 2026-11-23).
+- **[Não confirmado em Portugal]** O CRM global **KW Command** (contactos, transações, marketing e
+  relatórios numa plataforma — KW Outfront
+  <https://outfront.kw.com/technology/kw-command-how-an-all-in-one-platform-can-transform-your-real-estate-business/>).
+  Não encontrámos fonte que confirme o uso em Portugal.
+- **[Facto]** Consultores KW mantêm sites pessoais com conteúdo de recrutamento e SEO (ex.:
+  <https://ana-macao-kw.pt/en/how-much-does-real-estate-consultant-earn-portugal>).
+  **[Inferência]** O modelo KW empurra a **marca pessoal** do consultor — conteúdo, SEO e redes
+  sociais feitos pelo próprio.
+
+**O que isto significa para o Painel Temático**
+- **Copiar** a disciplina: a KW vende formação e método. Para uma equipa pequena, o equivalente é um
+  **guião comercial escrito** (o que perguntar, quando voltar a ligar, que documento mandar) — que o
+  copiloto de IA pode aplicar e lembrar.
+- **Copiar** a marca pessoal: comprador de obra nova quer saber **quem** está do outro lado. Fichas de
+  equipa com cara, telefone direto e histórico de obras dão confiança.
+- **Evitar** a lógica de recrutamento: o Painel não tem de crescer em número de vendedores; tem de
+  crescer em conversão por lead.
+
+---
+
+## 6–11. As outras redes (verificadas na sessão 2)
+
+> **Sessão 2 (2026-11-23).** Na primeira sessão esta parte era uma tabela de conhecimento prévio,
+> sem números e por verificar. Foi substituída pelas secções 6 a 11, com fontes. Mantém-se a regra
+> do capítulo: os números são **comunicados das próprias redes** repetidos pela imprensa, e vários
+> só foram lidos em excerto. Para enquadrar: as cinco maiores (RE/MAX, Century 21, ERA, KW, ZOME)
+> somavam **944 agências e 24 825 consultores** em 2025 (ECO, especial já citado na secção 0, lido
+> em excerto de pesquisa). Nenhuma das seis redes abaixo chega a essa escala, exceto a Decisões e
+> Soluções em número de lojas.
+
+## 6. Coldwell Banker Portugal — luxo em Lisboa, dono novo nos EUA
+
+- **[Facto]** CEO **Frederico Abecassis**; a marca chegou a Portugal em **2017**; operação de **12
+  agências e cerca de 250 colaboradores**, "muito bem estabelecidos na Grande Lisboa e nos Açores",
+  com mais de 120 M€ em negócios (período não claro no excerto); para 2026, crescer a rede de
+  agências e manter a retenção de consultores — idealista, entrevista
+  <https://www.idealista.pt/news/node/72227> (lido em excerto de pesquisa).
+- **[Facto]** Integrou a **Seed Real Estate** como **Coldwell Banker Seed** (Lisboa, 16 empreendimentos
+  em carteira) e abriu agência em **Aljezur**, a primeira no Sul — idealista
+  <https://www.idealista.pt/news/node/73503>. A marca irmã **Coldwell Banker Luxus** tem um
+  **Departamento de Empreendimentos** ("cada vez mais essencial no nosso setor", segundo o CEO) —
+  The Portugal News, 04/07/2023
+  <https://www.theportugalnews.com/news/2023-07-04/coldwell-banker-luxus-heads-promotion-of-sustainable-development-in-lisbon/79194>.
+- **[Facto] Dono global novo**: a **Compass** concluiu a compra da **Anywhere Real Estate** (dona da
+  Coldwell Banker, da Corcoran e da Sotheby's International Realty) a **9/01/2026**, troca de ações
+  (1,436 ações Compass por ação Anywhere), valor final de ~2 mil M$ segundo a Bloomberg; sem
+  mudanças imediatas anunciadas às marcas — Compass, 10-Q 1.º trimestre de 2026
+  <https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm>;
+  Real Estate News, 09/01/2026 <https://www.realestatenews.com/2026/01/09/compass-completes-its-acquisition-of-anywhere-real-estate>.
+  Confirma-se o ponto 5 dos pendentes da sessão 1.
+- **[Não confirmado]** Agência no Porto ou no Minho: não encontrada. Quem detém o master franchise
+  em Portugal: não confirmado.
+
+**O que isto significa para o Painel Temático**: não é concorrente em Braga. Interessa como sinal:
+uma rede de luxo pequena (12 agências) cresce **comprando boutiques com carteira de
+empreendimentos** (Seed) — as carteiras de obra nova valem dinheiro para as redes.
+
+## 7. Engel & Völkers Portugal — o premium com loja no Minho
+
+- **[Facto]** No Norte tem licenças **Braga-Guimarães, Porto, cidade do Porto e Vila Nova de Gaia** —
+  E&V, "The Engel & Völkers network in Portugal"
+  <https://engelvoelkers.com/en-pt/comporta/blog/the-engel--völkers-network-in-portugal> — e uma
+  loja **Minho** (parceiro de licença: Christopher Diener) <https://www.engelvoelkers.com/pt/en/shops/minho>
+  (consultados em 2026-11-23).
+- **[Facto]** O **Market Report Portugal 2025-2026** da marca dá, para as transações da E&V Minho,
+  preço médio de **1 728 €/m² em Guimarães** (+1,8%) e **1 704 €/m² em Braga**; zonas mais procuradas
+  em Braga: **Fraião, Nogueiró, Lamaçães e Gualtar**; procura centrada em moradias contemporâneas com
+  jardim, piscina e vista — idealista, "Procura por moradias exclusivas consolida Minho como destino
+  premium" <https://www.idealista.pt/news/node/75411>; The Portugal News, 12/05/2026
+  <https://www.theportugalnews.com/news/2026-05-12/north-portugal-growing-in-luxury-real-estate/1020717>.
+  O mesmo relatório atribui **95% das transações de moradias premium** do Minho a estrangeiros,
+  sobretudo britânicos (lido em excerto de pesquisa; uma só fonte, e contrasta com os 78–92% de
+  compradores portugueses das redes — tratar com cautela).
+- **[Facto]** Tem **páginas de empreendimento** ("development projects") com obra nova em Braga
+  <https://www.engelvoelkers.com/pt/en/properties/res/sale/development/braga> e já listava o PURE da
+  Fercopor (consultado em 2026-11-23). Avaliação online e conteúdo sobre CRM: ver sessão 1
+  (<https://www.engelvoelkers.com/en-pt/avaliacao-imovel>,
+  <https://www.engelvoelkers.com/pt/en/resources/crm-for-real-estate-agents>).
+- **[Facto]** Grupo: receita de comissões de **1,3 mil M€ em 2025** (operações próprias e franquias,
+  global; lido em excerto de pesquisa) <https://www.newmoney.gr/roh/palmos-oikonomias/epixeiriseis/engel-volkers-kategrapse-tin-ischiroteri-etisia-epidosi-stin-istoria-tis-to-2025/amp/>.
+  Desde 2021, **60% do capital é de fundos da Permira**, com a digitalização como objetivo declarado
+  — Latham & Watkins <https://www.lw.com/news/Latham-Watkins-advises-Permira-on-Acquisition-of-majority-stake-in-Engel-Voelkers>;
+  Private Equity Wire <https://www.privateequitywire.co.uk/permira-funds-acquire-majority-stake-property-brokerage-platform-engel-volkers/>.
+- **[Não confirmado]** Resultados de Portugal em 2025; ferramentas de IA para consultores.
+
+**O que isto significa para o Painel Temático**: é a única rede premium com **loja no Minho e
+relatório de preços por cidade do Minho**. Se o Painel tiver uma moradia ou um lote de gama alta
+(Lamaçães, Gualtar, Nogueiró), a E&V Braga-Guimarães é o parceiro natural de co-comercialização —
+e o relatório dela é uma referência de preço a citar (com fonte) nas fichas.
+
+## 8. Portugal Sotheby's International Realty — luxo, Porto a crescer
+
+- **[Facto]** 2025 foi o "melhor ano de sempre": faturação **+18%**, ticket médio **+8%**; o Porto e
+  a Madeira em destaque (no Porto, +67% em volume segundo o ECO) — ECO, 11/02/2026
+  <https://eco.sapo.pt/2026/02/11/sothebys-cresce-18-com-madeira-e-porto-em-destaque/>; Forbes
+  Portugal <https://www.forbespt.com/portugal-sothebys-com-recorde-de-crescimento-a-boleia-da-madeira-e-porto/>
+  (lidos em excerto de pesquisa; o crescimento do volume total aparece como +75% num excerto, a
+  confirmar porque não bate com os +18% da faturação sem saber o que cada métrica mede).
+- **[Facto]** Compradores portugueses em **56%** das transações de 2025 (44% estrangeiros, com EUA,
+  Reino Unido e Brasil à frente); no 1.º semestre de 2025 metade dos clientes compradores era
+  estrangeira — DN <https://www.dn.pt/economia/metade-dos-clientes-da-imobiliária-de-luxo-sothebys-são-estrangeiros>.
+- **[Facto]** Publica estudos próprios (**Luxury Outlook 2026**, Mid-Year Outlook) — idealista
+  <https://www.idealista.pt/news/node/73457> — e tem secção de **empreendimentos** no site (ex.:
+  Greenstone, 13.2); co-comercializa o Val D'Ouro Palace no Porto (12.1).
+- **[Facto]** A marca-mãe (Sotheby's International Realty) pertence à Anywhere, agora Compass
+  (secção 6). Quem detém a licença portuguesa: **não confirmado**.
+
+**O que isto significa para o Painel Temático**: concorre num segmento acima do Painel. Copiar só
+duas coisas: o **estudo de mercado próprio** como ferramenta de imprensa (um "Observatório de obra
+nova em Braga" anual, mesmo curto, dá notícias e autoridade) e a **página de empreendimento** como
+unidade de apresentação.
+
+## 9. iad Portugal — rede sem lojas, a apostar no Minho
+
+- **[Facto]** Modelo **"100% digital, sem lojas físicas"**; **1 019 consultores** em Portugal e
+  18 200 no grupo (Forbes Portugal, data não clara) <https://www.forbespt.com/tecnologias-estao-a-desempenhar-papel-transformador-no-negocio-imobiliario/>;
+  **Minho e interior** são as novas apostas de expansão — Forbes Portugal
+  <https://www.forbespt.com/?p=169285> (data não visível); mais de 25 polos de formação e 40
+  formadores — HR Portugal <https://hrportugal.sapo.pt/?p=346129>.
+- **[Facto]** Quota de mercado de 1,26% para **1,40%** no ano fiscal 2023-24; num plano de 2023, os
+  consultores de topo recebiam **até 87,8% da comissão** (lido em excerto de pesquisa; pode ter
+  mudado).
+- **[Facto]** Outubro de 2025: compra da **PrimeBiz**, admitindo novas aquisições — idealista,
+  29/10/2025 <https://www.idealista.pt/news/imobiliario/empresas/2025/10/29/72261-iad-portugal-compra-primebiz-e-admite-novas-aquisicoes-em-portugal>;
+  **nova identidade de marca** centrada na "proximidade com os clientes" — ECO, 31/10/2025
+  <https://eco.sapo.pt/2025/10/31/iad-apresenta-nova-identidade-de-marca-que-expressa-proximidade-com-os-clientes/>.
+- **[Facto]** Reclamações públicas no Portal da Queixa em 2025–2026 (incumprimento contratual,
+  comissões, falta de resposta) <https://portaldaqueixa.com/brands/iad-portugal/complaints>
+  (consultado em 2026-11-23).
+
+**O que isto significa para o Painel Temático**: confirma a tese de que **a loja é o site** — e a
+iad vai crescer no Minho com consultores independentes, sem loja, que vão procurar stock. É mais um
+canal possível para frações (rede aberta, 13.5), com a mesma regra: lead registado no CRM antes de
+partilhar.
+
+## 10. Decisões e Soluções — imobiliário, crédito e seguros com 600 lojas
+
+- **[Facto]** 2025: faturação do grupo **112 M€** (+20%; 94 M€ em 2024), **volume de negócios de
+  3 200 M€** (que inclui crédito e seguros), **mais de 480 M€ em imóveis vendidos e escriturados**,
+  carteira de seguros na ordem dos 75 M€; **63 lojas novas** e contratos para mais 84; **mais de 600
+  lojas, 6 000 trabalhadores e 700 000 clientes** — Executive Digest <https://executivedigest.sapo.pt/?p=708885>;
+  Dinheiro Vivo <https://dinheirovivo.dn.pt/empresas/faturao-do-grupo-decises-e-solues-sobe-20-para-recorde-de-112-milhes-em-2025>;
+  Notícias ao Minuto (2024) <https://www.noticiasaominuto.com/economia/2712634/faturacao-do-grupo-decisoes-e-solucoes-cresce-45-para-94-milhoes-em-2024>.
+- **[Facto]** A DS Seguros emitiu 15 mil apólices novas e passou os 5,5 M€ em prémios em 2025 — ECO,
+  10/02/2026 <https://eco.sapo.pt/2026/02/10/ds-seguros-emite-15-mil-novas-apolices-e-supera-55-milhoes-de-euros-em-premios-em-2025/>.
+- **[Facto] IA**: o grupo deu a mais de mil profissionais das redes DS Seguros e Decisões e Soluções a
+  ferramenta **"my pitch"** da Minalea, para comparar produtos de seguros — ECO, 29/06/2026
+  <https://eco.sapo.pt/2026/06/29/ds-seguros-escolhe-ferramenta-de-ia-da-minalea/>.
+- **[Não confirmado]** Volume de crédito à habitação intermediado; lojas em Braga.
+
+**O que isto significa para o Painel Temático**: o padrão da Century 21 (secção 4) repete-se com
+mais força — **o dinheiro da casa (crédito, seguro) é metade do negócio de uma rede**. Para o
+Painel, reforça a linha 5 da secção 16: ter um parceiro de crédito registado e um simulador honesto
+na ficha de cada fração.
+
+## 11. Predimed — "a maior de capitais portugueses", ativa em Braga
+
+- **[Facto, autodeclarado]** Apresenta-se como a **maior consultora imobiliária de capitais
+  portugueses**, com 20 anos de mercado e crescimento acima de 20% — Forbes Portugal
+  <https://www.forbespt.com/?p=141919> (data não visível; sem números absolutos no excerto).
+  Entidade: Predimed Portugal – Mediação Imobiliária, Lda (registo de 2017) — Iberinform
+  <https://www.iberinform.pt/empresa/24795904/predimed-portugal-mediacao-imobiliaria-lda>; morada em Lisboa.
+- **[Facto]** **Ativa em Braga em obra nova**: anuncia frações novas em Braga (ex.: Andorinhas
+  Residence) no Imovirtual <https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/predimed-imobiliaria-ID1996063>
+  e uma penthouse do Mereces 718 da DST (13.5) (consultados em 2026-11-23).
+- **[Facto]** Portal da Queixa: índice de **38,9/100**, 14 reclamações, ~7 em 10 resolvidas
+  <https://portaldaqueixa.com/brands/predimed-imobiliaria/about> (consultado em 2026-11-23).
+- **[Não confirmado]** Número de agências, faturação 2025, ferramentas digitais.
+
+**O que isto significa para o Painel Temático**: é um dos canais que os promotores do Minho já usam
+(DST). A reputação pública fraca é um aviso para qualquer parceria: **o comprador associa a
+experiência ao promotor**, não à mediadora — o contrato tem de fixar tempos de resposta e
+informação mínima por fração.
+
+**O que isto significa para o Painel Temático (as seis redes juntas)**
+- As marcas de luxo (E&V, Sotheby's, Coldwell Banker) interessam pelo **marketing** e pelos
+  **estudos de mercado próprios**, não pela escala. Só a E&V está no Minho.
+- Decisões e Soluções e Century 21 (Finance21) mostram o mesmo padrão: **o crédito vende casas**.
+- iad e Predimed são **rede aberta** para frações no Minho; servem para escoar stock, não para
+  construir marca.
+- O dono global de duas destas marcas mudou em 2026 (Compass) — tal como o da RE/MAX (Real). Nas
+  redes, **mais tecnologia para o consultor** é o que vem; do lado do cliente, nada de novo
+  documentado.
+
+---
+
+## 12. Boutiques de referência
+
+> **Sessão 2 (2026-11-23).** Pesquisadas pelo motor de busca. O critério foi: (a) quem
+> **comercializa os empreendimentos de referência do Norte** (secção 13) e (b) quem ganhou
+> **prémios de marketing ou de agência** em 2025–2026. Porta da Frente Christie's (Lisboa) ficou de
+> fora: o lado Christie's no Norte é a LUXIMOS. **Não encontrámos nenhuma mediadora de Braga
+> distinguida por um prémio do setor** — só prémios internos de rede (ex.: Platinum 2024 e Gold 2023
+> da RE/MAX na página de uma consultora de Braga <https://www.remax.pt/pt/agente/elvira-machado/123331167>)
+> e a ZOME Maximinos (Braga Urbana) a citar o título de "Melhor Empresa para Trabalhar no Setor
+> Imobiliário" da marca
+> <https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/braga-urbana-sociedade-de-mediao-imobiliria-lda-ID5543275>
+> (consultados em 2026-11-23).
+
+### 12.0 O facto estrutural: as boutiques do Norte estão a ser compradas
+
+- **[Facto]** A **Predibisa** (Porto) foi comprada pela **Savills** a 1/06/2023 e passou a chamar-se
+  "Savills incorporating Predibisa" a 3/07/2023, mantendo os dois nomes para deixar clara a equipa
+  local — Savills <https://en.savills.pt/insight-and-opinion/savills-news/348973/predibisa-rebrands-to-savills>.
+- **[Facto]** A **Castelhana** (Lisboa, com carteira também no Porto e no Algarve) foi a porta de
+  entrada da **Dils** (italiana) em Portugal em 2024 — The Portugal News, 14/05/2024
+  <https://ftp.theportugalnews.com/news/2024-05-14/dils-enters-the-portuguese-market-through-castelhana/88855>;
+  a Dils comprou depois a Lucas Fox em Espanha (2025, segundo conteúdo patrocinado no ECO) e
+  **reforçou-se no Porto em outubro de 2025 "para aproximação a investidores no Norte e Centro"** —
+  ECO, 16/10/2025 <https://eco.sapo.pt/2025/10/16/imobiliaria-dils-reforca-no-porto-para-aproximacao-a-investidores-no-norte-e-centro/>.
+- **[Facto]** A **Seed Real Estate** (Lisboa) foi integrada na Coldwell Banker como **Coldwell
+  Banker Seed** — idealista <https://www.idealista.pt/news/node/73503> (data não visível) — e a
+  Coldwell Banker passou a ser da **Compass** a 9/01/2026 (secção 6).
+- **[Inferência]** No Norte, quem comercializa empreendimentos premium já são sobretudo
+  **marcas internacionais com equipa local** (JLL, Savills/Predibisa, Knight Frank via Q+P,
+  Christie's via LUXIMOS, Dils). Para o Painel, isto quer dizer que os parceiros de lançamento
+  "boutique" disponíveis no Porto são poucos e grandes; em Braga, a boutique local independente
+  com marketing de empreendimentos **não apareceu** nas pesquisas.
+
+### 12.1 LUXIMOS Christie's International Real Estate (Porto)
+
+- **[Facto]** Afiliada Christie's no Porto, presente nos lançamentos de referência da cidade:
+  co-exclusivo do **Bonjardim** (com JLL e Predibisa) e do **Fernão Magalhães 127** (com JLL e
+  Savills) — JLL newsroom
+  <https://www.jll.com/pt-pt/newsroom/fernao-magalhaes-127-condominio-de-excelencia-chega-ao-porto-com-a-jll-savills-e-luximos-christie>.
+- **[Facto]** **Antas Atrium**: a primeira fase ganhou o **Prémio Nacional do Imobiliário 2024**; a
+  segunda fase (55 M€ previstos) está em comercialização pela Christie's International Real Estate
+  — idealista, "Conforto, privacidade e segurança: os pilares do Antas Atrium"
+  <https://www.idealista.pt/news/etiquetas/casas-no-porto?page=2> (lido em excerto de pesquisa).
+  **[Inferência]** No Porto, a afiliada Christie's é a LUXIMOS; o excerto não a nomeia.
+- **[Facto]** **Lançamentos internacionais**: o **Val D'Ouro Palace** (palacete do séc. XVIII no
+  centro histórico, "reservado a apenas 16 famílias") e o **SeaHaus Atlantik Residenz** (Foz) foram
+  apresentados em **Manhattan**, no evento "An Evening in Portugal" da Christie's com a LUXIMOS; o
+  Val D'Ouro é comercializado em conjunto com a Savills e a Portugal Sotheby's — blogue "Sublime"
+  da LUXIMOS, 16/09/2025
+  <https://www.luximos.pt/en/news/sublime-blog/2025/09/16/autumn-in-porto-two-unmissable-luxury-launches>;
+  idealista <https://www.idealista.pt/news/node/71725>, <https://www.idealista.pt/news/node/71728>.
+- **[Facto]** O site tem **blogue editorial próprio** ("Sublime") e convite a **pedido de reunião
+  virtual** em cada página (consultado em 2026-11-23, via excerto).
+
+### 12.2 Savills incorporating Predibisa (Porto)
+
+- **[Facto]** Co-exclusiva do **Bonjardim** e do **Greenstone** enquanto Predibisa, e do **Fernão
+  Magalhães 127** já como Savills (fontes em 12.0, 12.1 e 13.2).
+- **[Inferência]** É o caso de uma boutique portuense que **ganhou escala ao vender-se**: a equipa
+  local manteve o nome porque era ele que os promotores do Porto conheciam.
+
+### 12.3 Quintela + Penalva | Knight Frank (Porto, Lisboa, Estoril)
+
+- **[Facto]** Mediadora do segmento de luxo, com parceria com a Knight Frank desde 2021; abriu loja
+  no Porto em 2023 — ECO, 13/07/2023
+  <https://eco.sapo.pt/2023/07/13/quintela-e-penalva-abre-loja-no-porto-e-escritorio-em-lisboa/>.
+- **[Facto]** Em 2025: **40 vendas acima de 1 M€**; **60–65% do que vende no Porto está em planta
+  ou em início de obra**; os empreendimentos novos ficam **"no mercado entre dois e seis meses"**,
+  com T1 e T2 a vender mais depressa — Dinheiro Vivo (fonte em 13.0; lido em excerto de pesquisa).
+- **[Facto]** Tem um **Departamento de Empreendimentos** (diretor: Pedro Bettencourt) e comercializa
+  em exclusivo o **Porto Gardens** (apartamentos e *townhouses* perto da Boavista) — idealista
+  <https://www.idealista.pt/news/node/73980>.
+
+### 12.4 JLL Residential (Porto)
+
+- **[Facto]** Não é uma boutique, mas é **a peça comum** dos lançamentos premium do Porto: Bonjardim,
+  Greenstone, Fernão Magalhães 127, **Condominhas Urban Living** (co-exclusivo, entre a Foz e o
+  centro histórico) e, em Lisboa, NoLiPa — JLL newsroom
+  <https://www.jll.com/pt-pt/newsroom/condominhas-urban-living-e-uma-nova-referencia-residencial-entre-a-foz-do-douro-e-o-centro-historico-do-porto>.
+  A equipa do Porto chegou às **40 pessoas** em 2025 — JLL Porto 2025 Highlights
+  <https://www.jll.com/pt-pt/newsroom/jll-porto-2025-highlights> (lido em excerto de pesquisa).
+- **[Facto]** O método que aparece nos comunicados: **evento de apresentação** (Greenstone),
+  **stand de vendas no local** (Bonjardim), **co-exclusivo** com uma ou duas casas locais, e
+  comunicados com a percentagem vendida a cada fase.
+
+### 12.5 Dils (ex-Castelhana)
+
+- **[Facto]** Faz a **intermediação e o posicionamento estratégico** do **Central Freixo** (Porto,
+  projeto de Souto de Moura) — Dils <https://dils.com/en/news/porto-looks-to-the-future-with-central-freixo-the-project-designed-by-souto-de-moura-takes-shapedils-is-in-charge-of-the-brokerage-services-and-strategic-positioning-of-the-development>;
+  co-comercializa o NoLiPa (13.1); tem lojas em Comporta, Estoril e Porto (conteúdo patrocinado).
+- **[Facto]** Comunica com **conteúdo de marca pago** de forma sistemática: pelo menos cinco peças
+  "BRANDS' ECO" entre setembro e dezembro de 2025 (ex.: <https://eco.sapo.pt/2025/09/25/dils-um-ano-a-transformar-o-imobiliario-em-portugal/>).
+
+### 12.6 Prémios de marketing: Seed (Lisboa) e Fine & Country (Algarve)
+
+- **[Facto]** **Seed Real Estate** ganhou, dois anos seguidos, *Best Real Estate Agency (Single
+  Office)*, *Best Real Estate Marketing* e *Best Real Estate Website* em Portugal nos International
+  Property Awards; o método descrito é **fotografia profissional e vídeo cinematográfico para todos
+  os imóveis** — The Portugal News, 18/04/2025
+  <https://www.theportugalnews.com/news/2025-04-18/seed-real-estate-an-awarded-strategy/96952>
+  (peça com tom promocional). Integrada na Coldwell Banker com **16 empreendimentos** em carteira,
+  carteira avaliada em 206 M€, 15 profissionais em sete línguas — idealista
+  <https://www.idealista.pt/news/node/73503>.
+- **[Facto]** **Fine & Country Portugal** ganhou *Best Real Estate Marketing Portugal* e foi
+  distinguida em *Real Estate Agency Website Portugal* nos International Property Awards 2026
+  (cerimónia a 22/10/2026, em Londres); o *managing partner* Nuno Durão resume a abordagem como
+  apresentar cada casa e cada lugar **como uma história** — Portugal Resident
+  <https://www.portugalresident.com/fine-country-portugal-best-real-estate-marketing-award-2026/>.
+  Atua sobretudo no Algarve.
+- **[Não confirmado]** A **WhiteOne – Mediação Imobiliária** aparece como vencedora de *Best Real
+  Estate Agency 2–4 Offices Portugal* 2025–2026 (excerto de pesquisa); localização não confirmada.
+
+O que procurar em cada uma (grelha da sessão 1, mantém-se para quando os sites puderem ser lidos):
+ficha de imóvel (fotos, vídeo, planta, tour 3D), preço público ou "sob consulta", captação de
+proprietários, newsletter, conteúdos de bairro, relatórios de mercado próprios, prova social, tempo
+de resposta a um lead.
+
+**O que isto significa para o Painel Temático (secção 12)**
+- **A bitola de apresentação está escrita nos prémios**: fotografia profissional e vídeo para
+  **cada** imóvel (Seed), cada casa contada **como uma história** do sítio (Fine & Country), blogue
+  editorial próprio (LUXIMOS). Para um promotor pequeno, o equivalente é: um vídeo e uma sessão de
+  fotografia por empreendimento e por fase de obra, e um texto de bairro (Lamaçães, Gualtar,
+  Merelim) escrito por quem lá constrói.
+- **Se o Painel quiser um parceiro de lançamento**, os candidatos naturais são três perfis:
+  a **ZOME** (Braga e Matosinhos; já lidera pré-lançamentos em feira, 13.7), a **Engel & Völkers
+  Braga-Guimarães/Minho** (premium, secção 7) ou, para um produto mais alto, uma das casas do
+  Porto (**Q+P | Knight Frank**, com departamento de empreendimentos). Co-exclusivo **com prazo**
+  e regras de lead no CRM, nunca exclusivo em aberto.
+- **Evitar** o conteúdo patrocinado genérico (Dils, VIZTA) como substituto de prova: funciona
+  para notoriedade, mas o comprador de Braga confia mais numa obra que pode visitar.
+- **Oportunidade**: não há uma boutique de Braga com marketing premiado. O lugar de "quem melhor
+  apresenta casas novas em Braga" está vago — e pode ser ocupado pelo próprio promotor.
+
+---
+
+## 13. Promotores de referência — marketing de empreendimentos (CRÍTICO)
+
+> **Sessão 2 (2026-11-23).** Na primeira sessão esta secção ficou por fazer. Nesta foi pesquisada
+> com motor de busca, porque a leitura direta dos sites continuava bloqueada. A consequência
+> prática conta para ler tudo o que se segue:
+> - **o que a imprensa conta** (ritmo de vendas, canais, eventos, preços publicados, prémios)
+>   ficou bem coberto;
+> - **o que só se vê no site** (mapa de frações, reserva online, diário de obra, área de cliente)
+>   ficou quase todo por verificar e aparece como ❓ na grelha (13.8).
+>
+> A lista de candidatos da primeira sessão foi revista pelo critério "Norte + marketing
+> documentado". **Vanguard** e **VIC Properties** não deram nada de útil sobre marketing (uma das
+> pesquisas devolveu outra empresa, brasileira, com o mesmo nome). **Casais** aparece sobretudo como
+> construtora e em *build to rent* com a Sonae Sierra (ECO, 24/03/2026
+> <https://eco.sapo.pt/2026/03/24/sonae-sierra-e-casais-vao-construir-casas-para-o-mercado-de-arrendamento/>),
+> não a vender frações próprias ao público, por isso ficou de fora. Entraram **VIZTA**, **Fercopor**
+> e **DST Real Estate**, que não estavam na lista.
+
+### 13.0 O contexto: no Porto, a obra nova vende-se antes de estar construída
+
+- **[Facto]** Entre **40% e 60%** das casas novas do Porto são compradas em planta ou no início da
+  obra; na Quintela + Penalva | Knight Frank a fatia é de **60–65%** das suas vendas no Porto
+  (Francisco Quintela). A procura antecipada concentra-se em T0 e T1 e em famílias de segmento
+  médio e médio-alto — Dinheiro Vivo
+  <https://dinheirovivo.dn.pt/neg%C3%B3cios/mais-de-60-das-casas-no-porto-so-compradas-em-planta-ou-incio-de-obra>
+  (data não visível; replicado pelo The Portugal News a 27/01/2026
+  <https://www.theportugalnews.com/news/2026-01-27/half-of-the-houses-in-porto-sold-at-the-start-of-construction/950858>);
+  idealista, "mais de 50%" <https://www.idealista.pt/news/node/73598> (2026, lido em excerto de
+  pesquisa). É uma estimativa do setor, não uma estatística oficial.
+- **[Facto, só título]** idealista/news, 2026: "Procura por casas em planta já supera interesse
+  por imóveis concluídos" <https://www.idealista.pt/news/node/75925>.
+- **[Facto]** Porto: preço médio de venda de **3 700 €/m²** (+14%), segundo o Market 360 da JLL
+  (lido em excerto de pesquisa) <https://www.jll.com/pt-pt/newsroom/jll-porto-2025-highlights>.
+  Braga: **2 173 €/m²** em fevereiro de 2026, máximo histórico, +11,3% num ano — idealista
+  <https://www.idealista.pt/news/node/74628>. Os dois números não são comparáveis à letra (um é
+  preço de venda de uma consultora, o outro é preço pedido num portal), mas dão a ordem de
+  grandeza: **Braga vale cerca de 60% do Porto**.
+- **[Facto]** A casa nova custa em média **~50% mais** do que a usada (cerca de 100 mil € de
+  diferença; preço médio da nova acima de 300 mil € pela primeira vez, dados do INE) — idealista
+  <https://www.idealista.pt/news/node/67432>; The Portugal News, 27/12/2024
+  <https://theportugalnews.com/news/2024-12-27/new-houses-in-portugal-cost-50-more/94504>. Em
+  2025 a usada subiu mais depressa (+18,9%) do que a nova (+14,2%) (INE, lido em excerto de
+  pesquisa).
+- **[Facto]** Planos de pagamento que aparecem em anúncios de obra nova: **15% no CPCV, 55% na
+  escritura e o restante por marcos da obra** (Matosinhos); **30% no CPCV e 70% na escritura**
+  (Algarve) — anúncios no casa.sapo (lido em excerto de pesquisa, consultado em 2026-11-23).
+- **[Inferência]** O jogo de um promotor decide-se **antes de a obra arrancar**: lançamento,
+  lista de interessados, preço publicado e primeiro sinal. Tudo o que vem a seguir (diário de
+  obra, área de cliente) serve para **não perder** o que se vendeu e para alimentar a fase
+  seguinte.
+
+### 13.1 Avenue — Bonjardim (Porto) e NoLiPa (Lisboa)
+
+- **[Facto]** Promotora que chegou a Portugal em 2015, com foco no residencial premium; o diretor-
+  -geral Aniceto Viegas falou em 17 projetos em oito anos e numa aposta futura também na classe
+  média; noutra entrevista, **"60% a 80% dos imóveis são vendidos em planta"** e "40% dos
+  compradores são portugueses" (números antigos) — idealista
+  <https://www.idealista.pt/news/node/42453>, <https://www.idealista.pt/news/node/60152>.
+- **[Facto] Bonjardim (centro do Porto)**: condomínio de uso misto (habitação, hotel, lojas e uma
+  praça central), com **93 apartamentos** — idealista <https://www.idealista.pt/news/node/46432>,
+  <https://www.idealista.pt/news/node/51137>.
+  - **Canal**: **co-exclusivo de três mediadoras — JLL, Predibisa e LUXIMOS Christie's**. Sete
+    meses depois do arranque das vendas estavam vendidos **80%** dos apartamentos, e a promotora
+    **abriu um stand de vendas no local** — JLL newsroom (cita dados a 30/06/2022, portanto c.
+    2022) <https://www.jll.com/pt-pt/newsroom/bonjardim-inaugura-stand-de-vendas-apartamentos-vendidos>.
+  - **Prémios**: Prémio SIL 2024 (Reabilitação Urbana) e **Prémio Nacional do Imobiliário 2025,
+    categoria Habitação Norte**; as lojas estão 95% ocupadas — Cushman & Wakefield, novembro de
+    2025 <https://www.cushmanwakefield.com/pt-pt/portugal/news/2025/11/award-winning-bonjardim-in-the-heart-of-porto-attracts-leading-brands>.
+  - O investimento aparece como 57 M€ numa fonte e 65 M€ noutra (idealista, excertos).
+- **[Facto] NoLiPa (Campo Grande, Lisboa)** — a referência de **preço publicado**: 466 apartamentos
+  em sete edifícios, T0 a T4 de 43 a 185 m², preços de **320 mil € a 1 M€, média de ~7 000 €/m²**
+  (maio de 2025); mais de 40% vendido nos quatro primeiros edifícios; entrega no fim de 2027;
+  **escritório de vendas aberto todos os dias das 9 às 19 h**; comercializado por **Dils, JLL e
+  RE/MAX Collection**; as **plantas por fração** estão em PDF alojados no idealista — idealista
+  <https://www.idealista.pt/news/node/72189>, <https://www.idealista.pt/news/node/69522>; The
+  Portugal News, 12/05/2025
+  <https://www.theportugalnews.com/news/2025-05-12/lisbon-attracts-275-million-real-estate-investment-as-industry-calls-for-tax-cuts-and-simpler-licensing/97538>
+  (lidos em excerto de pesquisa).
+- **[Não confirmado]** Mapa de frações em tempo real, reserva online, diário de obra e área de
+  cliente no site da Avenue: o site não pôde ser lido.
+
+### 13.2 Bondstone — Greenstone (Foz do Porto), Prémio Nacional do Imobiliário 2026
+
+- **[Facto]** A Bondstone nasceu como **Louvre** (promotora de luxo fundada em 2016) e passou a
+  apostar também noutros segmentos — idealista <https://www.idealista.pt/news/node/42494>.
+- **[Facto] Greenstone** (Nevogilde, Foz do Douro): **36 moradias** — 27 *garden villas* e
+  *townhouses* T2 a T4 (140–225 m², jardim privado) e 9 *sky villas* (210–355 m², *rooftop*
+  privado); investimento acima de 30 M€; arquiteto José Carlos Cruz — JLL newsroom
+  <https://www.jll.com/pt-pt/newsroom/greenstone-condominio-de-moradias-exclusivas-no-porto-apresentado-num-evento-unico>.
+  - **Lançamento**: apresentação na Casa de Montevideu, no Porto, para **cerca de 100
+    convidados** (potenciais clientes, promotor e arquiteto) — mesma fonte.
+  - **Canal**: **co-exclusivo JLL + Predibisa** (mesma fonte); o empreendimento aparece também na
+    secção de empreendimentos da Portugal Sotheby's
+    <https://www.sothebysrealtypt.com/developments/greenstone-porto-aldoar-foz-do-douro-e-nevogilde_pt1_471>
+    (consultado em 2026-11-23).
+  - **Ritmo**: **30% reservado antes do arranque da obra** — idealista
+    <https://www.idealista.pt/news/node/47386>; **mais de 75% vendido** com a obra a decorrer —
+    idealista <https://www.idealista.pt/news/node/59864>.
+  - **Comprador**: maioria portuguesa, "a grande maioria famílias do Porto ou de concelhos
+    vizinhos"; cerca de 25% de clientes do Brasil, EUA, Luxemburgo e África do Sul (mesmas fontes,
+    lidas em excerto de pesquisa).
+  - **Prémio**: venceu a categoria **Habitação Norte** do **Prémio Nacional do Imobiliário 2026**
+    (organizado pela Magazine Imobiliário, 92 candidaturas, cerimónia em março de 2026) — Jornal
+    Económico <https://jornaleconomico.sapo.pt/?p=1392504> (lido em excerto de pesquisa).
+- **[Não confirmado]** Preço "desde" publicado: não encontrado.
+
+### 13.3 Fercopor — Boavista e Foz (Porto)
+
+- **[Facto]** Promotora familiar do grupo Ferreira da Costa, fundada em 1981, focada no segmento
+  alto do Porto — idealista e site da empresa <https://fercopor.pt/en/> (consultado em
+  2026-11-23).
+- **[Facto] PURE** (Avenida da Boavista): 34 apartamentos, T2 a T5 duplex, 18 M€; **31 de 34
+  vendidos, 30 deles nas duas primeiras semanas** da venda em planta, com **data de arranque das
+  vendas anunciada** (23 de novembro, ano não visível no excerto) — site Fercopor (lido em excerto
+  de pesquisa); idealista "PURE sai do papel – as 34 casas têm dono" (2023)
+  <https://www.idealista.pt/news/node/57453>.
+- **[Facto]** Outros: **Enlight** (venda em planta; 15 de 21 apartamentos vendidos numa notícia —
+  <https://www.idealista.pt/news/node/53525>), **Prisma** (73 apartamentos, mais de 40 M€ —
+  <https://www.idealista.pt/news/node/60540>), **Raiz** (57 apartamentos na Boavista) e
+  **Foliage**, o primeiro na Foz (28 apartamentos, 25 M€) — ECO, 08/05/2025
+  <https://eco.sapo.pt/2025/05/08/fercopor-desce-da-boavista-a-foz-com-novo-predio-de-luxo-no-porto/>.
+- **[Facto]** Site próprio com portefólio por projeto e **brochura digital em PDF** (ex.:
+  <https://fercopor.pt/wp-content/uploads/2026/01/Brochura-Digital-ENLIGHT_04.08.22.pdf>,
+  consultado em 2026-11-23). O PURE aparece também numa página de empreendimento da Engel &
+  Völkers; exclusividade **não confirmada**.
+- **[Inferência]** É o caso mais limpo de **lançamento com data marcada**: anuncia-se o dia em
+  que as vendas abrem, acumula-se procura, e quase tudo se vende em duas semanas.
+
+### 13.4 VIZTA — Pleno (Maia) e a marca CORE: preço de entrada baixo, extras à parte
+
+- **[Facto]** A VIZTA é a antiga **Nexity Portugal**, com 13 projetos em Lisboa, Porto e Algarve —
+  idealista <https://www.idealista.pt/news/node/60912>, <https://www.idealista.pt/news/node/68967>.
+- **[Facto] Pleno** (Quinta da Pícua, Águas Santas, Maia): primeira fase com **110 apartamentos
+  T1 a T4, de 57 a 106 m², de 224 420 € a 357 700 €** — idealista
+  <https://www.idealista.pt/news/node/68972>; **46% vendido ou reservado** no lançamento e, mais
+  tarde, quase 50% e **sem T1 disponíveis** — idealista <https://www.idealista.pt/news/node/70821>,
+  <https://www.idealista.pt/news/node/75163>; projeto total de ~380 casas e ~105 M€ (outra fonte
+  diz 97 M€) — iberian.property
+  <https://iberian.property/news/residential/vizta-invests-eur105m-in-new-residential-project-in-greater-porto/>;
+  entrega no 2.º semestre de 2027. **[Inferência]** Se os extremos de preço corresponderem aos
+  extremos de área, o Pleno anda entre ~3 400 e ~3 900 €/m² — perto da média do Porto, mas na Maia.
+- **[Facto] CORE by VIZTA**: marca de "habitação mais acessível" em que o comprador leva o
+  **essencial** e **a cozinha equipada e o aquecimento são opcionais**, para baixar o preço de
+  entrada; o CEO Fernando Vasco Costa resume-o como "o essencial a um preço mais baixo do que o
+  habitual"; o primeiro projeto CORE é em Leça da Palmeira — idealista
+  <https://www.idealista.pt/news/node/68967>, <https://www.idealista.pt/news/node/69347>; Jornal
+  Económico <https://jornaleconomico.sapo.pt/?p=1285003>.
+- **[Facto]** Usa **conteúdo patrocinado**: a NIT publicou "Encontrámos casas a menos de 300 mil
+  euros no segredo mais bem guardado do Porto" **em parceria com a VIZTA**
+  <https://www.nit.pt/fora-de-casa/na-cidade/encontramos-casas-a-menos-de-300-mil-euros-no-segredo-mais-bem-guardado-do-porto>.
+  **[Inferência]** Várias peças do idealista/news sobre o Pleno têm tom de conteúdo de marca
+  ("Pleno: o novo capítulo na habitação de qualidade…"); não confirmámos se são pagas.
+- **[Inferência]** O CORE é um **configurador ao contrário**: em vez de vender *upgrades* sobre um
+  preço alto, publica um preço baixo e põe à parte o que muitos compradores querem. É exatamente
+  a lógica que um promotor de Braga pode testar numa tipologia de entrada.
+
+### 13.5 DST Real Estate — o promotor com escala no Minho (Barcelos, Guimarães)
+
+- **[Facto]** O **dstgroup** (sede em Braga) entrou na promoção residencial com projetos em
+  Barcelos, Guimarães e Famalicão, e Porto e Grande Lisboa em análise — Dinheiro Vivo
+  <https://dinheirovivo.dn.pt/grupo-dst-entra-no-negocio-da-promocao-residencial--14963459.html>;
+  idealista <https://www.idealista.pt/news/node/52920>; dstgroup
+  <https://dstsgps.com/press-room/news/dst-invests-50-million-in-mereces-in-barcelos-and-guimaraes-/>.
+- **[Facto] Mereces 718** (Barcelinhos, Barcelos): quatro edifícios; segunda fase com 160
+  habitações e 30 M€; **preços desde 147 mil €** e 42 de 160 apartamentos vendidos nos primeiros
+  quatro lotes (lido em excerto de pesquisa) — idealista <https://www.idealista.pt/news/node/57810>.
+  **Salgueiral Residences** (Guimarães): seis edifícios de sete pisos, apresentado como habitação
+  de luxo; o valor de investimento diverge entre fontes (13 M€ num título, 20 M€ noutro excerto).
+- **[Facto] Canal**: há frações do Mereces 718 anunciadas pela **RE/MAX** (T4 novo, 218 m²,
+  490 000 €) <https://remax.pt/en/imoveis/venda-apartamento-t4-barcelos-barcelinhos/126281025-87>
+  e pela **Predimed** (penthouse T4, 199 m², 630 000 €) num classificado
+  <https://www.custojusto.pt/braga/imobiliario/apartamentos/penthouse-t4-nova-terraco-pa-45156196>
+  (consultados em 2026-11-23). **[Inferência]** Comercialização **aberta a várias redes**, o
+  oposto do co-exclusivo de duas ou três mediadoras que se vê no Porto premium.
+- **[Facto]** Em 2026 anunciou 200 habitações para **arrendamento a jovens** em Barcelos com renda
+  até 400 € — ECO, 14/05/2026
+  <https://eco.sapo.pt/2026/05/14/dst-leva-para-barcelos-200-habitacoes-com-rendas-ate-400-euros/>.
+- **[Não confirmado]** Site próprio do empreendimento, mapa de frações, diário de obra.
+- **[Inferência]** É o concorrente de promoção mais parecido com o Painel no território (mesmo
+  distrito, mesmas tipologias, construtora própria) e tem uma vantagem que o Painel não tem:
+  **escala de marca** (o grupo é conhecido em Braga por razões que não são habitação). Não mostra,
+  nas fontes, nenhum diferencial digital.
+
+### 13.6 Kronos Homes — referência nacional: arquitetura de autor como marca
+
+- **[Facto]** Promotora espanhola (40% da atividade do grupo em Portugal). **Distrikt** (Parque
+  das Nações): investimento acima de 125 M€ e vendas acima de 180 M€, concluído em outubro de
+  2025 — Forbes Portugal <https://www.forbespt.com/?p=172647>; **ZEN** (Paço do Lumiar) concluído
+  com **95% vendido** — Portugal Resident
+  <https://www.portugalresident.com/kronos-homes-completes-zen-in-lisbon-with-95-of-homes-sold/>;
+  cerca de **500 casas entregues desde 2024** (lido em excerto de pesquisa).
+- **[Facto]** Vale do Lobo Residences arrancou a obra em junho de 2025 com **40% reservado** —
+  idealista <https://www.idealista.pt/en/news/luxury-real-estate-in-portugal/2025/06/30/70188-the-residences-at-vale-do-lobo-40-reserved-as-portugal-s-top-new-luxury-development-breaks-ground>;
+  lançou também residências com a marca Marriott nos Salgados, desde 330 mil € — idealista
+  <https://www.idealista.pt/news/node/69723>.
+- **[Facto]** Usa **arquitetos de autor como identidade de marca** (Souto de Moura em The One,
+  RCR em Palmares) — Arquitectura Viva <https://arquitecturaviva.com/articulos/proyectos-de-kronos>.
+- **[Não confirmado]** App ou área de cliente em Portugal: não encontrámos nada.
+
+### 13.7 Casos curtos que ensinam alguma coisa
+
+- **Terrazza Park (Paranhos, Porto) — lançamento numa feira.** **[Facto]** O pré-lançamento foi no
+  **Imobinvest 2025** (Alfândega do Porto, 12–14/09/2025), liderado pela **Zome Matosinhos** com a
+  equipa de arquitetura MASSLAB, com **condições comerciais só para quem estava na feira**; em três
+  dias ficaram **26% das 23 frações reservadas** — idealista <https://www.idealista.pt/news/node/71729>
+  (peça com tom de conteúdo de marca; o promotor não é identificado no excerto).
+- **Coslos (Grande Porto) — o contraexemplo.** **[Facto]** Empresa familiar de construção e
+  promoção (fundada em 1996) que **decidiu não vender em planta**: vende o imóvel feito, com
+  "transparência e segurança"; o artigo sugere que quem vendeu em planta a preço fixo pode vir a
+  perder dinheiro com a subida de custos — idealista <https://www.idealista.pt/news/node/49908>
+  (data não visível; provavelmente c. 2021). **[Inferência]** Lembra que o preço de lançamento é um
+  risco do promotor: uma pré-venda precisa de cláusulas de revisão ou de margem.
+- **BluePeak (Porto) — o portal de cliente prometido.** **[Facto, autodeclarado]** A apresentação da
+  empresa (2024) anuncia um **portal de cliente** onde o comprador "adiciona serviços extra,
+  acompanha o progresso da obra, escolhe os acabamentos e consulta imagens 3D e de realidade
+  aumentada" <https://www.noticiasdeaveiro.pt/wp-content/uploads/2024/02/BluePeak-Apresentacao-da-Empresa-2.pdf>.
+  Não verificámos se existe; a empresa parece fazer sobretudo remodelação. É o **único** caso
+  português encontrado que promete área de cliente com acompanhamento de obra.
+- **Mexto (Lisboa).** **[Facto]** O'Living (Parque das Nações), dirigido à classe média e média-alta
+  nacional, com **85% das vendas a portugueses** — idealista <https://www.idealista.pt/news/node/59627>.
+  Sem projetos no Porto nas fontes.
+
+### 13.8 A grelha de 10 pontos aplicada
+
+Legenda: ✅ confirmado · ◐ parcial ou indireto · ❓ não verificado (o site não pôde ser lido e a
+imprensa não fala disso) · — não existe nas fontes.
+
+| Promotor (projeto) | 1 Site | 2 Mapa de frações | 3 Preço público | 4 Reserva online | 5 Diário de obra | 6 Área de cliente | 7 Configurador | 8 Lançamento | 9 Canais | 10 Captação | Vendas documentadas |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Avenue** (Bonjardim; NoLiPa) | ❓ | ❓ | ◐ intervalo e €/m² na imprensa (NoLiPa); plantas por fração em PDF no idealista | ❓ | ❓ | ❓ | ❓ | ✅ stand no local; escritório aberto todos os dias | ✅ co-exclusivo JLL + Predibisa + LUXIMOS (Bonjardim); Dils + JLL + RE/MAX Collection (NoLiPa) | ◐ imprensa e prémios | 80% em 7 meses (Bonjardim) |
+| **Bondstone** (Greenstone) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ evento com ~100 convidados e o arquiteto | ✅ co-exclusivo JLL + Predibisa; também na Sotheby's | ◐ imprensa e prémio | 30% antes da obra; >75% em obra |
+| **Fercopor** (PURE, Enlight…) | ✅ site do grupo, brochura PDF | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ data de arranque de vendas anunciada | ◐ E&V lista o PURE; exclusividade não confirmada | ◐ imprensa | 30 de 34 em duas semanas (PURE) |
+| **VIZTA** (Pleno; CORE) | ❓ | ❓ | ✅ intervalo publicado (224–358 mil €) | ❓ | ❓ | ❓ | ✅ CORE: cozinha e aquecimento opcionais | ◐ fases (Pleno → Pleno Jardim) | ❓ | ✅ conteúdo patrocinado (NIT) | 46% no lançamento |
+| **DST Real Estate** (Mereces 718) | ❓ | ❓ | ◐ "desde 147 mil €" | ❓ | ❓ | ❓ | ❓ | ◐ por fases e lotes | ✅ rede aberta (RE/MAX, Predimed) | ❓ | 42 de 160 nos primeiros lotes |
+| **Kronos Homes** (Distrikt, ZEN) | ❓ | ❓ | ◐ "desde" nalguns projetos | ❓ | ❓ | ❓ | ❓ | ✅ arquiteto de autor; marca hoteleira | ❓ | ◐ imprensa | 95% vendido à conclusão (ZEN) |
+| **Terrazza Park** (Zome Matosinhos) | ❓ | ❓ (23 frações, T1–T4) | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ pré-lançamento em feira com condições exclusivas | ✅ rede (ZOME) a liderar | ✅ feira | 26% em três dias |
+| **BluePeak** | ❓ | ❓ | ❓ | ❓ | ◐ prometido | ◐ prometido (portal) | ◐ prometido (acabamentos, 3D, RA) | ❓ | ❓ | ❓ | — |
+| **Painel Temático (hoje)** | ✅ | ◐ dados no CRM, não publicados | ❓ | — | ◐ atualizações de obra no CRM | — | — | ❓ | direto | site + CRM próprio | — |
+
+**[Inferência]** As colunas 2, 4, 5 e 6 (mapa de frações, reserva online, diário de obra, área de
+cliente) ficaram vazias em **todos** os promotores. A ausência na imprensa **não prova** que não
+existam nos sites — mas mostra que **nenhum destes promotores os usa como argumento de venda**. Os
+argumentos que a imprensa repete são outros: ritmo de vendas ("X% vendido"), arquiteto, prémio,
+evento de lançamento, co-exclusivo com marcas de mediação.
+
+**O que isto significa para o Painel Temático (secção 13)**
+- **Copiar o calendário, não o luxo.** Os casos de sucesso documentados vendem 25–50% **antes** da
+  obra: Greenstone (30%), VIZTA (46%), Terrazza Park (26% numa feira), Fercopor (30 de 34 em duas
+  semanas). O padrão repete-se: **anúncio de data → lista de interessados → evento ou feira →
+  condições de lançamento com prazo → reserva**. Um projeto do Painel deve ter este guião escrito
+  antes do primeiro anúncio, e o CRM deve medir a lista de espera por tipologia.
+- **Publicar o preço.** Os casos com preço público (NoLiPa, Pleno, Mereces) são os que a imprensa
+  cita com números. Uma tabela de frações com preço por fração é barata de fazer e o comprador
+  português de obra nova compara por €/m².
+- **Testar uma tipologia "essencial" ao estilo CORE**: preço base sem cozinha equipada ou sem uma
+  opção cara, com os extras como lista de preços à parte. Em Braga, onde o m² vale ~60% do Porto,
+  o preço de entrada decide quem chega a visitar.
+- **O espaço livre é o pós-venda digital.** Ninguém mostra mapa de frações em tempo real, reserva
+  online, diário de obra ou área de cliente (só a BluePeak o promete). O Painel tem os dados no CRM;
+  **ser o primeiro do Minho a publicá-los** é um diferencial que não custa obra nova.
+- **Canal**: no Porto premium, o promotor entrega o lançamento a duas ou três mediadoras em
+  co-exclusivo; no Minho (DST), o produto vai para a rede aberta. O meio-termo que serve o Painel é
+  **um ou dois parceiros com regras escritas**, mantendo o canal direto como principal (secção 16,
+  linha 8).
+- **Prémio regional ao alcance**: o **Prémio Nacional do Imobiliário** tem uma categoria **Habitação
+  Norte** (Bonjardim em 2025, Greenstone em 2026). Uma obra entregue do Painel pode candidatar-se —
+  é prova social que as redes não dão.
+
+### 13.9 Definição da grelha e notas da sessão 1
+
+**Grelha de análise proposta** (sessão 1; é a que se aplica na tabela 13.8):
+
+1. **Site próprio do empreendimento** (domínio próprio vs página no site do grupo).
+2. **Mapa de frações** com disponibilidade em tempo real (vendida / reservada / livre), planta por
+   fração, áreas brutas e úteis, orientação, piso.
+3. **Preço público** vs "sob consulta".
+4. **Reserva ou pré-venda online** (sinal pago no site? formulário de reserva? lista de espera?).
+5. **Diário de obra** público (fotos, vídeo de drone, percentagem de execução, data de entrega).
+6. **Área de cliente** do comprador (documentos, pagamentos, escolha de acabamentos).
+7. **Configurador de acabamentos** / *upgrades* pagos.
+8. **Conteúdos de lançamento**: vídeo, renders, visita virtual, andar-modelo, evento.
+9. **Canais**: venda direta, exclusivo com uma rede, ou rede aberta a várias.
+10. **Captação**: anúncios, landing pages por tipologia, CRM, *chat* ou assistente.
+
+**Sinal que já temos** (do lado das redes): a ERA vendeu ~1 700 casas novas em 2025 e a obra nova
+pesa 18% da sua faturação, com a AM do Porto à frente (secção 3). **[Inferência]** Os promotores do
+Norte estão a vender muito através de redes — o que significa que boa parte deles **não tem canal
+direto forte**. É a abertura. *(Sessão 2: confirma-se em parte — no Porto premium os promotores
+entregam o lançamento a mediadoras em co-exclusivo, e no Minho a DST usa a rede aberta. Mas a
+abertura não é "ninguém tem canal": é "ninguém tem canal **digital** próprio documentado".)*
+
+**O que isto significa para o Painel Temático (sessão 1, mantém-se)**
+- A grelha acima é também a **lista de requisitos do site** dos empreendimentos: cada ponto que o
+  Painel cumprir e os concorrentes não é um argumento de venda.
+- Os pontos 2, 4, 5 e 6 (frações em tempo real, reserva, diário de obra, área de cliente) assentam
+  em dados que o CRM do Painel **já guarda** (projetos, frações, atualizações de obra). O trabalho é
+  publicá-los, não criá-los.
+
+---
+
+## 14. Outros sinais do mercado (portais, IA, avaliação)
+
+- **[Facto] A avaliação online é uma *commodity*.** Têm ferramenta gratuita o idealista
+  <https://www.idealista.pt/en/avaliacao-de-imoveis/>, o Supercasa
+  <https://supercasa.pt/avaliacao-de-imoveis>, o RealAdvisor
+  <https://realadvisor.pt/pt/avaliacao-de-imoveis-online>, o AvaliarOnline <https://avaliaronline.pt/>,
+  a RE/MAX, a ERA, a E&V e a ZOME (Zome Go!); o Doutor Finanças lista ainda Urbiwise, Housfy e
+  Imovendo <https://www.doutorfinancas.pt/vida-e-familia/habitacao/quanto-vale-a-minha-casa/>
+  (consultado em 2026-11-23). O Supercasa avisa que a avaliação online é só indicativa.
+  **[Inferência]** Um "quanto vale a minha casa" genérico não diferencia o Painel Temático; um
+  "quanto vale o meu terreno para construir" ou "retoma da sua casa na compra de uma fração" sim.
+- **[Facto]** A **Alfredo** (IA de avaliação portuguesa) esteve por trás das avaliações da RE/MAX
+  (2022) e da ERA (c. 2021) — fontes nas secções 1 e 3 (antigas).
+- **[Facto]** O portal **Casa Yes** apresentou-se como "o primeiro portal imobiliário com
+  Inteligência Artificial em Portugal", com integração de ChatGPT — 4gnews
+  <https://4gnews.pt/casa-yes-e-o-primeiro-portal-imobiliario-com-inteligencia-artificial-em-portugal/>
+  (data não visível). A ZOME reclamou o mesmo para as redes em 2023 (secção 2).
+- **[Facto, só título]** O idealista/news publicou em 2026 "WhatsApp + IA: o CRM imobiliário que
+  trabalha sempre contigo" <https://www.idealista.pt/news/node/75745>. Conteúdo não lido.
+  **[Inferência]** O WhatsApp é o canal onde o lead português responde; um CRM que não o integra
+  perde a conversa.
+- **[Facto]** **AMALIA**, o primeiro grande modelo de linguagem concebido para o **português
+  europeu**, teve a versão final lançada a **1 de julho de 2026** (versão base em setembro de 2025) —
+  digital.gov.pt <https://digital.gov.pt/pt/noticias/amalia-versao-multimodal-lancada-no-dia-1-de-julho>.
+  A **Agenda Nacional de IA 2026-2030** (RCM n.º 2/2026, publicada a 08/01/2026) prevê uma
+  plataforma **PME.IA** de apoio às PME para o 2.º semestre de 2026 —
+  <https://aiact-portugal.pt/pages/ania-2026-2030.html>.
+  **[Inferência]** Para o agente de IA do Painel, o PT-PT é requisito de marca (o idealista e as
+  redes falam PT-PT; um assistente que fala português do Brasil soa estrangeiro em Braga). A
+  AMALIA é uma opção a avaliar, não uma decisão: não comparámos a sua qualidade com modelos
+  comerciais.
+
+**O que isto significa para o Painel Temático**
+- **Evitar** a "avaliação genérica" como chamariz principal; **adaptar** a página `/avaliacao` que o
+  site já tem para terreno e retoma.
+- **Copiar** a integração com WhatsApp no CRM (a confirmar o que o artigo do idealista descreve).
+- **Oportunidade**: "IA na pesquisa" já foi reclamado em 2023 por uma rede e por um portal; o que
+  ninguém reclama é um assistente que conhece **uma obra concreta** ao pormenor.
+
+---
+
+## 15. Tabela comparativa
+
+Legenda: ✅ confirmado nesta pesquisa · ◐ confirmado mas antigo ou parcial · ❓ não verificado ·
+— não existe / não encontrado.
+
+| Rede | Modelo | Escala 2025 | Faturação 2025 | Avaliação online | IA / chat no site | CRM / ferramenta interna | App cliente | Obra nova | Crédito | Extra diferenciador |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **RE/MAX** | Franchising; consultores independentes | ✅ 422 agências, 11 350 consultores | ✅ volume 8,67 mil M€ | ✅ "Quanto vale a sua casa" | ✅ assistente de triagem e encaminhamento (2026) | ✅ MaxWork (+ Alfredo ◐, REATIA ◐) | ❓ | ◐ RE/MAX Collection co-comercializa o NoLiPa; anuncia frações do Mereces 718 (DST) | ❓ | RE/MAX Collection (luxo); dono global novo (Real REMAX Group) |
+| **ZOME** | Rede própria + *hubs*; sede em Braga | ◐ (~900 consultores, antigo) | ✅ 53,1 M€; volume 2 276 M€ | ✅ Zome Go! (IA + big data) | ✅ ChatGPT na pesquisa (2023) | ✅ HOT – Hub Operations Tool | ◐ Zome NOW, compra à distância (c. 2021) | ◐ Zome Matosinhos lidera pré-lançamentos (Terrazza Park, 26% numa feira) | ❓ | Origem minhota; CTO tornado CEO |
+| **ERA** | Master franchise; >200 agências | ✅ ~3 300 | ✅ 126,9 M€ | ✅ quantovale.era.pt | ❓ | ❓ | ❓ | ✅ Brand New Home: 20 M€, ~1 700 casas, 18% | ❓ | ERA Warranty (24 meses, comprador) |
+| **Century 21** | Franchising; direitos PT+ES até 2054 | ✅ 5 086 prof.; ~200 agências (antigo) | ✅ 149,85 M€ | ❓ | ❓ (IA só no discurso de recrutamento) | ✅ 21Online | ◐ agenda de visitas sincronizada; vendedor vê visitas e propostas | ❓ | ✅ Finance21 (meta 1 000 M€ em 2026) | Subdomínio por agência |
+| **KW** | Market Centers; *growth share* | ✅ ~3 000; 32 MC | ✅ 86 M€ | ❓ | ❓ | ◐ Fizbot (formação); Command ❓ | ❓ | ❓ | ✅ +40% | Formação e marca pessoal |
+| **Coldwell Banker** | Franchising de luxo; dono global Compass desde 9/01/2026 | ✅ 12 agências, ~250 colaboradores (Grande Lisboa e Açores) | ◐ >120 M€ "em negócios" (período não claro) | ❓ | ❓ | ❓ | ❓ | ✅ Coldwell Banker Seed (16 empreendimentos); Luxus com departamento de empreendimentos | ❓ | Cresce comprando boutiques (Seed) |
+| **Engel & Völkers** | Franchising de *shops*; Permira 60% desde 2021 | ◐ licenças Braga-Guimarães, Porto, Porto cidade, Gaia; loja Minho | ◐ grupo: 1,3 mil M€ em comissões (global) | ✅ página de avaliação | ❓ | ❓ | ❓ | ✅ páginas de empreendimento (obra nova em Braga) | ❓ | Market Report com €/m² de Braga e Guimarães |
+| **Portugal Sotheby's** | Licença da marca (dona: Anywhere → Compass); licenciado PT não confirmado | ❓ | ◐ +18% (melhor ano); Porto +67% em volume | ❓ | ❓ | ❓ | ❓ | ✅ secção de empreendimentos (ex.: Greenstone) | ❓ | 56% compradores PT; Luxury Outlook próprio |
+| **iad** | Sem lojas, 100% digital; comissão até 87,8% (2023) | ◐ 1 019 consultores (data não clara) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | Aposta no Minho e interior; comprou a PrimeBiz (2025) |
+| **Decisões e Soluções** | Imobiliário + crédito + seguros | ✅ >600 lojas, 6 000 trabalhadores | ✅ 112 M€ (grupo); >480 M€ em imóveis escriturados | ❓ | ◐ "my pitch" (Minalea) para seguros, interno | ❓ | ❓ | ❓ | ✅ é o núcleo do modelo | 63 lojas novas em 2025 |
+| **Predimed** | Rede de capital português ("a maior", autodeclarado) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ◐ anuncia obra nova em Braga (Andorinhas, Mereces 718) | ❓ | Portal da Queixa 38,9/100 |
+| **Painel Temático (hoje)** | Promotor com produto próprio | 3 projetos (Esporões, Merelim, Lomar) | — | site tem `/avaliacao` | — | CRM próprio (leads, atividades, oportunidades, frações, atualizações de obra) | — | ✅ é o produto | — | **controla a obra** |
+
+A comparação dos **promotores** (grelha de 10 pontos) está na tabela **13.8**; a das **boutiques**
+não cabe numa grelha útil porque quase nada do que interessa (ficha, vídeo, tempo de resposta) se
+viu sem abrir os sites — ver secção 12.
+
+---
+
+## 16. Onde o Painel Temático pode ganhar
+
+O padrão de 2025 é claro nos números confirmados: **as redes crescem em faturação porque os preços
+sobem, mas as angariações caem** (ERA −5,4%, RE/MAX −0,4%, segundo o ECO); a ERA perdeu
+produtividade por consultor; o comprador é português (78% na RE/MAX e na Century 21, 92% na obra
+nova da ERA); o crédito é o gargalo ("capacidade de concretização"); e a obra nova vende no Norte.
+Um promotor pequeno não ganha em escala. Ganha onde a rede **não pode** chegar.
+
+| # | Onde ganhar | Porque as redes não chegam lá | O que fazer (site · CRM · agente IA) | Prioridade |
+|---|---|---|---|---|
+| 1 | **Transparência de obra** | A rede não controla a obra; vende o que lhe dão. | Site: diário de obra por empreendimento e por fração (fotos com data, % execução, próxima etapa, data de entrega). CRM: as "atualizações de obra" que já existem passam a alimentar o site e um email mensal aos interessados. Agente: responde "em que fase está o bloco B?" com a última atualização. | **Alta** |
+| 2 | **Informação completa por fração** | O consultor da rede tem a ficha que o promotor lhe deu, e responde quando pode. | Site: mapa de frações com estado real (livre / reservada / vendida), planta, áreas, orientação, acabamentos e **preço público**. Agente: compara frações, explica áreas e custos de condomínio estimados. | **Alta** |
+| 3 | **Resposta imediata e sempre igual** | A RE/MAX automatizou a *triagem*, não a resposta; a qualidade depende do consultor (Portal da Queixa). | Agente para o cliente: responde 24 h sobre frações, marca visita com horários reais, passa à pessoa certa com o resumo da conversa. CRM: medir o tempo até à primeira resposta e alertar. | **Alta** |
+| 4 | **Garantia e pós-venda visíveis** | A ERA dá 24 meses de seguro em casas usadas e chama-lhe "único no mercado". | Site: página "O que está coberto e durante quanto tempo", com o regime legal de obra nova (**a confirmar juridicamente**: DL 84/2021) e o processo de pedido de reparação. CRM: pedidos de pós-venda como atividade. | Média |
+| 5 | **Financiamento sem fricção** | A Century 21 montou uma *fintech* (Finance21); a KW cresceu 40% em crédito. | Site: simulador de prestação por fração (com aviso de que é indicativo). Parceria com um intermediário de crédito registado; o Painel encaminha, não intermedeia. Agente: explica entrada, prestação e garantia pública para jovens, sem prometer aprovação. | Média |
+| 6 | **Uma só equipa do primeiro contacto à escritura** | Nas redes o consultor muda, a agência muda, o promotor está longe. | Site: fichas da equipa com cara e telefone direto. CRM: um responsável por lead, histórico completo. Agente copiloto: prepara a chamada seguinte com o histórico. | Média |
+| 7 | **Captação do lado do promotor** | As redes captam casas usadas; o promotor precisa de **terrenos** e de **clientes que vendem para comprar**. | Site: "Tem um terreno?" e "Retoma da sua casa" em vez de mais um "quanto vale a minha casa". CRM: pipeline de terrenos separado do pipeline de vendas. | Média |
+| 8 | **Parcerias controladas com as redes** | As redes precisam de stock; a ERA tem um departamento de obra nova e a ZOME está em Braga. | CRM: registo de lead por origem (direto / rede / consultor), regra escrita de quem fica com o lead, partilha de comissão definida por fração. Agente copiloto: avisa quando um lead de rede já existia como lead direto. | Média |
+| 9 | **Prova social local** | As redes mostram troféus nacionais; o comprador de Braga quer ver obras acabadas perto de si. | Site: obras entregues com fotos e testemunhos verificados, ligação às avaliações Google. | Baixa (rápido) |
+| 10 | **PT-PT, por defeito** | Os portais e as redes já falam PT-PT; um assistente em português do Brasil soa estrangeiro. | Agente: PT-PT como requisito; testar AMALIA e modelos comerciais com as mesmas perguntas reais. | Requisito |
+| 11 | **Lançamento com calendário** *(sessão 2)* | Os promotores de referência vendem 25–50% antes da obra (Greenstone 30%, Pleno 46%, Terrazza Park 26% numa feira, PURE 30 de 34 em duas semanas), mas fazem-no com eventos e mediadoras, não com um sistema próprio. | Site: página "brevemente" por projeto com **lista prioritária por tipologia** e data de abertura de vendas anunciada. CRM: lista de espera como estado do lead, contagem por tipologia, aviso no dia de abertura. Agente: explica as condições de lançamento e o prazo. Evento: visita ao terreno ou feira (Imobinvest, Porto) com condições com prazo. | **Alta** |
+| 12 | **Preço público e "versão essencial"** *(sessão 2)* | Só alguns publicam preços (NoLiPa, Pleno, Mereces); a VIZTA baixou o preço de entrada tirando a cozinha e o aquecimento do preço base (CORE). | Site: tabela de frações com preço e €/m², e lista de extras com preço (cozinha, aquecimento, acabamentos). CRM: extras escolhidos por fração. Agente: compara "essencial" vs "completa" na mesma fração. | Média |
+| 13 | **Prémio regional** *(sessão 2)* | O Prémio Nacional do Imobiliário tem categoria **Habitação Norte** (Bonjardim 2025, Greenstone 2026); nenhuma mediadora de Braga apareceu com prémio. | Candidatar uma obra entregue; usar o prémio (ou a candidatura) na página do projeto e na imprensa regional. | Baixa (rápido) |
+
+**Três coisas a NÃO fazer**
+- Não competir em "temos IA" como mensagem: a ZOME e o Casa Yes já a reclamaram em 2023. A IA é o
+  meio; a mensagem é "resposta em minutos, com a informação verdadeira da obra".
+- Não montar um "quanto vale a minha casa" genérico: há pelo menos oito gratuitos.
+- Não imitar o modelo de recrutamento das redes: o Painel ganha com conversão por lead, não com
+  mais vendedores.
+
+---
+
+## 17. Pendentes desta pesquisa
+
+Para fechar o capítulo, falta (por ordem de importância):
+
+1. **Promotores** (secção 13) — aplicar a grelha a 4–6 promotores, com prioridade aos do Norte.
+2. **Redes por verificar** (secções 6–11) — números 2025, presença em Braga/Porto, ferramentas.
+3. **Boutiques e prémios** (secção 12) — Prémios SIL, rankings de mediadores, vencedoras do Norte.
+4. **Abrir as fontes primárias** dos números das secções 0–5 (ECO, idealista e comunicados), que
+   aqui foram lidos por excerto: em especial as 74 313 transações da RE/MAX e o nº de consultores
+   da ERA.
+5. Confirmar a compra da Anywhere (Coldwell Banker, Sotheby's) pela Compass e o seu efeito em
+   Portugal.
+6. Ler o artigo do idealista sobre "WhatsApp + IA" no CRM imobiliário.
+
+Para correr isto numa sessão seguinte é preciso orçamento de pesquisa web e acesso de rede aos
+domínios `eco.sapo.pt` e `idealista.pt` (bloqueados nesta sessão).
+
+**Estado depois da sessão 2 (2026-11-23, ~60 pesquisas, só motor de busca)**
+
+| # da lista acima | Estado |
+|---|---|
+| 1. Promotores | **Feito em parte** (secção 13): seis promotores e quatro casos curtos com fontes. **Falta** tudo o que só se vê no site (pontos 2, 4, 5 e 6 da grelha). |
+| 2. Redes | **Feito** (secções 6–11), com as lacunas marcadas em cada uma. |
+| 3. Boutiques e prémios | **Feito em parte** (secção 12). Nenhuma boutique de Braga com prémio encontrada. |
+| 4. Fontes primárias das secções 0–5 | **Por fazer** (continua a leitura por excerto). |
+| 5. Compass / Anywhere | **Feito**: concluída a 9/01/2026 (secção 6). Efeito em Portugal: nenhum anunciado. |
+| 6. Artigo "WhatsApp + IA" do idealista | **Por fazer**. |
+
+**Novos pendentes (por ordem de importância)**
+1. **Abrir os sites** de Avenue (Bonjardim, NoLiPa), Fercopor, VIZTA (Pleno), DST Real Estate (Mereces
+   718), Kronos e da página de empreendimentos da E&V e da Sotheby's, e preencher as colunas 2, 4, 5
+   e 6 da tabela 13.8 (mapa de frações, reserva online, diário de obra, área de cliente). É a pergunta
+   decisiva e **nenhuma fonte de imprensa a respondeu**.
+2. **Promotores de Braga** que não apareceram nas pesquisas e devem ser vistos um a um: os que o
+   idealista lista com obra nova em Braga (Carmos – Real Estate Investments, N-Houses, Imobraga) e
+   construtoras locais com promoção própria. Critério: tipologias e preços comparáveis aos do Painel.
+3. Quem são os promotores do **Fernão Magalhães 127**, do **Antas Atrium** e do **Terrazza Park**.
+4. Lista completa do **Prémio Nacional do Imobiliário** 2025 e 2026 (categorias, regulamento, prazos
+   de candidatura) e dos **Prémios SIL** 2025.
+5. Condições jurídicas de uma **reserva com sinal online** (o sinal no CPCV, devolução, o que pode e
+   não pode ser pago no site) e o regime de **garantia de obra nova** — duas perguntas para jurista,
+   não para pesquisa web.
+6. Números absolutos da Portugal Sotheby's e da E&V Portugal em 2025; número de consultores da iad em
+   2025; lojas da Decisões e Soluções em Braga; presença da Coldwell Banker no Norte.
+7. Confirmar o dado da E&V de **95% de compradores estrangeiros** nas moradias premium do Minho
+   (contrasta com tudo o resto do capítulo).
+
+
+
+---
+
+## Fontes
+
+Datas: a da publicação quando aparece no URL ou no excerto; nos restantes casos, "consultado em
+2026-11-23". Fontes marcadas *(excerto)* foram lidas só através do excerto indexado pelo motor de
+busca, porque a leitura direta da página estava bloqueada nesta sessão.
+
+**Mercado e várias redes**
+- ECO — "Faturação das 5 maiores imobiliárias aumenta 24,4% à boleia de um exército de quase 25 mil vendedores de casas" (2026) *(excerto)* — <https://eco.sapo.pt/especiais/faturacao-das-5-maiores-imobiliarias-aumenta-244-a-boleia-de-um-exercito-de-quase-25-mil-vendedores-de-casas/>
+- idealista/news — "Imobiliárias de boa saúde em Portugal: negócio fechou 2025 a crescer" (09/03/2026) *(excerto)* — <https://www.idealista.pt/news/imobiliario/habitacao/2026/03/09/74278-imobiliarias-de-boa-saude-em-portugal-negocio-fechou-2025-a-crescer>
+- Vendus — "10 melhores franchisings para agências imobiliárias" (consultado em 2026-11-23) — <https://www.vendus.pt/blog/10-melhores-franchisings-para-agencias-imobiliarias/>
+
+**RE/MAX**
+- Construir — "Remax finaliza 2025 com movimento de 8,67MM€" (26/02/2026) — <https://construir.pt/2026/02/26/remax-finaliza-2025-com-movimento-de-867mme>
+- Diário Imobiliário — "RE/MAX movimenta 8,67 mil milhões de euros em 2025 e cresce 21,7%" (2026) — <https://www.diarioimobiliario.pt/RE-MAX-movimenta-8-67-mil-milhoes-de-euros-em-2025-e-cresce-21-7>
+- Dinheiro Vivo — "Volume de transações da Remax sobe 21,7% em 2025 para 8,7 mil milhões de euros" (2026) — <https://dinheirovivo.dn.pt/empresas/volume-de-transaes-da-remax-sobe-217-em-2025-para-87-mil-milhes-de-euros>
+- HR Portugal — "Esta rede imobiliária atingiu os 12 mil profissionais…" (consultado em 2026-11-23) — <https://hrportugal.sapo.pt/?p=330296>
+- Forbes Portugal — "RE/MAX Collection comercializou 119 imóveis de luxo no primeiro trimestre" (ano não confirmado) — <https://www.forbespt.com/?p=188246>
+- Notícias ao Minuto — "RE/MAX Portugal compra RE/MAX França por 2 milhões" (antigo) — <https://www.noticiasaominuto.com/economia/1269124/remax-portugal-compra-remax-franca-por-2-milhoes>
+- Nasdaq (comunicado) — "Real to Acquire REMAX, Creating a Leading Technology-Enabled Global Real Estate Platform" (27/04/2026) — <https://www.nasdaq.com/press-release/real-acquire-remax-creating-leading-technology-enabled-global-real-estate-platform>
+- Law360 — "Tech Brokerage Real To Acquire Re/Max In $880M Deal" (27/04/2026) — <https://www.law360.com/real-estate-authority/articles/2470360>
+- McCarthy Tétrault — "RE/MAX Holdings Acquired by Real in US$880M Business Combination" (fecho a 24/08/2026) — <https://www.mccarthy.ca/en/experience/re-max-holdings-acquired-by-real-in-us-880m-business-combination>
+- idealista/news — "Imobiliário ao rubro: RE/MAX LLC vendida por 750 milhões de euros" (2026) — <https://www.idealista.pt/news/node/75225>
+- Marketeer — "RE/MAX põe inteligência artificial no primeiro contacto com clientes…" (11/09/2026) — <https://marketeer.sapo.pt/re-max-poe-inteligencia-artificial-no-primeiro-contacto-com-clientes-e-promete-encontrar-o-consultor-certo/>
+- Echo Boomer — "RE/MAX lança chatbot agilizar primeiro contacto com clientes" (2026) — <https://echoboomer.pt/remax-lanca-chatbot-site-oficial/>
+- Construir — "Alfredo e Remax assinam parceria tecnológica" (30/03/2022) — <https://www.construir.pt/2022/03/30/alfredo-e-remax-assinam-parceria-tecnologica>
+- Construir — "RE/MAX estabelece parceria tecnológica com REATIA" (23/03/2020) — <https://construir.pt/2020/03/23/re-max-estabelece-parceria-tecnologica-com-reatia>
+- Semrush — visão geral de maxwork.pt (atualizado a 12/08/2025) — <https://nl.semrush.com/website/maxwork.pt/overview>
+- RE/MAX News — "RE/MAX launches loyalty program that rewards agent engagement" (03/11/2025) — <https://news.remax.com/remax-launches-loyalty-program-that-rewards-agent-engagement>
+- Portal da Queixa — página da marca RE/MAX Portugal (consultado em 2026-11-23) — <https://portaldaqueixa.com/brands/remax-portugal>
+- Doutor Finanças — "Quanto vale a minha casa?" (consultado em 2026-11-23) — <https://www.doutorfinancas.pt/vida-e-familia/habitacao/quanto-vale-a-minha-casa/>
+
+**ZOME**
+- Construir — "Zome com volume de negócios de 2.276M€ em 2025" (29/01/2026) — <https://www.construir.pt/2026/01/29/zome-com-volume-de-negocios-de-2-276me-em-2025>
+- Diário Imobiliário — "Zome alcança volume de negócios recorde de 1,6 mil milhões de euros até Setembro" (2025) — <https://diarioimobiliario.pt/Zome-alcanca-volume-de-negocios-recorde-de-1-6-mil-milhoes-de-euros-ate-Setembro>
+- O Minho — "Imobiliária de Braga já faturou 38 milhões este ano" (outubro de 2025) — <https://ominho.pt/imobiliaria-de-braga-ja-faturou-38-milhoes-este-ano/>
+- Zome — apresentação institucional (consultado em 2026-11-23) — <https://apresentacao.zome.pt/>
+- Zome — site de recrutamento (consultado em 2026-11-23) — <https://www.recrutamentozome.pt/>
+- LinkedIn — Grupo Business (consultado em 2026-11-23; perfil com ~3 anos) — <https://pt.linkedin.com/company/zomebusiness>
+- PME Magazine — "Queremos ser líderes do mercado ibérico" (sem data; antigo) — <https://pmemagazine.sapo.pt/queremos-ser-lideres-do-mercado-iberico/>
+- Diário Imobiliário — "Zome.pt é o primeiro site de uma rede imobiliária com integração de ChatGPT na pesquisa de imóveis" (2023) — <https://www.diarioimobiliario.pt/Zome-pt-e-o-primeiro-site-de-uma-rede-imobiliaria-com-integracao-de-ChatGPT-na-pesquisa-de-imoveis>
+- Creative News — "Zome lança novo site para melhorar experiência dos visitantes" (03/07/2023) — <https://creativenews.pt/2023/07/03/zome-lanca-novo-site-para-melhorar-experiencia-dos-visitantes/>
+- Diário Imobiliário — "Zome lança ferramenta digital que agiliza a colocação de imóveis à venda no mercado" (sem data no excerto) — <https://www.diarioimobiliario.pt/Actualidade/Zome-lanca-ferramenta-digital-que-agiliza-a-colocacao-de-imoveis-a-venda-no-mercado>
+- Human Resources — "Zome inova no imobiliário e envolve colaboradores na IA" (14/12/2023) — <https://www.human.pt/2023/12/14/zome-inova-no-imobiliario-e-envolve-colaboradores-na-ia/>
+- Correio da Manhã, C Studio (conteúdo patrocinado) — "Como a IA ajuda a comprar e vender casa…" (consultado em 2026-11-23) — <https://cmjornal.pt/c-studio/detalhe/como-a-ia-ajuda-a-comprar-e-vender-casa-mesmo-sem-se-aperceber>
+- Blogue de consultora KW — "How much does a Real Estate Consultant earn in Portugal in 2024?" (2024; fonte concorrente) — <https://ana-macao-kw.pt/en/how-much-does-real-estate-consultant-earn-portugal>
+
+**ERA**
+- Diário Imobiliário — "ERA atinge os 126 milhões de euros de facturação no melhor ano de sempre" (2026) — <https://www.diarioimobiliario.pt/ERA-atinge-os-126-milhoes-de-euros-de-facturacao-no-melhor-ano-de-sempre>
+- Forbes Portugal — "ERA atinge melhor ano de sempre e fatura mais de 126 milhões de euros" (2026) — <https://www.forbespt.com/era-atinge-melhor-ano-de-sempre-e-fatura-mais-de-126-milhoes-de-euros/>
+- Notícias ao Minuto — "Imobiliárias. Faturação da ERA em Portugal cresce 24% para 127 milhões" (2026) — <https://www.noticiasaominuto.com/economia/2924010/imobiliarias-faturacao-da-era-em-portugal-cresce-24-para-127-milhoes>
+- Dinheiro Vivo — "ERA Portugal: Novos Empreendimentos obtêm máximo histórico de 20 milhões em comissões em 2025" (2026) — <https://dinheirovivo.dn.pt/empresas/era-portugal-novos-empreendimentos-obtm-mximo-histrico-de-20-milhes-em-comisses-em-2025>
+- Executive Digest — "ERA vende 1.700 casas novas e atinge máximos históricos de 20 milhões de euros em 2025" (2026) — <https://executivedigest.sapo.pt/era-vende-1-700-casas-novas-e-atinge-maximos-historicos-de-20-milhoes-de-euros-em-2025/>
+- Diário Imobiliário — "Negócios dos Novos Empreendimentos da ERA supera os 13 milhões de euros em 2024" (2025) — <https://www.diarioimobiliario.pt/Negocios-dos-Novos-Empreendimentos-da-ERA-supera-os-13-milhoes-de-euros-em-2024>
+- Construir — "Casas novas representam 20% da facturação residencial da ERA" (08/05/2025) — <https://construir.pt/2025/05/08/casas-novas-representam-20-da-facturacao-residencial-da-era>
+- ERA — "Franchising system" (consultado em 2026-11-23) — <https://www.era.pt/en/careers/franchising/franchising-system>
+- ERA — avaliação online "quantovale" (consultado em 2026-11-23) — <https://quantovale.era.pt/>
+- ERA — qualidade de serviço (consultado em 2026-11-23) — <https://qualidade.era.pt/>
+- idealista/news — "ERA em Portugal por mais 25 anos – e vendeu 8.738 imóveis até setembro" (antigo) — <https://www.idealista.pt/news/node/49459>
+- LinkedIn — David Mourão-Ferreira, ERA Portugal (consultado em 2026-11-23) — <https://www.linkedin.com/in/davidmouraoferreira/>
+
+**Century 21**
+- Executive Digest — "Faturação da imobiliária Century 21 Portugal sobe 28% para 149,85 ME em 2025" (26/02/2026) — <https://executivedigest.sapo.pt/faturacao-da-imobiliaria-century-21-portugal-sobe-28-para-14985-me-em-2025/>
+- Construir — "Century 21 Portugal cresce 10% em transacções em 2025" (26/02/2026) — <https://www.construir.pt/2026/02/26/century-21-portugal-cresce-10-em-transaccoes-em-2025>
+- Infofranchising — "Century 21 Portugal ultrapassa 5,31 mil milhões de euros em 2025…" (2026) — <https://www.infofranchising.pt/century21-portugal-franchising-2602>
+- Vida Imobiliária — "Portugueses representam 77,7% das transações na Century 21 Portugal" (2026) — <https://vidaimobiliaria.com/noticias/mercados/portugueses-representam-777-das-transa%C3%A7%C3%B5es-na-century-21-portugal/>
+- ECO — "Century 21 lança fintech independente dedicada à intermediação de crédito à habitação" (08/08/2025) — <https://eco.sapo.pt/2025/08/08/century-21-lanca-fintech-independente-dedicada-a-intermediacao-de-credito-a-habitacao/>
+- RTP — "Century 21 espera atingir 1.000 ME em 2026 em crédito à habitação intermediado" (2025) — <https://www.rtp.pt/noticias/economia/century-21-espera-atingir-1000-me-em-2026-em-credito-a-habitacao-intermediado_n1674957>
+- idealista/news — "Century 21 de pedra e cal em Portugal e Espanha até 2054" — <https://www.idealista.pt/news/node/50761>
+- idealista/news — "Century 21 lança aplicação móvel para vender e arrendar casas" (c. 2021) — <https://www.idealista.pt/news/node/20013>
+- RFM — "Vender, comprar ou arrendar casa nunca foi tão fácil" (c. 2021) — <https://rfm.pt/atualidade/10495/vender-comprar-ou-arrendar-casa-nunca-foi-tao-facil>
+- Century 21 Portugal — "Junta-te a nós" (consultado em 2026-11-23) — <https://century21.pt/junta-te-a-nos>
+- App Store PT — C21 Edge (consultado em 2026-11-23) — <https://apps.apple.com/pt/app/c21-edge/id1658401702>
+- RCAAP — plano de integração de chatbots e decoração virtual na Century 21 Portugal (trabalho académico) — <https://comum.rcaap.pt/entities/publication/67fc5628-c61f-42f2-b0c3-f5376844a7bb>
+
+**KW**
+- Construir — "Keller Williams Portugal com 86M€ de facturação e crescimento de 18% face a 2024" (04/03/2026) — <https://www.construir.pt/2026/03/04/keller-williams-portugal-com-86me-de-facturacao-e-crescimento-de-18-face-a-2024>
+- Executive Digest — "Faturação da Keller Williams Portugal cresce 18% em 2025 para 86 M€" (2026) — <https://executivedigest.sapo.pt/faturacao-da-keller-williams-portugal-cresce-18-em-2025-para-86-me/>
+- Dinheiro Vivo — "KW Portugal atinge faturação recorde de 86 milhões em 2025…" (2026) — <https://dinheirovivo.dn.pt/empresas/faturao-da-kw-portugal-cresce-18-para-valor-recorde-de-86-milhes>
+- Magazine Imobiliário — "KW regista facturação recorde de 86 M€ em 2025" (2026) — <https://www.magazineimobiliario.com/detalhe-noticia/kw-regista-facturacao-recorde-de-86-m-em-2025/58985>
+- Keller Williams Franchising — "Keller Williams Portugal 2025: Best Year Ever" (2026; fonte interna) — <https://kellerwilliamsfranchising.com/en/blog/kw-portugal-2025-resultados>
+- Diário dos Açores — "Keller Williams anuncia entrada nos Açores" (10/04/2025) — <https://diariodosacores.pt/2025/04/10/keller-williams-anuncia-entrada-nos-acores/>
+- LinkedIn — Keller Williams Portugal (consultado em 2026-11-23) — <https://www.linkedin.com/company/kwportugal/>
+- Forbes Portugal — "Keller Williams quer conquistar a liderança em Portugal" — <https://www.forbespt.com/keller-williams-ruma-para-conquistar-a-lideranca/>
+- KW Select — "Formações" (consultado em 2026-11-23) — <https://www.kwselect.pt/formacoes>
+- KW Thrive — "Profit Share" (EUA; consultado em 2026-11-23) — <https://thrive.kw.com/culture/profit-share>
+- KW Outfront — "KW Command: How an All-in-One Platform Can Transform Your Real Estate Business" (EUA) — <https://outfront.kw.com/technology/kw-command-how-an-all-in-one-platform-can-transform-your-real-estate-business/>
+
+**Engel & Völkers**
+- Engel & Völkers Portugal — avaliação de imóvel (consultado em 2026-11-23) — <https://www.engelvoelkers.com/en-pt/avaliacao-imovel>
+- Engel & Völkers — "CRM for real estate agents" (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/resources/crm-for-real-estate-agents>
+- Engel & Völkers — "The Engel & Völkers network in Portugal" (consultado em 2026-11-23) *(excerto)* — <https://engelvoelkers.com/en-pt/comporta/blog/the-engel--völkers-network-in-portugal>
+- Engel & Völkers — loja Minho (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/shops/minho>
+- Engel & Völkers — Market Report Portugal (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/market-report-portugal>
+- Engel & Völkers — empreendimentos (obra nova) em Braga (consultado em 2026-11-23) — <https://www.engelvoelkers.com/pt/en/properties/res/sale/development/braga>
+- idealista/news — "Procura por moradias exclusivas consolida Minho como destino premium" (2026) *(excerto)* — <https://www.idealista.pt/news/node/75411>
+- The Portugal News — "North Portugal growing in luxury real estate" (12/05/2026) *(excerto)* — <https://www.theportugalnews.com/news/2026-05-12/north-portugal-growing-in-luxury-real-estate/1020717>
+- newmoney.gr — resultados globais Engel & Völkers 2025 *(excerto)* — <https://www.newmoney.gr/roh/palmos-oikonomias/epixeiriseis/engel-volkers-kategrapse-tin-ischiroteri-etisia-epidosi-stin-istoria-tis-to-2025/amp/>
+- Latham & Watkins — "Latham & Watkins Advises Permira on Acquisition of Majority Stake in Engel & Völkers" (2021) — <https://www.lw.com/news/Latham-Watkins-advises-Permira-on-Acquisition-of-majority-stake-in-Engel-Voelkers>
+- Private Equity Wire — "Permira funds acquire majority stake in property brokerage platform Engel & Völkers" (09/08/2021) — <https://www.privateequitywire.co.uk/permira-funds-acquire-majority-stake-property-brokerage-platform-engel-volkers/>
+
+**Coldwell Banker e Compass / Anywhere (sessão 2)**
+- idealista/news — "Segmento de luxo em Portugal continua a demonstrar grande dinamismo" (entrevista a Frederico Abecassis) *(excerto)* — <https://www.idealista.pt/news/node/72227>
+- idealista/news — "Coldwell Banker reforça portefólio de imóveis com nova agência em Lisboa" (Coldwell Banker Seed) *(excerto)* — <https://www.idealista.pt/news/node/73503>
+- The Portugal News — "Coldwell Banker Luxus heads promotion of sustainable development in Lisbon" (04/07/2023) — <https://www.theportugalnews.com/news/2023-07-04/coldwell-banker-luxus-heads-promotion-of-sustainable-development-in-lisbon/79194>
+- Compass, Inc. — Form 10-Q, 1.º trimestre de 2026 — <https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm>
+- Real Estate News — "Compass completes its acquisition of Anywhere Real Estate" (09/01/2026) — <https://www.realestatenews.com/2026/01/09/compass-completes-its-acquisition-of-anywhere-real-estate>
+- Bloomberg Law — "DOJ Allows Compass-Anywhere Deal After Overruling Staff" (2026) *(excerto)* — <https://news.bloomberglaw.com/business-and-practice/doj-allows-compass-anywhere-deal-over-staff-antitrust-concerns>
+
+**Portugal Sotheby's International Realty (sessão 2)**
+- ECO — "Sotheby's cresce 18% com Madeira e Porto em destaque" (11/02/2026) *(excerto)* — <https://eco.sapo.pt/2026/02/11/sothebys-cresce-18-com-madeira-e-porto-em-destaque/>
+- Forbes Portugal — "Portugal Sotheby's com recorde de crescimento à boleia da Madeira e Porto" (2026) *(excerto)* — <https://www.forbespt.com/portugal-sothebys-com-recorde-de-crescimento-a-boleia-da-madeira-e-porto/>
+- DN — "Metade dos clientes da imobiliária de luxo Sotheby's são estrangeiros" (2025) *(excerto)* — <https://www.dn.pt/economia/metade-dos-clientes-da-imobiliária-de-luxo-sothebys-são-estrangeiros>
+- idealista/news — "Imóveis de luxo: Portugal entre os mercados mais dinâmicos da Europa" (Luxury Outlook 2026) *(excerto)* — <https://www.idealista.pt/news/node/73457>
+- Portugal Sotheby's — página do empreendimento Greenstone (consultado em 2026-11-23) — <https://www.sothebysrealtypt.com/developments/greenstone-porto-aldoar-foz-do-douro-e-nevogilde_pt1_471>
+
+**iad Portugal (sessão 2)**
+- Forbes Portugal — "Tecnologias estão a desempenhar papel transformador no negócio imobiliário" *(excerto)* — <https://www.forbespt.com/tecnologias-estao-a-desempenhar-papel-transformador-no-negocio-imobiliario/>
+- Forbes Portugal — "Minho e interior do país são novas apostas de Iad Portugal para se expandir" (data não visível) *(excerto)* — <https://www.forbespt.com/?p=169285>
+- HR Portugal — "Rede europeia de consultores imobiliários independentes ultrapassa os 25 polos de formação e 40 formadores em Portugal" *(excerto)* — <https://hrportugal.sapo.pt/?p=346129>
+- idealista/news — "iad Portugal compra PrimeBiz e admite novas aquisições em Portugal" (29/10/2025) — <https://www.idealista.pt/news/imobiliario/empresas/2025/10/29/72261-iad-portugal-compra-primebiz-e-admite-novas-aquisicoes-em-portugal>
+- ECO — "iad apresenta nova identidade de marca que expressa 'proximidade com os clientes'" (31/10/2025) — <https://eco.sapo.pt/2025/10/31/iad-apresenta-nova-identidade-de-marca-que-expressa-proximidade-com-os-clientes/>
+- Portal da Queixa — reclamações iad Portugal (consultado em 2026-11-23) — <https://portaldaqueixa.com/brands/iad-portugal/complaints>
+
+**Decisões e Soluções (sessão 2)**
+- Executive Digest — "Grupo Decisões e Soluções com faturação recorde de 112 milhões" (2026) *(excerto)* — <https://executivedigest.sapo.pt/?p=708885>
+- Dinheiro Vivo — "Faturação do grupo Decisões e Soluções sobe 20% para recorde de 112 milhões em 2025" (2026) *(excerto)* — <https://dinheirovivo.dn.pt/empresas/faturao-do-grupo-decises-e-solues-sobe-20-para-recorde-de-112-milhes-em-2025>
+- Notícias ao Minuto — "Faturação do grupo Decisões e Soluções cresce 45% para 94 milhões em 2024" (2025) — <https://www.noticiasaominuto.com/economia/2712634/faturacao-do-grupo-decisoes-e-solucoes-cresce-45-para-94-milhoes-em-2024>
+- ECO — "DS Seguros emite 15 mil novas apólices e supera 5,5 milhões de euros em prémios em 2025" (10/02/2026) — <https://eco.sapo.pt/2026/02/10/ds-seguros-emite-15-mil-novas-apolices-e-supera-55-milhoes-de-euros-em-premios-em-2025/>
+- ECO — "DS Seguros escolhe ferramenta de IA da Minalea" (29/06/2026) — <https://eco.sapo.pt/2026/06/29/ds-seguros-escolhe-ferramenta-de-ia-da-minalea/>
+
+**Predimed (sessão 2)**
+- Forbes Portugal — "Portuguesa Predimed reforça posição no mercado imobiliário" (data não visível) *(excerto)* — <https://www.forbespt.com/?p=141919>
+- Iberinform — Predimed Portugal – Mediação Imobiliária, Lda (consultado em 2026-11-23) — <https://www.iberinform.pt/empresa/24795904/predimed-portugal-mediacao-imobiliaria-lda>
+- Imovirtual — página da agência Predimed Imobiliária (consultado em 2026-11-23) — <https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/predimed-imobiliaria-ID1996063>
+- Portal da Queixa — Predimed Imobiliária (consultado em 2026-11-23) — <https://portaldaqueixa.com/brands/predimed-imobiliaria/about>
+
+**ZOME (adenda da sessão 2)**
+- Notícias ao Minuto — "Zome NOW: primeira plataforma onde pode comprar uma casa 100% à distância" (c. 2021) — <https://www.noticiasaominuto.com/casa/1803749/zome-now-primeira-plataforma-onde-pode-comprar-uma-casa-100-a-distancia>
+
+**Portais, avaliação e IA**
+- idealista — avaliação de imóveis (consultado em 2026-11-23) — <https://www.idealista.pt/en/avaliacao-de-imoveis/>
+- Supercasa — avaliação do imóvel (consultado em 2026-11-23) — <https://supercasa.pt/avaliacao-de-imoveis>
+- RealAdvisor — avaliação imobiliária online (consultado em 2026-11-23) — <https://realadvisor.pt/pt/avaliacao-de-imoveis-online>
+- AvaliarOnline (consultado em 2026-11-23) — <https://avaliaronline.pt/>
+- 4gnews — "Casa Yes é o primeiro portal imobiliário com Inteligência Artificial em Portugal" (sem data no excerto) — <https://4gnews.pt/casa-yes-e-o-primeiro-portal-imobiliario-com-inteligencia-artificial-em-portugal/>
+- idealista/news — "WhatsApp + IA: o CRM imobiliário que trabalha sempre contigo" (2026; só título) — <https://www.idealista.pt/news/node/75745>
+- digital.gov.pt — "AMALIA: versão multimodal lançada no dia 1 de julho" (2026) — <https://digital.gov.pt/pt/noticias/amalia-versao-multimodal-lancada-no-dia-1-de-julho>
+- AI Act Portugal — "ANIA 2026-2030" (consultado em 2026-11-23) — <https://aiact-portugal.pt/pages/ania-2026-2030.html>
+
+**Mercado de obra nova (sessão 2)**
+- Dinheiro Vivo — "Mais de 60% das casas no Porto são compradas em planta ou início de obra" (data não visível) *(excerto)* — <https://dinheirovivo.dn.pt/neg%C3%B3cios/mais-de-60-das-casas-no-porto-so-compradas-em-planta-ou-incio-de-obra>
+- idealista/news — "Casas no Porto: mais de 50% são vendidas em planta ou início de obra" (2026) *(excerto)* — <https://www.idealista.pt/news/node/73598>
+- The Portugal News — "Half of the houses in Porto sold at the start of construction" (27/01/2026) — <https://www.theportugalnews.com/news/2026-01-27/half-of-the-houses-in-porto-sold-at-the-start-of-construction/950858>
+- idealista/news — "Procura por casas em planta já supera interesse por imóveis concluídos" (2026; só título) — <https://www.idealista.pt/news/node/75925>
+- JLL — "JLL Porto 2025 Highlights" (2026) *(excerto)* — <https://www.jll.com/pt-pt/newsroom/jll-porto-2025-highlights>
+- idealista/news — "Preço das casas em Braga atinge novo máximo em fevereiro de 2026" (2026) — <https://www.idealista.pt/news/node/74628>
+- idealista/news — "Comprar casa nova em Portugal? Custa mais 50% do que casa usada" (2024) *(excerto)* — <https://www.idealista.pt/news/node/67432>
+- The Portugal News — "New houses in Portugal cost 50% more" (27/12/2024) — <https://theportugalnews.com/news/2024-12-27/new-houses-in-portugal-cost-50-more/94504>
+- casa.sapo — anúncios de obra nova com planos de pagamento (consultado em 2026-11-23) *(excerto)* — <https://casa.sapo.pt/comprar-casas/em-construcao/>
+- Jornal Económico — vencedores do Prémio Nacional do Imobiliário 2026 (março de 2026) *(excerto)* — <https://jornaleconomico.sapo.pt/?p=1392504>
+- idealista/news — "Imobinvest volta à Alfândega do Porto de 12 a 14 de setembro" (2025) — <https://www.idealista.pt/news/node/70445>
+
+**Promotores (sessão 2)**
+- *Avenue* — idealista/news, "Avenue vai investir mais 150 milhões em Portugal: '60% a 80% dos imóveis são vendidos em planta'" (antigo) — <https://www.idealista.pt/news/node/42453>; "Avenue investe 400 milhões em novos projetos em Lisboa e Porto" — <https://www.idealista.pt/news/node/60152>; "Bonjardim nasce pela mão da Avenue no centro do Porto…" — <https://www.idealista.pt/news/node/46432>; "Bonjardim traz 93 modernos apartamentos ao centro do Porto" — <https://www.idealista.pt/news/node/51137>; "Bonjardim inaugurado no Porto – há seis apartamentos à venda" — <https://www.idealista.pt/news/node/66797>; JLL, "Bonjardim inaugura stand de vendas com 80% dos apartamentos vendidos" (c. 2022) — <https://www.jll.com/pt-pt/newsroom/bonjardim-inaugura-stand-de-vendas-apartamentos-vendidos>; Cushman & Wakefield, "Award-winning Bonjardim in the heart of Porto attracts leading brands" (11/2025) — <https://www.cushmanwakefield.com/pt-pt/portugal/news/2025/11/award-winning-bonjardim-in-the-heart-of-porto-attracts-leading-brands>; idealista/news, "Casas novas em Lisboa: NoLiPa sai do papel e atrai compradores" — <https://www.idealista.pt/news/node/72189>; "NoLiPa: vai nascer um novo bairro em Lisboa com 466 apartamentos" — <https://www.idealista.pt/news/node/69522>; The Portugal News (12/05/2025) — <https://www.theportugalnews.com/news/2025-05-12/lisbon-attracts-275-million-real-estate-investment-as-industry-calls-for-tax-cuts-and-simpler-licensing/97538> *(excertos)*
+- *Bondstone* — JLL, "Greenstone: condomínio de moradias exclusivas no Porto apresentado num evento único" — <https://www.jll.com/pt-pt/newsroom/greenstone-condominio-de-moradias-exclusivas-no-porto-apresentado-num-evento-unico>; JLL, "Greenstone segue a bom ritmo" — <https://www.jll.com/pt-pt/newsroom/greenstone-segue-a-bom-ritmo>; idealista/news — <https://www.idealista.pt/news/node/47386>, <https://www.idealista.pt/news/node/59864>, <https://www.idealista.pt/news/node/57856>, <https://www.idealista.pt/news/node/42494> *(excertos)*
+- *Fercopor* — site <https://fercopor.pt/en/>; brochura Enlight <https://fercopor.pt/wp-content/uploads/2026/01/Brochura-Digital-ENLIGHT_04.08.22.pdf>; idealista/news — <https://www.idealista.pt/news/node/57453>, <https://www.idealista.pt/news/node/53525>, <https://www.idealista.pt/news/node/60540>; ECO, "Fercopor desce da Boavista à Foz com novo prédio de 25 milhões" (08/05/2025) — <https://eco.sapo.pt/2025/05/08/fercopor-desce-da-boavista-a-foz-com-novo-predio-de-luxo-no-porto/> *(excertos; consultados em 2026-11-23)*
+- *VIZTA* — idealista/news — <https://www.idealista.pt/news/node/60912>, <https://www.idealista.pt/news/node/68967>, <https://www.idealista.pt/news/node/68972>, <https://www.idealista.pt/news/node/69347>, <https://www.idealista.pt/news/node/70821>, <https://www.idealista.pt/news/node/75163>; Jornal Económico — <https://jornaleconomico.sapo.pt/?p=1285003>; iberian.property — <https://iberian.property/news/residential/vizta-invests-eur105m-in-new-residential-project-in-greater-porto/>; NIT (conteúdo em parceria) — <https://www.nit.pt/fora-de-casa/na-cidade/encontramos-casas-a-menos-de-300-mil-euros-no-segredo-mais-bem-guardado-do-porto> *(excertos)*
+- *DST Real Estate* — Dinheiro Vivo, "Grupo DST entra no negócio da promoção residencial" — <https://dinheirovivo.dn.pt/grupo-dst-entra-no-negocio-da-promocao-residencial--14963459.html>; idealista/news — <https://www.idealista.pt/news/node/52920>, <https://www.idealista.pt/news/node/57810>; dstgroup — <https://dstsgps.com/press-room/news/dst-invests-50-million-in-mereces-in-barcelos-and-guimaraes-/>; ECO (14/05/2026) — <https://eco.sapo.pt/2026/05/14/dst-leva-para-barcelos-200-habitacoes-com-rendas-ate-400-euros/>; anúncio RE/MAX — <https://remax.pt/en/imoveis/venda-apartamento-t4-barcelos-barcelinhos/126281025-87>; anúncio CustoJusto (Predimed) — <https://www.custojusto.pt/braga/imobiliario/apartamentos/penthouse-t4-nova-terraco-pa-45156196> *(excertos; anúncios consultados em 2026-11-23)*
+- *Kronos Homes* — Forbes Portugal — <https://www.forbespt.com/?p=172647>; Portugal Resident — <https://www.portugalresident.com/kronos-homes-completes-zen-in-lisbon-with-95-of-homes-sold/>; idealista (30/06/2025) — <https://www.idealista.pt/en/news/luxury-real-estate-in-portugal/2025/06/30/70188-the-residences-at-vale-do-lobo-40-reserved-as-portugal-s-top-new-luxury-development-breaks-ground>; idealista — <https://www.idealista.pt/news/node/69723>; Arquitectura Viva — <https://arquitecturaviva.com/articulos/proyectos-de-kronos> *(excertos)*
+- *Casos curtos* — Terrazza Park: idealista — <https://www.idealista.pt/news/node/71729>; Coslos: idealista — <https://www.idealista.pt/news/node/49908>; BluePeak: apresentação (2024) — <https://www.noticiasdeaveiro.pt/wp-content/uploads/2024/02/BluePeak-Apresentacao-da-Empresa-2.pdf>; Mexto: idealista — <https://www.idealista.pt/news/node/59627> *(excertos)*
+- *Casais (excluída)* — ECO, "Sonae Sierra e Casais vão construir casas para o mercado de arrendamento" (24/03/2026) — <https://eco.sapo.pt/2026/03/24/sonae-sierra-e-casais-vao-construir-casas-para-o-mercado-de-arrendamento/>
+
+**Boutiques (sessão 2)**
+- Savills — "Predibisa rebrands to Savills" (2023) — <https://en.savills.pt/insight-and-opinion/savills-news/348973/predibisa-rebrands-to-savills>
+- The Portugal News — "Dils enters the Portuguese market through Castelhana" (14/05/2024) — <https://ftp.theportugalnews.com/news/2024-05-14/dils-enters-the-portuguese-market-through-castelhana/88855>
+- ECO — "Imobiliária Dils reforça no Porto para 'aproximação' a investidores no Norte e Centro" (16/10/2025) — <https://eco.sapo.pt/2025/10/16/imobiliaria-dils-reforca-no-porto-para-aproximacao-a-investidores-no-norte-e-centro/>
+- ECO (BRANDS' ECO, conteúdo patrocinado) — "Dils: um ano a transformar o imobiliário em Portugal" (25/09/2025) — <https://eco.sapo.pt/2025/09/25/dils-um-ano-a-transformar-o-imobiliario-em-portugal/>
+- Dils — Central Freixo (consultado em 2026-11-23) — <https://dils.com/en/news/porto-looks-to-the-future-with-central-freixo-the-project-designed-by-souto-de-moura-takes-shapedils-is-in-charge-of-the-brokerage-services-and-strategic-positioning-of-the-development>
+- JLL — "Fernão Magalhães 127: condomínio de excelência chega ao Porto com a JLL, Savills e LUXIMOS Christie's" — <https://www.jll.com/pt-pt/newsroom/fernao-magalhaes-127-condominio-de-excelencia-chega-ao-porto-com-a-jll-savills-e-luximos-christie>
+- JLL — "Condominhas Urban Living é uma nova referência residencial…" — <https://www.jll.com/pt-pt/newsroom/condominhas-urban-living-e-uma-nova-referencia-residencial-entre-a-foz-do-douro-e-o-centro-historico-do-porto>
+- LUXIMOS — "Autumn in Porto: two unmissable luxury launches" (16/09/2025) — <https://www.luximos.pt/en/news/sublime-blog/2025/09/16/autumn-in-porto-two-unmissable-luxury-launches>
+- idealista/news — "Val D'Ouro Palace: uma referência de luxo intimista no Porto" — <https://www.idealista.pt/news/node/71725>; "SeaHaus: viver no Porto entre o mar e a sustentabilidade tecnológica" — <https://www.idealista.pt/news/node/71728>; "Conforto, privacidade e segurança: os pilares do Antas Atrium" — <https://www.idealista.pt/news/etiquetas/casas-no-porto?page=2> *(excertos)*
+- ECO — "Quintela e Penalva abre loja no Porto e escritório em Lisboa" (13/07/2023) — <https://eco.sapo.pt/2023/07/13/quintela-e-penalva-abre-loja-no-porto-e-escritorio-em-lisboa/>
+- idealista/news — "Porto Gardens: apartamentos e townhouses no centro da Invicta" — <https://www.idealista.pt/news/node/73980>
+- The Portugal News — "Seed Real Estate: an awarded strategy" (18/04/2025) — <https://www.theportugalnews.com/news/2025-04-18/seed-real-estate-an-awarded-strategy/96952>
+- Portugal Resident — "Fine & Country Portugal: Best Real Estate Marketing award 2026" (2026) — <https://www.portugalresident.com/fine-country-portugal-best-real-estate-marketing-award-2026/>
