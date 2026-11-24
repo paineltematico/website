@@ -1,11 +1,6 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  // sharp (pré-visualizações /api/og) precisa das bibliotecas nativas no deploy
-  serverExternalPackages: ['sharp'],
-  outputFileTracingIncludes: {
-    '/api/og/imovel/[slug]': ['./node_modules/@img/**/*', './node_modules/sharp/**/*'],
-  },
   images: {
     remotePatterns: [
       {
